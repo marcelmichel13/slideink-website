@@ -132,8 +132,9 @@ h3 { font-size: 1.18rem; margin-bottom: 10px; }
 }
 
 .google-play-badge img {
-  width: 190px;
-  height: auto;
+  width: 250px !important;
+  max-width: 100%;
+  height: auto !important;
 }
 
 .google-play-badge:hover {
@@ -251,9 +252,19 @@ h3 { font-size: 1.18rem; margin-bottom: 10px; }
 }
 
 .contact-card img { border-radius: 20px; }
+.contact-copy { flex: 1; }
 .contact-card h2 { font-size: 1.9rem; margin-bottom: 7px; }
 .contact-card p { margin: 0; }
 .contact-card a { color: #8dc0ff; }
+
+.contact-card .google-play-badge {
+  margin-left: auto;
+  flex: 0 0 auto;
+}
+
+.contact-card .google-play-badge img {
+  width: 210px !important;
+}
 
 footer {
   max-width: var(--max);
@@ -288,7 +299,7 @@ footer a { text-decoration: none; }
   .hero, .section { padding-left: 18px; padding-right: 18px; }
   .hero { gap: 34px; padding-bottom: 48px; }
   .hero-actions { align-items: flex-start; }
-  .google-play-badge img { width: 180px; }
+  .google-play-badge img { width: 210px !important; }
   .feature-grid, .screenshots { grid-template-columns: 1fr; }
   .screenshots figure:last-child { display: block; }
   .privacy-card {
@@ -299,8 +310,16 @@ footer a { text-decoration: none; }
   .contact-card {
     padding: 25px;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
-  .contact-card img { width: 68px; height: 68px; }
+  .contact-card > img { width: 68px; height: 68px; }
+  .contact-card .google-play-badge {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .contact-card .google-play-badge img {
+    width: 200px !important;
+  }
   footer { display: block; }
   footer div { margin-top: 12px; }
 }
