@@ -51,11 +51,11 @@
     },
     "screenshots": {
       "eyebrow": "COMO FUNCIONA",
-      "title": "Sempre ao seu alcance.",
-      "description": "Abra o SlideInk pela pega flutuante, escreva ou digite sobre o ecrã atual, crie lembretes a partir de notas digitadas e encontre tudo mais tarde na sua Biblioteca.",
-      "alt_handle": "Pega flutuante do SlideInk num ecrã inicial Android",
-      "alt_reminder": "Nota digitada Ligar ao Alex às 15:00 sobre um ecrã inicial Android com o painel Lembrar-me aberto",
-      "alt_library": "Biblioteca do SlideInk com o separador Lembretes, os controlos Agendados e Concluídos e cartões de lembrete"
+      "cards": [
+        { "title": "Sempre ao seu alcance", "description": "Abra o SlideInk num instante e comece a desenhar, realçar ou anotar o que quiser sem sair do ecrã atual.", "alt": "Área de desenho do SlideInk sobre um ecrã inicial Android com barra de ferramentas, pega flutuante, seta, círculo e nota breve" },
+        { "title": "Lembretes quando precisa deles", "description": "Transforme texto introduzido pelo teclado em lembretes, receba notificações no momento certo e adie-os com um só toque.", "alt": "Opções de adiamento do SlideInk sobre um lembrete recebido para ligar ao Alex às 15:00 com as ações Adiar e Concluído" },
+        { "title": "Notas e lembretes num só lugar", "description": "Mantenha as notas organizadas, volte às ideias guardadas e faça a gestão dos lembretes numa biblioteca simples.", "alt": "Biblioteca do SlideInk com o separador Lembretes, os controlos Agendados e Concluídos e cartões de lembrete" }
+      ]
     },
     "privacy": {
       "eyebrow": "PRIVACIDADE EM PRIMEIRO LUGAR",

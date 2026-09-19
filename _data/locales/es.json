@@ -51,11 +51,11 @@
     },
     "screenshots": {
       "eyebrow": "CÓMO FUNCIONA",
-      "title": "Siempre a mano.",
-      "description": "Abre SlideInk desde el controlador flotante, escribe o teclea sobre la pantalla actual, crea recordatorios a partir de notas escritas y encuéntralo todo más tarde en tu Biblioteca.",
-      "alt_handle": "Controlador flotante de SlideInk en una pantalla de inicio de Android",
-      "alt_reminder": "Nota escrita Llamar a Alex a las 15:00 sobre una pantalla de inicio de Android con el panel Recordarme abierto",
-      "alt_library": "Biblioteca de SlideInk con la pestaña Recordatorios, los controles Programados y Completados y tarjetas de recordatorio"
+      "cards": [
+        { "title": "Siempre a mano", "description": "Abre SlideInk en un instante y empieza a dibujar, resaltar o anotar cualquier cosa sin salir de la pantalla actual.", "alt": "Lienzo de dibujo de SlideInk sobre una pantalla de inicio de Android con barra de herramientas, controlador flotante, flecha, círculo y una nota breve" },
+        { "title": "Recordatorios cuando los necesitas", "description": "Convierte el texto escrito con el teclado en recordatorios, recibe avisos en el momento adecuado y posponlos con un solo toque.", "alt": "Opciones de posposición de SlideInk sobre un recordatorio recibido para llamar a Alex a las 15:00 con las acciones Posponer y Hecho" },
+        { "title": "Notas y recordatorios en un solo lugar", "description": "Mantén tus notas organizadas, vuelve a consultar las ideas guardadas y gestiona los recordatorios desde una biblioteca sencilla.", "alt": "Biblioteca de SlideInk con la pestaña Recordatorios, los controles Programados y Completados y tarjetas de recordatorio" }
+      ]
     },
     "privacy": {
       "eyebrow": "LA PRIVACIDAD ES LO PRIMERO",

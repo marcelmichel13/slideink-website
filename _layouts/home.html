@@ -88,15 +88,37 @@
 
     <section class="section screenshots-section" id="screenshots">
       <div class="section-heading">
-        <p class="eyebrow">{{ t.home.screenshots.eyebrow }}</p>
-        <h2>{{ t.home.screenshots.title }}</h2>
-        <p>{{ t.home.screenshots.description }}</p>
+        <h2 class="eyebrow">{{ t.home.screenshots.eyebrow }}</h2>
       </div>
 
       <div class="screenshots">
-        <figure><img src="/slideink-screen-1.png" alt="{{ t.home.screenshots.alt_handle | escape }}" loading="lazy"></figure>
-        <figure><img src="/slideink-screen-reminder-editor.png" alt="{{ t.home.screenshots.alt_reminder | escape }}" width="941" height="1672" loading="lazy"></figure>
-        <figure><img src="/slideink-screen-reminders-library.png" alt="{{ t.home.screenshots.alt_library | escape }}" width="941" height="1672" loading="lazy"></figure>
+        <figure class="screenshot-card screenshot-card--quick-draw">
+          <figcaption class="screenshot-copy">
+            <h3>{{ t.home.screenshots.cards[0].title }}</h3>
+            <p>{{ t.home.screenshots.cards[0].description }}</p>
+          </figcaption>
+          <div class="screenshot-media">
+            <img src="/slideink-screen-quick-draw.png" alt="{{ t.home.screenshots.cards[0].alt | escape }}" width="941" height="1672" loading="lazy">
+          </div>
+        </figure>
+        <figure class="screenshot-card screenshot-card--snooze">
+          <figcaption class="screenshot-copy">
+            <h3>{{ t.home.screenshots.cards[1].title }}</h3>
+            <p>{{ t.home.screenshots.cards[1].description }}</p>
+          </figcaption>
+          <div class="screenshot-media">
+            <img src="/slideink-screen-snooze-flow.png" alt="{{ t.home.screenshots.cards[1].alt | escape }}" width="852" height="1846" loading="lazy">
+          </div>
+        </figure>
+        <figure class="screenshot-card screenshot-card--library">
+          <figcaption class="screenshot-copy">
+            <h3>{{ t.home.screenshots.cards[2].title }}</h3>
+            <p>{{ t.home.screenshots.cards[2].description }}</p>
+          </figcaption>
+          <div class="screenshot-media">
+            <img src="/slideink-screen-reminders-library.png" alt="{{ t.home.screenshots.cards[2].alt | escape }}" width="941" height="1672" loading="lazy">
+          </div>
+        </figure>
       </div>
     </section>
 

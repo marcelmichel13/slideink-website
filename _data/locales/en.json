@@ -51,11 +51,11 @@
     },
     "screenshots": {
       "eyebrow": "HOW IT WORKS",
-      "title": "Always within reach.",
-      "description": "Open SlideInk from its floating handle, write or type over your current screen, create reminders from typed notes, and find everything later in your Library.",
-      "alt_handle": "SlideInk floating handle on an Android home screen",
-      "alt_reminder": "Typed note Call Alex at 3 PM over an Android home screen, with the Remind me panel open",
-      "alt_library": "SlideInk Library with the Reminders tab, Scheduled and Completed controls, and reminder cards"
+      "cards": [
+        { "title": "Always within reach", "description": "Open SlideInk in a moment and start sketching, highlighting or noting anything without leaving your current screen.", "alt": "SlideInk drawing overlay over an Android home screen with its toolbar, floating handle, arrow, circle and a quick note" },
+        { "title": "Reminders when you need them", "description": "Turn keyboard text into reminders, get notified at the right time and snooze them in one tap.", "alt": "SlideInk Snooze options above a delivered reminder for Call Alex at 3 PM with Snooze and Done actions" },
+        { "title": "Notes and reminders in one place", "description": "Keep your notes organized, revisit saved ideas and manage reminders from one simple library.", "alt": "SlideInk Library with the Reminders tab, Scheduled and Completed controls, and reminder cards" }
+      ]
     },
     "privacy": {
       "eyebrow": "PRIVACY FIRST",

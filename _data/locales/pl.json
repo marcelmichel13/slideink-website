@@ -51,11 +51,11 @@
     },
     "screenshots": {
       "eyebrow": "JAK TO DZIAŁA",
-      "title": "Zawsze pod ręką.",
-      "description": "Otwórz SlideInk za pomocą pływającego uchwytu, pisz lub wpisuj tekst nad bieżącym ekranem, twórz przypomnienia z notatek tekstowych, a później znajdź wszystko w Bibliotece.",
-      "alt_handle": "Pływający uchwyt SlideInk na ekranie głównym Androida",
-      "alt_reminder": "Notatka Zadzwoń do Alexa o 15:00 nad ekranem głównym Androida, z otwartym panelem Przypomnij mi",
-      "alt_library": "Biblioteka SlideInk z kartą Przypomnienia, widokami Zaplanowane i Ukończone oraz listą przypomnień"
+      "cards": [
+        { "title": "Zawsze pod ręką", "description": "Otwórz SlideInk w mgnieniu oka i od razu zacznij rysować, zaznaczać lub zapisywać dowolne informacje bez opuszczania bieżącego ekranu.", "alt": "Obszar rysowania SlideInk nad ekranem głównym Androida z paskiem narzędzi, pływającym uchwytem, strzałką, okręgiem i krótką notatką" },
+        { "title": "Przypomnienia wtedy, gdy ich potrzebujesz", "description": "Zamieniaj tekst wpisany z klawiatury w przypomnienia, otrzymuj powiadomienia we właściwym czasie i odkładaj je jednym dotknięciem.", "alt": "Opcje odłożenia SlideInk nad dostarczonym przypomnieniem Zadzwoń do Alexa o 15:00 z działaniami Odłóż i Gotowe" },
+        { "title": "Notatki i przypomnienia w jednym miejscu", "description": "Porządkuj notatki, wracaj do zapisanych pomysłów i zarządzaj przypomnieniami w prostej bibliotece.", "alt": "Biblioteka SlideInk z kartą Przypomnienia, widokami Zaplanowane i Ukończone oraz listą przypomnień" }
+      ]
     },
     "privacy": {
       "eyebrow": "PRYWATNOŚĆ PRZEDE WSZYSTKIM",

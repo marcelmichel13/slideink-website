@@ -51,11 +51,11 @@
     },
     "screenshots": {
       "eyebrow": "COMMENT ÇA MARCHE",
-      "title": "Toujours à portée de main.",
-      "description": "Ouvrez SlideInk depuis sa poignée flottante, écrivez ou saisissez du texte par-dessus l’écran actuel, créez des rappels à partir de notes saisies et retrouvez tout plus tard dans votre Bibliothèque.",
-      "alt_handle": "Poignée flottante SlideInk sur un écran d’accueil Android",
-      "alt_reminder": "Note saisie Appeler Alex à 15 h par-dessus un écran d’accueil Android avec le panneau Me le rappeler ouvert",
-      "alt_library": "Bibliothèque SlideInk avec l’onglet Rappels, les commandes Planifiés et Terminés et des cartes de rappel"
+      "cards": [
+        { "title": "Toujours à portée de main", "description": "Ouvrez SlideInk en un instant et commencez à dessiner, surligner ou noter ce que vous voulez sans quitter l’écran en cours.", "alt": "Zone de dessin SlideInk sur un écran d’accueil Android avec barre d’outils, poignée flottante, flèche, cercle et courte note" },
+        { "title": "Des rappels au bon moment", "description": "Transformez le texte saisi au clavier en rappels, recevez une notification au bon moment et reportez-les d’un simple toucher.", "alt": "Options de report SlideInk au-dessus d’un rappel Appeler Alex à 15 h avec les actions Reporter et Terminé" },
+        { "title": "Notes et rappels au même endroit", "description": "Gardez vos notes bien organisées, retrouvez vos idées enregistrées et gérez vos rappels depuis une bibliothèque simple.", "alt": "Bibliothèque SlideInk avec l’onglet Rappels, les commandes Planifiés et Terminés et des cartes de rappel" }
+      ]
     },
     "privacy": {
       "eyebrow": "VOTRE VIE PRIVÉE D’ABORD",

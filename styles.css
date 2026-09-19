@@ -263,7 +263,7 @@ h3 { font-size: 1.18rem; margin-bottom: 10px; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .screenshots figure {
@@ -275,9 +275,49 @@ h3 { font-size: 1.18rem; margin-bottom: 10px; }
   box-shadow: 0 18px 50px rgba(0,0,0,.28);
 }
 
-.screenshots img {
+.screenshot-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.screenshot-copy {
+  padding: 25px 24px 22px;
+}
+
+.screenshot-copy h3 {
+  color: #141414;
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  margin-bottom: 12px;
+}
+
+.screenshot-copy p {
+  color: #555b64;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.screenshot-media {
+  aspect-ratio: 941 / 1370;
+  background: #080a0e;
+  border-top: 1px solid rgba(0,0,0,.08);
+  margin-top: auto;
+  overflow: hidden;
+}
+
+.screenshots .screenshot-media img {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.screenshot-card--quick-draw .screenshot-media img {
+  object-position: center top;
+}
+
+.screenshot-card--snooze .screenshot-media img,
+.screenshot-card--library .screenshot-media img {
+  object-position: center bottom;
 }
 
 .privacy-card, .contact-card {
