@@ -5,7 +5,9 @@
     "home_title": "SlideInk — Quick notes and reminders over any screen",
     "home_description": "SlideInk lets you write, draw, type quick notes and create reminders over any Android screen without leaving the app you're using.",
     "privacy_title": "Privacy Policy — SlideInk",
-    "privacy_description": "Learn how SlideInk stores notes locally, protects your privacy and uses Android and Google Play services."
+    "privacy_description": "Learn how SlideInk stores notes locally, protects your privacy and uses Android and Google Play services.",
+    "support_title": "SlideInk Support — Help and contact",
+    "support_description": "Get help with SlideInk and contact the support team by email."
   },
   "nav": {
     "primary_aria": "Primary navigation",
@@ -67,6 +69,14 @@
       "prefix": "Contact us at",
       "suffix": "."
     }
+  },
+  "support": {
+    "home_link": "SlideInk Home",
+    "eyebrow": "SLIDEINK SUPPORT",
+    "title": "Need help with SlideInk?",
+    "intro": "If you have a question, found a problem, or need help using SlideInk, contact us by email.",
+    "email_label": "Support email",
+    "email_action": "Write an email"
   },
   "privacy": {
     "home_link": "SlideInk Home",

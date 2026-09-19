@@ -5,7 +5,9 @@
     "home_title": "SlideInk — Szybkie notatki i przypomnienia na dowolnym ekranie",
     "home_description": "SlideInk pozwala pisać, rysować, wpisywać szybkie notatki i tworzyć przypomnienia na dowolnym ekranie Androida bez opuszczania używanej aplikacji.",
     "privacy_title": "Polityka prywatności — SlideInk",
-    "privacy_description": "Dowiedz się, jak SlideInk zapisuje notatki lokalnie, chroni prywatność i korzysta z usług Androida oraz Google Play."
+    "privacy_description": "Dowiedz się, jak SlideInk zapisuje notatki lokalnie, chroni prywatność i korzysta z usług Androida oraz Google Play.",
+    "support_title": "Pomoc SlideInk — Wsparcie i kontakt",
+    "support_description": "Uzyskaj pomoc dotyczącą SlideInk i skontaktuj się ze wsparciem przez e-mail."
   },
   "nav": {
     "primary_aria": "Nawigacja główna",
@@ -67,6 +69,14 @@
       "prefix": "Napisz do nas na adres",
       "suffix": "."
     }
+  },
+  "support": {
+    "home_link": "Strona główna SlideInk",
+    "eyebrow": "POMOC SLIDEINK",
+    "title": "Potrzebujesz pomocy ze SlideInk?",
+    "intro": "Jeśli masz pytanie, napotkałeś problem lub potrzebujesz pomocy w korzystaniu ze SlideInk, napisz do nas e-mail.",
+    "email_label": "E-mail pomocy technicznej",
+    "email_action": "Napisz e-mail"
   },
   "privacy": {
     "home_link": "Strona główna SlideInk",

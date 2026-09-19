@@ -32,7 +32,7 @@
         <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
         <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
         <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
-        <a href="mailto:{{ site.support_email }}">{{ t.nav.support }}</a>
+        <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
       </nav>
       <label class="language-picker">
         <span class="sr-only">{{ t.nav.language }}</span>
@@ -128,7 +128,7 @@
     <p>{{ t.common.footer_rights }}</p>
     <div>
       <a href="{{ current_language.privacy }}">{{ t.nav.privacy_policy }}</a>
-      <a href="mailto:{{ site.support_email }}">{{ t.nav.support }}</a>
+      <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
     </div>
   </footer>
 </body>

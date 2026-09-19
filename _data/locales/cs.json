@@ -5,7 +5,9 @@
     "home_title": "SlideInk — Rychlé poznámky a připomínky nad libovolnou obrazovkou",
     "home_description": "SlideInk umožňuje psát, kreslit, zadávat rychlé poznámky a vytvářet připomínky nad libovolnou obrazovkou Androidu bez opuštění používané aplikace.",
     "privacy_title": "Zásady ochrany osobních údajů — SlideInk",
-    "privacy_description": "Zjistěte, jak SlideInk ukládá poznámky místně, chrání vaše soukromí a používá služby Androidu a Google Play."
+    "privacy_description": "Zjistěte, jak SlideInk ukládá poznámky místně, chrání vaše soukromí a používá služby Androidu a Google Play.",
+    "support_title": "Podpora SlideInk — Pomoc a kontakt",
+    "support_description": "Získejte pomoc se SlideInk a kontaktujte podporu e-mailem."
   },
   "nav": {
     "primary_aria": "Hlavní navigace",
@@ -67,6 +69,14 @@
       "prefix": "Napište nám na",
       "suffix": "."
     }
+  },
+  "support": {
+    "home_link": "Domovská stránka SlideInk",
+    "eyebrow": "PODPORA SLIDEINK",
+    "title": "Potřebujete pomoc se SlideInk?",
+    "intro": "Pokud máte otázku, narazili jste na problém nebo potřebujete pomoc s používáním SlideInk, napište nám e-mail.",
+    "email_label": "E-mail podpory",
+    "email_action": "Napsat e-mail"
   },
   "privacy": {
     "home_link": "Domovská stránka SlideInk",

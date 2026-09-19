@@ -15,5 +15,10 @@ permalink: /sitemap.xml
     {% for alternate in site.languages %}<xhtml:link rel="alternate" hreflang="{{ alternate.hreflang }}" href="{{ site.url }}{{ alternate.privacy }}" />
     {% endfor %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/privacy/" />
   </url>
+  <url>
+    <loc>{{ site.url }}{{ language.support }}</loc>
+    {% for alternate in site.languages %}<xhtml:link rel="alternate" hreflang="{{ alternate.hreflang }}" href="{{ site.url }}{{ alternate.support }}" />
+    {% endfor %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/support/" />
+  </url>
 {% endfor %}
 </urlset>

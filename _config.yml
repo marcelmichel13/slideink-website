@@ -12,51 +12,61 @@ languages:
     label: English
     home: /
     privacy: /privacy/
+    support: /support/
   - code: sk
     hreflang: sk
     label: Slovenčina
     home: /sk/
     privacy: /sk/privacy/
+    support: /sk/support/
   - code: cs
     hreflang: cs
     label: Čeština
     home: /cs/
     privacy: /cs/privacy/
+    support: /cs/support/
   - code: de
     hreflang: de
     label: Deutsch
     home: /de/
     privacy: /de/privacy/
+    support: /de/support/
   - code: es
     hreflang: es
     label: Español
     home: /es/
     privacy: /es/privacy/
+    support: /es/support/
   - code: fr
     hreflang: fr
     label: Français
     home: /fr/
     privacy: /fr/privacy/
+    support: /fr/support/
   - code: pl
     hreflang: pl
     label: Polski
     home: /pl/
     privacy: /pl/privacy/
+    support: /pl/support/
   - code: pt
     hreflang: pt
     label: Português
     home: /pt/
     privacy: /pt/privacy/
+    support: /pt/support/
   - code: ru
     hreflang: ru
     label: Русский
     home: /ru/
     privacy: /ru/privacy/
+    support: /ru/support/
   - code: uk
     hreflang: uk
     label: Українська
     home: /uk/
     privacy: /uk/privacy/
+    support: /uk/support/
 
 exclude:
   - README.md
