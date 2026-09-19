@@ -1,0 +1,64 @@
+url: "https://slideink.app"
+baseurl: ""
+permalink: pretty
+strict_front_matter: true
+
+play_store_url: "https://play.google.com/store/apps/details?id=com.majostudio.slideink"
+support_email: "slideinkapp@gmail.com"
+
+languages:
+  - code: en
+    hreflang: en
+    label: English
+    home: /
+    privacy: /privacy/
+  - code: sk
+    hreflang: sk
+    label: Slovenčina
+    home: /sk/
+    privacy: /sk/privacy/
+  - code: cs
+    hreflang: cs
+    label: Čeština
+    home: /cs/
+    privacy: /cs/privacy/
+  - code: de
+    hreflang: de
+    label: Deutsch
+    home: /de/
+    privacy: /de/privacy/
+  - code: es
+    hreflang: es
+    label: Español
+    home: /es/
+    privacy: /es/privacy/
+  - code: fr
+    hreflang: fr
+    label: Français
+    home: /fr/
+    privacy: /fr/privacy/
+  - code: pl
+    hreflang: pl
+    label: Polski
+    home: /pl/
+    privacy: /pl/privacy/
+  - code: pt
+    hreflang: pt
+    label: Português
+    home: /pt/
+    privacy: /pt/privacy/
+  - code: ru
+    hreflang: ru
+    label: Русский
+    home: /ru/
+    privacy: /ru/privacy/
+  - code: uk
+    hreflang: uk
+    label: Українська
+    home: /uk/
+    privacy: /uk/privacy/
+
+exclude:
+  - README.md
+  - index_final.html
+  - styles_final.css

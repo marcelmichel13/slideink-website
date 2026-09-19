@@ -1,0 +1,144 @@
+{
+  "language_name": "Slovenčina",
+  "og_locale": "sk_SK",
+  "seo": {
+    "home_title": "SlideInk — Rýchle poznámky a pripomienky nad každou obrazovkou",
+    "home_description": "SlideInk vám umožňuje písať, kresliť, zadávať rýchle poznámky a vytvárať pripomienky nad ľubovoľnou obrazovkou Androidu bez opustenia používanej aplikácie.",
+    "privacy_title": "Zásady ochrany osobných údajov — SlideInk",
+    "privacy_description": "Zistite, ako SlideInk ukladá poznámky lokálne, chráni vaše súkromie a používa služby Androidu a Google Play."
+  },
+  "nav": {
+    "primary_aria": "Hlavná navigácia",
+    "home_aria": "Domovská stránka SlideInk",
+    "features": "Funkcie",
+    "screenshots": "Snímky obrazovky",
+    "privacy": "Súkromie",
+    "privacy_policy": "Zásady ochrany osobných údajov",
+    "support": "Podpora",
+    "home": "Domov",
+    "language": "Jazyk"
+  },
+  "common": {
+    "google_play_aria": "Získať SlideInk na Google Play",
+    "google_play_alt": "Stiahnuť na Google Play",
+    "footer_rights": "© 2026 M-S-K Slovakia s.r.o. SlideInk. Všetky práva vyhradené."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "APLIKÁCIA PRE ANDROID",
+      "title": "Rýchle poznámky a pripomienky",
+      "accent": "nad každou obrazovkou.",
+      "lead": "Píšte, kreslite, zadávajte text a zachyťte to podstatné bez opustenia aktuálnej obrazovky.",
+      "body": "Vysuňte SlideInk z boku telefónu, píšte alebo kreslite nad ľubovoľnou aplikáciou, zadávajte poznámky klávesnicou a z textových poznámok vytvorte pripomienky na neskôr.",
+      "see_slideink": "Pozrieť SlideInk",
+      "availability": "Dostupné pre Android na Google Play.",
+      "image_alt": "Prekrytie SlideInk nad priečinkom doručenej pošty s doručenou pripomienkou a akciami Odložiť a Hotovo"
+    },
+    "features": {
+      "eyebrow": "NAVRHNUTÉ PRE RÝCHLOSŤ",
+      "title": "Zachyťte to bez prepínania aplikácií.",
+      "description": "Čísla, adresy, nákupné zoznamy, nápady, rozmery, poznámky z hovoru aj veci, na ktoré nesmiete zabudnúť — zachyťte ich okamžite a ponechajte aktuálnu obrazovku viditeľnú.",
+      "cards": [
+        { "icon": "↗", "title": "Rýchlo vysúvateľné plátno", "description": "Nenápadný plávajúci úchyt udržiava SlideInk pripravený vždy, keď ho potrebujete." },
+        { "icon": "✎", "title": "Prst alebo stylus", "description": "Píšte prirodzene pomocou nástrojov pera, gumy a krokov späť či vpred." },
+        { "icon": "◐", "title": "Nastaviteľná priehľadnosť", "description": "Počas písania zostáva aplikácia pod prekrytím viditeľná." },
+        { "icon": "▣", "title": "Ukladanie poznámok", "description": "Uložte si užitočné poznámky ako snímky a vráťte sa k nim neskôr." },
+        { "icon": "bell", "title": "Pripomienky z textových poznámok", "description": "So SlideInk PRO napíšte poznámku klávesnicou, klepnite na zvonček, zvoľte čas pripomenutia a po doručení ju odložte alebo označte ako hotovú." },
+        { "icon": "✓", "title": "Jednoduché a bez rušenia", "description": "Prehľadné ovládanie pre chvíle, keď si potrebujete iba rýchlo niečo poznačiť." }
+      ]
+    },
+    "screenshots": {
+      "eyebrow": "AKO TO FUNGUJE",
+      "title": "Vždy poruke.",
+      "description": "Otvorte SlideInk plávajúcim úchytom, píšte alebo zadávajte text nad aktuálnou obrazovkou, vytvárajte pripomienky z textových poznámok a všetko neskôr nájdite v Knižnici.",
+      "alt_handle": "Plávajúci úchyt SlideInk na domovskej obrazovke Androidu",
+      "alt_reminder": "Textová poznámka Zavolať Alexovi o 15:00 nad domovskou obrazovkou Androidu s otvoreným panelom Pripomenúť",
+      "alt_library": "Knižnica SlideInk s kartou Pripomienky, voľbami Naplánované a Dokončené a kartami pripomienok"
+    },
+    "privacy": {
+      "eyebrow": "SÚKROMIE NA PRVOM MIESTE",
+      "title": "Vaše poznámky zostávajú vo vašom zariadení.",
+      "description": "SlideInk nevyžaduje účet a nenahráva vaše poznámky na server.",
+      "link": "Prečítať zásady ochrany osobných údajov"
+    },
+    "contact": {
+      "icon_alt": "Ikona SlideInk",
+      "title": "Potrebujete pomoc so SlideInk?",
+      "prefix": "Napíšte nám na",
+      "suffix": "."
+    }
+  },
+  "privacy": {
+    "home_link": "Domovská stránka SlideInk",
+    "eyebrow": "SLIDEINK",
+    "title": "Zásady ochrany osobných údajov",
+    "updated": "Posledná aktualizácia: 7. augusta 2026",
+    "intro": "SlideInk je navrhnutý tak, aby vaše ručne písané poznámky a kresby zostávali vo vašom zariadení. Aplikácia nevyžaduje účet a nepoužíva analytické, reklamné ani sledovacie služby.",
+    "sections": [
+      {
+        "title": "Kto prevádzkuje SlideInk",
+        "paragraphs": ["SlideInk je vyvíjaný pod vývojárskym účtom Majo Studio a vydáva ho spoločnosť M-S-K Slovakia s.r.o. Tieto zásady ochrany osobných údajov sa vzťahujú na aplikáciu SlideInk pre Android."]
+      },
+      {
+        "title": "Poznámky a kresby",
+        "paragraphs": [
+          "Poznámky a kresby vytvorené alebo uložené v SlideInk sa ukladajú lokálne vo vašom zariadení. SlideInk nenahráva vaše poznámky, kresby, snímky obrazovky ani obsah uložených poznámok na server prevádzkovaný vývojárom.",
+          "SlideInk nevyžaduje registráciu používateľa ani účet SlideInk."
+        ]
+      },
+      {
+        "title": "Zdieľanie poznámok",
+        "paragraphs": [
+          "Zdieľanie spúšťate iba vy. Keď sa rozhodnete poznámku zdieľať, SlideInk môže vytvoriť dočasnú kópiu PNG vo vyrovnávacej pamäti aplikácie a odovzdať ju štandardnému rozhraniu zdieľania systému Android. Cieľ zdieľania vyberáte vy.",
+          "SlideInk neposiela zdieľaný obsah vývojárovi automaticky."
+        ]
+      },
+      {
+        "title": "Platby cez Google Play",
+        "paragraphs": [
+          "SlideInk používa službu Google Play Billing na nákupy, ako je SlideInk PRO. Spracovanie nákupu zabezpečuje Google Play. SlideInk získava stav nákupu potrebný na určenie dostupnosti prístupu PRO.",
+          "SlideInk neprijíma ani neukladá úplné údaje vašej platobnej karty. Na informácie spracúvané službou Google Play sa vzťahujú vlastné podmienky a zásady ochrany osobných údajov spoločnosti Google."
+        ]
+      },
+      {
+        "title": "Analytika, reklama a sledovanie",
+        "paragraphs": ["SlideInk nepoužíva analytické služby, nezobrazuje reklamy a neobsahuje reklamné ani sledovacie súpravy SDK tretích strán."]
+      },
+      {
+        "title": "Zálohovanie do cloudu a prenos zariadenia",
+        "note": "SlideInk sa nezúčastňuje zálohovania do cloudu systému Android ani prenosu údajov medzi zariadeniami Android. Údaje aplikácie sú určené na lokálne uchovanie v aktuálnej inštalácii."
+      },
+      {
+        "title": "Uchovávanie a vymazanie údajov",
+        "paragraphs": [
+          "Uložené poznámky zostávajú v zariadení, kým ich nevymažete alebo neodinštalujete aplikáciu. Dočasné súbory vytvorené na zdieľanie môžu zostať vo vyrovnávacej pamäti aplikácie, kým ich neodstráni aplikácia, systém Android alebo vymazanie vyrovnávacej pamäte.",
+          "Záznamy o nákupoch spracovaných službou Google Play sa uchovávajú podľa zásad spoločnosti Google a nastavení vášho účtu Google."
+        ]
+      },
+      {
+        "title": "Povolenia aplikácie",
+        "intro": "SlideInk môže používať povolenia a systémové funkcie Androidu potrebné na svoje fungovanie vrátane:",
+        "items": [
+          "zobrazenia plávajúceho úchytu a kresliaceho prekrytia nad inými aplikáciami;",
+          "spustenia používateľom povolenej služby prekrytia v popredí;",
+          "podpory opätovného spustenia po zapnutí zariadenia, ak je povolená;",
+          "používania služby Google Play Billing na nákupy."
+        ],
+        "outro": "Tieto funkcie sa používajú na zabezpečenie funkčnosti SlideInk a nie na reklamu ani analytiku."
+      },
+      {
+        "title": "Služby tretích strán",
+        "paragraphs": ["Google Play môže spracúvať informácie potrebné na distribúciu aplikácie a nákupy. Na tieto služby sa vzťahujú vlastné zásady ochrany osobných údajov a podmienky spoločnosti Google."]
+      },
+      {
+        "title": "Zmeny týchto zásad ochrany osobných údajov",
+        "paragraphs": ["Tieto zásady ochrany osobných údajov môžeme aktualizovať pri zmene funkcií SlideInk, postupov spracúvania údajov alebo právnych požiadaviek. Aktuálna verzia bude zverejnená na tejto stránke spolu s dátumom aktualizácie."]
+      },
+      {
+        "title": "Kontakt",
+        "contact_prefix": "V prípade otázok o súkromí alebo podpore nás kontaktujte na adrese:",
+        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+      }
+    ]
+  }
+}

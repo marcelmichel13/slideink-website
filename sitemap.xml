@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for language in site.languages %}
+  <url>
+    <loc>{{ site.url }}{{ language.home }}</loc>
+    {% for alternate in site.languages %}<xhtml:link rel="alternate" hreflang="{{ alternate.hreflang }}" href="{{ site.url }}{{ alternate.home }}" />
+    {% endfor %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ language.privacy }}</loc>
+    {% for alternate in site.languages %}<xhtml:link rel="alternate" hreflang="{{ alternate.hreflang }}" href="{{ site.url }}{{ alternate.privacy }}" />
+    {% endfor %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/privacy/" />
+  </url>
+{% endfor %}
+</urlset>

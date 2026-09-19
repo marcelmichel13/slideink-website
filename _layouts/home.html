@@ -1,0 +1,135 @@
+{% assign t = site.data.locales[page.lang] %}
+{% assign current_language = site.languages | where: "code", page.lang | first %}
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ t.seo.home_description | escape }}">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ t.og_locale }}">
+  <meta property="og:title" content="{{ t.seo.home_title | escape }}">
+  <meta property="og:description" content="{{ t.seo.home_description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ current_language.home }}">
+  <meta property="og:image" content="{{ site.url }}/slideink-feature-reminders.png">
+  <title>{{ t.seo.home_title }}</title>
+  <link rel="canonical" href="{{ site.url }}{{ current_language.home }}">
+  {% for language in site.languages %}<link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ site.url }}{{ language.home }}">
+  {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+  <link rel="icon" type="image/png" href="/slideink-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/assets/language.js" defer></script>
+</head>
+<body data-page-type="home" data-current-language="{{ page.lang }}">
+  <header class="site-header">
+    <a class="brand" href="{{ current_language.home }}" aria-label="{{ t.nav.home_aria | escape }}">
+      <img src="/slideink-icon.png" alt="" width="44" height="44">
+      <span>Slide<span class="brand-accent">Ink</span></span>
+    </a>
+    <div class="header-actions">
+      <nav aria-label="{{ t.nav.primary_aria | escape }}">
+        <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
+        <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
+        <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
+        <a href="mailto:{{ site.support_email }}">{{ t.nav.support }}</a>
+      </nav>
+      <label class="language-picker">
+        <span class="sr-only">{{ t.nav.language }}</span>
+        <select data-language-select aria-label="{{ t.nav.language | escape }}">
+          {% for language in site.languages %}<option value="{{ language.home }}" data-language="{{ language.code }}"{% if language.code == page.lang %} selected{% endif %}>{{ language.label }}</option>{% endfor %}
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">{{ t.home.hero.eyebrow }}</p>
+        <h1>{{ t.home.hero.title }} <span>{{ t.home.hero.accent }}</span></h1>
+        <p class="lead"><strong>{{ t.home.hero.lead }}</strong></p>
+        <p class="lead">{{ t.home.hero.body }}</p>
+
+        <div class="hero-actions">
+          <a class="google-play-badge" href="{{ site.play_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.common.google_play_aria | escape }}">
+            <img src="/badges/google-play-{{ page.lang }}.png" alt="{{ t.common.google_play_alt | escape }}" width="646" height="250">
+          </a>
+          <a class="button secondary" href="{{ current_language.home }}#screenshots">{{ t.home.hero.see_slideink }}</a>
+        </div>
+        <p class="availability">{{ t.home.hero.availability }}</p>
+      </div>
+
+      <div class="hero-visual">
+        <img src="/slideink-feature-reminders.png" alt="{{ t.home.hero.image_alt | escape }}" width="1024" height="500">
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">{{ t.home.features.eyebrow }}</p>
+        <h2>{{ t.home.features.title }}</h2>
+        <p>{{ t.home.features.description }}</p>
+      </div>
+
+      <div class="feature-grid">
+        {% for feature in t.home.features.cards %}
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            {% if feature.icon == "bell" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4M12 2V1"/></svg>{% else %}{{ feature.icon }}{% endif %}
+          </div>
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="section screenshots-section" id="screenshots">
+      <div class="section-heading">
+        <p class="eyebrow">{{ t.home.screenshots.eyebrow }}</p>
+        <h2>{{ t.home.screenshots.title }}</h2>
+        <p>{{ t.home.screenshots.description }}</p>
+      </div>
+
+      <div class="screenshots">
+        <figure><img src="/slideink-screen-1.png" alt="{{ t.home.screenshots.alt_handle | escape }}" loading="lazy"></figure>
+        <figure><img src="/slideink-screen-reminder-editor.png" alt="{{ t.home.screenshots.alt_reminder | escape }}" width="941" height="1672" loading="lazy"></figure>
+        <figure><img src="/slideink-screen-reminders-library.png" alt="{{ t.home.screenshots.alt_library | escape }}" width="941" height="1672" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="section privacy-section" id="privacy">
+      <div class="privacy-card">
+        <div>
+          <p class="eyebrow">{{ t.home.privacy.eyebrow }}</p>
+          <h2>{{ t.home.privacy.title }}</h2>
+          <p>{{ t.home.privacy.description }}</p>
+        </div>
+        <a class="text-link" href="{{ current_language.privacy }}">{{ t.home.privacy.link }} →</a>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="contact-card">
+        <img src="/slideink-icon.png" alt="{{ t.home.contact.icon_alt | escape }}" width="88" height="88">
+        <div class="contact-copy">
+          <h2>{{ t.home.contact.title }}</h2>
+          <p>{{ t.home.contact.prefix }} <a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a>{{ t.home.contact.suffix }}</p>
+        </div>
+        <a class="google-play-badge google-play-badge-bottom" href="{{ site.play_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.common.google_play_aria | escape }}">
+          <img src="/badges/google-play-{{ page.lang }}.png" alt="{{ t.common.google_play_alt | escape }}" width="646" height="250">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>{{ t.common.footer_rights }}</p>
+    <div>
+      <a href="{{ current_language.privacy }}">{{ t.nav.privacy_policy }}</a>
+      <a href="mailto:{{ site.support_email }}">{{ t.nav.support }}</a>
+    </div>
+  </footer>
+</body>
+</html>

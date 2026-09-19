@@ -1,0 +1,144 @@
+{
+  "language_name": "English",
+  "og_locale": "en_US",
+  "seo": {
+    "home_title": "SlideInk — Quick notes and reminders over any screen",
+    "home_description": "SlideInk lets you write, draw, type quick notes and create reminders over any Android screen without leaving the app you're using.",
+    "privacy_title": "Privacy Policy — SlideInk",
+    "privacy_description": "Learn how SlideInk stores notes locally, protects your privacy and uses Android and Google Play services."
+  },
+  "nav": {
+    "primary_aria": "Primary navigation",
+    "home_aria": "SlideInk Home",
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "privacy": "Privacy",
+    "privacy_policy": "Privacy Policy",
+    "support": "Support",
+    "home": "Home",
+    "language": "Language"
+  },
+  "common": {
+    "google_play_aria": "Get SlideInk on Google Play",
+    "google_play_alt": "Get it on Google Play",
+    "footer_rights": "© 2026 M-S-K Slovakia s.r.o. SlideInk. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "ANDROID APP",
+      "title": "Quick notes and reminders",
+      "accent": "over any screen.",
+      "lead": "Write, draw, type, and capture what matters without leaving the screen you're using.",
+      "body": "Slide out SlideInk from the side of your phone, write or draw over any app, type notes with the keyboard, and turn typed notes into reminders when you need to remember something later.",
+      "see_slideink": "See SlideInk",
+      "availability": "Available for Android on Google Play.",
+      "image_alt": "SlideInk notes overlay above an inbox, with a delivered reminder and Snooze and Done actions"
+    },
+    "features": {
+      "eyebrow": "DESIGNED FOR SPEED",
+      "title": "Capture it without switching apps.",
+      "description": "Numbers, addresses, shopping lists, ideas, measurements, call notes and things you need to remember — capture them immediately while keeping the current screen visible.",
+      "cards": [
+        { "icon": "↗", "title": "Quick slide-out canvas", "description": "A subtle floating handle keeps SlideInk ready whenever you need it." },
+        { "icon": "✎", "title": "Finger or stylus", "description": "Write naturally with pen tools, eraser, undo and redo." },
+        { "icon": "◐", "title": "Adjustable transparency", "description": "Keep the app underneath visible while you write over it." },
+        { "icon": "▣", "title": "Save your notes", "description": "Keep useful notes as snapshots and come back to them later." },
+        { "icon": "bell", "title": "Reminders from typed notes", "description": "With SlideInk PRO, type a note, tap the bell, choose when to be reminded, then Snooze or mark it Done when it appears." },
+        { "icon": "✓", "title": "Simple and distraction-free", "description": "Focused controls for the moments when you just need to write something down." }
+      ]
+    },
+    "screenshots": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "Always within reach.",
+      "description": "Open SlideInk from its floating handle, write or type over your current screen, create reminders from typed notes, and find everything later in your Library.",
+      "alt_handle": "SlideInk floating handle on an Android home screen",
+      "alt_reminder": "Typed note Call Alex at 3 PM over an Android home screen, with the Remind me panel open",
+      "alt_library": "SlideInk Library with the Reminders tab, Scheduled and Completed controls, and reminder cards"
+    },
+    "privacy": {
+      "eyebrow": "PRIVACY FIRST",
+      "title": "Your notes stay on your device.",
+      "description": "SlideInk does not require an account and does not upload your notes to a server.",
+      "link": "Read Privacy Policy"
+    },
+    "contact": {
+      "icon_alt": "SlideInk icon",
+      "title": "Need help with SlideInk?",
+      "prefix": "Contact us at",
+      "suffix": "."
+    }
+  },
+  "privacy": {
+    "home_link": "SlideInk Home",
+    "eyebrow": "SLIDEINK",
+    "title": "Privacy Policy",
+    "updated": "Last updated: August 7, 2026",
+    "intro": "SlideInk is designed to keep your handwritten notes and drawings on your device. The app does not require an account and does not use analytics, advertising, or tracking services.",
+    "sections": [
+      {
+        "title": "Who operates SlideInk",
+        "paragraphs": ["SlideInk is developed under the Majo Studio developer account and published by M-S-K Slovakia s.r.o. This Privacy Policy applies to the SlideInk Android app."]
+      },
+      {
+        "title": "Notes and drawings",
+        "paragraphs": [
+          "Notes and drawings created or saved in SlideInk are stored locally on your device. SlideInk does not upload your notes, drawings, screenshots, or saved note content to a developer-operated server.",
+          "SlideInk does not require user registration or a SlideInk account."
+        ]
+      },
+      {
+        "title": "Sharing notes",
+        "paragraphs": [
+          "Sharing is initiated only by you. When you choose to share a note, SlideInk may create a temporary PNG copy in the application cache and pass it to Android's standard sharing interface. The destination is selected by you.",
+          "SlideInk does not automatically send shared content to the developer."
+        ]
+      },
+      {
+        "title": "Google Play Billing",
+        "paragraphs": [
+          "SlideInk uses the Google Play Billing service for purchases such as SlideInk PRO. Purchase processing is handled by Google Play. SlideInk receives the purchase status needed to determine whether PRO access is available.",
+          "SlideInk does not receive or store your full payment-card details. Information handled by Google Play is subject to Google's own privacy terms and policies."
+        ]
+      },
+      {
+        "title": "Analytics, advertising and tracking",
+        "paragraphs": ["SlideInk does not use analytics services, does not display advertising, and does not include advertising or third-party tracking SDKs."]
+      },
+      {
+        "title": "Cloud backup and device transfer",
+        "note": "SlideInk does not participate in Android cloud backup or Android device-to-device data transfer. App data is intended to remain local to the current installation."
+      },
+      {
+        "title": "Data retention and deletion",
+        "paragraphs": [
+          "Saved notes remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache.",
+          "Purchase records processed by Google Play are retained according to Google's policies and your Google account settings."
+        ]
+      },
+      {
+        "title": "App permissions",
+        "intro": "SlideInk may use Android permissions and system capabilities needed for its features, including:",
+        "items": [
+          "displaying the floating handle and drawing overlay over other apps;",
+          "running the user-enabled overlay service in the foreground;",
+          "supporting restart behavior after the device boots, where enabled;",
+          "using Google Play Billing for purchases."
+        ],
+        "outro": "These capabilities are used to provide SlideInk functionality and are not used for advertising or analytics."
+      },
+      {
+        "title": "Third-party services",
+        "paragraphs": ["Google Play may process information required for app distribution and purchases. Those services are governed by Google's own privacy policy and terms."]
+      },
+      {
+        "title": "Changes to this Privacy Policy",
+        "paragraphs": ["This Privacy Policy may be updated when SlideInk features, data practices, or legal requirements change. The current version will be published on this page with its updated date."]
+      },
+      {
+        "title": "Contact",
+        "contact_prefix": "For privacy or support questions, contact:",
+        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+      }
+    ]
+  }
+}

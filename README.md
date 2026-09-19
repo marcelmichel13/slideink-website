@@ -2,10 +2,17 @@
 
 Official static website for SlideInk.
 
-## Files to upload to GitHub
+## Localization architecture
 
-Upload all files in this folder to the root of the `slideink-website` repository.
+GitHub Pages builds the site with Jekyll. The complete site structure lives in two shared layouts:
 
-The site is fully static and does not use cookies, analytics, trackers, or external JavaScript.
+- `_layouts/home.html`
+- `_layouts/privacy.html`
 
-The Privacy Policy link currently points to the existing SlideInk Google Sites privacy-policy page. It can later be moved to `slideink.app/privacy`.
+All translated text is stored in `_data/locales/<language>.json`. Language route files contain front matter only and select a layout and locale. This keeps markup, accessibility and SEO behavior in one maintainable place.
+
+English is served at `/` and `/privacy/`. Other languages use `/<language>/` and `/<language>/privacy/`.
+
+The small script in `assets/language.js` handles the selector and remembers the chosen language in local storage. Page content remains fully rendered HTML and works without JavaScript.
+
+The site does not use cookies, analytics or trackers.
