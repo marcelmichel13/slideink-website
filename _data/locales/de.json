@@ -52,9 +52,9 @@
     "screenshots": {
       "eyebrow": "SO FUNKTIONIERT ES",
       "cards": [
-        { "title": "Immer griffbereit", "description": "Öffnen Sie SlideInk im Handumdrehen und beginnen Sie zu zeichnen, hervorzuheben oder etwas zu notieren, ohne den aktuellen Bildschirm zu verlassen.", "alt": "SlideInk-Zeichenfläche über einem Android-Startbildschirm mit Werkzeugleiste, schwebendem Griff, Pfeil, Kreis und kurzer Notiz" },
-        { "title": "Erinnerungen genau dann, wenn Sie sie brauchen", "description": "Verwandeln Sie Tastatureingaben in Erinnerungen, lassen Sie sich zur richtigen Zeit benachrichtigen und stellen Sie sie mit einem Fingertipp zurück.", "alt": "SlideInk-Schlummeroptionen über einer zugestellten Erinnerung Alex um 15 Uhr anrufen mit den Aktionen Später und Erledigt" },
-        { "title": "Notizen und Erinnerungen an einem Ort", "description": "Organisieren Sie Ihre Notizen, greifen Sie auf gespeicherte Ideen zurück und verwalten Sie Erinnerungen in einer übersichtlichen Bibliothek.", "alt": "SlideInk-Bibliothek mit dem Tab Erinnerungen, den Ansichten Geplant und Erledigt sowie Erinnerungskarten" }
+        { "title": "Immer griffbereit", "description": "Öffnen Sie SlideInk sofort und zeichnen oder notieren Sie über jedem Bildschirm.", "alt": "SlideInk-Zeichenfläche über einem Android-Startbildschirm mit Werkzeugleiste, schwebendem Griff, Pfeil, Kreis und kurzer Notiz" },
+        { "title": "Erinnerungen genau dann, wenn Sie sie brauchen", "description": "Verwandeln Sie Tastatureingaben in Erinnerungen und verschieben Sie sie bei Bedarf.", "alt": "SlideInk-Schlummeroptionen über einer zugestellten Erinnerung Alex um 15 Uhr anrufen mit den Aktionen Später und Erledigt" },
+        { "title": "Notizen und Erinnerungen an einem Ort", "description": "Organisieren Sie Notizen und Erinnerungen in einer einfachen Bibliothek.", "alt": "SlideInk-Bibliothek mit dem Tab Erinnerungen, den Ansichten Geplant und Erledigt sowie Erinnerungskarten" }
       ]
     },
     "privacy": {

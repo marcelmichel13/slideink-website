@@ -52,9 +52,9 @@
     "screenshots": {
       "eyebrow": "COMO FUNCIONA",
       "cards": [
-        { "title": "Sempre ao seu alcance", "description": "Abra o SlideInk num instante e comece a desenhar, realçar ou anotar o que quiser sem sair do ecrã atual.", "alt": "Área de desenho do SlideInk sobre um ecrã inicial Android com barra de ferramentas, pega flutuante, seta, círculo e nota breve" },
-        { "title": "Lembretes quando precisa deles", "description": "Transforme texto introduzido pelo teclado em lembretes, receba notificações no momento certo e adie-os com um só toque.", "alt": "Opções de adiamento do SlideInk sobre um lembrete recebido para ligar ao Alex às 15:00 com as ações Adiar e Concluído" },
-        { "title": "Notas e lembretes num só lugar", "description": "Mantenha as notas organizadas, volte às ideias guardadas e faça a gestão dos lembretes numa biblioteca simples.", "alt": "Biblioteca do SlideInk com o separador Lembretes, os controlos Agendados e Concluídos e cartões de lembrete" }
+        { "title": "Sempre ao seu alcance", "description": "Abra o SlideInk de imediato e desenhe ou anote sobre qualquer ecrã.", "alt": "Área de desenho do SlideInk sobre um ecrã inicial Android com barra de ferramentas, pega flutuante, seta, círculo e nota breve" },
+        { "title": "Lembretes quando precisa deles", "description": "Transforme texto do teclado em lembretes e adie-os quando necessário.", "alt": "Opções de adiamento do SlideInk sobre um lembrete recebido para ligar ao Alex às 15:00 com as ações Adiar e Concluído" },
+        { "title": "Notas e lembretes num só lugar", "description": "Mantenha notas e lembretes organizados numa biblioteca simples.", "alt": "Biblioteca do SlideInk com o separador Lembretes, os controlos Agendados e Concluídos e cartões de lembrete" }
       ]
     },
     "privacy": {

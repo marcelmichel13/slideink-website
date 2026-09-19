@@ -52,9 +52,9 @@
     "screenshots": {
       "eyebrow": "AKO TO FUNGUJE",
       "cards": [
-        { "title": "Vždy poruke", "description": "Otvorte SlideInk za okamih a začnite kresliť, zvýrazňovať alebo si čokoľvek zapisovať bez opustenia aktuálnej obrazovky.", "alt": "Kresliaca plocha SlideInk nad domovskou obrazovkou Androidu s panelom nástrojov, plávajúcim úchytom, šípkou, kruhom a krátkou poznámkou" },
-        { "title": "Pripomienky, keď ich potrebujete", "description": "Premeňte text z klávesnice na pripomienky, nechajte sa upozorniť v správnom čase a odložte ich jediným klepnutím.", "alt": "Možnosti odloženia SlideInk nad doručenou pripomienkou Zavolať Alexovi o 15:00 s akciami Odložiť a Hotovo" },
-        { "title": "Poznámky a pripomienky na jednom mieste", "description": "Udržiavajte si poznámky usporiadané, vracajte sa k uloženým nápadom a spravujte pripomienky v jednoduchej knižnici.", "alt": "Knižnica SlideInk s kartou Pripomienky, voľbami Naplánované a Dokončené a kartami pripomienok" }
+        { "title": "Vždy poruke", "description": "Otvorte SlideInk okamžite a kreslite alebo si píšte poznámky nad ľubovoľnou obrazovkou.", "alt": "Kresliaca plocha SlideInk nad domovskou obrazovkou Androidu s panelom nástrojov, plávajúcim úchytom, šípkou, kruhom a krátkou poznámkou" },
+        { "title": "Pripomienky, keď ich potrebujete", "description": "Premeňte text z klávesnice na pripomienky a podľa potreby ich odložte.", "alt": "Možnosti odloženia SlideInk nad doručenou pripomienkou Zavolať Alexovi o 15:00 s akciami Odložiť a Hotovo" },
+        { "title": "Poznámky a pripomienky na jednom mieste", "description": "Majte poznámky a pripomienky usporiadané v jednej jednoduchej knižnici.", "alt": "Knižnica SlideInk s kartou Pripomienky, voľbami Naplánované a Dokončené a kartami pripomienok" }
       ]
     },
     "privacy": {

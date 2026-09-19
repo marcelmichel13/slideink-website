@@ -52,9 +52,9 @@
     "screenshots": {
       "eyebrow": "CÓMO FUNCIONA",
       "cards": [
-        { "title": "Siempre a mano", "description": "Abre SlideInk en un instante y empieza a dibujar, resaltar o anotar cualquier cosa sin salir de la pantalla actual.", "alt": "Lienzo de dibujo de SlideInk sobre una pantalla de inicio de Android con barra de herramientas, controlador flotante, flecha, círculo y una nota breve" },
-        { "title": "Recordatorios cuando los necesitas", "description": "Convierte el texto escrito con el teclado en recordatorios, recibe avisos en el momento adecuado y posponlos con un solo toque.", "alt": "Opciones de posposición de SlideInk sobre un recordatorio recibido para llamar a Alex a las 15:00 con las acciones Posponer y Hecho" },
-        { "title": "Notas y recordatorios en un solo lugar", "description": "Mantén tus notas organizadas, vuelve a consultar las ideas guardadas y gestiona los recordatorios desde una biblioteca sencilla.", "alt": "Biblioteca de SlideInk con la pestaña Recordatorios, los controles Programados y Completados y tarjetas de recordatorio" }
+        { "title": "Siempre a mano", "description": "Abre SlideInk al instante y dibuja o toma notas sobre cualquier pantalla.", "alt": "Lienzo de dibujo de SlideInk sobre una pantalla de inicio de Android con barra de herramientas, controlador flotante, flecha, círculo y una nota breve" },
+        { "title": "Recordatorios cuando los necesitas", "description": "Convierte el texto del teclado en recordatorios y posponlos cuando lo necesites.", "alt": "Opciones de posposición de SlideInk sobre un recordatorio recibido para llamar a Alex a las 15:00 con las acciones Posponer y Hecho" },
+        { "title": "Notas y recordatorios en un solo lugar", "description": "Mantén notas y recordatorios organizados en una biblioteca sencilla.", "alt": "Biblioteca de SlideInk con la pestaña Recordatorios, los controles Programados y Completados y tarjetas de recordatorio" }
       ]
     },
     "privacy": {

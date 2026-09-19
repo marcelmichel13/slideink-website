@@ -52,9 +52,9 @@
     "screenshots": {
       "eyebrow": "COMMENT ÇA MARCHE",
       "cards": [
-        { "title": "Toujours à portée de main", "description": "Ouvrez SlideInk en un instant et commencez à dessiner, surligner ou noter ce que vous voulez sans quitter l’écran en cours.", "alt": "Zone de dessin SlideInk sur un écran d’accueil Android avec barre d’outils, poignée flottante, flèche, cercle et courte note" },
-        { "title": "Des rappels au bon moment", "description": "Transformez le texte saisi au clavier en rappels, recevez une notification au bon moment et reportez-les d’un simple toucher.", "alt": "Options de report SlideInk au-dessus d’un rappel Appeler Alex à 15 h avec les actions Reporter et Terminé" },
-        { "title": "Notes et rappels au même endroit", "description": "Gardez vos notes bien organisées, retrouvez vos idées enregistrées et gérez vos rappels depuis une bibliothèque simple.", "alt": "Bibliothèque SlideInk avec l’onglet Rappels, les commandes Planifiés et Terminés et des cartes de rappel" }
+        { "title": "Toujours à portée de main", "description": "Ouvrez SlideInk instantanément pour dessiner ou noter sur n’importe quel écran.", "alt": "Zone de dessin SlideInk sur un écran d’accueil Android avec barre d’outils, poignée flottante, flèche, cercle et courte note" },
+        { "title": "Des rappels au bon moment", "description": "Transformez le texte saisi au clavier en rappels et reportez-les si nécessaire.", "alt": "Options de report SlideInk au-dessus d’un rappel Appeler Alex à 15 h avec les actions Reporter et Terminé" },
+        { "title": "Notes et rappels au même endroit", "description": "Organisez vos notes et rappels dans une bibliothèque simple.", "alt": "Bibliothèque SlideInk avec l’onglet Rappels, les commandes Planifiés et Terminés et des cartes de rappel" }
       ]
     },
     "privacy": {
