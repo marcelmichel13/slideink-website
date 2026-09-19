@@ -1,9 +1,10 @@
 {% assign t = site.data.locales[page.lang] %}
 {% assign current_language = site.languages | where: "code", page.lang | first %}
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}" translate="no" class="notranslate">
 <head>
   <meta charset="utf-8">
+  <meta name="google" content="notranslate">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ t.seo.home_description | escape }}">
   <meta name="theme-color" content="#07111f">
