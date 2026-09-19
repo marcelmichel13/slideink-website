@@ -2,12 +2,12 @@
   "language_name": "Polski",
   "og_locale": "pl_PL",
   "seo": {
-    "home_title": "SlideInk — Szybkie notatki i przypomnienia na dowolnym ekranie",
-    "home_description": "SlideInk pozwala pisać, rysować, wpisywać szybkie notatki i tworzyć przypomnienia na dowolnym ekranie Androida bez opuszczania używanej aplikacji.",
+    "home_title": "SlideInk — Szybkie notatki i przypomnienia na każdym ekranie",
+    "home_description": "SlideInk pozwala pisać, rysować, tworzyć szybkie notatki i ustawiać przypomnienia na każdym ekranie Androida bez opuszczania używanej aplikacji.",
     "privacy_title": "Polityka prywatności — SlideInk",
-    "privacy_description": "Dowiedz się, jak SlideInk zapisuje notatki lokalnie, chroni prywatność i korzysta z usług Androida oraz Google Play.",
+    "privacy_description": "Dowiedz się, jak SlideInk przechowuje notatki lokalnie, chroni Twoją prywatność i korzysta z usług Androida oraz Google Play.",
     "support_title": "Pomoc SlideInk — Wsparcie i kontakt",
-    "support_description": "Uzyskaj pomoc dotyczącą SlideInk i skontaktuj się ze wsparciem przez e-mail."
+    "support_description": "Uzyskaj pomoc dotyczącą SlideInk i skontaktuj się z pomocą techniczną przez e-mail."
   },
   "nav": {
     "primary_aria": "Nawigacja główna",
@@ -29,73 +29,126 @@
     "hero": {
       "eyebrow": "APLIKACJA NA ANDROIDA",
       "title": "Szybkie notatki i przypomnienia",
-      "accent": "na dowolnym ekranie.",
-      "lead": "Pisz, rysuj, wpisuj tekst i zapisuj to, co ważne, bez opuszczania bieżącego ekranu.",
-      "body": "Wysuń SlideInk z boku telefonu, pisz lub rysuj nad dowolną aplikacją, wpisuj notatki za pomocą klawiatury i zamieniaj wpisane notatki w przypomnienia na później.",
+      "accent": "na każdym ekranie.",
+      "lead": "Pisz, rysuj, wpisuj tekst i zapisuj to, co ważne, bez opuszczania aktualnego ekranu.",
+      "body": "Wysuń SlideInk z krawędzi ekranu telefonu, pisz lub rysuj nad dowolną aplikacją, dodawaj notatki za pomocą klawiatury i zamieniaj notatki tekstowe w przypomnienia na później.",
       "see_slideink": "Zobacz SlideInk",
       "availability": "Dostępna na Androida w Google Play.",
-      "image_alt": "Nakładka SlideInk nad skrzynką odbiorczą z dostarczonym przypomnieniem i przyciskami Odłóż oraz Gotowe"
+      "image_alt": "Nakładka SlideInk wyświetlona nad skrzynką odbiorczą, z aktywnym przypomnieniem i przyciskami Odłóż oraz Gotowe"
     },
     "features": {
-      "eyebrow": "ZAPROJEKTOWANA Z MYŚLĄ O SZYBKOŚCI",
-      "title": "Zapisuj bez przełączania aplikacji.",
-      "description": "Numery, adresy, listy zakupów, pomysły, wymiary, notatki z rozmów i rzeczy, o których trzeba pamiętać — zapisuj je od razu, nie zasłaniając bieżącego ekranu.",
+      "eyebrow": "STWORZONA Z MYŚLĄ O SZYBKOŚCI",
+      "title": "Zapisuj bez przełączania się między aplikacjami.",
+      "description": "Numery, adresy, listy zakupów, pomysły, wymiary, notatki z rozmów i wszystko, o czym trzeba pamiętać — zapisuj od razu, nie zasłaniając bieżącego ekranu.",
       "cards": [
         { "icon": "↗", "title": "Szybko wysuwane płótno", "description": "Dyskretny pływający uchwyt sprawia, że SlideInk jest zawsze pod ręką." },
-        { "icon": "✎", "title": "Palec lub rysik", "description": "Pisz naturalnie, korzystając z pióra, gumki oraz funkcji cofania i ponawiania." },
-        { "icon": "◐", "title": "Regulowana przezroczystość", "description": "Podczas pisania aplikacja znajdująca się pod nakładką pozostaje widoczna." },
-        { "icon": "▣", "title": "Zapisuj notatki", "description": "Zachowuj przydatne notatki jako migawki i wracaj do nich później." },
-        { "icon": "bell", "title": "Przypomnienia z wpisanych notatek", "description": "W SlideInk PRO wpisz notatkę, dotknij dzwonka, wybierz czas przypomnienia, a po jego wyświetleniu odłóż je lub oznacz jako gotowe." },
-        { "icon": "✓", "title": "Prosto i bez rozpraszania", "description": "Przejrzyste elementy sterujące na chwile, gdy chcesz tylko szybko coś zapisać." }
+        { "icon": "✎", "title": "Palec lub rysik", "description": "Pisz naturalnie za pomocą pióra i gumki; korzystaj też z funkcji cofania i ponawiania." },
+        { "icon": "◐", "title": "Regulowana przezroczystość", "description": "Aplikacja pod nakładką pozostaje widoczna podczas pisania." },
+        { "icon": "▣", "title": "Zapisywanie notatek", "description": "Zapisuj przydatne notatki jako obrazy i wracaj do nich później." },
+        { "icon": "bell", "title": "Przypomnienia z notatek tekstowych", "description": "W SlideInk PRO wpisz notatkę, dotknij ikony dzwonka i wybierz czas przypomnienia. Gdy przypomnienie się pojawi, odłóż je lub oznacz jako wykonane." },
+        { "icon": "✓", "title": "Prosta obsługa bez rozpraszaczy", "description": "Przejrzyste elementy sterujące na chwile, gdy chcesz tylko szybko coś zanotować." }
       ]
     },
     "screenshots": {
       "eyebrow": "JAK TO DZIAŁA",
       "title": "Zawsze pod ręką.",
-      "description": "Otwórz SlideInk za pomocą pływającego uchwytu, pisz lub wpisuj tekst nad bieżącym ekranem, twórz przypomnienia z wpisanych notatek i odnajduj wszystko później w Bibliotece.",
+      "description": "Otwórz SlideInk za pomocą pływającego uchwytu, pisz lub wpisuj tekst nad bieżącym ekranem, twórz przypomnienia z notatek tekstowych, a później znajdź wszystko w Bibliotece.",
       "alt_handle": "Pływający uchwyt SlideInk na ekranie głównym Androida",
-      "alt_reminder": "Wpisana notatka Zadzwoń do Alexa o 15:00 nad ekranem głównym Androida z otwartym panelem Przypomnij mi",
-      "alt_library": "Biblioteka SlideInk z kartą Przypomnienia, widokami Zaplanowane i Ukończone oraz kartami przypomnień"
+      "alt_reminder": "Notatka Zadzwoń do Alexa o 15:00 nad ekranem głównym Androida, z otwartym panelem Przypomnij mi",
+      "alt_library": "Biblioteka SlideInk z kartą Przypomnienia, widokami Zaplanowane i Ukończone oraz listą przypomnień"
     },
     "privacy": {
       "eyebrow": "PRYWATNOŚĆ PRZEDE WSZYSTKIM",
       "title": "Twoje notatki pozostają na urządzeniu.",
-      "description": "SlideInk nie wymaga konta i nie przesyła notatek na serwer.",
-      "link": "Przeczytaj Politykę prywatności"
+      "description": "SlideInk nie wymaga konta i nie przesyła Twoich notatek na serwer.",
+      "link": "Przeczytaj politykę prywatności"
     },
     "contact": {
       "icon_alt": "Ikona SlideInk",
-      "title": "Potrzebujesz pomocy ze SlideInk?",
+      "title": "Potrzebujesz pomocy z aplikacją SlideInk?",
       "prefix": "Napisz do nas na adres",
       "suffix": "."
     }
   },
   "support": {
     "home_link": "Strona główna SlideInk",
-    "eyebrow": "POMOC SLIDEINK",
-    "title": "Potrzebujesz pomocy ze SlideInk?",
+    "eyebrow": "Pomoc SlideInk",
+    "title": "Potrzebujesz pomocy z aplikacją SlideInk?",
     "intro": "Jeśli masz pytanie, napotkałeś problem lub potrzebujesz pomocy w korzystaniu ze SlideInk, napisz do nas e-mail.",
-    "email_label": "E-mail pomocy technicznej",
+    "email_label": "Adres e-mail pomocy technicznej",
     "email_action": "Napisz e-mail"
   },
   "privacy": {
     "home_link": "Strona główna SlideInk",
-    "eyebrow": "SLIDEINK",
+    "eyebrow": "SlideInk",
     "title": "Polityka prywatności",
     "updated": "Ostatnia aktualizacja: 7 sierpnia 2026 r.",
-    "intro": "SlideInk zaprojektowano tak, aby odręczne notatki i rysunki pozostawały na urządzeniu. Aplikacja nie wymaga konta i nie korzysta z usług analitycznych, reklamowych ani śledzących.",
+    "intro": "SlideInk zaprojektowano tak, aby odręczne notatki i rysunki pozostawały na Twoim urządzeniu. Aplikacja nie wymaga konta i nie korzysta z usług analitycznych, reklamowych ani śledzących.",
     "sections": [
-      { "title": "Kto odpowiada za SlideInk", "paragraphs": ["SlideInk jest rozwijany w ramach konta deweloperskiego Majo Studio i publikowany przez M-S-K Slovakia s.r.o. Niniejsza Polityka prywatności dotyczy aplikacji SlideInk na Androida."] },
-      { "title": "Notatki i rysunki", "paragraphs": ["Notatki i rysunki utworzone lub zapisane w SlideInk są przechowywane lokalnie na urządzeniu. SlideInk nie przesyła notatek, rysunków, zrzutów ekranu ani treści zapisanych notatek na serwer obsługiwany przez dewelopera.", "SlideInk nie wymaga rejestracji użytkownika ani konta SlideInk."] },
-      { "title": "Udostępnianie notatek", "paragraphs": ["Udostępnianie jest uruchamiane wyłącznie przez Ciebie. Gdy zdecydujesz się udostępnić notatkę, SlideInk może utworzyć tymczasową kopię PNG w pamięci podręcznej aplikacji i przekazać ją do standardowego interfejsu udostępniania Androida. Miejsce docelowe wybierasz samodzielnie.", "SlideInk nie wysyła automatycznie udostępnianych treści do dewelopera."] },
-      { "title": "Płatności Google Play", "paragraphs": ["SlideInk korzysta z usługi Google Play Billing przy zakupach takich jak SlideInk PRO. Zakup jest przetwarzany przez Google Play. SlideInk otrzymuje stan zakupu potrzebny do ustalenia, czy dostęp PRO jest aktywny.", "SlideInk nie otrzymuje ani nie przechowuje pełnych danych karty płatniczej. Informacje przetwarzane przez Google Play podlegają zasadom prywatności i warunkom firmy Google."] },
-      { "title": "Analityka, reklamy i śledzenie", "paragraphs": ["SlideInk nie korzysta z usług analitycznych, nie wyświetla reklam ani nie zawiera zewnętrznych zestawów SDK do reklam lub śledzenia."] },
-      { "title": "Kopia zapasowa w chmurze i przenoszenie między urządzeniami", "note": "SlideInk nie korzysta z kopii zapasowej Androida w chmurze ani z przenoszenia danych między urządzeniami z Androidem. Dane aplikacji są przeznaczone do lokalnego przechowywania w bieżącej instalacji." },
-      { "title": "Przechowywanie i usuwanie danych", "paragraphs": ["Zapisane notatki pozostają na urządzeniu do czasu ich usunięcia lub odinstalowania aplikacji. Pliki tymczasowe utworzone na potrzeby udostępniania mogą pozostać w pamięci podręcznej, dopóki nie zostaną usunięte przez aplikację, Androida lub w wyniku wyczyszczenia pamięci podręcznej.", "Rejestry zakupów przetwarzanych przez Google Play są przechowywane zgodnie z zasadami Google i ustawieniami Twojego konta Google."] },
-      { "title": "Uprawnienia aplikacji", "intro": "SlideInk może korzystać z uprawnień i funkcji systemowych Androida potrzebnych do działania, w tym:", "items": ["wyświetlania pływającego uchwytu i nakładki do rysowania nad innymi aplikacjami;", "uruchamiania na pierwszym planie usługi nakładki włączonej przez użytkownika;", "obsługi ponownego uruchomienia po włączeniu urządzenia, jeśli ta opcja jest aktywna;", "korzystania z Google Play Billing do obsługi zakupów."], "outro": "Funkcje te służą do zapewnienia działania SlideInk i nie są wykorzystywane do reklam ani analityki." },
-      { "title": "Usługi zewnętrzne", "paragraphs": ["Google Play może przetwarzać informacje niezbędne do dystrybucji aplikacji i obsługi zakupów. Usługi te podlegają zasadom prywatności i warunkom firmy Google."] },
-      { "title": "Zmiany w Polityce prywatności", "paragraphs": ["Niniejsza Polityka prywatności może być aktualizowana, gdy zmienią się funkcje SlideInk, praktyki przetwarzania danych lub wymagania prawne. Aktualna wersja będzie publikowana na tej stronie wraz z datą aktualizacji."] },
-      { "title": "Kontakt", "contact_prefix": "W sprawach dotyczących prywatności lub pomocy skontaktuj się z nami pod adresem:", "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio" }
+      {
+        "title": "Kto odpowiada za SlideInk",
+        "paragraphs": ["SlideInk jest rozwijany w ramach konta deweloperskiego Majo Studio i publikowany przez M-S-K Slovakia s.r.o. Niniejsza Polityka prywatności dotyczy aplikacji SlideInk na Androida."]
+      },
+      {
+        "title": "Notatki i rysunki",
+        "paragraphs": [
+          "Notatki i rysunki tworzone lub zapisywane w SlideInk są przechowywane lokalnie na Twoim urządzeniu. SlideInk nie przesyła notatek, rysunków, zrzutów ekranu ani treści zapisanych notatek na serwer obsługiwany przez dewelopera.",
+          "SlideInk nie wymaga rejestracji użytkownika ani konta SlideInk."
+        ]
+      },
+      {
+        "title": "Udostępnianie notatek",
+        "paragraphs": [
+          "Udostępnianie następuje wyłącznie z Twojej inicjatywy. Gdy zdecydujesz się udostępnić notatkę, SlideInk może utworzyć tymczasową kopię PNG w pamięci podręcznej aplikacji i przekazać ją do standardowego interfejsu udostępniania Androida. Miejsce docelowe wybierasz samodzielnie.",
+          "SlideInk nie wysyła automatycznie udostępnianych treści do dewelopera."
+        ]
+      },
+      {
+        "title": "Płatności w Google Play",
+        "paragraphs": [
+          "SlideInk korzysta z usługi Google Play Billing przy zakupach takich jak SlideInk PRO. Zakup jest przetwarzany przez Google Play. SlideInk otrzymuje informację o stanie zakupu potrzebną do ustalenia, czy dostęp PRO jest aktywny.",
+          "SlideInk nie otrzymuje ani nie przechowuje pełnych danych Twojej karty płatniczej. Informacje przetwarzane przez Google Play podlegają zasadom prywatności i warunkom firmy Google."
+        ]
+      },
+      {
+        "title": "Analityka, reklamy i śledzenie",
+        "paragraphs": ["SlideInk nie korzysta z usług analitycznych, nie wyświetla reklam ani nie zawiera zewnętrznych zestawów SDK służących do reklam lub śledzenia."]
+      },
+      {
+        "title": "Kopia zapasowa w chmurze i przenoszenie danych między urządzeniami",
+        "note": "SlideInk nie korzysta z kopii zapasowej Androida w chmurze ani z przenoszenia danych między urządzeniami z Androidem. Dane aplikacji pozostają lokalnie w bieżącej instalacji."
+      },
+      {
+        "title": "Przechowywanie i usuwanie danych",
+        "paragraphs": [
+          "Zapisane notatki pozostają na urządzeniu do czasu ich usunięcia lub odinstalowania aplikacji. Pliki tymczasowe utworzone na potrzeby udostępniania mogą pozostać w pamięci podręcznej, dopóki nie zostaną usunięte przez aplikację, system Android lub w wyniku wyczyszczenia pamięci podręcznej.",
+          "Informacje o zakupach przetwarzanych przez Google Play są przechowywane zgodnie z zasadami Google i ustawieniami Twojego konta Google."
+        ]
+      },
+      {
+        "title": "Uprawnienia aplikacji",
+        "intro": "SlideInk może korzystać z uprawnień i funkcji systemu Android niezbędnych do działania aplikacji, w tym:",
+        "items": [
+          "wyświetlania pływającego uchwytu i nakładki do rysowania nad innymi aplikacjami;",
+          "uruchamiania włączonej przez użytkownika usługi nakładki jako usługi pierwszoplanowej;",
+          "ponownego uruchamiania po włączeniu urządzenia, jeśli ta opcja jest aktywna;",
+          "korzystania z Google Play Billing do obsługi zakupów."
+        ],
+        "outro": "Te możliwości służą do zapewnienia działania SlideInk i nie są wykorzystywane do reklam ani analityki."
+      },
+      {
+        "title": "Usługi zewnętrzne",
+        "paragraphs": ["Google Play może przetwarzać informacje niezbędne do dystrybucji aplikacji i obsługi zakupów. Usługi te podlegają zasadom prywatności i warunkom firmy Google."]
+      },
+      {
+        "title": "Zmiany w Polityce prywatności",
+        "paragraphs": ["Niniejsza Polityka prywatności może być aktualizowana, gdy zmienią się funkcje SlideInk, sposoby przetwarzania danych lub wymagania prawne. Aktualna wersja będzie publikowana na tej stronie wraz z datą aktualizacji."]
+      },
+      {
+        "title": "Kontakt",
+        "contact_prefix": "W sprawach dotyczących prywatności lub pomocy skontaktuj się z nami pod adresem:",
+        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+      }
     ]
   }
 }

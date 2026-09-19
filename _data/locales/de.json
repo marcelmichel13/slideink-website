@@ -72,7 +72,7 @@
   },
   "support": {
     "home_link": "SlideInk-Startseite",
-    "eyebrow": "SLIDEINK-SUPPORT",
+    "eyebrow": "SlideInk-Support",
     "title": "Benötigen Sie Hilfe mit SlideInk?",
     "intro": "Wenn Sie eine Frage haben, auf ein Problem gestoßen sind oder Hilfe bei der Nutzung von SlideInk benötigen, schreiben Sie uns eine E-Mail.",
     "email_label": "Support-E-Mail",
@@ -80,7 +80,7 @@
   },
   "privacy": {
     "home_link": "SlideInk-Startseite",
-    "eyebrow": "SLIDEINK",
+    "eyebrow": "SlideInk",
     "title": "Datenschutzerklärung",
     "updated": "Zuletzt aktualisiert: 7. August 2026",
     "intro": "SlideInk ist so konzipiert, dass Ihre handschriftlichen Notizen und Zeichnungen auf Ihrem Gerät bleiben. Die App erfordert kein Konto und verwendet keine Analyse-, Werbe- oder Trackingdienste.",
