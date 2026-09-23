@@ -255,6 +255,32 @@ h3 { font-size: 1.18rem; margin-bottom: 10px; }
   margin-bottom: 18px;
 }
 
+.reminders-section {
+  text-align: center;
+}
+
+.reminders-heading {
+  max-width: 780px;
+  margin: 0 auto 36px;
+}
+
+.reminders-heading > p:last-child {
+  margin: 0 auto;
+}
+
+.reminders-visual {
+  width: min(100%, 860px);
+  margin: 0 auto;
+}
+
+.reminders-visual img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--card-border);
+  border-radius: 24px;
+  box-shadow: 0 28px 70px rgba(0,0,0,.35);
+}
+
 .screenshots-section {
   border-top: 1px solid rgba(255,255,255,.06);
   scroll-margin-top: 105px;

@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Sencillo y sin distracciones", "description": "Controles claros para esos momentos en los que solo necesitas anotar algo rápidamente." }
       ]
     },
+    "reminders": {
+      "title": "Recordatorios",
+      "description": "Crea recordatorios por texto o voz y tenlos siempre a mano con widgets y la opción de posponerlos rápidamente.",
+      "image_alt": "Vista previa de los recordatorios de SlideInk con una tarjeta de recordatorio, opciones de Snooze y widgets."
+    },
     "screenshots": {
       "eyebrow": "CÓMO FUNCIONA",
       "cards": [

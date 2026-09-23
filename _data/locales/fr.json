@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Simple et sans distraction", "description": "Des commandes claires pour les moments où vous avez simplement besoin de noter quelque chose rapidement." }
       ]
     },
+    "reminders": {
+      "title": "Rappels",
+      "description": "Créez des rappels par texte ou à la voix et gardez-les à portée de main grâce aux widgets et au report rapide.",
+      "image_alt": "Aperçu des rappels SlideInk avec une carte de rappel, des options Snooze et des widgets."
+    },
     "screenshots": {
       "eyebrow": "COMMENT ÇA MARCHE",
       "cards": [

@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Simples e sem distrações", "description": "Controlos claros para os momentos em que só precisa de apontar algo rapidamente." }
       ]
     },
+    "reminders": {
+      "title": "Lembretes",
+      "description": "Crie lembretes por texto ou voz e mantenha-os sempre à mão com widgets e adiamento rápido.",
+      "image_alt": "Pré-visualização dos lembretes do SlideInk com um cartão de lembrete, opções Snooze e widgets."
+    },
     "screenshots": {
       "eyebrow": "COMO FUNCIONA",
       "cards": [

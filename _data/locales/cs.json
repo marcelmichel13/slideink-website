@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Jednoduché a bez rušení", "description": "Přehledné ovládání pro chvíle, kdy si potřebujete jen rychle něco poznamenat." }
       ]
     },
+    "reminders": {
+      "title": "Připomínky",
+      "description": "Vytvářejte připomínky textem nebo hlasem a mějte je vždy po ruce díky widgetům a rychlému odložení.",
+      "image_alt": "Ukázka připomínek SlideInk s kartou připomínky, možnostmi Snooze a widgety."
+    },
     "screenshots": {
       "eyebrow": "JAK TO FUNGUJE",
       "cards": [

@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Prosta obsługa bez rozpraszaczy", "description": "Przejrzyste elementy sterujące na chwile, gdy chcesz tylko szybko coś zanotować." }
       ]
     },
+    "reminders": {
+      "title": "Przypomnienia",
+      "description": "Twórz przypomnienia tekstem lub głosem i miej je zawsze pod ręką dzięki widżetom oraz szybkiemu odkładaniu na później.",
+      "image_alt": "Podgląd przypomnień SlideInk z kartą przypomnienia, opcjami Snooze i widżetami."
+    },
     "screenshots": {
       "eyebrow": "JAK TO DZIAŁA",
       "cards": [

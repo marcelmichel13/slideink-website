@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Simple and distraction-free", "description": "Focused controls for the moments when you just need to write something down." }
       ]
     },
+    "reminders": {
+      "title": "Reminders",
+      "description": "Create reminders with text or voice and keep them close at hand with widgets and quick snoozing.",
+      "image_alt": "SlideInk reminders preview with a reminder card, Snooze options and widgets."
+    },
     "screenshots": {
       "eyebrow": "HOW IT WORKS",
       "cards": [

@@ -49,6 +49,11 @@
         { "icon": "✓", "title": "Einfach und ablenkungsfrei", "description": "Übersichtliche Bedienelemente für Momente, in denen Sie nur schnell etwas notieren möchten." }
       ]
     },
+    "reminders": {
+      "title": "Erinnerungen",
+      "description": "Erstellen Sie Erinnerungen per Text oder Sprache und behalten Sie sie dank Widgets und einer schnellen Snooze-Funktion immer griffbereit.",
+      "image_alt": "Vorschau der SlideInk-Erinnerungen mit Erinnerungskarte, Snooze-Optionen und Widgets."
+    },
     "screenshots": {
       "eyebrow": "SO FUNKTIONIERT ES",
       "cards": [
