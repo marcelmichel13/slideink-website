@@ -34,7 +34,10 @@
       "body": "Slide out SlideInk from the side of your phone, write or draw over any app, type notes with the keyboard, and turn typed notes into reminders when you need to remember something later.",
       "see_slideink": "See SlideInk",
       "availability": "Available for Android on Google Play.",
-      "image_alt": "SlideInk notes overlay above an inbox, with a delivered reminder and Snooze and Done actions"
+      "video_label": "SlideInk demo: the drawing panel slides out over the Android home screen, then a yellow stroke and the slogan are written on it by hand.",
+      "video_pause": "Pause animation",
+      "video_play": "Play animation",
+      "video_replay": "Replay animation"
     },
     "features": {
       "eyebrow": "DESIGNED FOR SPEED",

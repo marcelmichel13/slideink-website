@@ -34,7 +34,10 @@
       "body": "Ziehen Sie SlideInk vom Rand Ihres Smartphones hervor, schreiben oder zeichnen Sie über jeder App, tippen Sie Notizen mit der Tastatur und verwandeln Sie getippte Notizen in Erinnerungen für später.",
       "see_slideink": "SlideInk ansehen",
       "availability": "Für Android bei Google Play erhältlich.",
-      "image_alt": "SlideInk-Overlay über einem Posteingang mit zugestellter Erinnerung sowie den Aktionen Später und Erledigt"
+      "video_label": "SlideInk-Demo: Die Zeichenfläche gleitet über den Android-Startbildschirm, dann werden ein gelber Strich und der Slogan von Hand darauf geschrieben.",
+      "video_pause": "Animation pausieren",
+      "video_play": "Animation abspielen",
+      "video_replay": "Animation erneut abspielen"
     },
     "features": {
       "eyebrow": "AUF SCHNELLIGKEIT AUSGELEGT",

@@ -34,7 +34,10 @@
       "body": "Vysuňte SlideInk z boku telefonu, pište nebo kreslete nad libovolnou aplikací, zadávejte poznámky pomocí klávesnice a z textových poznámek vytvářejte připomínky na později.",
       "see_slideink": "Prohlédnout SlideInk",
       "availability": "K dispozici pro Android na Google Play.",
-      "image_alt": "Překryvná vrstva SlideInk nad doručenou poštou s doručenou připomínkou a akcemi Odložit a Hotovo"
+      "video_label": "Ukázka SlideInk: kreslicí plocha se vysune přes domovskou obrazovku Androidu a rukou se na ni napíše žlutý tah a slogan.",
+      "video_pause": "Pozastavit animaci",
+      "video_play": "Přehrát animaci",
+      "video_replay": "Přehrát animaci znovu"
     },
     "features": {
       "eyebrow": "NAVRŽENO PRO RYCHLOST",

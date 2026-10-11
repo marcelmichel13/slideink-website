@@ -125,7 +125,7 @@ nav a:hover { color: white; }
   margin: 0 auto;
   padding: 82px 24px 70px;
   display: grid;
-  grid-template-columns: .95fr 1.2fr;
+  grid-template-columns: 1.15fr .85fr;
   gap: 60px;
   align-items: center;
 }
@@ -213,12 +213,61 @@ h3 { font-size: 1.18rem; margin-bottom: 10px; }
   font-size: .9rem;
 }
 
-.hero-visual img {
-  height: auto;
-  border-radius: 24px;
-  box-shadow: 0 30px 80px rgba(0,0,0,.48);
-  border: 1px solid rgba(255,255,255,.08);
+.hero-demo {
+  width: min(100%, 320px);
+  justify-self: center;
 }
+
+/* Phone body around the screen recording */
+.hero-demo-frame {
+  position: relative;
+  padding: 8px;
+  border-radius: 42px;
+  background: linear-gradient(160deg, #1b2230, #07090e 60%);
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 30px 80px rgba(0,0,0,.5), inset 0 0 0 1px rgba(0,0,0,.6);
+}
+
+.hero-demo-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 600 / 1300;
+  border-radius: 34px;
+  background: #0b0f16;
+}
+
+/* Sits beside the phone (below it on small screens) so it never covers the screen content */
+.hero-demo-control {
+  position: absolute;
+  right: -54px;
+  bottom: 6px;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: #fff;
+  background: rgba(5,11,20,.62);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 50%;
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .18s ease;
+}
+
+.hero-demo-control[hidden] { display: none; }
+.hero-demo-control:hover, .hero-demo-control:focus-visible { opacity: 1; }
+.hero-demo-control:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.hero-demo-control svg { display: none; }
+.hero-demo[data-state="playing"] .icon-pause,
+.hero-demo[data-state="paused"] .icon-play,
+.hero-demo[data-state="ended"] .icon-replay { display: block; }
 
 .section {
   max-width: var(--max);
@@ -574,6 +623,8 @@ footer a { text-decoration: none; }
   .hero, .section { padding-left: 18px; padding-right: 18px; }
   .hero { gap: 34px; padding-bottom: 48px; }
   .hero-actions { align-items: flex-start; }
+  .hero-demo { width: min(100%, 270px); margin-bottom: 50px; }
+  .hero-demo-control { right: calc(50% - 20px); bottom: -52px; }
   .google-play-badge img { width: 210px !important; }
   .feature-grid, .screenshots { grid-template-columns: 1fr; }
   .screenshots figure:last-child { width: 100%; }

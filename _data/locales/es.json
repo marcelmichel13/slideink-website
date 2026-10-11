@@ -34,7 +34,10 @@
       "body": "Desliza SlideInk desde el lateral del teléfono, escribe o dibuja sobre cualquier aplicación, teclea notas con el teclado y convierte las notas escritas en recordatorios para más tarde.",
       "see_slideink": "Ver SlideInk",
       "availability": "Disponible para Android en Google Play.",
-      "image_alt": "Superposición de SlideInk sobre una bandeja de entrada con un recordatorio recibido y las acciones Posponer y Hecho"
+      "video_label": "Demostración de SlideInk: el panel de dibujo se desliza sobre la pantalla de inicio de Android y en él se escriben a mano un trazo amarillo y el eslogan.",
+      "video_pause": "Pausar la animación",
+      "video_play": "Reproducir la animación",
+      "video_replay": "Volver a reproducir la animación"
     },
     "features": {
       "eyebrow": "DISEÑADO PARA SER RÁPIDO",

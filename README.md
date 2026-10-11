@@ -16,4 +16,6 @@ English is served at `/`, `/privacy/` and `/support/`. Other languages use `/<la
 
 The small script in `assets/language.js` handles the selector and remembers the chosen language in local storage. Page content remains fully rendered HTML and works without JavaScript.
 
+The homepage hero video (`assets/video/`) shows the real app: the panel slides out over the home screen and the SlideInk pen draws the stroke and writes the slogan. `assets/hero-demo.js` plays it once when it is on screen and drives the small pause/replay button; visitors who prefer reduced motion see the final frame. The slogan text (`slogan` in `_config.yml`) is also in the page for screen readers and search engines.
+
 The site does not use cookies, analytics or trackers.

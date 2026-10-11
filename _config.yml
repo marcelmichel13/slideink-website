@@ -6,6 +6,11 @@ strict_front_matter: true
 play_store_url: "https://play.google.com/store/apps/details?id=com.majostudio.slideink"
 support_email: "support@slideink.app"
 
+# Brand slogan, kept in English in every language.
+slogan:
+  lead: "Your notes and reminders"
+  accent: "one slide away"
+
 languages:
   - code: en
     hreflang: en

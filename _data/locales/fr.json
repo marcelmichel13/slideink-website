@@ -34,7 +34,10 @@
       "body": "Faites glisser SlideInk depuis le bord de votre téléphone, écrivez ou dessinez par-dessus n’importe quelle application, saisissez des notes au clavier et transformez vos notes saisies en rappels pour plus tard.",
       "see_slideink": "Découvrir SlideInk",
       "availability": "Disponible pour Android sur Google Play.",
-      "image_alt": "Superposition SlideInk au-dessus d’une boîte de réception avec un rappel reçu et les actions Reporter et Terminé"
+      "video_label": "Démonstration de SlideInk : le panneau de dessin glisse au-dessus de l’écran d’accueil Android, puis un trait jaune et le slogan y sont écrits à la main.",
+      "video_pause": "Mettre l’animation en pause",
+      "video_play": "Lire l’animation",
+      "video_replay": "Revoir l’animation"
     },
     "features": {
       "eyebrow": "CONÇU POUR ALLER VITE",

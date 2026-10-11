@@ -34,7 +34,10 @@
       "body": "Wysuń SlideInk z krawędzi ekranu telefonu, pisz lub rysuj nad dowolną aplikacją, dodawaj notatki za pomocą klawiatury i zamieniaj notatki tekstowe w przypomnienia na później.",
       "see_slideink": "Zobacz SlideInk",
       "availability": "Dostępna na Androida w Google Play.",
-      "image_alt": "Nakładka SlideInk wyświetlona nad skrzynką odbiorczą, z aktywnym przypomnieniem i przyciskami Odłóż oraz Gotowe"
+      "video_label": "Demonstracja SlideInk: panel rysowania wysuwa się nad ekran główny Androida, a potem odręcznie powstaje na nim żółta linia i hasło.",
+      "video_pause": "Wstrzymaj animację",
+      "video_play": "Odtwórz animację",
+      "video_replay": "Odtwórz animację ponownie"
     },
     "features": {
       "eyebrow": "STWORZONA Z MYŚLĄ O SZYBKOŚCI",
