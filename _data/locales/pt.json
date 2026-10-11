@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Lembretes",
-      "description": "Crie lembretes por texto ou voz e mantenha-os sempre à mão com widgets e adiamento rápido.",
-      "image_alt": "Pré-visualização dos lembretes do SlideInk com um cartão de lembrete, opções Snooze e widgets."
+      "description": "Crie lembretes a escrever ou por voz, adie-os num toque e repita os que precisa diária, semanal, mensal ou anualmente.",
+      "image_alt": "Pré-visualização dos lembretes do SlideInk com um cartão de lembrete e opções para adiar e repetir."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Lembretes a partir do ecrã inicial.",
+      "description": "Adicione um widget do SlideInk e crie um lembrete num toque: escreva-o ou dite-o. Os widgets funcionam com o SlideInk PRO.",
+      "size_label": "Tamanho",
+      "how_title": "Como adicionar um widget",
+      "how_text": "Toque sem soltar num espaço vazio do ecrã inicial, toque em Widgets e procure SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Lembrete rápido",
+          "description": "Abre um novo lembrete num toque. Escreva o que quer lembrar e escolha a hora."
+        },
+        "voice-reminder": {
+          "name": "Lembrete por voz",
+          "description": "Toque e diga o que quer lembrar. As suas palavras tornam-se o texto do lembrete; só tem de escolher a hora."
+        },
+        "reminder-actions": {
+          "name": "Ações de lembrete",
+          "description": "Escolha como criar um lembrete: a escrever ou por voz."
+        },
+        "quick-actions": {
+          "name": "Ações rápidas",
+          "description": "Um novo lembrete escrito ou acesso direto à Biblioteca com notas e lembretes."
+        },
+        "expanded-actions": {
+          "name": "Ações expandidas",
+          "description": "Lembrete escrito, lembrete por voz e Biblioteca num só widget."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "COMO FUNCIONA",
       "cards": [
-        { "title": "Sempre ao seu alcance", "description": "Abra o SlideInk de imediato e desenhe ou anote sobre qualquer ecrã.", "alt": "Área de desenho do SlideInk sobre um ecrã inicial Android com barra de ferramentas, pega flutuante, seta, círculo e nota breve" },
-        { "title": "Lembretes quando precisa deles", "description": "Transforme texto do teclado em lembretes e adie-os quando necessário.", "alt": "Opções de adiamento do SlideInk sobre um lembrete recebido para ligar ao Alex às 15:00 com as ações Adiar e Concluído" },
-        { "title": "Notas e lembretes num só lugar", "description": "Mantenha notas e lembretes organizados numa biblioteca simples.", "alt": "Biblioteca do SlideInk com o separador Lembretes, os controlos Agendados e Concluídos e cartões de lembrete" }
+        { "title": "Deslize-o sobre qualquer app", "description": "Abra o SlideInk enquanto navega, lê ou conversa e aponte o que precisa — a app por baixo continua visível.", "alt": "SlideInk sobre uma receita de panquecas no navegador com uma lista de compras escrita à mão: eggs, milk, blueberries" },
+        { "title": "Escreva, desenhe ou use o teclado", "description": "Use o dedo ou uma caneta, ou escreva no teclado e formate o texto: cor, tamanho, letra, negrito e itálico.", "alt": "Barra de texto do SlideInk sobre o teclado com amarelo, tamanho 20 e negrito ativos, notas escritas «Pick up the cake at 4 pm» e «candles and balloons» e um «Mom's birthday» cor-de-rosa escrito à mão com um coração" },
+        { "title": "Encontre-a mais tarde", "description": "Guarde notas na Biblioteca, marque favoritas e pesquise-as sempre que precisar.", "alt": "Biblioteca do SlideInk com quatro notas guardadas: um esboço de armário com medidas, uma lista de compras marcada como favorita, uma lista para um aniversário e um código do portão" }
       ]
     },
     "privacy": {

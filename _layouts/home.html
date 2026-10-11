@@ -98,6 +98,28 @@
       </div>
     </section>
 
+    <section class="section screenshots-section" id="screenshots">
+      <div class="section-heading">
+        <h2 class="eyebrow">{{ t.home.screenshots.eyebrow }}</h2>
+      </div>
+
+      <div class="screenshots">
+        {% for card in t.home.screenshots.cards %}
+        <figure class="screenshot-card">
+          <figcaption class="screenshot-copy">
+            <h3>{{ card.title }}</h3>
+            <p>{{ card.description }}</p>
+          </figcaption>
+          <div class="screenshot-media">
+            <div class="screenshot-phone">
+              <img src="/assets/screens/step-{{ forloop.index }}.webp" alt="{{ card.alt | escape }}" width="600" height="1300" loading="lazy">
+            </div>
+          </div>
+        </figure>
+        {% endfor %}
+      </div>
+    </section>
+
     <section class="section reminders-section" aria-labelledby="reminders-title">
       <div class="section-heading reminders-heading">
         <h2 id="reminders-title">{{ t.home.reminders.title }}</h2>
@@ -108,39 +130,33 @@
       </div>
     </section>
 
-    <section class="section screenshots-section" id="screenshots">
+    <section class="section widgets-section" id="widgets" aria-labelledby="widgets-title">
       <div class="section-heading">
-        <h2 class="eyebrow">{{ t.home.screenshots.eyebrow }}</h2>
+        <p class="eyebrow">{{ t.home.widgets.eyebrow }}</p>
+        <h2 id="widgets-title">{{ t.home.widgets.title }}</h2>
+        <p>{{ t.home.widgets.description }}</p>
       </div>
 
-      <div class="screenshots">
-        <figure class="screenshot-card screenshot-card--quick-draw">
-          <figcaption class="screenshot-copy">
-            <h3>{{ t.home.screenshots.cards[0].title }}</h3>
-            <p>{{ t.home.screenshots.cards[0].description }}</p>
-          </figcaption>
-          <div class="screenshot-media">
-            <img src="/slideink-screen-quick-draw.png" alt="{{ t.home.screenshots.cards[0].alt | escape }}" width="941" height="1672" loading="lazy">
+      <div class="widget-grid">
+        {% for widget in site.widgets %}{% assign widget_copy = t.home.widgets.items[widget.id] %}
+        <article class="widget-card">
+          <div class="widget-preview">
+            <img src="/assets/widgets/{{ widget.id }}.webp" alt="" width="{{ widget.width }}" height="{{ widget.height }}" loading="lazy">
           </div>
-        </figure>
-        <figure class="screenshot-card screenshot-card--snooze">
-          <figcaption class="screenshot-copy">
-            <h3>{{ t.home.screenshots.cards[1].title }}</h3>
-            <p>{{ t.home.screenshots.cards[1].description }}</p>
-          </figcaption>
-          <div class="screenshot-media">
-            <img src="/slideink-screen-snooze-flow.png" alt="{{ t.home.screenshots.cards[1].alt | escape }}" width="852" height="1846" loading="lazy">
+          <div class="widget-card-head">
+            <h3>{{ widget_copy.name }}</h3>
+            <span class="widget-size"><span class="sr-only">{{ t.home.widgets.size_label }}: </span>{{ widget.size }}</span>
           </div>
-        </figure>
-        <figure class="screenshot-card screenshot-card--library">
-          <figcaption class="screenshot-copy">
-            <h3>{{ t.home.screenshots.cards[2].title }}</h3>
-            <p>{{ t.home.screenshots.cards[2].description }}</p>
-          </figcaption>
-          <div class="screenshot-media">
-            <img src="/slideink-screen-reminders-library.png" alt="{{ t.home.screenshots.cards[2].alt | escape }}" width="941" height="1672" loading="lazy">
+          <p>{{ widget_copy.description }}</p>
+        </article>
+        {% endfor %}
+        <article class="widget-card widget-card-how">
+          <div class="feature-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
           </div>
-        </figure>
+          <h3>{{ t.home.widgets.how_title }}</h3>
+          <p>{{ t.home.widgets.how_text }}</p>
+        </article>
       </div>
     </section>
 

@@ -77,3 +77,27 @@ exclude:
   - README.md
   - index_final.html
   - styles_final.css
+
+# Home-screen widgets shown on the homepage. Names and descriptions live in
+# _data/locales/<language>.json under home.widgets.items.<id>; images in assets/widgets/.
+widgets:
+  - id: quick-reminder
+    size: "1 × 1"
+    width: 67
+    height: 67
+  - id: voice-reminder
+    size: "1 × 1"
+    width: 67
+    height: 67
+  - id: reminder-actions
+    size: "2 × 1"
+    width: 188
+    height: 82
+  - id: quick-actions
+    size: "2 × 1"
+    width: 188
+    height: 82
+  - id: expanded-actions
+    size: "3 × 1"
+    width: 292
+    height: 82

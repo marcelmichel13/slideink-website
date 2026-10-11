@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Připomínky",
-      "description": "Vytvářejte připomínky textem nebo hlasem a mějte je vždy po ruce díky widgetům a rychlému odložení.",
-      "image_alt": "Ukázka připomínek SlideInk s kartou připomínky, možnostmi Snooze a widgety."
+      "description": "Vytvářejte připomínky psaním nebo hlasem, odložte je jedním klepnutím a ty, které potřebujete pravidelně, nechte opakovat každý den, týden, měsíc nebo rok.",
+      "image_alt": "Ukázka připomínek SlideInk s kartou připomínky, možnostmi odložení a opakování."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Připomínky přímo z domovské obrazovky.",
+      "description": "Přidejte si widget SlideInk a vytvořte připomínku jedním klepnutím — napište ji nebo nadiktujte. Widgety fungují se SlideInk PRO.",
+      "size_label": "Velikost",
+      "how_title": "Jak přidat widget",
+      "how_text": "Podržte prst na prázdném místě domovské obrazovky, klepněte na Widgety a najděte SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Rychlá připomínka",
+          "description": "Jedním klepnutím otevře novou připomínku. Napište, co si chcete připomenout, a zvolte čas."
+        },
+        "voice-reminder": {
+          "name": "Hlasová připomínka",
+          "description": "Klepněte a řekněte, co si chcete připomenout. Vaše slova se stanou textem připomínky — stačí zvolit čas."
+        },
+        "reminder-actions": {
+          "name": "Rychlé připomínky",
+          "description": "Vyberte si, jak připomínku vytvoříte: psaním, nebo hlasem."
+        },
+        "quick-actions": {
+          "name": "Rychlé akce",
+          "description": "Nová psaná připomínka, nebo rovnou Knihovna s poznámkami a připomínkami."
+        },
+        "expanded-actions": {
+          "name": "Rozšířené akce",
+          "description": "Psaná připomínka, hlasová připomínka i Knihovna v jednom widgetu."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "JAK TO FUNGUJE",
       "cards": [
-        { "title": "Vždy po ruce", "description": "Otevřete SlideInk okamžitě a kreslete nebo si zapisujte přes libovolnou obrazovku.", "alt": "Kreslicí plocha SlideInk nad domovskou obrazovkou Androidu s panelem nástrojů, plovoucím úchytem, šipkou, kruhem a krátkou poznámkou" },
-        { "title": "Připomínky, když je potřebujete", "description": "Proměňte text z klávesnice v připomínky a podle potřeby je odložte.", "alt": "Možnosti odložení SlideInk nad doručenou připomínkou Zavolat Alexovi v 15:00 s akcemi Odložit a Hotovo" },
-        { "title": "Poznámky a připomínky na jednom místě", "description": "Mějte poznámky a připomínky uspořádané v jedné jednoduché knihovně.", "alt": "Knihovna SlideInk s kartou Připomínky, volbami Naplánované a Dokončené a kartami připomínek" }
+        { "title": "Vysuňte ho nad jakoukoli aplikaci", "description": "Vysuňte SlideInk při prohlížení, čtení nebo chatování a zapište si, co potřebujete — aplikace pod ním zůstane vidět.", "alt": "SlideInk nad receptem na lívance v prohlížeči s ručně psaným nákupním seznamem: eggs, milk, blueberries" },
+        { "title": "Pište, kreslete nebo ťukejte", "description": "Pište prstem nebo dotykovým perem, nebo ťukejte na klávesnici a upravte text — barvu, velikost, písmo, tučné i kurzívu.", "alt": "Panel úprav textu SlideInk nad klávesnicí s aktivní žlutou barvou, velikostí 20 a tučným písmem, napsané poznámky „Pick up the cake at 4 pm“ a „candles and balloons“ a růžový ručně psaný nápis „Mom's birthday“ se srdíčkem" },
+        { "title": "Najděte ji později", "description": "Ukládejte poznámky do Knihovny, označte si oblíbené a kdykoli je vyhledejte.", "alt": "Knihovna SlideInk se čtyřmi uloženými poznámkami: náčrt skříňky s rozměry, nákupní seznam označený jako oblíbený, seznam k narozeninám a kód brány" }
       ]
     },
     "privacy": {

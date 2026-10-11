@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Rappels",
-      "description": "Créez des rappels par texte ou à la voix et gardez-les à portée de main grâce aux widgets et au report rapide.",
-      "image_alt": "Aperçu des rappels SlideInk avec une carte de rappel, des options Snooze et des widgets."
+      "description": "Créez des rappels au clavier ou à la voix, reportez-les en un geste et répétez ceux qui reviennent tous les jours, toutes les semaines, tous les mois ou tous les ans.",
+      "image_alt": "Aperçu des rappels SlideInk avec une carte de rappel et des options pour reporter et répéter."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Des rappels depuis l’écran d’accueil.",
+      "description": "Ajoutez un widget SlideInk et créez un rappel en un geste : saisissez-le ou dictez-le. Les widgets fonctionnent avec SlideInk PRO.",
+      "size_label": "Taille",
+      "how_title": "Ajouter un widget",
+      "how_text": "Appuyez de manière prolongée sur un espace libre de l’écran d’accueil, touchez Widgets et recherchez SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Rappel rapide",
+          "description": "Ouvre un nouveau rappel en un geste. Saisissez ce dont vous voulez vous souvenir et choisissez l’heure."
+        },
+        "voice-reminder": {
+          "name": "Rappel vocal",
+          "description": "Touchez et dites ce dont vous voulez vous souvenir. Vos mots deviennent le texte du rappel ; il ne reste qu’à choisir l’heure."
+        },
+        "reminder-actions": {
+          "name": "Actions de rappel",
+          "description": "Choisissez comment créer un rappel : au clavier ou à la voix."
+        },
+        "quick-actions": {
+          "name": "Actions rapides",
+          "description": "Un nouveau rappel saisi ou un accès direct à la Bibliothèque avec vos notes et rappels."
+        },
+        "expanded-actions": {
+          "name": "Actions étendues",
+          "description": "Rappel saisi, rappel vocal et Bibliothèque dans un seul widget."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "COMMENT ÇA MARCHE",
       "cards": [
-        { "title": "Toujours à portée de main", "description": "Ouvrez SlideInk instantanément pour dessiner ou noter sur n’importe quel écran.", "alt": "Zone de dessin SlideInk sur un écran d’accueil Android avec barre d’outils, poignée flottante, flèche, cercle et courte note" },
-        { "title": "Des rappels au bon moment", "description": "Transformez le texte saisi au clavier en rappels et reportez-les si nécessaire.", "alt": "Options de report SlideInk au-dessus d’un rappel Appeler Alex à 15 h avec les actions Reporter et Terminé" },
-        { "title": "Notes et rappels au même endroit", "description": "Organisez vos notes et rappels dans une bibliothèque simple.", "alt": "Bibliothèque SlideInk avec l’onglet Rappels, les commandes Planifiés et Terminés et des cartes de rappel" }
+        { "title": "Faites-le glisser sur n’importe quelle app", "description": "Faites glisser SlideInk pendant que vous naviguez, lisez ou discutez et notez ce qu’il vous faut : l’app en dessous reste visible.", "alt": "SlideInk au-dessus d’une recette de pancakes dans le navigateur avec une liste de courses manuscrite : eggs, milk, blueberries" },
+        { "title": "Écrivez, dessinez ou tapez", "description": "Écrivez au doigt ou au stylet, ou tapez au clavier et mettez le texte en forme : couleur, taille, police, gras et italique.", "alt": "Barre de texte SlideInk au-dessus du clavier avec jaune, taille 20 et gras actifs, notes tapées « Pick up the cake at 4 pm » et « candles and balloons », et un « Mom's birthday » rose écrit à la main avec un cœur" },
+        { "title": "Retrouvez-la plus tard", "description": "Enregistrez vos notes dans la Bibliothèque, marquez vos favorites et recherchez-les à tout moment.", "alt": "Bibliothèque SlideInk avec quatre notes enregistrées : un croquis de meuble avec ses dimensions, une liste de courses en favori, une liste pour un anniversaire et un code de portail" }
       ]
     },
     "privacy": {

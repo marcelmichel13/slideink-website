@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Recordatorios",
-      "description": "Crea recordatorios por texto o voz y tenlos siempre a mano con widgets y la opción de posponerlos rápidamente.",
-      "image_alt": "Vista previa de los recordatorios de SlideInk con una tarjeta de recordatorio, opciones de Snooze y widgets."
+      "description": "Crea recordatorios escribiendo o con la voz, pospónlos con un toque y repite los que necesites cada día, semana, mes o año.",
+      "image_alt": "Vista previa de los recordatorios de SlideInk con una tarjeta de recordatorio y opciones para posponer y repetir."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Recordatorios desde la pantalla de inicio.",
+      "description": "Añade un widget de SlideInk y crea un recordatorio con un toque: escríbelo o díctalo. Los widgets funcionan con SlideInk PRO.",
+      "size_label": "Tamaño",
+      "how_title": "Cómo añadir un widget",
+      "how_text": "Mantén pulsado un espacio vacío de la pantalla de inicio, toca Widgets y busca SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Recordatorio rápido",
+          "description": "Abre un nuevo recordatorio con un toque. Escribe lo que quieres recordar y elige la hora."
+        },
+        "voice-reminder": {
+          "name": "Recordatorio por voz",
+          "description": "Toca y di lo que quieres recordar. Tus palabras se convierten en el texto del recordatorio; solo tienes que elegir la hora."
+        },
+        "reminder-actions": {
+          "name": "Acciones de recordatorio",
+          "description": "Elige cómo crear un recordatorio: escribiendo o con la voz."
+        },
+        "quick-actions": {
+          "name": "Acciones rápidas",
+          "description": "Un nuevo recordatorio escrito o acceso directo a la Biblioteca con notas y recordatorios."
+        },
+        "expanded-actions": {
+          "name": "Acciones ampliadas",
+          "description": "Recordatorio escrito, recordatorio por voz y Biblioteca en un solo widget."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "CÓMO FUNCIONA",
       "cards": [
-        { "title": "Siempre a mano", "description": "Abre SlideInk al instante y dibuja o toma notas sobre cualquier pantalla.", "alt": "Lienzo de dibujo de SlideInk sobre una pantalla de inicio de Android con barra de herramientas, controlador flotante, flecha, círculo y una nota breve" },
-        { "title": "Recordatorios cuando los necesitas", "description": "Convierte el texto del teclado en recordatorios y posponlos cuando lo necesites.", "alt": "Opciones de posposición de SlideInk sobre un recordatorio recibido para llamar a Alex a las 15:00 con las acciones Posponer y Hecho" },
-        { "title": "Notas y recordatorios en un solo lugar", "description": "Mantén notas y recordatorios organizados en una biblioteca sencilla.", "alt": "Biblioteca de SlideInk con la pestaña Recordatorios, los controles Programados y Completados y tarjetas de recordatorio" }
+        { "title": "Deslízalo sobre cualquier app", "description": "Saca SlideInk mientras navegas, lees o chateas y apunta lo que necesites: la app de debajo sigue a la vista.", "alt": "SlideInk sobre una receta de tortitas en el navegador con una lista de la compra escrita a mano: eggs, milk, blueberries" },
+        { "title": "Escribe, dibuja o teclea", "description": "Usa el dedo o un lápiz óptico, o escribe con el teclado y da formato al texto: color, tamaño, fuente, negrita y cursiva.", "alt": "Barra de texto de SlideInk sobre el teclado con amarillo, tamaño 20 y negrita activos, notas tecleadas «Pick up the cake at 4 pm» y «candles and balloons», y un «Mom's birthday» rosa escrito a mano con un corazón" },
+        { "title": "Encuéntrala después", "description": "Guarda las notas en la Biblioteca, marca tus favoritas y búscalas cuando las necesites.", "alt": "Biblioteca de SlideInk con cuatro notas guardadas: un boceto de armario con medidas, una lista de la compra marcada como favorita, una lista para un cumpleaños y un código de portal" }
       ]
     },
     "privacy": {

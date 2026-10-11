@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Erinnerungen",
-      "description": "Erstellen Sie Erinnerungen per Text oder Sprache und behalten Sie sie dank Widgets und einer schnellen Snooze-Funktion immer griffbereit.",
-      "image_alt": "Vorschau der SlideInk-Erinnerungen mit Erinnerungskarte, Snooze-Optionen und Widgets."
+      "description": "Erstellen Sie Erinnerungen per Tastatur oder Sprache, verschieben Sie sie mit einem Fingertipp und lassen Sie wiederkehrende täglich, wöchentlich, monatlich oder jährlich wiederholen.",
+      "image_alt": "SlideInk-Erinnerungen: Erinnerungskarte mit Optionen zum Verschieben und Wiederholen."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Erinnerungen direkt vom Startbildschirm.",
+      "description": "Fügen Sie ein SlideInk-Widget hinzu und starten Sie eine Erinnerung mit einem Fingertipp — tippen oder sprechen. Widgets funktionieren mit SlideInk PRO.",
+      "size_label": "Größe",
+      "how_title": "So fügen Sie ein Widget hinzu",
+      "how_text": "Halten Sie eine freie Stelle auf dem Startbildschirm gedrückt, tippen Sie auf Widgets und suchen Sie SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Schnelle Erinnerung",
+          "description": "Öffnet mit einem Fingertipp eine neue Erinnerung. Notieren Sie, woran Sie denken möchten, und wählen Sie eine Zeit."
+        },
+        "voice-reminder": {
+          "name": "Spracherinnerung",
+          "description": "Tippen und sagen, woran Sie erinnert werden möchten. Ihre Worte werden zum Erinnerungstext — Sie wählen nur noch die Zeit."
+        },
+        "reminder-actions": {
+          "name": "Erinnerungsaktionen",
+          "description": "Wählen Sie, wie Sie eine Erinnerung erstellen: per Tastatur oder per Sprache."
+        },
+        "quick-actions": {
+          "name": "Schnellaktionen",
+          "description": "Eine neue getippte Erinnerung oder direkt zur Bibliothek mit Notizen und Erinnerungen."
+        },
+        "expanded-actions": {
+          "name": "Erweiterte Aktionen",
+          "description": "Getippte Erinnerung, Spracherinnerung und Bibliothek — alles in einem Widget."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "SO FUNKTIONIERT ES",
       "cards": [
-        { "title": "Immer griffbereit", "description": "Öffnen Sie SlideInk sofort und zeichnen oder notieren Sie über jedem Bildschirm.", "alt": "SlideInk-Zeichenfläche über einem Android-Startbildschirm mit Werkzeugleiste, schwebendem Griff, Pfeil, Kreis und kurzer Notiz" },
-        { "title": "Erinnerungen genau dann, wenn Sie sie brauchen", "description": "Verwandeln Sie Tastatureingaben in Erinnerungen und verschieben Sie sie bei Bedarf.", "alt": "SlideInk-Schlummeroptionen über einer zugestellten Erinnerung Alex um 15 Uhr anrufen mit den Aktionen Später und Erledigt" },
-        { "title": "Notizen und Erinnerungen an einem Ort", "description": "Organisieren Sie Notizen und Erinnerungen in einer einfachen Bibliothek.", "alt": "SlideInk-Bibliothek mit dem Tab Erinnerungen, den Ansichten Geplant und Erledigt sowie Erinnerungskarten" }
+        { "title": "Über jeder App hervorziehen", "description": "Ziehen Sie SlideInk beim Surfen, Lesen oder Chatten hervor und notieren Sie, was Sie brauchen — die App darunter bleibt sichtbar.", "alt": "SlideInk über einem Pfannkuchenrezept im Browser mit handgeschriebener Einkaufsliste: eggs, milk, blueberries" },
+        { "title": "Schreiben, zeichnen oder tippen", "description": "Mit dem Finger oder Eingabestift schreiben oder per Tastatur tippen und den Text gestalten — Farbe, Größe, Schrift, fett und kursiv.", "alt": "SlideInk-Textleiste über der Tastatur mit aktivem Gelb, Größe 20 und Fett, getippte Notizen „Pick up the cake at 4 pm“ und „candles and balloons“ sowie ein rosa handgeschriebenes „Mom's birthday“ mit Herz" },
+        { "title": "Später wiederfinden", "description": "Speichern Sie Notizen in der Bibliothek, markieren Sie Favoriten und durchsuchen Sie sie jederzeit.", "alt": "SlideInk-Bibliothek mit vier gespeicherten Notizen: eine Schrankskizze mit Maßen, eine als Favorit markierte Einkaufsliste, eine Geburtstagsliste und ein Torcode" }
       ]
     },
     "privacy": {

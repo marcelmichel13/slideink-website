@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Reminders",
-      "description": "Create reminders with text or voice and keep them close at hand with widgets and quick snoozing.",
-      "image_alt": "SlideInk reminders preview with a reminder card, Snooze options and widgets."
+      "description": "Create reminders by typing or speaking, snooze them in one tap, and repeat the ones you need every day, week, month or year.",
+      "image_alt": "SlideInk reminders preview with a reminder card, Snooze options and Repeat options."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Reminders from your home screen.",
+      "description": "Add a SlideInk widget and start a reminder with one tap — type it or say it. Widgets work with SlideInk PRO.",
+      "size_label": "Size",
+      "how_title": "How to add a widget",
+      "how_text": "Touch and hold an empty spot on your home screen, tap Widgets and find SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Quick reminder",
+          "description": "Opens a new reminder in one tap. Type what to remember and pick a time."
+        },
+        "voice-reminder": {
+          "name": "Voice reminder",
+          "description": "Tap and say what to remember. Your words become the reminder text — just pick a time."
+        },
+        "reminder-actions": {
+          "name": "Reminder actions",
+          "description": "Choose how to create a reminder: by typing or by voice."
+        },
+        "quick-actions": {
+          "name": "Quick actions",
+          "description": "A new typed reminder, or straight to your Library with notes and reminders."
+        },
+        "expanded-actions": {
+          "name": "Expanded actions",
+          "description": "Typed reminder, voice reminder and the Library — all in one widget."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "HOW IT WORKS",
       "cards": [
-        { "title": "Always within reach", "description": "Open SlideInk instantly and sketch or note over any screen.", "alt": "SlideInk drawing overlay over an Android home screen with its toolbar, floating handle, arrow, circle and a quick note" },
-        { "title": "Reminders when you need them", "description": "Turn keyboard text into reminders and snooze them when needed.", "alt": "SlideInk Snooze options above a delivered reminder for Call Alex at 3 PM with Snooze and Done actions" },
-        { "title": "Notes and reminders in one place", "description": "Keep notes and reminders organized in one simple library.", "alt": "SlideInk Library with the Reminders tab, Scheduled and Completed controls, and reminder cards" }
+        { "title": "Slide it out over any app", "description": "Pull out SlideInk while you browse, read or chat and jot down what you need — the app underneath stays visible.", "alt": "SlideInk over a pancake recipe in the browser with a handwritten shopping list: eggs, milk, blueberries" },
+        { "title": "Write, draw or type", "description": "Use your finger or a stylus, or type with the keyboard and style the text — color, size, font, bold and italic.", "alt": "SlideInk text toolbar above the keyboard with yellow, size 20 and bold active, typed notes “Pick up the cake at 4 pm” and “candles and balloons”, and a pink handwritten “Mom's birthday” with a heart" },
+        { "title": "Find it later", "description": "Save notes to the Library, mark favorites and search them whenever you need.", "alt": "SlideInk Library with four saved notes: a cabinet sketch with dimensions, a shopping list marked as a favorite, a birthday checklist and a gate code" }
       ]
     },
     "privacy": {

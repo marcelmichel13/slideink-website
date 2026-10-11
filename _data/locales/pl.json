@@ -54,15 +54,45 @@
     },
     "reminders": {
       "title": "Przypomnienia",
-      "description": "Twórz przypomnienia tekstem lub głosem i miej je zawsze pod ręką dzięki widżetom oraz szybkiemu odkładaniu na później.",
-      "image_alt": "Podgląd przypomnień SlideInk z kartą przypomnienia, opcjami Snooze i widżetami."
+      "description": "Twórz przypomnienia, pisząc lub mówiąc, odkładaj je jednym dotknięciem, a te potrzebne regularnie powtarzaj codziennie, co tydzień, co miesiąc lub co rok.",
+      "image_alt": "Podgląd przypomnień SlideInk z kartą przypomnienia oraz opcjami odkładania i powtarzania."
+    },
+    "widgets": {
+      "eyebrow": "SLIDEINK PRO",
+      "title": "Przypomnienia prosto z ekranu głównego.",
+      "description": "Dodaj widżet SlideInk i utwórz przypomnienie jednym dotknięciem — wpisz je lub podyktuj. Widżety działają z SlideInk PRO.",
+      "size_label": "Rozmiar",
+      "how_title": "Jak dodać widżet",
+      "how_text": "Przytrzymaj puste miejsce na ekranie głównym, dotknij Widżety i znajdź SlideInk.",
+      "items": {
+        "quick-reminder": {
+          "name": "Szybkie przypomnienie",
+          "description": "Jednym dotknięciem otwiera nowe przypomnienie. Wpisz, o czym chcesz pamiętać, i wybierz godzinę."
+        },
+        "voice-reminder": {
+          "name": "Przypomnienie głosowe",
+          "description": "Dotknij i powiedz, o czym chcesz pamiętać. Twoje słowa stają się treścią przypomnienia — wystarczy wybrać godzinę."
+        },
+        "reminder-actions": {
+          "name": "Akcje przypomnień",
+          "description": "Wybierz, jak utworzyć przypomnienie: pisząc lub głosem."
+        },
+        "quick-actions": {
+          "name": "Szybkie akcje",
+          "description": "Nowe wpisane przypomnienie albo od razu Biblioteka z notatkami i przypomnieniami."
+        },
+        "expanded-actions": {
+          "name": "Rozszerzone akcje",
+          "description": "Przypomnienie wpisane, głosowe i Biblioteka w jednym widżecie."
+        }
+      }
     },
     "screenshots": {
       "eyebrow": "JAK TO DZIAŁA",
       "cards": [
-        { "title": "Zawsze pod ręką", "description": "Otwórz SlideInk od razu i rysuj lub notuj na dowolnym ekranie.", "alt": "Obszar rysowania SlideInk nad ekranem głównym Androida z paskiem narzędzi, pływającym uchwytem, strzałką, okręgiem i krótką notatką" },
-        { "title": "Przypomnienia wtedy, gdy ich potrzebujesz", "description": "Zamieniaj tekst z klawiatury w przypomnienia i odkładaj je w razie potrzeby.", "alt": "Opcje odłożenia SlideInk nad dostarczonym przypomnieniem Zadzwoń do Alexa o 15:00 z działaniami Odłóż i Gotowe" },
-        { "title": "Notatki i przypomnienia w jednym miejscu", "description": "Uporządkuj notatki i przypomnienia w jednej prostej bibliotece.", "alt": "Biblioteka SlideInk z kartą Przypomnienia, widokami Zaplanowane i Ukończone oraz listą przypomnień" }
+        { "title": "Wysuń nad dowolną aplikacją", "description": "Wysuń SlideInk podczas przeglądania, czytania lub czatowania i zanotuj, co trzeba — aplikacja pod spodem pozostaje widoczna.", "alt": "SlideInk nad przepisem na naleśniki w przeglądarce z odręczną listą zakupów: eggs, milk, blueberries" },
+        { "title": "Pisz, rysuj lub stukaj", "description": "Pisz palcem lub rysikiem albo wpisuj z klawiatury i formatuj tekst — kolor, rozmiar, czcionka, pogrubienie i kursywa.", "alt": "Pasek tekstu SlideInk nad klawiaturą z aktywnym żółtym kolorem, rozmiarem 20 i pogrubieniem, wpisane notatki „Pick up the cake at 4 pm” i „candles and balloons” oraz różowe odręczne „Mom's birthday” z serduszkiem" },
+        { "title": "Znajdź ją później", "description": "Zapisuj notatki w Bibliotece, oznaczaj ulubione i wyszukuj je w dowolnej chwili.", "alt": "Biblioteka SlideInk z czterema zapisanymi notatkami: szkicem szafki z wymiarami, listą zakupów oznaczoną jako ulubiona, listą na urodziny i kodem do bramy" }
       ]
     },
     "privacy": {
