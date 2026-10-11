@@ -1,10 +1,9 @@
 {% assign t = site.data.locales[page.lang] %}
 {% assign current_language = site.languages | where: "code", page.lang | first %}
 <!doctype html>
-<html lang="{{ page.lang }}" translate="no" class="notranslate">
+<html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">
-  <meta name="google" content="notranslate">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ t.seo.privacy_description | escape }}">
   <meta name="theme-color" content="#07111f">
@@ -13,21 +12,48 @@
   <meta property="og:title" content="{{ t.seo.privacy_title | escape }}">
   <meta property="og:description" content="{{ t.seo.privacy_description | escape }}">
   <meta property="og:url" content="{{ site.url }}{{ current_language.privacy }}">
+  <meta property="og:site_name" content="SlideInk">
+  <meta property="og:image" content="{{ site.url }}/assets/social/slideink-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ t.seo.og_image_alt | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
   <title>{{ t.seo.privacy_title }}</title>
   <link rel="canonical" href="{{ site.url }}{{ current_language.privacy }}">
   {% for language in site.languages %}<link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ site.url }}{{ language.privacy }}">
   {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}/privacy/">
   <link rel="icon" type="image/png" href="/slideink-icon.png">
   <link rel="stylesheet" href="/styles.css">
-  <script src="/assets/language.js" defer></script>
+  <script src="/assets/site.js" defer></script>
 </head>
 <body data-page-type="privacy" data-current-language="{{ page.lang }}">
   <header class="site-header">
     <a class="brand" href="{{ current_language.home }}" aria-label="{{ t.nav.home_aria | escape }}">
       <img src="/slideink-icon.png" alt="" width="44" height="44">
-      <span>Slide<span class="brand-accent">Ink</span></span>
+      <span translate="no">Slide<span class="brand-accent">Ink</span></span>
     </a>
     <div class="header-actions">
+      <details class="mobile-menu" data-mobile-menu>
+        <summary>
+          <span class="sr-only">{{ t.nav.menu }}</span>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </summary>
+        <div class="mobile-menu-panel">
+          <nav aria-label="{{ t.nav.primary_aria | escape }}">
+            <a href="{{ current_language.home }}">{{ t.nav.home }}</a>
+            <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
+            <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
+            <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
+            <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
+          </nav>
+          <label class="language-picker mobile-menu-language">
+            <span>{{ t.nav.language }}</span>
+            <select data-language-select>
+              {% for language in site.languages %}<option value="{{ language.privacy }}" data-language="{{ language.code }}" lang="{{ language.hreflang }}"{% if language.code == page.lang %} selected{% endif %}>{{ language.label }}</option>{% endfor %}
+            </select>
+          </label>
+        </div>
+      </details>
       <nav aria-label="{{ t.nav.primary_aria | escape }}">
         <a href="{{ current_language.home }}">{{ t.nav.home }}</a>
         <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
@@ -35,7 +61,7 @@
       <label class="language-picker">
         <span class="sr-only">{{ t.nav.language }}</span>
         <select data-language-select aria-label="{{ t.nav.language | escape }}">
-          {% for language in site.languages %}<option value="{{ language.privacy }}" data-language="{{ language.code }}"{% if language.code == page.lang %} selected{% endif %}>{{ language.label }}</option>{% endfor %}
+          {% for language in site.languages %}<option value="{{ language.privacy }}" data-language="{{ language.code }}" lang="{{ language.hreflang }}"{% if language.code == page.lang %} selected{% endif %}>{{ language.label }}</option>{% endfor %}
         </select>
       </label>
     </div>

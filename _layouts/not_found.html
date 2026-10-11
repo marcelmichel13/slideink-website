@@ -1,0 +1,41 @@
+{% assign t = site.data.locales[page.lang] %}
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#07111f">
+  <title>Page not found — SlideInk</title>
+  <link rel="icon" type="image/png" href="/slideink-icon.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body data-page-type="not-found" data-current-language="{{ page.lang }}">
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="{{ t.nav.home_aria | escape }}">
+      <img src="/slideink-icon.png" alt="" width="44" height="44">
+      <span translate="no">Slide<span class="brand-accent">Ink</span></span>
+    </a>
+  </header>
+
+  <main class="support-wrap">
+    <section class="support-card not-found">
+      <p class="eyebrow">404</p>
+      <h1>Page not found</h1>
+      <p class="support-intro">The page you are looking for doesn’t exist or has moved.</p>
+      <a class="button primary" href="/">Go to the SlideInk home page</a>
+      <nav class="not-found-languages" aria-label="SlideInk in other languages">
+        {% for language in site.languages %}<a href="{{ language.home }}" lang="{{ language.hreflang }}">{{ language.label }}</a>{% endfor %}
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    <p>{{ t.common.footer_rights }}</p>
+    <div>
+      <a href="{{ site.languages[0].privacy }}">{{ t.nav.privacy_policy }}</a>
+      <a href="{{ site.languages[0].support }}">{{ t.nav.support }}</a>
+    </div>
+  </footer>
+</body>
+</html>

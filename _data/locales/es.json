@@ -7,23 +7,25 @@
     "privacy_title": "Política de privacidad — SlideInk",
     "privacy_description": "Descubre cómo SlideInk guarda las notas localmente, protege tu privacidad y utiliza los servicios de Android y Google Play.",
     "support_title": "Soporte de SlideInk — Ayuda y contacto",
-    "support_description": "Obtén ayuda con SlideInk y ponte en contacto con soporte por correo electrónico."
+    "support_description": "Obtén ayuda con SlideInk y ponte en contacto con soporte por correo electrónico.",
+    "og_image_alt": "SlideInk en un teléfono Android con un trazo amarillo escrito a mano y el eslogan «Your notes and reminders – one slide away»"
   },
   "nav": {
     "primary_aria": "Navegación principal",
     "home_aria": "Página de inicio de SlideInk",
     "features": "Funciones",
-    "screenshots": "Capturas",
+    "screenshots": "Cómo funciona",
     "privacy": "Privacidad",
     "privacy_policy": "Política de privacidad",
     "support": "Soporte",
     "home": "Inicio",
-    "language": "Idioma"
+    "language": "Idioma",
+    "menu": "Menú"
   },
   "common": {
     "google_play_aria": "Descargar SlideInk en Google Play",
     "google_play_alt": "Disponible en Google Play",
-    "footer_rights": "© 2026 M-S-K Slovakia s.r.o. SlideInk. Todos los derechos reservados."
+    "footer_rights": "© 2026 M-S-K Slovakia s.r.o. Todos los derechos reservados."
   },
   "home": {
     "hero": {
@@ -31,9 +33,9 @@
       "title": "Notas rápidas y recordatorios",
       "accent": "sobre cualquier pantalla.",
       "lead": "Escribe, dibuja, teclea y guarda lo importante sin salir de la pantalla que estás usando.",
-      "body": "Desliza SlideInk desde el lateral del teléfono, escribe o dibuja sobre cualquier aplicación, teclea notas con el teclado y convierte las notas escritas en recordatorios para más tarde.",
-      "see_slideink": "Ver SlideInk",
-      "availability": "Disponible para Android en Google Play.",
+      "body": "Desliza SlideInk desde el lateral del teléfono, escribe o dibuja sobre cualquier app y teclea notas. Con SlideInk PRO, convierte tus notas escritas en recordatorios.",
+      "see_slideink": "Cómo funciona",
+      "availability": "Gratis en Google Play · Recordatorios con SlideInk PRO",
       "video_label": "Demostración de SlideInk: el panel de dibujo se desliza sobre la pantalla de inicio de Android y en él se escriben a mano un trazo amarillo y el eslogan.",
       "video_pause": "Pausar la animación",
       "video_play": "Reproducir la animación",
@@ -49,7 +51,7 @@
         { "icon": "◐", "title": "Transparencia ajustable", "description": "Mantén visible la aplicación que hay debajo mientras escribes sobre ella." },
         { "icon": "▣", "title": "Guarda tus notas", "description": "Conserva las notas útiles como capturas y vuelve a ellas más adelante." },
         { "icon": "bell", "title": "Recordatorios desde notas escritas", "description": "Con SlideInk PRO, escribe una nota, toca la campana, elige cuándo recibir el aviso y, cuando aparezca, posponlo o márcalo como hecho." },
-        { "icon": "✓", "title": "Sencillo y sin distracciones", "description": "Controles claros para esos momentos en los que solo necesitas anotar algo rápidamente." }
+        { "icon": "↕", "title": "Controlador personalizable", "description": "Elige su lado, tamaño y color, y cómo se abre: tocando, arrastrando o de ambas formas." }
       ]
     },
     "reminders": {
@@ -112,28 +114,129 @@
     "home_link": "Inicio de SlideInk",
     "eyebrow": "Soporte de SlideInk",
     "title": "¿Necesitas ayuda con SlideInk?",
-    "intro": "Si tienes una pregunta, has encontrado un problema o necesitas ayuda para usar SlideInk, escríbenos por correo electrónico.",
+    "intro": "¿Tienes una pregunta, has encontrado un error o necesitas ayuda con SlideInk? Escríbenos; abajo encontrarás respuestas a las preguntas frecuentes.",
     "email_label": "Correo electrónico de soporte",
-    "email_action": "Escribir un correo"
+    "email_action": "Escribir a soporte",
+    "faq_title": "Preguntas frecuentes",
+    "faq": [
+      { "q": "No aparece el controlador de SlideInk.", "a": "SlideInk necesita permiso para mostrarse sobre otras aplicaciones. Abre SlideInk y permítelo cuando te lo pida, o actívalo en los Ajustes del teléfono, en Aplicaciones › SlideInk." },
+      { "q": "El controlador desaparece al cabo de un rato o tras reiniciar.", "a": "Algunos teléfonos, por ejemplo Xiaomi, OPPO o Huawei, detienen las aplicaciones en segundo plano. En los ajustes del teléfono, permite que SlideInk se inicie automáticamente o funcione en segundo plano y desactiva la optimización de batería para la app." },
+      { "q": "Mis recordatorios no llegan a tiempo.", "a": "Permite las notificaciones de SlideInk y, cuando te lo pida, activa los recordatorios exactos (Alarmas y recordatorios). El ahorro de batería también puede retrasarlos." },
+      { "q": "Los recordatorios por voz no funcionan.", "a": "La entrada de voz usa el servicio de reconocimiento de voz del teléfono, por ejemplo el de Google. Comprueba que esté instalado y activado." },
+      { "q": "¿Cómo consigo SlideInk PRO en un teléfono nuevo?", "a": "Inicia sesión con la misma cuenta de Google con la que compraste SlideInk PRO. La compra se restaura automáticamente; no vuelves a pagar." },
+      { "q": "¿Se transfieren mis notas a un teléfono nuevo?", "a": "No. Las notas y los recordatorios solo se guardan en tu dispositivo y no se hace copia de seguridad. Antes de cambiar de teléfono, comparte las notas que quieras conservar, por ejemplo por correo o en un almacenamiento en la nube." }
+    ]
   },
   "privacy": {
     "home_link": "Inicio de SlideInk",
     "eyebrow": "SlideInk",
     "title": "Política de privacidad",
-    "updated": "Última actualización: 7 de agosto de 2026",
-    "intro": "SlideInk está diseñado para que tus notas manuscritas y dibujos permanezcan en tu dispositivo. La aplicación no requiere una cuenta ni utiliza servicios de análisis, publicidad o seguimiento.",
+    "updated": "Última actualización: 12 de octubre de 2026",
+    "intro": "SlideInk está diseñado para que tus notas, dibujos y recordatorios permanezcan en tu dispositivo. La aplicación no requiere una cuenta ni utiliza servicios de análisis, publicidad o seguimiento.",
     "sections": [
-      { "title": "Quién gestiona SlideInk", "paragraphs": ["SlideInk se desarrolla con la cuenta de desarrollador Majo Studio y lo publica M-S-K Slovakia s.r.o. Esta Política de privacidad se aplica a la aplicación SlideInk para Android."] },
-      { "title": "Notas y dibujos", "paragraphs": ["Las notas y los dibujos creados o guardados en SlideInk se almacenan localmente en tu dispositivo. SlideInk no sube tus notas, dibujos, capturas de pantalla ni el contenido de las notas guardadas a ningún servidor gestionado por el desarrollador.", "SlideInk no requiere registro de usuario ni una cuenta de SlideInk."] },
-      { "title": "Compartir notas", "paragraphs": ["Solo tú puedes iniciar el proceso de compartir. Cuando decides compartir una nota, SlideInk puede crear una copia PNG temporal en la caché de la aplicación y enviarla a la interfaz estándar para compartir de Android. Tú eliges el destino.", "SlideInk no envía automáticamente el contenido compartido al desarrollador."] },
-      { "title": "Facturación de Google Play", "paragraphs": ["SlideInk utiliza el servicio de facturación de Google Play para compras como SlideInk PRO. Google Play gestiona el procesamiento de la compra. SlideInk recibe el estado de la compra necesario para determinar si el acceso PRO está disponible.", "SlideInk no recibe ni almacena los datos completos de tu tarjeta de pago. La información gestionada por Google Play está sujeta a las condiciones y políticas de privacidad de Google."] },
-      { "title": "Análisis, publicidad y seguimiento", "paragraphs": ["SlideInk no utiliza servicios de análisis, no muestra publicidad y no incluye SDK de publicidad o seguimiento de terceros."] },
-      { "title": "Copia de seguridad en la nube y transferencia entre dispositivos", "note": "SlideInk no participa en la copia de seguridad en la nube de Android ni en la transferencia de datos entre dispositivos Android. Los datos de la aplicación están concebidos para permanecer de forma local en la instalación actual." },
-      { "title": "Conservación y eliminación de datos", "paragraphs": ["Las notas guardadas permanecen en el dispositivo hasta que las eliminas o desinstalas la aplicación. Los archivos temporales creados para compartir pueden permanecer en la caché hasta que los eliminen la aplicación, Android o el borrado de la caché.", "Los registros de compras procesadas por Google Play se conservan de acuerdo con las políticas de Google y la configuración de tu cuenta de Google."] },
-      { "title": "Permisos de la aplicación", "intro": "SlideInk puede utilizar permisos y funciones del sistema Android necesarios para sus prestaciones, entre ellos:", "items": ["mostrar el controlador flotante y la superposición de dibujo sobre otras aplicaciones;", "ejecutar en primer plano el servicio de superposición activado por el usuario;", "permitir el reinicio después de que arranque el dispositivo, si está habilitado;", "utilizar la facturación de Google Play para las compras."], "outro": "Estas funciones se utilizan para proporcionar las prestaciones de SlideInk y no para publicidad ni análisis." },
-      { "title": "Servicios de terceros", "paragraphs": ["Google Play puede procesar la información necesaria para distribuir la aplicación y gestionar compras. Estos servicios se rigen por las condiciones y la política de privacidad de Google."] },
-      { "title": "Cambios en esta Política de privacidad", "paragraphs": ["Esta Política de privacidad puede actualizarse cuando cambien las funciones de SlideInk, las prácticas de tratamiento de datos o los requisitos legales. La versión vigente se publicará en esta página con su fecha de actualización."] },
-      { "title": "Contacto", "contact_prefix": "Para consultas sobre privacidad o soporte, contacta con:", "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio" }
+      {
+        "title": "Quién gestiona SlideInk",
+        "paragraphs": [
+          "SlideInk se desarrolla con la cuenta de desarrollador Majo Studio y lo publica M-S-K Slovakia s.r.o. Esta Política de privacidad se aplica a la aplicación SlideInk para Android. También se aplica al sitio web slideink.app."
+        ]
+      },
+      {
+        "title": "Notas, dibujos y recordatorios",
+        "paragraphs": [
+          "Las notas manuscritas, los dibujos, el texto escrito y los recordatorios —incluidos su texto, hora y opciones de repetición— se guardan localmente en tu dispositivo. SlideInk no los sube a ningún servidor gestionado por el desarrollador.",
+          "SlideInk no requiere registro de usuario ni una cuenta de SlideInk."
+        ]
+      },
+      {
+        "title": "Entrada de voz",
+        "paragraphs": [
+          "Cuando creas un recordatorio por voz, SlideInk abre el servicio de reconocimiento de voz instalado en tu dispositivo (por ejemplo, el de Google). Ese servicio procesa el audio según sus propias condiciones de privacidad.",
+          "SlideInk no graba ni guarda audio y no solicita permiso para usar el micrófono. Solo recibe el texto reconocido, que se convierte en el texto de tu recordatorio."
+        ]
+      },
+      {
+        "title": "Notificaciones y widgets",
+        "paragraphs": [
+          "SlideInk usa notificaciones para avisarte de los recordatorios a la hora elegida y para mantener disponible el controlador flotante. Las notificaciones de recordatorios están marcadas como privadas, por lo que en la pantalla de bloqueo solo se muestra «Recordatorio», salvo que los ajustes del dispositivo permitan mostrar todo el contenido.",
+          "Los widgets de la pantalla de inicio son accesos directos para crear un recordatorio o abrir la Biblioteca. No muestran el contenido de tus notas ni de tus recordatorios."
+        ]
+      },
+      {
+        "title": "Compartir notas",
+        "paragraphs": [
+          "Solo tú puedes iniciar el proceso de compartir. Cuando decides compartir una nota, SlideInk puede crear una copia PNG temporal en la caché de la aplicación y enviarla a la interfaz estándar para compartir de Android. Tú eliges el destino.",
+          "SlideInk no envía automáticamente el contenido compartido al desarrollador."
+        ]
+      },
+      {
+        "title": "Facturación de Google Play",
+        "paragraphs": [
+          "SlideInk utiliza el servicio de facturación de Google Play para compras como SlideInk PRO. Google Play gestiona el procesamiento de la compra. SlideInk recibe el estado de la compra necesario para determinar si el acceso PRO está disponible.",
+          "SlideInk PRO es una compra única sin renovación automática; no es una suscripción. SlideInk comprueba tus compras con Google Play para restaurar PRO, por ejemplo, después de reinstalar la aplicación o en un dispositivo nuevo.",
+          "SlideInk no recibe ni almacena los datos completos de tu tarjeta de pago. La información gestionada por Google Play está sujeta a las condiciones y políticas de privacidad de Google."
+        ]
+      },
+      {
+        "title": "Análisis, publicidad y seguimiento",
+        "paragraphs": [
+          "SlideInk no utiliza servicios de análisis, no muestra publicidad y no incluye SDK de publicidad o seguimiento de terceros."
+        ]
+      },
+      {
+        "title": "Copia de seguridad en la nube y transferencia entre dispositivos",
+        "note": "SlideInk no participa en la copia de seguridad en la nube de Android ni en la transferencia de datos entre dispositivos Android. Los datos de la aplicación están concebidos para permanecer de forma local en la instalación actual."
+      },
+      {
+        "title": "Conservación y eliminación de datos",
+        "paragraphs": [
+          "Las notas y los recordatorios, incluidos los completados, permanecen en el dispositivo hasta que los eliminas o desinstalas la aplicación. Los archivos temporales creados para compartir pueden permanecer en la caché de la aplicación hasta que la aplicación o Android los eliminen, o hasta que borres la caché de la aplicación.",
+          "Los registros de compras procesadas por Google Play se conservan de acuerdo con las políticas de Google y la configuración de tu cuenta de Google."
+        ]
+      },
+      {
+        "title": "Permisos de la aplicación",
+        "intro": "SlideInk puede utilizar permisos y funciones del sistema Android necesarios para sus prestaciones, entre ellos:",
+        "items": [
+          "mostrar el controlador flotante y el panel de dibujo sobre otras aplicaciones;",
+          "ejecutar el servicio de superposición en primer plano mientras está activado;",
+          "mostrar notificaciones de recordatorios;",
+          "programar alarmas exactas para que los recordatorios lleguen a tiempo;",
+          "vibrar cuando un recordatorio te avisa;",
+          "restaurar el controlador y reprogramar los recordatorios después de reiniciar el dispositivo;",
+          "ocultar las superposiciones de otras aplicaciones sobre las pantallas de permisos y configuración de SlideInk, por tu seguridad;",
+          "usar la facturación de Google Play para las compras."
+        ],
+        "outro": "SlideInk no solicita acceso al micrófono, los contactos, la ubicación ni las fotos. Estas funciones solo se usan para ofrecer las prestaciones de SlideInk y no se utilizan para publicidad ni análisis."
+      },
+      {
+        "title": "Servicios de terceros",
+        "paragraphs": [
+          "Google Play puede tratar la información necesaria para distribuir la aplicación y gestionar las compras, y el servicio de reconocimiento de voz de tu dispositivo procesa la entrada de voz cuando la usas. Estos servicios se rigen por sus propias políticas de privacidad y condiciones."
+        ]
+      },
+      {
+        "title": "Soporte por correo electrónico",
+        "paragraphs": [
+          "Si nos escribes por correo electrónico, usamos tu dirección y tu mensaje solo para responderte. No los compartimos con terceros y los eliminamos si lo solicitas."
+        ]
+      },
+      {
+        "title": "Este sitio web",
+        "paragraphs": [
+          "El sitio web slideink.app está alojado en GitHub Pages. Cuando lo visitas, GitHub puede tratar datos técnicos, como tu dirección IP, para ofrecer y proteger el sitio, según su declaración de privacidad. El sitio no usa cookies, análisis ni rastreadores; solo recuerda el idioma que eliges, en el almacenamiento local de tu navegador."
+        ]
+      },
+      {
+        "title": "Cambios en esta Política de privacidad",
+        "paragraphs": [
+          "Esta Política de privacidad puede actualizarse cuando cambien las funciones de SlideInk, las prácticas de tratamiento de datos o los requisitos legales. La versión vigente se publicará en esta página con su fecha de actualización."
+        ]
+      },
+      {
+        "title": "Contacto",
+        "contact_prefix": "Para consultas sobre privacidad o soporte, contacta con:",
+        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+      }
     ]
   }
 }

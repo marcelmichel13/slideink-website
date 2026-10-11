@@ -7,23 +7,25 @@
     "privacy_title": "Privacy Policy — SlideInk",
     "privacy_description": "Learn how SlideInk stores notes locally, protects your privacy and uses Android and Google Play services.",
     "support_title": "SlideInk Support — Help and contact",
-    "support_description": "Get help with SlideInk and contact the support team by email."
+    "support_description": "Get help with SlideInk and contact the support team by email.",
+    "og_image_alt": "SlideInk on an Android phone with a yellow handwritten stroke and the slogan “Your notes and reminders – one slide away”"
   },
   "nav": {
     "primary_aria": "Primary navigation",
     "home_aria": "SlideInk Home",
     "features": "Features",
-    "screenshots": "Screenshots",
+    "screenshots": "How it works",
     "privacy": "Privacy",
     "privacy_policy": "Privacy Policy",
     "support": "Support",
     "home": "Home",
-    "language": "Language"
+    "language": "Language",
+    "menu": "Menu"
   },
   "common": {
     "google_play_aria": "Get SlideInk on Google Play",
     "google_play_alt": "Get it on Google Play",
-    "footer_rights": "© 2026 M-S-K Slovakia s.r.o. SlideInk. All rights reserved."
+    "footer_rights": "© 2026 M-S-K Slovakia s.r.o. All rights reserved."
   },
   "home": {
     "hero": {
@@ -31,9 +33,9 @@
       "title": "Quick notes and reminders",
       "accent": "over any screen.",
       "lead": "Write, draw, type, and capture what matters without leaving the screen you're using.",
-      "body": "Slide out SlideInk from the side of your phone, write or draw over any app, type notes with the keyboard, and turn typed notes into reminders when you need to remember something later.",
-      "see_slideink": "See SlideInk",
-      "availability": "Available for Android on Google Play.",
+      "body": "Slide out SlideInk from the side of your phone, write or draw over any app and type notes with the keyboard. With SlideInk PRO, turn typed notes into reminders.",
+      "see_slideink": "How it works",
+      "availability": "Free on Google Play · Reminders with SlideInk PRO",
       "video_label": "SlideInk demo: the drawing panel slides out over the Android home screen, then a yellow stroke and the slogan are written on it by hand.",
       "video_pause": "Pause animation",
       "video_play": "Play animation",
@@ -49,7 +51,7 @@
         { "icon": "◐", "title": "Adjustable transparency", "description": "Keep the app underneath visible while you write over it." },
         { "icon": "▣", "title": "Save your notes", "description": "Keep useful notes as snapshots and come back to them later." },
         { "icon": "bell", "title": "Reminders from typed notes", "description": "With SlideInk PRO, type a note, tap the bell, choose when to be reminded, then Snooze or mark it Done when it appears." },
-        { "icon": "✓", "title": "Simple and distraction-free", "description": "Focused controls for the moments when you just need to write something down." }
+        { "icon": "↕", "title": "Customizable handle", "description": "Pick its side, size and color, and choose how it opens: tap, drag or both." }
       ]
     },
     "reminders": {
@@ -112,26 +114,51 @@
     "home_link": "SlideInk Home",
     "eyebrow": "SlideInk support",
     "title": "Need help with SlideInk?",
-    "intro": "If you have a question, found a problem, or need help using SlideInk, contact us by email.",
+    "intro": "Have a question, found a bug, or need help with SlideInk? Email us — answers to common questions are below.",
     "email_label": "Support email",
-    "email_action": "Write an email"
+    "email_action": "Email support",
+    "faq_title": "Frequently asked questions",
+    "faq": [
+      { "q": "The SlideInk handle doesn't appear.", "a": "SlideInk needs permission to display over other apps. Open SlideInk and allow it when asked, or turn it on in your phone's Settings under Apps › SlideInk." },
+      { "q": "The handle disappears after a while or after a restart.", "a": "Some phones, for example Xiaomi, OPPO or Huawei, stop apps in the background. In your phone's settings, allow SlideInk to autostart or run in the background and turn off battery optimization for it." },
+      { "q": "My reminders don't arrive on time.", "a": "Allow notifications for SlideInk and, when asked, enable precise reminders (Alarms & reminders). Battery saver settings can also delay reminders." },
+      { "q": "Voice reminders don't work.", "a": "Voice input uses your phone's speech recognition service, for example from Google. Make sure it is installed and enabled." },
+      { "q": "How do I get SlideInk PRO on a new phone?", "a": "Sign in with the same Google account you used to buy SlideInk PRO. The purchase is restored automatically — you don't pay again." },
+      { "q": "Are my notes transferred to a new phone?", "a": "No. Notes and reminders stay only on your device and are not backed up. Before switching phones, share the notes you want to keep, for example to your email or cloud storage." }
+    ]
   },
   "privacy": {
     "home_link": "SlideInk Home",
     "eyebrow": "SlideInk",
     "title": "Privacy Policy",
-    "updated": "Last updated: August 7, 2026",
-    "intro": "SlideInk is designed to keep your handwritten notes and drawings on your device. The app does not require an account and does not use analytics, advertising, or tracking services.",
+    "updated": "Last updated: October 12, 2026",
+    "intro": "SlideInk is designed to keep your notes, drawings and reminders on your device. The app does not require an account and does not use analytics, advertising, or tracking services.",
     "sections": [
       {
         "title": "Who operates SlideInk",
-        "paragraphs": ["SlideInk is developed under the Majo Studio developer account and published by M-S-K Slovakia s.r.o. This Privacy Policy applies to the SlideInk Android app."]
+        "paragraphs": [
+          "SlideInk is developed under the Majo Studio developer account and published by M-S-K Slovakia s.r.o. This Privacy Policy applies to the SlideInk Android app. It also applies to the slideink.app website."
+        ]
       },
       {
-        "title": "Notes and drawings",
+        "title": "Notes, drawings and reminders",
         "paragraphs": [
-          "Notes and drawings created or saved in SlideInk are stored locally on your device. SlideInk does not upload your notes, drawings, screenshots, or saved note content to a developer-operated server.",
+          "Handwritten notes, drawings, typed text and reminders — including their text, time and repeat settings — are stored locally on your device. SlideInk does not upload them to a developer-operated server.",
           "SlideInk does not require user registration or a SlideInk account."
+        ]
+      },
+      {
+        "title": "Voice input",
+        "paragraphs": [
+          "When you create a reminder by voice, SlideInk opens the speech recognition service installed on your device (for example, from Google). The audio is processed by that service under its own privacy terms.",
+          "SlideInk does not record or store audio and does not request microphone permission. It receives only the recognized text, which becomes the text of your reminder."
+        ]
+      },
+      {
+        "title": "Notifications and widgets",
+        "paragraphs": [
+          "SlideInk uses notifications to alert you to reminders at the selected time and to keep the floating handle available. Reminder notifications are marked as private, so a locked screen shows only “Reminder” unless your device settings allow full notification content.",
+          "Home-screen widgets are shortcuts for creating a reminder or opening the Library. They do not display the content of your notes or reminders."
         ]
       },
       {
@@ -145,12 +172,15 @@
         "title": "Google Play Billing",
         "paragraphs": [
           "SlideInk uses the Google Play Billing service for purchases such as SlideInk PRO. Purchase processing is handled by Google Play. SlideInk receives the purchase status needed to determine whether PRO access is available.",
+          "SlideInk PRO is a one-time purchase with no automatic renewal — it is not a subscription. SlideInk checks your purchases with Google Play to restore PRO, for example after reinstalling the app or on a new device.",
           "SlideInk does not receive or store your full payment-card details. Information handled by Google Play is subject to Google's own privacy terms and policies."
         ]
       },
       {
         "title": "Analytics, advertising and tracking",
-        "paragraphs": ["SlideInk does not use analytics services, does not display advertising, and does not include advertising or third-party tracking SDKs."]
+        "paragraphs": [
+          "SlideInk does not use analytics services, does not display advertising, and does not include advertising or third-party tracking SDKs."
+        ]
       },
       {
         "title": "Cloud backup and device transfer",
@@ -159,7 +189,7 @@
       {
         "title": "Data retention and deletion",
         "paragraphs": [
-          "Saved notes remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache.",
+          "Notes and reminders, including completed reminders, remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache.",
           "Purchase records processed by Google Play are retained according to Google's policies and your Google account settings."
         ]
       },
@@ -167,20 +197,40 @@
         "title": "App permissions",
         "intro": "SlideInk may use Android permissions and system capabilities needed for its features, including:",
         "items": [
-          "displaying the floating handle and drawing overlay over other apps;",
-          "running the user-enabled overlay service in the foreground;",
-          "supporting restart behavior after the device boots, where enabled;",
+          "displaying the floating handle and drawing panel over other apps;",
+          "running the overlay service in the foreground while it is enabled;",
+          "showing notifications for reminders;",
+          "scheduling precise alarms so reminders arrive on time;",
+          "vibration when a reminder alerts you;",
+          "restoring the handle and rescheduling reminders after the device restarts;",
+          "hiding other apps' overlays over SlideInk's own permission and setup screens, for your security;",
           "using Google Play Billing for purchases."
         ],
-        "outro": "These capabilities are used to provide SlideInk functionality and are not used for advertising or analytics."
+        "outro": "SlideInk does not request access to your microphone, contacts, location or photos. These capabilities are used only to provide SlideInk features and are not used for advertising or analytics."
       },
       {
         "title": "Third-party services",
-        "paragraphs": ["Google Play may process information required for app distribution and purchases. Those services are governed by Google's own privacy policy and terms."]
+        "paragraphs": [
+          "Google Play may process information required for app distribution and purchases, and your device's speech recognition service processes voice input when you use it. These services are governed by their own privacy policies and terms."
+        ]
+      },
+      {
+        "title": "Email support",
+        "paragraphs": [
+          "If you contact us by email, we use your email address and message only to answer you. We do not share them with third parties and will delete them on request."
+        ]
+      },
+      {
+        "title": "This website",
+        "paragraphs": [
+          "The slideink.app website is hosted on GitHub Pages. When you visit it, GitHub may process technical data such as your IP address to deliver and protect the site, under GitHub's privacy statement. The website does not use cookies, analytics or trackers; it only remembers the language you choose, in your browser's local storage."
+        ]
       },
       {
         "title": "Changes to this Privacy Policy",
-        "paragraphs": ["This Privacy Policy may be updated when SlideInk features, data practices, or legal requirements change. The current version will be published on this page with its updated date."]
+        "paragraphs": [
+          "This Privacy Policy may be updated when SlideInk features, data practices, or legal requirements change. The current version will be published on this page with its updated date."
+        ]
       },
       {
         "title": "Contact",
