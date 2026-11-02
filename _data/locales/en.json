@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "PRIVACY FIRST",
       "title": "Your notes stay on your device.",
-      "description": "SlideInk does not require an account and does not upload your notes to a server.",
+      "description": "SlideInk does not require an account and does not upload your notes to our servers. Backups go only where you choose.",
       "link": "Read Privacy Policy"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "My reminders don't arrive on time.", "a": "Allow notifications for SlideInk and, when asked, enable precise reminders (Alarms & reminders). Battery saver settings can also delay reminders." },
       { "q": "Voice reminders don't work.", "a": "Voice input uses your phone's speech recognition service, for example from Google. Make sure it is installed and enabled." },
       { "q": "How do I get SlideInk PRO on a new phone?", "a": "Sign in with the same Google account you used to buy SlideInk PRO. The purchase is restored automatically — you don't pay again." },
-      { "q": "Are my notes transferred to a new phone?", "a": "No. Notes and reminders stay only on your device and are not backed up. Before switching phones, share the notes you want to keep, for example to your email or cloud storage." }
+      { "q": "Are my notes transferred to a new phone?", "a": "Yes, with a backup. In SlideInk, open Backup and save your notes and reminders to a file or to Google Drive. On the new phone, install SlideInk and restore the backup before adding anything new, because restore works only in an empty SlideInk." }
     ]
   },
   "privacy": {
     "home_link": "SlideInk Home",
     "eyebrow": "SlideInk",
     "title": "Privacy Policy",
-    "updated": "Last updated: October 12, 2026",
+    "updated": "Last updated: November 2, 2026",
     "intro": "SlideInk is designed to keep your notes, drawings and reminders on your device. The app does not require an account and does not use analytics, advertising, or tracking services.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Notes, drawings and reminders",
         "paragraphs": [
-          "Handwritten notes, drawings, typed text and reminders — including their text, time and repeat settings — are stored locally on your device. SlideInk does not upload them to a developer-operated server.",
+          "Handwritten notes, drawings, typed text and reminders — including their text, time and repeat settings — are stored locally on your device. SlideInk does not upload them to a developer-operated server. They are copied outside SlideInk only when you back them up or share them.",
           "SlideInk does not require user registration or a SlideInk account."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Notifications and widgets",
         "paragraphs": [
           "SlideInk uses notifications to alert you to reminders at the selected time and to keep the floating handle available. Reminder notifications are marked as private, so a locked screen shows only “Reminder” unless your device settings allow full notification content.",
-          "Home-screen widgets are shortcuts for creating a reminder or opening the Library. They do not display the content of your notes or reminders."
+          "Home-screen widgets are shortcuts for creating a note or a reminder, or opening the Library. They do not display the content of your notes or reminders."
         ]
       },
       {
         "title": "Sharing notes",
         "paragraphs": [
-          "Sharing is initiated only by you. When you choose to share a note, SlideInk may create a temporary PNG copy in the application cache and pass it to Android's standard sharing interface. The destination is selected by you.",
+          "Sharing is initiated only by you. When you choose to share a note, SlideInk may create a temporary PNG or PDF copy in the application cache and pass it to Android's standard sharing interface. The destination is selected by you.",
           "SlideInk does not automatically send shared content to the developer."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Cloud backup and device transfer",
-        "note": "SlideInk does not participate in Android cloud backup or Android device-to-device data transfer. App data is intended to remain local to the current installation."
+        "title": "Backup and restore",
+        "note": "SlideInk does not participate in Android cloud backup or Android device-to-device data transfer. You can back up your notes and reminders yourself to one file, manually or automatically once a day, in a place you choose, such as a folder on your phone or Google Drive. The file is never sent to the developer. It is not encrypted and also contains locked notes, so keep it only in a place you trust. You can restore it into an empty SlideInk, for example on a new phone."
       },
       {
         "title": "Data retention and deletion",
         "paragraphs": [
-          "Notes and reminders, including completed reminders, remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache.",
+          "Notes and reminders, including completed reminders, remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache. Backup files stay where you saved them until you delete them.",
           "Purchase records processed by Google Play are retained according to Google's policies and your Google account settings."
         ]
       },
@@ -204,6 +204,7 @@
           "vibration when a reminder alerts you;",
           "restoring the handle and rescheduling reminders after the device restarts;",
           "hiding other apps' overlays over SlideInk's own permission and setup screens, for your security;",
+          "using Android’s fingerprint or screen-lock verification to open locked notes; SlideInk does not receive or store your fingerprint or other biometric data;",
           "using Google Play Billing for purchases."
         ],
         "outro": "SlideInk does not request access to your microphone, contacts, location or photos. These capabilities are used only to provide SlideInk features and are not used for advertising or analytics."
@@ -211,7 +212,7 @@
       {
         "title": "Third-party services",
         "paragraphs": [
-          "Google Play may process information required for app distribution and purchases, and your device's speech recognition service processes voice input when you use it. These services are governed by their own privacy policies and terms."
+          "Google Play may process information required for app distribution and purchases, and your device's speech recognition service processes voice input when you use it. These services are governed by their own privacy policies and terms. If you save a backup with a storage service such as Google Drive, that service handles the file under its own terms."
         ]
       },
       {

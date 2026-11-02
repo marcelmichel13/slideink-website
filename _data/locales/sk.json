@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "SÚKROMIE NA PRVOM MIESTE",
       "title": "Vaše poznámky zostávajú vo vašom zariadení.",
-      "description": "SlideInk nevyžaduje účet a nenahráva vaše poznámky na server.",
+      "description": "SlideInk nevyžaduje účet a nenahráva vaše poznámky na naše servery. Zálohy idú iba tam, kam si vyberiete.",
       "link": "Prečítať zásady ochrany osobných údajov"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "Pripomienky neprichádzajú načas.", "a": "Povoľte SlideInk notifikácie a keď vás požiada, zapnite presné pripomienky (Budíky a pripomenutia). Pripomienky môže oneskoriť aj šetrič batérie." },
       { "q": "Hlasové pripomienky nefungujú.", "a": "Hlasové zadávanie používa službu rozpoznávania reči vo vašom telefóne, napríklad od spoločnosti Google. Skontrolujte, či je nainštalovaná a zapnutá." },
       { "q": "Ako získam SlideInk PRO v novom telefóne?", "a": "Prihláste sa rovnakým účtom Google, ktorým ste SlideInk PRO kúpili. PRO sa vám sprístupní automaticky a nemusíte ho kupovať znova." },
-      { "q": "Prenesú sa moje poznámky do nového telefónu?", "a": "Nie. Poznámky a pripomienky zostávajú len vo vašom zariadení a nezálohujú sa. Pred výmenou telefónu si poznámky, ktoré chcete zachovať, nazdieľajte, napríklad do e-mailu alebo cloudového úložiska." }
+      { "q": "Prenesú sa moje poznámky do nového telefónu?", "a": "Áno, pomocou zálohy. V SlideInku otvorte Zálohovanie a uložte poznámky a pripomienky do súboru alebo na Disk Google. V novom telefóne nainštalujte SlideInk a zálohu obnovte skôr, než pridáte niečo nové, pretože obnova funguje iba v prázdnom SlideInku." }
     ]
   },
   "privacy": {
     "home_link": "Domovská stránka SlideInk",
     "eyebrow": "SlideInk",
     "title": "Zásady ochrany osobných údajov",
-    "updated": "Posledná aktualizácia: 12. októbra 2026",
+    "updated": "Posledná aktualizácia: 2. novembra 2026",
     "intro": "SlideInk je navrhnutý tak, aby vaše poznámky, kresby a pripomienky zostávali vo vašom zariadení. Aplikácia nevyžaduje účet a nepoužíva analytické, reklamné ani sledovacie služby.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Poznámky, kresby a pripomienky",
         "paragraphs": [
-          "Ručne písané poznámky, kresby, napísaný text a pripomienky — vrátane ich textu, času a nastavení opakovania — sa ukladajú lokálne vo vašom zariadení. SlideInk ich neodosiela na server prevádzkovaný vývojárom.",
+          "Ručne písané poznámky, kresby, napísaný text a pripomienky — vrátane ich textu, času a nastavení opakovania — sa ukladajú lokálne vo vašom zariadení. SlideInk ich neodosiela na server prevádzkovaný vývojárom. Mimo SlideInk sa kopírujú iba vtedy, keď ich zálohujete alebo zdieľate.",
           "SlideInk nevyžaduje registráciu používateľa ani účet SlideInk."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Notifikácie a widgety",
         "paragraphs": [
           "SlideInk používa notifikácie na upozornenie na pripomienky vo zvolenom čase a na to, aby bola plávajúca úchytka stále k dispozícii. Notifikácie pripomienok sú označené ako súkromné, takže na zamknutej obrazovke sa zobrazí len „Pripomienka“, pokiaľ nastavenia zariadenia nepovoľujú zobrazenie celého obsahu.",
-          "Widgety na domovskej obrazovke sú skratky na vytvorenie pripomienky alebo otvorenie Knižnice. Nezobrazujú obsah vašich poznámok ani pripomienok."
+          "Widgety na domovskej obrazovke sú skratky na vytvorenie poznámky alebo pripomienky či otvorenie Knižnice. Nezobrazujú obsah vašich poznámok ani pripomienok."
         ]
       },
       {
         "title": "Zdieľanie poznámok",
         "paragraphs": [
-          "Zdieľanie spúšťate iba vy. Keď sa rozhodnete poznámku zdieľať, SlideInk môže vytvoriť dočasnú kópiu PNG vo vyrovnávacej pamäti aplikácie a odovzdať ju štandardnému rozhraniu zdieľania systému Android. Cieľ zdieľania vyberáte vy.",
+          "Zdieľanie spúšťate iba vy. Keď sa rozhodnete poznámku zdieľať, SlideInk môže vytvoriť dočasnú kópiu PNG alebo PDF vo vyrovnávacej pamäti aplikácie a odovzdať ju štandardnému rozhraniu zdieľania systému Android. Cieľ zdieľania vyberáte vy.",
           "SlideInk neposiela zdieľaný obsah vývojárovi automaticky."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Zálohovanie do cloudu a prenos zariadenia",
-        "note": "SlideInk sa nezúčastňuje zálohovania do cloudu systému Android ani prenosu údajov medzi zariadeniami Android. Údaje aplikácie sú určené na lokálne uchovanie v aktuálnej inštalácii."
+        "title": "Zálohovanie a obnova",
+        "note": "SlideInk sa nezúčastňuje zálohovania do cloudu systému Android ani prenosu údajov medzi zariadeniami Android. Poznámky a pripomienky si môžete sami zálohovať do jedného súboru, ručne alebo automaticky raz denne, na miesto, ktoré si vyberiete, napríklad do priečinka v telefóne alebo na Disk Google. Súbor sa nikdy neodosiela vývojárovi. Nie je šifrovaný a obsahuje aj zamknuté poznámky, preto ho uchovávajte iba na dôveryhodnom mieste. Obnoviť ho môžete do prázdneho SlideInku, napríklad v novom telefóne."
       },
       {
         "title": "Uchovávanie a vymazanie údajov",
         "paragraphs": [
-          "Poznámky a pripomienky vrátane dokončených pripomienok zostávajú v zariadení, kým ich nevymažete alebo neodinštalujete aplikáciu. Dočasné súbory vytvorené pri zdieľaní môžu zostať vo vyrovnávacej pamäti aplikácie, kým ich neodstráni aplikácia, Android alebo vymazanie vyrovnávacej pamäte aplikácie.",
+          "Poznámky a pripomienky vrátane dokončených pripomienok zostávajú v zariadení, kým ich nevymažete alebo neodinštalujete aplikáciu. Dočasné súbory vytvorené pri zdieľaní môžu zostať vo vyrovnávacej pamäti aplikácie, kým ich neodstráni aplikácia, Android alebo vymazanie vyrovnávacej pamäte aplikácie. Záložné súbory zostávajú tam, kde ste ich uložili, kým ich nevymažete.",
           "Záznamy o nákupoch spracovaných službou Google Play sa uchovávajú podľa zásad spoločnosti Google a nastavení vášho účtu Google."
         ]
       },
@@ -204,6 +204,7 @@
           "vibrácií pri upozornení na pripomienku;",
           "obnovenia úchytky a znovunaplánovania pripomienok po reštarte zariadenia;",
           "skrytia prekrytí iných aplikácií nad vlastnými obrazovkami povolení a nastavenia SlideInk kvôli vašej bezpečnosti;",
+          "overenia odtlačkom prsta alebo zámkom obrazovky systému Android pri otváraní zamknutých poznámok; SlideInk nedostáva ani neukladá váš odtlačok prsta ani iné biometrické údaje;",
           "používania platieb cez Google Play pri nákupoch."
         ],
         "outro": "SlideInk nežiada o prístup k mikrofónu, kontaktom, polohe ani fotkám. Tieto funkcie sa používajú len na fungovanie SlideInk a nepoužívajú sa na reklamu ani analytiku."
@@ -211,7 +212,7 @@
       {
         "title": "Služby tretích strán",
         "paragraphs": [
-          "Google Play môže spracúvať informácie potrebné na distribúciu aplikácie a nákupy a služba rozpoznávania reči vo vašom zariadení spracúva hlasové zadanie, keď ho použijete. Tieto služby sa riadia vlastnými zásadami ochrany osobných údajov a podmienkami."
+          "Google Play môže spracúvať informácie potrebné na distribúciu aplikácie a nákupy a služba rozpoznávania reči vo vašom zariadení spracúva hlasové zadanie, keď ho použijete. Tieto služby sa riadia vlastnými zásadami ochrany osobných údajov a podmienkami. Ak zálohu uložíte v službe, ako je Disk Google, súbor spracúva táto služba podľa vlastných podmienok."
         ]
       },
       {

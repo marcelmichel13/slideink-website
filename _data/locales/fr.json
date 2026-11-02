@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "VOTRE VIE PRIVÉE D’ABORD",
       "title": "Vos notes restent sur votre appareil.",
-      "description": "SlideInk ne nécessite pas de compte et n’envoie pas vos notes vers un serveur.",
+      "description": "SlideInk ne nécessite pas de compte et n’envoie pas vos notes vers nos serveurs. Les sauvegardes vont uniquement là où vous le choisissez.",
       "link": "Lire la Politique de confidentialité"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "Mes rappels n’arrivent pas à l’heure.", "a": "Autorisez les notifications de SlideInk et, lorsque c’est demandé, activez les rappels précis (Alarmes et rappels). Le mode économie de batterie peut aussi retarder les rappels." },
       { "q": "Les rappels vocaux ne fonctionnent pas.", "a": "La saisie vocale utilise le service de reconnaissance vocale de votre téléphone, par exemple celui de Google. Vérifiez qu’il est installé et activé." },
       { "q": "Comment obtenir SlideInk PRO sur un nouveau téléphone ?", "a": "Connectez-vous avec le même compte Google que celui utilisé pour acheter SlideInk PRO. L’achat est restauré automatiquement : vous ne payez pas une seconde fois." },
-      { "q": "Mes notes sont-elles transférées vers un nouveau téléphone ?", "a": "Non. Les notes et les rappels restent uniquement sur votre appareil et ne sont pas sauvegardés. Avant de changer de téléphone, partagez les notes à conserver, par exemple par e-mail ou vers un stockage en ligne." }
+      { "q": "Mes notes sont-elles transférées vers un nouveau téléphone ?", "a": "Oui, avec une sauvegarde. Dans SlideInk, ouvrez Sauvegarde et enregistrez vos notes et rappels dans un fichier ou sur Google Drive. Sur le nouveau téléphone, installez SlideInk et restaurez la sauvegarde avant d’ajouter quoi que ce soit, car la restauration ne fonctionne que dans un SlideInk vide." }
     ]
   },
   "privacy": {
     "home_link": "Accueil de SlideInk",
     "eyebrow": "SlideInk",
     "title": "Politique de confidentialité",
-    "updated": "Dernière mise à jour : 12 octobre 2026",
+    "updated": "Dernière mise à jour : 2 novembre 2026",
     "intro": "SlideInk est conçu pour conserver vos notes, vos dessins et vos rappels sur votre appareil. L’application ne nécessite pas de compte et n’utilise aucun service d’analyse, de publicité ou de suivi.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Notes, dessins et rappels",
         "paragraphs": [
-          "Les notes manuscrites, les dessins, le texte saisi et les rappels — y compris leur texte, leur heure et leurs options de répétition — sont stockés localement sur votre appareil. SlideInk ne les envoie pas vers un serveur exploité par le développeur.",
+          "Les notes manuscrites, les dessins, le texte saisi et les rappels — y compris leur texte, leur heure et leurs options de répétition — sont stockés localement sur votre appareil. SlideInk ne les envoie pas vers un serveur exploité par le développeur. Elles ne sont copiées hors de SlideInk que si vous les sauvegardez ou les partagez.",
           "SlideInk ne nécessite ni inscription ni compte SlideInk."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Notifications et widgets",
         "paragraphs": [
           "SlideInk utilise des notifications pour vous alerter de vos rappels à l’heure choisie et pour garder la poignée flottante disponible. Les notifications de rappel sont marquées comme privées : sur l’écran verrouillé, seul « Rappel » s’affiche, sauf si les paramètres de votre appareil autorisent l’affichage complet.",
-          "Les widgets de l’écran d’accueil sont des raccourcis pour créer un rappel ou ouvrir la Bibliothèque. Ils n’affichent pas le contenu de vos notes ni de vos rappels."
+          "Les widgets de l’écran d’accueil sont des raccourcis pour créer une note ou un rappel, ou ouvrir la Bibliothèque. Ils n’affichent pas le contenu de vos notes ni de vos rappels."
         ]
       },
       {
         "title": "Partage des notes",
         "paragraphs": [
-          "Le partage est déclenché uniquement par vous. Lorsque vous choisissez de partager une note, SlideInk peut créer une copie PNG temporaire dans le cache de l’application et la transmettre à l’interface de partage standard d’Android. Vous choisissez la destination.",
+          "Le partage est déclenché uniquement par vous. Lorsque vous choisissez de partager une note, SlideInk peut créer une copie temporaire PNG ou PDF dans le cache de l’application et la transmettre à l’interface de partage standard d’Android. Vous choisissez la destination.",
           "SlideInk n’envoie pas automatiquement le contenu partagé au développeur."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Sauvegarde dans le cloud et transfert d’appareil",
-        "note": "SlideInk ne participe ni à la sauvegarde Android dans le cloud ni au transfert de données entre appareils Android. Les données de l’application sont destinées à rester localement dans l’installation actuelle."
+        "title": "Sauvegarde et restauration",
+        "note": "SlideInk ne participe ni à la sauvegarde Android dans le cloud ni au transfert de données entre appareils Android. Vous pouvez sauvegarder vos notes et rappels dans un seul fichier, manuellement ou automatiquement une fois par jour, à l’endroit de votre choix, par exemple un dossier du téléphone ou Google Drive. Le fichier n’est jamais envoyé au développeur. Il n’est pas chiffré et contient aussi les notes verrouillées : conservez-le uniquement dans un lieu de confiance. Vous pouvez le restaurer dans un SlideInk vide, par exemple sur un nouveau téléphone."
       },
       {
         "title": "Conservation et suppression des données",
         "paragraphs": [
-          "Les notes et les rappels, y compris les rappels terminés, restent sur l’appareil jusqu’à ce que vous les supprimiez ou désinstalliez l’application. Les fichiers temporaires créés pour le partage peuvent rester dans le cache de l’application jusqu’à ce qu’ils soient supprimés par l’application, par Android ou en vidant le cache de l’application.",
+          "Les notes et les rappels, y compris les rappels terminés, restent sur l’appareil jusqu’à ce que vous les supprimiez ou désinstalliez l’application. Les fichiers temporaires créés pour le partage peuvent rester dans le cache de l’application jusqu’à ce qu’ils soient supprimés par l’application, par Android ou en vidant le cache de l’application. Les fichiers de sauvegarde restent à l’endroit où vous les avez enregistrés jusqu’à ce que vous les supprimiez.",
           "Les enregistrements d’achats traités par Google Play sont conservés conformément aux règles de Google et aux paramètres de votre compte Google."
         ]
       },
@@ -204,6 +204,7 @@
           "vibrer lorsqu’un rappel vous alerte ;",
           "restaurer la poignée et reprogrammer les rappels après le redémarrage de l’appareil ;",
           "masquer les superpositions d’autres applications au-dessus des écrans d’autorisation et de configuration de SlideInk, pour votre sécurité ;",
+          "utiliser la vérification Android par empreinte ou verrouillage de l’écran pour ouvrir les notes verrouillées ; SlideInk ne reçoit ni ne stocke votre empreinte ni aucune autre donnée biométrique ;",
           "utiliser la facturation Google Play pour les achats."
         ],
         "outro": "SlideInk ne demande pas l’accès à votre micro, à vos contacts, à votre position ni à vos photos. Ces fonctions servent uniquement au fonctionnement de SlideInk et ne sont pas utilisées à des fins publicitaires ou d’analyse."
@@ -211,7 +212,7 @@
       {
         "title": "Services tiers",
         "paragraphs": [
-          "Google Play peut traiter les informations nécessaires à la distribution de l’application et aux achats, et le service de reconnaissance vocale de votre appareil traite la saisie vocale lorsque vous l’utilisez. Ces services sont régis par leurs propres politiques de confidentialité et conditions."
+          "Google Play peut traiter les informations nécessaires à la distribution de l’application et aux achats, et le service de reconnaissance vocale de votre appareil traite la saisie vocale lorsque vous l’utilisez. Ces services sont régis par leurs propres politiques de confidentialité et conditions. Si vous enregistrez une sauvegarde dans un service de stockage comme Google Drive, ce service traite le fichier selon ses propres conditions."
         ]
       },
       {

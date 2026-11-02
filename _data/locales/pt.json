@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "PRIVACIDADE EM PRIMEIRO LUGAR",
       "title": "As suas notas ficam no seu dispositivo.",
-      "description": "O SlideInk não requer uma conta e não envia as suas notas para um servidor.",
+      "description": "O SlideInk não requer uma conta e não envia as suas notas para os nossos servidores. As cópias de segurança vão apenas para onde escolher.",
       "link": "Ler a Política de Privacidade"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "Os meus lembretes não chegam a horas.", "a": "Permita as notificações do SlideInk e, quando for pedido, ative os lembretes exatos (Alarmes e lembretes). A poupança de bateria também pode atrasar os lembretes." },
       { "q": "Os lembretes por voz não funcionam.", "a": "A introdução por voz utiliza o serviço de reconhecimento de voz do telemóvel, por exemplo o da Google. Verifique se está instalado e ativado." },
       { "q": "Como obtenho o SlideInk PRO num telemóvel novo?", "a": "Inicie sessão com a mesma conta Google com que comprou o SlideInk PRO. A compra é restaurada automaticamente — não paga novamente." },
-      { "q": "As minhas notas são transferidas para um telemóvel novo?", "a": "Não. As notas e os lembretes ficam apenas no seu dispositivo e não têm cópia de segurança. Antes de mudar de telemóvel, partilhe as notas que quer guardar, por exemplo por e-mail ou para um armazenamento na nuvem." }
+      { "q": "As minhas notas são transferidas para um telemóvel novo?", "a": "Sim, com uma cópia de segurança. No SlideInk, abra Cópia de segurança e guarde as notas e os lembretes num ficheiro ou no Google Drive. No telemóvel novo, instale o SlideInk e restaure a cópia antes de adicionar algo novo, porque o restauro só funciona num SlideInk vazio." }
     ]
   },
   "privacy": {
     "home_link": "Página inicial do SlideInk",
     "eyebrow": "SlideInk",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 12 de outubro de 2026",
+    "updated": "Última atualização: 2 de novembro de 2026",
     "intro": "O SlideInk foi concebido para manter as suas notas, desenhos e lembretes no seu dispositivo. A aplicação não requer uma conta e não utiliza serviços de análise, publicidade ou rastreio.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Notas, desenhos e lembretes",
         "paragraphs": [
-          "As notas manuscritas, desenhos, texto escrito e lembretes — incluindo o respetivo texto, hora e definições de repetição — são guardados localmente no seu dispositivo. O SlideInk não os envia para nenhum servidor gerido pelo programador.",
+          "As notas manuscritas, desenhos, texto escrito e lembretes — incluindo o respetivo texto, hora e definições de repetição — são guardados localmente no seu dispositivo. O SlideInk não os envia para nenhum servidor gerido pelo programador. Só são copiadas para fora do SlideInk quando faz uma cópia de segurança ou as partilha.",
           "O SlideInk não requer registo de utilizador nem uma conta SlideInk."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Notificações e widgets",
         "paragraphs": [
           "O SlideInk utiliza notificações para o alertar dos lembretes à hora escolhida e para manter disponível a pega flutuante. As notificações de lembretes estão marcadas como privadas, pelo que no ecrã de bloqueio aparece apenas «Lembrete», a menos que as definições do dispositivo permitam mostrar todo o conteúdo.",
-          "Os widgets do ecrã inicial são atalhos para criar um lembrete ou abrir a Biblioteca. Não mostram o conteúdo das suas notas nem dos seus lembretes."
+          "Os widgets do ecrã inicial são atalhos para criar uma nota ou um lembrete, ou abrir a Biblioteca. Não mostram o conteúdo das suas notas nem dos seus lembretes."
         ]
       },
       {
         "title": "Partilha de notas",
         "paragraphs": [
-          "A partilha é iniciada apenas por si. Quando opta por partilhar uma nota, o SlideInk pode criar uma cópia PNG temporária na cache da aplicação e enviá-la para a interface de partilha padrão do Android. O destino é escolhido por si.",
+          "A partilha é iniciada apenas por si. Quando opta por partilhar uma nota, o SlideInk pode criar uma cópia temporária em PNG ou PDF na cache da aplicação e enviá-la para a interface de partilha padrão do Android. O destino é escolhido por si.",
           "O SlideInk não envia automaticamente o conteúdo partilhado para o programador."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Cópia de segurança na nuvem e transferência entre dispositivos",
-        "note": "O SlideInk não participa na cópia de segurança na nuvem do Android nem na transferência de dados entre dispositivos Android. Os dados da aplicação destinam-se a permanecer localmente na instalação atual."
+        "title": "Cópia de segurança e restauro",
+        "note": "O SlideInk não participa na cópia de segurança na nuvem do Android nem na transferência de dados entre dispositivos Android. Pode fazer uma cópia de segurança das suas notas e lembretes num único ficheiro, manualmente ou automaticamente uma vez por dia, no local que escolher, por exemplo uma pasta do telemóvel ou o Google Drive. O ficheiro nunca é enviado ao programador. Não está encriptado e inclui também as notas bloqueadas, por isso guarde-o apenas num local de confiança. Pode restaurá-lo num SlideInk vazio, por exemplo num telemóvel novo."
       },
       {
         "title": "Conservação e eliminação de dados",
         "paragraphs": [
-          "As notas e os lembretes, incluindo os lembretes concluídos, permanecem no dispositivo até os eliminar ou desinstalar a aplicação. Os ficheiros temporários criados para partilha podem permanecer na cache da aplicação até serem removidos pela aplicação, pelo Android ou ao limpar a cache da aplicação.",
+          "As notas e os lembretes, incluindo os lembretes concluídos, permanecem no dispositivo até os eliminar ou desinstalar a aplicação. Os ficheiros temporários criados para partilha podem permanecer na cache da aplicação até serem removidos pela aplicação, pelo Android ou ao limpar a cache da aplicação. Os ficheiros de cópia de segurança ficam onde os guardou até os eliminar.",
           "Os registos de compras processadas pelo Google Play são conservados de acordo com as políticas da Google e as definições da sua conta Google."
         ]
       },
@@ -204,6 +204,7 @@
           "vibrar quando um lembrete o alerta;",
           "restaurar a pega e reagendar os lembretes depois de reiniciar o dispositivo;",
           "ocultar sobreposições de outras aplicações sobre os ecrãs de permissões e configuração do SlideInk, para sua segurança;",
+          "utilizar a verificação do Android por impressão digital ou bloqueio de ecrã para abrir notas bloqueadas; o SlideInk não recebe nem guarda a sua impressão digital ou outros dados biométricos;",
           "utilizar a faturação do Google Play para compras."
         ],
         "outro": "O SlideInk não pede acesso ao microfone, contactos, localização nem fotografias. Estas capacidades são utilizadas apenas para as funcionalidades do SlideInk e não para publicidade ou análise."
@@ -211,7 +212,7 @@
       {
         "title": "Serviços de terceiros",
         "paragraphs": [
-          "O Google Play pode tratar informações necessárias à distribuição da aplicação e às compras, e o serviço de reconhecimento de voz do seu dispositivo processa a introdução por voz quando a utiliza. Estes serviços regem-se pelas respetivas políticas de privacidade e termos."
+          "O Google Play pode tratar informações necessárias à distribuição da aplicação e às compras, e o serviço de reconhecimento de voz do seu dispositivo processa a introdução por voz quando a utiliza. Estes serviços regem-se pelas respetivas políticas de privacidade e termos. Se guardar uma cópia de segurança num serviço de armazenamento como o Google Drive, esse serviço trata o ficheiro segundo os seus próprios termos."
         ]
       },
       {

@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "LA PRIVACIDAD ES LO PRIMERO",
       "title": "Tus notas permanecen en tu dispositivo.",
-      "description": "SlideInk no requiere una cuenta ni sube tus notas a ningún servidor.",
+      "description": "SlideInk no requiere una cuenta ni sube tus notas a nuestros servidores. Las copias de seguridad van solo adonde tú elijas.",
       "link": "Leer la Política de privacidad"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "Mis recordatorios no llegan a tiempo.", "a": "Permite las notificaciones de SlideInk y, cuando te lo pida, activa los recordatorios exactos (Alarmas y recordatorios). El ahorro de batería también puede retrasarlos." },
       { "q": "Los recordatorios por voz no funcionan.", "a": "La entrada de voz usa el servicio de reconocimiento de voz del teléfono, por ejemplo el de Google. Comprueba que esté instalado y activado." },
       { "q": "¿Cómo consigo SlideInk PRO en un teléfono nuevo?", "a": "Inicia sesión con la misma cuenta de Google con la que compraste SlideInk PRO. La compra se restaura automáticamente; no vuelves a pagar." },
-      { "q": "¿Se transfieren mis notas a un teléfono nuevo?", "a": "No. Las notas y los recordatorios solo se guardan en tu dispositivo y no se hace copia de seguridad. Antes de cambiar de teléfono, comparte las notas que quieras conservar, por ejemplo por correo o en un almacenamiento en la nube." }
+      { "q": "¿Se transfieren mis notas a un teléfono nuevo?", "a": "Sí, con una copia de seguridad. En SlideInk, abre Copia de seguridad y guarda tus notas y recordatorios en un archivo o en Google Drive. En el teléfono nuevo, instala SlideInk y restaura la copia antes de añadir nada, porque la restauración solo funciona en un SlideInk vacío." }
     ]
   },
   "privacy": {
     "home_link": "Inicio de SlideInk",
     "eyebrow": "SlideInk",
     "title": "Política de privacidad",
-    "updated": "Última actualización: 12 de octubre de 2026",
+    "updated": "Última actualización: 2 de noviembre de 2026",
     "intro": "SlideInk está diseñado para que tus notas, dibujos y recordatorios permanezcan en tu dispositivo. La aplicación no requiere una cuenta ni utiliza servicios de análisis, publicidad o seguimiento.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Notas, dibujos y recordatorios",
         "paragraphs": [
-          "Las notas manuscritas, los dibujos, el texto escrito y los recordatorios —incluidos su texto, hora y opciones de repetición— se guardan localmente en tu dispositivo. SlideInk no los sube a ningún servidor gestionado por el desarrollador.",
+          "Las notas manuscritas, los dibujos, el texto escrito y los recordatorios —incluidos su texto, hora y opciones de repetición— se guardan localmente en tu dispositivo. SlideInk no los sube a ningún servidor gestionado por el desarrollador. Solo se copian fuera de SlideInk cuando haces una copia de seguridad o las compartes.",
           "SlideInk no requiere registro de usuario ni una cuenta de SlideInk."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Notificaciones y widgets",
         "paragraphs": [
           "SlideInk usa notificaciones para avisarte de los recordatorios a la hora elegida y para mantener disponible el controlador flotante. Las notificaciones de recordatorios están marcadas como privadas, por lo que en la pantalla de bloqueo solo se muestra «Recordatorio», salvo que los ajustes del dispositivo permitan mostrar todo el contenido.",
-          "Los widgets de la pantalla de inicio son accesos directos para crear un recordatorio o abrir la Biblioteca. No muestran el contenido de tus notas ni de tus recordatorios."
+          "Los widgets de la pantalla de inicio son accesos directos para crear una nota o un recordatorio, o abrir la Biblioteca. No muestran el contenido de tus notas ni de tus recordatorios."
         ]
       },
       {
         "title": "Compartir notas",
         "paragraphs": [
-          "Solo tú puedes iniciar el proceso de compartir. Cuando decides compartir una nota, SlideInk puede crear una copia PNG temporal en la caché de la aplicación y enviarla a la interfaz estándar para compartir de Android. Tú eliges el destino.",
+          "Solo tú puedes iniciar el proceso de compartir. Cuando decides compartir una nota, SlideInk puede crear una copia temporal en PNG o PDF en la caché de la aplicación y enviarla a la interfaz estándar para compartir de Android. Tú eliges el destino.",
           "SlideInk no envía automáticamente el contenido compartido al desarrollador."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Copia de seguridad en la nube y transferencia entre dispositivos",
-        "note": "SlideInk no participa en la copia de seguridad en la nube de Android ni en la transferencia de datos entre dispositivos Android. Los datos de la aplicación están concebidos para permanecer de forma local en la instalación actual."
+        "title": "Copia de seguridad y restauración",
+        "note": "SlideInk no participa en la copia de seguridad en la nube de Android ni en la transferencia de datos entre dispositivos Android. Puedes hacer una copia de seguridad de tus notas y recordatorios en un archivo, manualmente o automáticamente una vez al día, en el lugar que elijas, por ejemplo una carpeta del teléfono o Google Drive. El archivo nunca se envía al desarrollador. No está cifrado e incluye también las notas bloqueadas, así que guárdalo solo en un lugar de confianza. Puedes restaurarlo en un SlideInk vacío, por ejemplo en un teléfono nuevo."
       },
       {
         "title": "Conservación y eliminación de datos",
         "paragraphs": [
-          "Las notas y los recordatorios, incluidos los completados, permanecen en el dispositivo hasta que los eliminas o desinstalas la aplicación. Los archivos temporales creados para compartir pueden permanecer en la caché de la aplicación hasta que la aplicación o Android los eliminen, o hasta que borres la caché de la aplicación.",
+          "Las notas y los recordatorios, incluidos los completados, permanecen en el dispositivo hasta que los eliminas o desinstalas la aplicación. Los archivos temporales creados para compartir pueden permanecer en la caché de la aplicación hasta que la aplicación o Android los eliminen, o hasta que borres la caché de la aplicación. Los archivos de copia de seguridad permanecen donde los guardaste hasta que los elimines.",
           "Los registros de compras procesadas por Google Play se conservan de acuerdo con las políticas de Google y la configuración de tu cuenta de Google."
         ]
       },
@@ -204,6 +204,7 @@
           "vibrar cuando un recordatorio te avisa;",
           "restaurar el controlador y reprogramar los recordatorios después de reiniciar el dispositivo;",
           "ocultar las superposiciones de otras aplicaciones sobre las pantallas de permisos y configuración de SlideInk, por tu seguridad;",
+          "usar la verificación de Android por huella o bloqueo de pantalla para abrir notas bloqueadas; SlideInk no recibe ni almacena tu huella ni otros datos biométricos;",
           "usar la facturación de Google Play para las compras."
         ],
         "outro": "SlideInk no solicita acceso al micrófono, los contactos, la ubicación ni las fotos. Estas funciones solo se usan para ofrecer las prestaciones de SlideInk y no se utilizan para publicidad ni análisis."
@@ -211,7 +212,7 @@
       {
         "title": "Servicios de terceros",
         "paragraphs": [
-          "Google Play puede tratar la información necesaria para distribuir la aplicación y gestionar las compras, y el servicio de reconocimiento de voz de tu dispositivo procesa la entrada de voz cuando la usas. Estos servicios se rigen por sus propias políticas de privacidad y condiciones."
+          "Google Play puede tratar la información necesaria para distribuir la aplicación y gestionar las compras, y el servicio de reconocimiento de voz de tu dispositivo procesa la entrada de voz cuando la usas. Estos servicios se rigen por sus propias políticas de privacidad y condiciones. Si guardas una copia de seguridad en un servicio de almacenamiento como Google Drive, ese servicio gestiona el archivo según sus propias condiciones."
         ]
       },
       {

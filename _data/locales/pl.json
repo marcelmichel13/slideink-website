@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "PRYWATNOŚĆ PRZEDE WSZYSTKIM",
       "title": "Twoje notatki pozostają na urządzeniu.",
-      "description": "SlideInk nie wymaga konta i nie przesyła Twoich notatek na serwer.",
+      "description": "SlideInk nie wymaga konta i nie przesyła Twoich notatek na nasze serwery. Kopie zapasowe trafiają tylko tam, gdzie wybierzesz.",
       "link": "Przeczytaj politykę prywatności"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "Przypomnienia nie przychodzą na czas.", "a": "Zezwól SlideInk na powiadomienia i, gdy aplikacja poprosi, włącz dokładne przypomnienia (Alarmy i przypomnienia). Przypomnienia może opóźniać także oszczędzanie baterii." },
       { "q": "Przypomnienia głosowe nie działają.", "a": "Wprowadzanie głosowe korzysta z usługi rozpoznawania mowy w telefonie, na przykład od Google. Sprawdź, czy jest zainstalowana i włączona." },
       { "q": "Jak uzyskać SlideInk PRO na nowym telefonie?", "a": "Zaloguj się na to samo konto Google, którym kupiłeś SlideInk PRO. Zakup zostanie przywrócony automatycznie — nie płacisz ponownie." },
-      { "q": "Czy moje notatki zostaną przeniesione na nowy telefon?", "a": "Nie. Notatki i przypomnienia są przechowywane tylko na Twoim urządzeniu i nie są objęte kopią zapasową. Przed zmianą telefonu udostępnij notatki, które chcesz zachować, na przykład e-mailem lub do chmury." }
+      { "q": "Czy moje notatki zostaną przeniesione na nowy telefon?", "a": "Tak, za pomocą kopii zapasowej. W SlideInk otwórz Kopię zapasową i zapisz notatki oraz przypomnienia w pliku lub na Dysku Google. Na nowym telefonie zainstaluj SlideInk i przywróć kopię, zanim dodasz cokolwiek nowego, ponieważ przywracanie działa tylko w pustym SlideInk." }
     ]
   },
   "privacy": {
     "home_link": "Strona główna SlideInk",
     "eyebrow": "SlideInk",
     "title": "Polityka prywatności",
-    "updated": "Ostatnia aktualizacja: 12 października 2026 r.",
+    "updated": "Ostatnia aktualizacja: 2 listopada 2026 r.",
     "intro": "SlideInk zaprojektowano tak, aby notatki, rysunki i przypomnienia pozostawały na Twoim urządzeniu. Aplikacja nie wymaga konta i nie korzysta z usług analitycznych, reklamowych ani śledzących.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Notatki, rysunki i przypomnienia",
         "paragraphs": [
-          "Odręczne notatki, rysunki, wpisany tekst i przypomnienia — wraz z ich treścią, godziną i ustawieniami powtarzania — są przechowywane lokalnie na Twoim urządzeniu. SlideInk nie przesyła ich na serwer prowadzony przez dewelopera.",
+          "Odręczne notatki, rysunki, wpisany tekst i przypomnienia — wraz z ich treścią, godziną i ustawieniami powtarzania — są przechowywane lokalnie na Twoim urządzeniu. SlideInk nie przesyła ich na serwer prowadzony przez dewelopera. Są kopiowane poza SlideInk tylko wtedy, gdy tworzysz kopię zapasową lub je udostępniasz.",
           "SlideInk nie wymaga rejestracji użytkownika ani konta SlideInk."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Powiadomienia i widżety",
         "paragraphs": [
           "SlideInk używa powiadomień, aby informować Cię o przypomnieniach o wybranej godzinie i utrzymywać dostępny pływający uchwyt. Powiadomienia przypomnień są oznaczone jako prywatne, więc na ekranie blokady widać tylko „Przypomnienie”, chyba że ustawienia urządzenia pozwalają na pokazywanie pełnej treści.",
-          "Widżety na ekranie głównym to skróty do tworzenia przypomnienia lub otwierania Biblioteki. Nie wyświetlają treści Twoich notatek ani przypomnień."
+          "Widżety na ekranie głównym to skróty do tworzenia notatki lub przypomnienia albo otwierania Biblioteki. Nie wyświetlają treści Twoich notatek ani przypomnień."
         ]
       },
       {
         "title": "Udostępnianie notatek",
         "paragraphs": [
-          "Udostępnianie następuje wyłącznie z Twojej inicjatywy. Gdy zdecydujesz się udostępnić notatkę, SlideInk może utworzyć tymczasową kopię PNG w pamięci podręcznej aplikacji i przekazać ją do standardowego interfejsu udostępniania Androida. Miejsce docelowe wybierasz samodzielnie.",
+          "Udostępnianie następuje wyłącznie z Twojej inicjatywy. Gdy zdecydujesz się udostępnić notatkę, SlideInk może utworzyć tymczasową kopię PNG lub PDF w pamięci podręcznej aplikacji i przekazać ją do standardowego interfejsu udostępniania Androida. Miejsce docelowe wybierasz samodzielnie.",
           "SlideInk nie wysyła automatycznie udostępnianych treści do dewelopera."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Kopia zapasowa w chmurze i przenoszenie danych między urządzeniami",
-        "note": "SlideInk nie korzysta z kopii zapasowej Androida w chmurze ani z przenoszenia danych między urządzeniami z Androidem. Dane aplikacji pozostają lokalnie w bieżącej instalacji."
+        "title": "Kopia zapasowa i przywracanie",
+        "note": "SlideInk nie korzysta z kopii zapasowej Androida w chmurze ani z przenoszenia danych między urządzeniami z Androidem. Możesz samodzielnie utworzyć kopię zapasową notatek i przypomnień w jednym pliku, ręcznie lub automatycznie raz dziennie, w wybranym przez Ciebie miejscu, na przykład w folderze w telefonie lub na Dysku Google. Plik nigdy nie jest wysyłany do dewelopera. Nie jest zaszyfrowany i zawiera także zablokowane notatki, dlatego przechowuj go tylko w zaufanym miejscu. Możesz go przywrócić do pustego SlideInk, na przykład na nowym telefonie."
       },
       {
         "title": "Przechowywanie i usuwanie danych",
         "paragraphs": [
-          "Notatki i przypomnienia, w tym wykonane przypomnienia, pozostają na urządzeniu, dopóki ich nie usuniesz lub nie odinstalujesz aplikacji. Pliki tymczasowe utworzone do udostępniania mogą pozostać w pamięci podręcznej aplikacji, dopóki nie usunie ich aplikacja lub Android albo dopóki nie wyczyścisz pamięci podręcznej aplikacji.",
+          "Notatki i przypomnienia, w tym wykonane przypomnienia, pozostają na urządzeniu, dopóki ich nie usuniesz lub nie odinstalujesz aplikacji. Pliki tymczasowe utworzone do udostępniania mogą pozostać w pamięci podręcznej aplikacji, dopóki nie usunie ich aplikacja lub Android albo dopóki nie wyczyścisz pamięci podręcznej aplikacji. Pliki kopii zapasowych pozostają tam, gdzie je zapisano, dopóki ich nie usuniesz.",
           "Informacje o zakupach przetwarzanych przez Google Play są przechowywane zgodnie z zasadami Google i ustawieniami Twojego konta Google."
         ]
       },
@@ -204,6 +204,7 @@
           "wibracje, gdy przypomnienie Cię powiadamia;",
           "przywracanie uchwytu i ponowne planowanie przypomnień po ponownym uruchomieniu urządzenia;",
           "ukrywanie nakładek innych aplikacji nad ekranami uprawnień i konfiguracji SlideInk, dla Twojego bezpieczeństwa;",
+          "korzystanie z weryfikacji Androida odciskiem palca lub blokadą ekranu przy otwieraniu zablokowanych notatek; SlideInk nie otrzymuje ani nie przechowuje Twojego odcisku palca ani innych danych biometrycznych;",
           "korzystanie z płatności Google Play przy zakupach."
         ],
         "outro": "SlideInk nie prosi o dostęp do mikrofonu, kontaktów, lokalizacji ani zdjęć. Te funkcje służą wyłącznie do działania SlideInk i nie są wykorzystywane do reklam ani analityki."
@@ -211,7 +212,7 @@
       {
         "title": "Usługi zewnętrzne",
         "paragraphs": [
-          "Google Play może przetwarzać informacje potrzebne do dystrybucji aplikacji i zakupów, a usługa rozpoznawania mowy na Twoim urządzeniu przetwarza wprowadzanie głosowe, gdy z niego korzystasz. Usługi te podlegają własnym politykom prywatności i warunkom."
+          "Google Play może przetwarzać informacje potrzebne do dystrybucji aplikacji i zakupów, a usługa rozpoznawania mowy na Twoim urządzeniu przetwarza wprowadzanie głosowe, gdy z niego korzystasz. Usługi te podlegają własnym politykom prywatności i warunkom. Jeśli zapiszesz kopię zapasową w usłudze przechowywania, takiej jak Dysk Google, ta usługa przetwarza plik na własnych zasadach."
         ]
       },
       {

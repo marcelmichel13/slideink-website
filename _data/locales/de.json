@@ -100,7 +100,7 @@
     "privacy": {
       "eyebrow": "DATENSCHUTZ AN ERSTER STELLE",
       "title": "Ihre Notizen bleiben auf Ihrem Gerät.",
-      "description": "SlideInk erfordert kein Konto und lädt Ihre Notizen nicht auf einen Server hoch.",
+      "description": "SlideInk erfordert kein Konto und lädt Ihre Notizen nicht auf unsere Server hoch. Sicherungen landen nur dort, wo Sie es möchten.",
       "link": "Datenschutzerklärung lesen"
     },
     "contact": {
@@ -124,14 +124,14 @@
       { "q": "Meine Erinnerungen kommen nicht pünktlich.", "a": "Erlauben Sie Benachrichtigungen für SlideInk und aktivieren Sie bei Nachfrage genaue Erinnerungen (Wecker & Erinnerungen). Auch Energiesparmodi können Erinnerungen verzögern." },
       { "q": "Spracherinnerungen funktionieren nicht.", "a": "Die Spracheingabe nutzt den Spracherkennungsdienst Ihres Telefons, zum Beispiel von Google. Prüfen Sie, ob er installiert und aktiviert ist." },
       { "q": "Wie bekomme ich SlideInk PRO auf einem neuen Telefon?", "a": "Melden Sie sich mit demselben Google-Konto an, mit dem Sie SlideInk PRO gekauft haben. Der Kauf wird automatisch wiederhergestellt – Sie zahlen nicht erneut." },
-      { "q": "Werden meine Notizen auf ein neues Telefon übertragen?", "a": "Nein. Notizen und Erinnerungen bleiben nur auf Ihrem Gerät und werden nicht gesichert. Teilen Sie vor dem Telefonwechsel die Notizen, die Sie behalten möchten, zum Beispiel per E-Mail oder in einen Cloud-Speicher." }
+      { "q": "Werden meine Notizen auf ein neues Telefon übertragen?", "a": "Ja, mit einer Sicherung. Öffnen Sie in SlideInk die Sicherung und speichern Sie Notizen und Erinnerungen in einer Datei oder in Google Drive. Installieren Sie SlideInk auf dem neuen Telefon und stellen Sie die Sicherung wieder her, bevor Sie etwas Neues hinzufügen, denn die Wiederherstellung funktioniert nur in einem leeren SlideInk." }
     ]
   },
   "privacy": {
     "home_link": "SlideInk-Startseite",
     "eyebrow": "SlideInk",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 12. Oktober 2026",
+    "updated": "Zuletzt aktualisiert: 2. November 2026",
     "intro": "SlideInk ist so konzipiert, dass Ihre Notizen, Zeichnungen und Erinnerungen auf Ihrem Gerät bleiben. Die App erfordert kein Konto und verwendet keine Analyse-, Werbe- oder Trackingdienste.",
     "sections": [
       {
@@ -143,7 +143,7 @@
       {
         "title": "Notizen, Zeichnungen und Erinnerungen",
         "paragraphs": [
-          "Handschriftliche Notizen, Zeichnungen, getippter Text und Erinnerungen – einschließlich ihres Textes, ihrer Uhrzeit und ihrer Wiederholungseinstellungen – werden lokal auf Ihrem Gerät gespeichert. SlideInk lädt sie nicht auf einen vom Entwickler betriebenen Server hoch.",
+          "Handschriftliche Notizen, Zeichnungen, getippter Text und Erinnerungen – einschließlich ihres Textes, ihrer Uhrzeit und ihrer Wiederholungseinstellungen – werden lokal auf Ihrem Gerät gespeichert. SlideInk lädt sie nicht auf einen vom Entwickler betriebenen Server hoch. Sie werden nur dann außerhalb von SlideInk kopiert, wenn Sie sie sichern oder teilen.",
           "SlideInk erfordert weder eine Benutzerregistrierung noch ein SlideInk-Konto."
         ]
       },
@@ -158,13 +158,13 @@
         "title": "Benachrichtigungen und Widgets",
         "paragraphs": [
           "SlideInk verwendet Benachrichtigungen, um Sie zur gewählten Zeit an Ihre Erinnerungen zu erinnern und den schwebenden Griff verfügbar zu halten. Erinnerungsbenachrichtigungen sind als privat gekennzeichnet, sodass auf dem Sperrbildschirm nur „Erinnerung“ angezeigt wird, sofern Ihre Geräteeinstellungen nicht den vollständigen Inhalt erlauben.",
-          "Widgets auf dem Startbildschirm sind Verknüpfungen, um eine Erinnerung zu erstellen oder die Bibliothek zu öffnen. Sie zeigen keine Inhalte Ihrer Notizen oder Erinnerungen an."
+          "Widgets auf dem Startbildschirm sind Verknüpfungen, um eine Notiz oder Erinnerung zu erstellen oder die Bibliothek zu öffnen. Sie zeigen keine Inhalte Ihrer Notizen oder Erinnerungen an."
         ]
       },
       {
         "title": "Notizen teilen",
         "paragraphs": [
-          "Das Teilen wird ausschließlich von Ihnen ausgelöst. Wenn Sie eine Notiz teilen, kann SlideInk eine temporäre PNG-Kopie im App-Cache erstellen und an die standardmäßige Teilen-Oberfläche von Android übergeben. Das Ziel wählen Sie selbst aus.",
+          "Das Teilen wird ausschließlich von Ihnen ausgelöst. Wenn Sie eine Notiz teilen, kann SlideInk eine temporäre PNG- oder PDF-Kopie im App-Cache erstellen und an die standardmäßige Teilen-Oberfläche von Android übergeben. Das Ziel wählen Sie selbst aus.",
           "SlideInk sendet geteilte Inhalte nicht automatisch an den Entwickler."
         ]
       },
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "title": "Cloud-Backup und Geräteübertragung",
-        "note": "SlideInk nimmt weder am Android-Cloud-Backup noch an der Android-Datenübertragung zwischen Geräten teil. App-Daten sind dafür vorgesehen, lokal in der aktuellen Installation zu verbleiben."
+        "title": "Sicherung und Wiederherstellung",
+        "note": "SlideInk nimmt weder am Android-Cloud-Backup noch an der Android-Datenübertragung zwischen Geräten teil. Sie können Ihre Notizen und Erinnerungen selbst in einer Datei sichern, manuell oder automatisch einmal täglich, an einem Ort Ihrer Wahl, zum Beispiel in einem Ordner auf dem Handy oder in Google Drive. Die Datei wird nie an den Entwickler gesendet. Sie ist nicht verschlüsselt und enthält auch gesperrte Notizen, bewahren Sie sie daher nur an einem vertrauenswürdigen Ort auf. Sie können sie in einem leeren SlideInk wiederherstellen, zum Beispiel auf einem neuen Handy."
       },
       {
         "title": "Datenspeicherung und Löschung",
         "paragraphs": [
-          "Notizen und Erinnerungen, einschließlich erledigter Erinnerungen, bleiben auf dem Gerät, bis Sie sie löschen oder die App deinstallieren. Temporäre Dateien, die zum Teilen erstellt werden, können im Cache der App verbleiben, bis sie von der App oder Android entfernt werden oder Sie den App-Cache leeren.",
+          "Notizen und Erinnerungen, einschließlich erledigter Erinnerungen, bleiben auf dem Gerät, bis Sie sie löschen oder die App deinstallieren. Temporäre Dateien, die zum Teilen erstellt werden, können im Cache der App verbleiben, bis sie von der App oder Android entfernt werden oder Sie den App-Cache leeren. Sicherungsdateien bleiben dort, wo Sie sie gespeichert haben, bis Sie sie löschen.",
           "Von Google Play verarbeitete Kaufdaten werden gemäß den Richtlinien von Google und den Einstellungen Ihres Google-Kontos aufbewahrt."
         ]
       },
@@ -204,6 +204,7 @@
           "Vibration, wenn eine Erinnerung Sie benachrichtigt;",
           "Wiederherstellen des Griffs und erneutes Planen von Erinnerungen nach einem Neustart des Geräts;",
           "Ausblenden von Overlays anderer Apps über den eigenen Berechtigungs- und Einrichtungsbildschirmen von SlideInk zu Ihrer Sicherheit;",
+          "Prüfung per Fingerabdruck oder Android-Displaysperre zum Öffnen gesperrter Notizen; SlideInk erhält oder speichert weder Ihren Fingerabdruck noch andere biometrische Daten;",
           "Nutzung von Google Play Billing für Käufe."
         ],
         "outro": "SlideInk fordert keinen Zugriff auf Mikrofon, Kontakte, Standort oder Fotos an. Diese Funktionen werden nur für SlideInk verwendet und nicht für Werbung oder Analysen."
@@ -211,7 +212,7 @@
       {
         "title": "Dienste von Drittanbietern",
         "paragraphs": [
-          "Google Play kann Informationen verarbeiten, die für den App-Vertrieb und Käufe erforderlich sind, und der Spracherkennungsdienst Ihres Geräts verarbeitet Spracheingaben, wenn Sie sie nutzen. Für diese Dienste gelten deren eigene Datenschutzrichtlinien und Bedingungen."
+          "Google Play kann Informationen verarbeiten, die für den App-Vertrieb und Käufe erforderlich sind, und der Spracherkennungsdienst Ihres Geräts verarbeitet Spracheingaben, wenn Sie sie nutzen. Für diese Dienste gelten deren eigene Datenschutzrichtlinien und Bedingungen. Wenn Sie eine Sicherung bei einem Speicherdienst wie Google Drive ablegen, verarbeitet dieser Dienst die Datei nach seinen eigenen Bedingungen."
         ]
       },
       {
