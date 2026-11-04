@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDGETS",
       "title": "Reminders from your home screen.",
-      "description": "Add a SlideInk widget and start a reminder with one tap — type it or say it. Widgets work with SlideInk PRO.",
+      "description": "Add a SlideInk widget and start a reminder with one tap — type it or say it. Note widgets are free. Creating new reminders is free for 14 days from the day you save your first reminder; after that, it requires SlideInk PRO. Existing reminders keep working.",
       "size_label": "Size",
       "how_title": "How to add a widget",
       "how_text": "Touch and hold an empty spot on your home screen, tap Widgets and find SlideInk.",

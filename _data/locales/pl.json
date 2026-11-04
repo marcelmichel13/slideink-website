@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDŻETY",
       "title": "Przypomnienia prosto z ekranu głównego.",
-      "description": "Dodaj widżet SlideInk i utwórz przypomnienie jednym dotknięciem — wpisz je lub podyktuj. Widżety działają z SlideInk PRO.",
+      "description": "Dodaj widżet SlideInk i utwórz przypomnienie jednym dotknięciem — wpisz je lub podyktuj. Widżety notatek są bezpłatne. Tworzenie nowych przypomnień jest bezpłatne przez 14 dni od zapisania pierwszego przypomnienia; potem wymaga SlideInk PRO. Zapisane wcześniej przypomnienia nadal działają.",
       "size_label": "Rozmiar",
       "how_title": "Jak dodać widżet",
       "how_text": "Przytrzymaj puste miejsce na ekranie głównym, dotknij Widżety i znajdź SlideInk.",

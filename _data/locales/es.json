@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDGETS",
       "title": "Recordatorios desde la pantalla de inicio.",
-      "description": "Añade un widget de SlideInk y crea un recordatorio con un toque: escríbelo o díctalo. Los widgets funcionan con SlideInk PRO.",
+      "description": "Añade un widget de SlideInk y crea un recordatorio con un toque: escríbelo o díctalo. Los widgets de notas son gratis. Crear nuevos recordatorios es gratis durante 14 días desde que guardas tu primer recordatorio; después necesitas SlideInk PRO para crearlos. Los recordatorios ya guardados siguen funcionando.",
       "size_label": "Tamaño",
       "how_title": "Cómo añadir un widget",
       "how_text": "Mantén pulsado un espacio vacío de la pantalla de inicio, toca Widgets y busca SlideInk.",

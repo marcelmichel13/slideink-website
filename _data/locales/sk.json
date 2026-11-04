@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDGETY",
       "title": "Pripomienky priamo z domovskej obrazovky.",
-      "description": "Pridajte si widget SlideInk a vytvorte pripomienku jedným ťuknutím — napíšte ju alebo nadiktujte. Widgety fungujú so SlideInk PRO.",
+      "description": "Pridajte si widget SlideInk a vytvorte pripomienku jedným ťuknutím — napíšte ju alebo nadiktujte. Widgety poznámok sú zdarma. Vytváranie nových pripomienok je zdarma počas 14 dní od uloženia prvej pripomienky; potom vyžaduje SlideInk PRO. Už uložené pripomienky fungujú ďalej.",
       "size_label": "Veľkosť",
       "how_title": "Ako pridať widget",
       "how_text": "Podržte prst na prázdnom mieste domovskej obrazovky, ťuknite na Miniaplikácie (widgety) a nájdite SlideInk.",

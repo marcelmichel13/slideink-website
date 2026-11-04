@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDGETY",
       "title": "Připomínky přímo z domovské obrazovky.",
-      "description": "Přidejte si widget SlideInk a vytvořte připomínku jedním klepnutím — napište ji nebo nadiktujte. Widgety fungují se SlideInk PRO.",
+      "description": "Přidejte si widget SlideInk a vytvořte připomínku jedním klepnutím — napište ji nebo nadiktujte. Widgety poznámek jsou zdarma. Vytváření nových připomínek je zdarma po dobu 14 dní od uložení první připomínky; poté vyžaduje SlideInk PRO. Již uložené připomínky fungují dál.",
       "size_label": "Velikost",
       "how_title": "Jak přidat widget",
       "how_text": "Podržte prst na prázdném místě domovské obrazovky, klepněte na Widgety a najděte SlideInk.",

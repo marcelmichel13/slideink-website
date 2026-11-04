@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDGETS",
       "title": "Des rappels depuis l’écran d’accueil.",
-      "description": "Ajoutez un widget SlideInk et créez un rappel en un geste : saisissez-le ou dictez-le. Les widgets fonctionnent avec SlideInk PRO.",
+      "description": "Ajoutez un widget SlideInk et créez un rappel en un geste : saisissez-le ou dictez-le. Les widgets de notes sont gratuits. La création de nouveaux rappels est gratuite pendant 14 jours à compter de l’enregistrement de votre premier rappel ; ensuite, elle nécessite SlideInk PRO. Les rappels déjà enregistrés continuent de fonctionner.",
       "size_label": "Taille",
       "how_title": "Ajouter un widget",
       "how_text": "Appuyez de manière prolongée sur un espace libre de l’écran d’accueil, touchez Widgets et recherchez SlideInk.",

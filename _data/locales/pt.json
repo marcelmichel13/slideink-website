@@ -61,8 +61,9 @@
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
+      "section_eyebrow": "WIDGETS",
       "title": "Lembretes a partir do ecrã inicial.",
-      "description": "Adicione um widget do SlideInk e crie um lembrete num toque: escreva-o ou dite-o. Os widgets funcionam com o SlideInk PRO.",
+      "description": "Adicione um widget do SlideInk e crie um lembrete num toque: escreva-o ou dite-o. Os widgets de notas são gratuitos. Criar novos lembretes é gratuito durante 14 dias a partir do momento em que guarda o primeiro lembrete; depois precisa do SlideInk PRO para os criar. Os lembretes já guardados continuam a funcionar.",
       "size_label": "Tamanho",
       "how_title": "Como adicionar um widget",
       "how_text": "Toque sem soltar num espaço vazio do ecrã inicial, toque em Widgets e procure SlideInk.",
