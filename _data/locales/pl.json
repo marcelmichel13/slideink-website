@@ -46,56 +46,78 @@
       "title": "Zapisuj bez przełączania się między aplikacjami.",
       "description": "Numery, adresy, listy zakupów, pomysły, wymiary, notatki z rozmów i wszystko, o czym trzeba pamiętać — zapisuj od razu, nie zasłaniając bieżącego ekranu.",
       "cards": [
-        { "icon": "↗", "title": "Szybko wysuwane płótno", "description": "Dyskretny pływający uchwyt sprawia, że SlideInk jest zawsze pod ręką." },
-        { "icon": "✎", "title": "Palec lub rysik", "description": "Pisz naturalnie za pomocą pióra i gumki; korzystaj też z funkcji cofania i ponawiania." },
-        { "icon": "◐", "title": "Regulowana przezroczystość", "description": "Aplikacja pod nakładką pozostaje widoczna podczas pisania." },
-        { "icon": "▣", "title": "Zapisywanie notatek", "description": "Zapisuj przydatne notatki jako obrazy i wracaj do nich później." },
-        { "icon": "bell", "title": "Przypomnienia z notatek tekstowych", "description": "W SlideInk PRO wpisz notatkę, dotknij ikony dzwonka i wybierz czas przypomnienia. Gdy przypomnienie się pojawi, odłóż je lub oznacz jako wykonane." },
-        { "icon": "↕", "title": "Konfigurowalny uchwyt", "description": "Wybierz jego stronę, rozmiar i kolor oraz sposób otwierania: dotknięciem, przeciągnięciem lub na oba sposoby." }
+        { "icon": "↗", "title": "Wysuwany panel zawsze pod ręką", "description": "Przeciągnij uchwyt przy krawędzi ekranu albo go dotknij i od razu zapisz, czego potrzebujesz." },
+        { "icon": "✎", "title": "Pióro, zakreślacz i gumka", "description": "Pisz, rysuj i zakreślaj. Pomyłkę łatwo poprawisz." },
+        { "icon": "◐", "title": "Regulowana przezroczystość", "description": "Podczas pisania widzisz też aplikację pod panelem. Przezroczystość ustawisz tak, jak lubisz." },
+        { "icon": "photo", "title": "Tekst, rysunek i zdjęcia", "description": "Dodaj tekst, rysunek i zdjęcia do jednej notatki. Zdjęcie możesz przesunąć, powiększyć, obrócić albo przyciąć." },
+        { "icon": "pages", "title": "Papier po twojemu", "description": "Wybierz papier gładki, w linie, w kratkę lub w kropki. Dłuższy tekst przechodzi na następną stronę." },
+        { "icon": "autosave", "title": "Zapisuje się sama", "description": "Niedokończona notatka zapisuje się automatycznie. Możesz do niej wrócić nawet po ponownym uruchomieniu." },
+        { "icon": "folder", "title": "Porządek w notatkach", "description": "Uporządkuj notatki w folderach i oznacz ulubione. Gdy czegoś szukasz, wystarczy wpisać słowo z tekstu pisanego na klawiaturze." },
+        { "icon": "lock", "title": "Blokowanie notatek", "description": "Osobiste notatki możesz zablokować. Odblokujesz je tak samo jak telefon." },
+        { "icon": "share", "title": "Łatwe udostępnianie", "description": "Wyślij całą notatkę jako PDF albo jedną stronę jako obraz." },
+        { "icon": "backup", "title": "Kopia notatek i przypomnień", "description": "Zapisz kopię notatek i przypomnień w telefonie lub na Dysku Google. Ręcznie albo automatycznie codziennie." },
+        { "icon": "bell", "title": "Przypomnienia w SlideInk PRO", "description": "Wpisz notatkę na klawiaturze i ustaw godzinę. SlideInk ci o niej przypomni." },
+        { "icon": "↕", "title": "Uchwyt po twojemu", "description": "Wybierz jego kolor, rozmiar i stronę ekranu. A także to, czy panel otworzysz dotknięciem, czy przeciągnięciem." }
       ]
     },
     "reminders": {
       "title": "Przypomnienia",
-      "description": "Twórz przypomnienia, pisząc lub mówiąc, odkładaj je jednym dotknięciem, a te potrzebne regularnie powtarzaj codziennie, co tydzień, co miesiąc lub co rok.",
-      "image_alt": "Podgląd przypomnień SlideInk z kartą przypomnienia oraz opcjami odkładania i powtarzania."
+      "description": "Przypomnienie utworzysz z wpisanej notatki albo z widżetu na ekranie głównym, w którym możesz je też podyktować. Może się powtarzać codziennie, co tydzień, co miesiąc lub co rok, a tryb Spotkanie wycisza przypomnienia na 1 do 4 godzin. Tworzenie przypomnień jest bezpłatne przez 14 dni od zapisania pierwszego przypomnienia, potem odblokowuje je jednorazowy zakup SlideInk PRO. To nie jest subskrypcja.",
+      "cards": [
+        { "title": "Prosto z notatki", "description": "Wpisz, o czym nie możesz zapomnieć, i dotknij dzwonka. Wybierz Wieczorem, Jutro, 15 minut albo własną datę i godzinę.", "alt": "Wpisana notatka „Kupić pomidory w drodze do domu” nad stroną z przepisem z szybkimi godzinami przypomnienia i własną datą i godziną" },
+        { "title": "Karta nad aplikacją, której używasz", "description": "We właściwej chwili przypomnienie pojawi się nad tym, co właśnie robisz. Przesuń w lewo, aby je odłożyć, w prawo, aby ukryć je w dzwonku, albo w dół, aby ukryć wszystkie naraz.", "alt": "Karta przypomnienia „Kupić pomidory w drodze do domu” nad stroną z przepisem z przyciskami Odłóż i Gotowe" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDŻETY",
-      "title": "Przypomnienia prosto z ekranu głównego.",
-      "description": "Dodaj widżet SlideInk i utwórz przypomnienie jednym dotknięciem — wpisz je lub podyktuj. Widżety notatek są bezpłatne. Tworzenie nowych przypomnień jest bezpłatne przez 14 dni od zapisania pierwszego przypomnienia; potem wymaga SlideInk PRO. Zapisane wcześniej przypomnienia nadal działają.",
+      "title": "Notatki i przypomnienia prosto z ekranu głównego.",
+      "description": "Dodaj widżet SlideInk i zacznij notatkę lub przypomnienie jednym dotknięciem. Widżety działają także wtedy, gdy SlideInk jest wyłączony. Widżety notatek są bezpłatne. Tworzenie nowych przypomnień jest bezpłatne przez 14 dni od zapisania pierwszego przypomnienia; potem wymaga SlideInk PRO. Zapisane wcześniej przypomnienia nadal działają.",
       "size_label": "Rozmiar",
+      "free_label": "Za darmo",
       "how_title": "Jak dodać widżet",
       "how_text": "Przytrzymaj puste miejsce na ekranie głównym, dotknij Widżety i znajdź SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Szybka notatka",
+          "description": "Jednym dotknięciem otwórz notatkę do pisania odręcznego i rysowania."
+        },
+        "note-actions": {
+          "name": "Akcje notatek",
+          "description": "Rysuj, pisz na klawiaturze albo przejrzyj zapisane notatki."
+        },
+        "notes-reminders": {
+          "name": "Notatki i przypomnienia",
+          "description": "Pisz lub rysuj notatki. Przypomnienie wpisz na klawiaturze albo podyktuj. Zapisane notatki otworzysz ikoną książki."
+        },
         "quick-reminder": {
           "name": "Szybkie przypomnienie",
-          "description": "Jednym dotknięciem otwiera nowe przypomnienie. Wpisz, o czym chcesz pamiętać, i wybierz godzinę."
+          "description": "Wpisz na klawiaturze, o czym chcesz pamiętać, i ustaw godzinę."
         },
         "voice-reminder": {
           "name": "Przypomnienie głosowe",
-          "description": "Dotknij i powiedz, o czym chcesz pamiętać. Twoje słowa stają się treścią przypomnienia — wystarczy wybrać godzinę."
+          "description": "Powiedz, o czym chcesz pamiętać. Twoje słowa zamienią się w tekst, a ty ustawisz godzinę."
         },
         "reminder-actions": {
           "name": "Akcje przypomnień",
-          "description": "Wybierz, jak utworzyć przypomnienie: pisząc lub głosem."
+          "description": "Wybierz, czy przypomnienie wpiszesz na klawiaturze, czy podyktujesz. Potem ustaw godzinę."
         },
         "quick-actions": {
           "name": "Szybkie akcje",
-          "description": "Nowe wpisane przypomnienie albo od razu Biblioteka z notatkami i przypomnieniami."
+          "description": "Wpisz nowe przypomnienie albo otwórz listę zapisanych przypomnień."
         },
         "expanded-actions": {
           "name": "Rozszerzone akcje",
-          "description": "Przypomnienie wpisane, głosowe i Biblioteka w jednym widżecie."
+          "description": "Wpisz przypomnienie, podyktuj je albo otwórz zapisane przypomnienia."
         }
       }
     },
     "screenshots": {
       "eyebrow": "JAK TO DZIAŁA",
       "cards": [
-        { "title": "Wysuń nad dowolną aplikacją", "description": "Wysuń SlideInk podczas przeglądania, czytania lub czatowania i zanotuj, co trzeba — aplikacja pod spodem pozostaje widoczna.", "alt": "SlideInk nad przepisem na naleśniki w przeglądarce z odręczną listą zakupów: eggs, milk, blueberries" },
-        { "title": "Pisz, rysuj lub stukaj", "description": "Pisz palcem lub rysikiem albo wpisuj z klawiatury i formatuj tekst — kolor, rozmiar, czcionka, pogrubienie i kursywa.", "alt": "Pasek tekstu SlideInk nad klawiaturą z aktywnym żółtym kolorem, rozmiarem 20 i pogrubieniem, wpisane notatki „Pick up the cake at 4 pm” i „candles and balloons” oraz różowe odręczne „Mom's birthday” z serduszkiem" },
-        { "title": "Znajdź ją później", "description": "Zapisuj notatki w Bibliotece, oznaczaj ulubione i wyszukuj je w dowolnej chwili.", "alt": "Biblioteka SlideInk z czterema zapisanymi notatkami: szkicem szafki z wymiarami, listą zakupów oznaczoną jako ulubiona, listą na urodziny i kodem do bramy" }
+        { "title": "Wysuń nad dowolną aplikacją", "description": "Wysuń SlideInk podczas przeglądania, czytania lub czatowania i zanotuj, co trzeba — aplikacja pod spodem pozostaje widoczna.", "alt": "SlideInk nad przepisem na makaron w przeglądarce z odręczną listą zakupów: pomidory, świeża bazylia, parmezan i kółkiem wokół pomidorów" },
+        { "title": "Pisz, rysuj lub stukaj", "description": "Pisz palcem lub rysikiem albo wpisuj z klawiatury i formatuj tekst — kolor, rozmiar, czcionka, pogrubienie i kursywa.", "alt": "Notatka SlideInk „Weekend w Lizbonie” na żółtym papierze w linie z pogrubionym tytułem, listą rzeczy do spakowania i numerowanym planem" },
+        { "title": "Znajdź ją później", "description": "Zapisuj notatki w Bibliotece, oznaczaj ulubione i wyszukuj je w dowolnej chwili.", "alt": "Biblioteka SlideInk z zapisanymi notatkami: Pomysły na logo, Wycieczka rowerowa, Prezenty i Spotkanie z Piotrem" }
       ]
     },
     "privacy": {

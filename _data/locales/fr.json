@@ -46,56 +46,78 @@
       "title": "Notez sans changer d’application.",
       "description": "Numéros, adresses, listes de courses, idées, mesures, notes d’appel et choses à ne pas oublier : notez-les immédiatement tout en gardant l’écran actuel visible.",
       "cards": [
-        { "icon": "↗", "title": "Zone de dessin coulissante", "description": "Une poignée flottante discrète garde SlideInk à portée de main dès que vous en avez besoin." },
-        { "icon": "✎", "title": "Doigt ou stylet", "description": "Écrivez naturellement avec les outils de stylo, la gomme, l’annulation et le rétablissement." },
-        { "icon": "◐", "title": "Transparence réglable", "description": "Gardez l’application située dessous visible pendant que vous écrivez par-dessus." },
-        { "icon": "▣", "title": "Enregistrez vos notes", "description": "Conservez les notes utiles sous forme d’instantanés et retrouvez-les plus tard." },
-        { "icon": "bell", "title": "Rappels à partir des notes saisies", "description": "Avec SlideInk PRO, saisissez une note, touchez la cloche, choisissez l’heure du rappel, puis reportez-le ou marquez-le comme terminé lorsqu’il apparaît." },
-        { "icon": "↕", "title": "Poignée personnalisable", "description": "Choisissez son côté, sa taille et sa couleur, ainsi que son ouverture : appui, glissement ou les deux." }
+        { "icon": "↗", "title": "Panneau coulissant toujours à portée", "description": "Faites glisser ou touchez la poignée au bord de l’écran, et notez tout de suite ce dont vous avez besoin." },
+        { "icon": "✎", "title": "Stylo, surligneur et gomme", "description": "Écrivez, dessinez et surlignez. Une erreur se corrige facilement." },
+        { "icon": "◐", "title": "Transparence réglable", "description": "Pendant que vous écrivez, vous voyez aussi l’application sous le panneau. Réglez la transparence à votre goût." },
+        { "icon": "photo", "title": "Texte, dessin et photos", "description": "Ajoutez du texte, des dessins et des photos dans une même note. Vous pouvez déplacer, agrandir, faire pivoter ou recadrer une photo." },
+        { "icon": "pages", "title": "Papier à votre goût", "description": "Choisissez un papier uni, ligné, quadrillé ou pointillé. Un texte plus long continue sur la page suivante." },
+        { "icon": "autosave", "title": "Enregistrement automatique", "description": "La note en cours s’enregistre automatiquement. Vous pouvez la reprendre même après un redémarrage." },
+        { "icon": "folder", "title": "Des notes bien rangées", "description": "Classez vos notes dans des dossiers et marquez vos favorites. Pour retrouver quelque chose, il suffit de saisir un mot du texte tapé au clavier." },
+        { "icon": "lock", "title": "Notes verrouillées", "description": "Vous pouvez verrouiller vos notes personnelles. Elles se déverrouillent comme votre téléphone." },
+        { "icon": "share", "title": "Partage facile", "description": "Envoyez une note entière en PDF ou une seule page en image." },
+        { "icon": "backup", "title": "Sauvegarde des notes et des rappels", "description": "Sauvegardez vos notes et vos rappels sur le téléphone ou dans Google Drive. Manuellement ou automatiquement chaque jour." },
+        { "icon": "bell", "title": "Rappels avec SlideInk PRO", "description": "Saisissez une note au clavier et choisissez l’heure. SlideInk vous la rappellera." },
+        { "icon": "↕", "title": "Poignée à votre goût", "description": "Choisissez sa couleur, sa taille et le côté de l’écran. Choisissez aussi comment ouvrir le panneau : en touchant la poignée ou en la faisant glisser." }
       ]
     },
     "reminders": {
       "title": "Rappels",
-      "description": "Créez des rappels au clavier ou à la voix, reportez-les en un geste et répétez ceux qui reviennent tous les jours, toutes les semaines, tous les mois ou tous les ans.",
-      "image_alt": "Aperçu des rappels SlideInk avec une carte de rappel et des options pour reporter et répéter."
+      "description": "Créez des rappels à partir d’une note saisie ou d’un widget de l’écran d’accueil, qui permet aussi de les dicter. Répétez-les chaque jour, semaine, mois ou année ; le mode Réunion les met en sourdine de 1 à 4 heures. La création de rappels est gratuite pendant 14 jours à partir du premier rappel enregistré, puis un achat unique de SlideInk PRO la débloque. Ce n’est pas un abonnement.",
+      "cards": [
+        { "title": "Directement depuis votre note", "description": "Écrivez ce que vous ne devez pas oublier et touchez la cloche. Choisissez Ce soir, Demain, 15 min ou votre propre date et heure.", "alt": "La note saisie « Acheter des tomates en rentrant » par-dessus une recette avec des heures de rappel rapides et une date et une heure personnalisées" },
+        { "title": "Une carte par-dessus l’application utilisée", "description": "Au bon moment, le rappel apparaît par-dessus ce que vous faites. Balayez vers la gauche pour le reporter, vers la droite pour le masquer dans la cloche, ou vers le bas pour les masquer tous d’un coup.", "alt": "La carte de rappel « Acheter des tomates en rentrant » par-dessus la recette avec Reporter et Terminé" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDGETS",
-      "title": "Des rappels depuis l’écran d’accueil.",
-      "description": "Ajoutez un widget SlideInk et créez un rappel en un geste : saisissez-le ou dictez-le. Les widgets de notes sont gratuits. La création de nouveaux rappels est gratuite pendant 14 jours à compter de l’enregistrement de votre premier rappel ; ensuite, elle nécessite SlideInk PRO. Les rappels déjà enregistrés continuent de fonctionner.",
+      "title": "Notes et rappels depuis l’écran d’accueil.",
+      "description": "Ajoutez un widget SlideInk et commencez une note ou un rappel en un geste. Les widgets fonctionnent même lorsque SlideInk est désactivé. Les widgets de notes sont gratuits. La création de nouveaux rappels est gratuite pendant 14 jours à compter de l’enregistrement de votre premier rappel ; ensuite, elle nécessite SlideInk PRO. Les rappels déjà enregistrés continuent de fonctionner.",
       "size_label": "Taille",
+      "free_label": "Gratuit",
       "how_title": "Ajouter un widget",
       "how_text": "Appuyez de manière prolongée sur un espace libre de l’écran d’accueil, touchez Widgets et recherchez SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Note rapide",
+          "description": "Ouvre d’un geste une note pour écrire à la main et dessiner."
+        },
+        "note-actions": {
+          "name": "Actions de notes",
+          "description": "Dessinez, écrivez au clavier ou consultez vos notes enregistrées."
+        },
+        "notes-reminders": {
+          "name": "Notes et rappels",
+          "description": "Écrivez ou dessinez vos notes. Saisissez un rappel au clavier ou dictez-le. Vos notes enregistrées s’ouvrent avec l’icône du livre."
+        },
         "quick-reminder": {
           "name": "Rappel rapide",
-          "description": "Ouvre un nouveau rappel en un geste. Saisissez ce dont vous voulez vous souvenir et choisissez l’heure."
+          "description": "Saisissez au clavier ce dont vous voulez vous souvenir et choisissez l’heure."
         },
         "voice-reminder": {
           "name": "Rappel vocal",
-          "description": "Touchez et dites ce dont vous voulez vous souvenir. Vos mots deviennent le texte du rappel ; il ne reste qu’à choisir l’heure."
+          "description": "Dites ce dont vous voulez vous souvenir. Vos mots deviennent du texte et vous choisissez l’heure."
         },
         "reminder-actions": {
           "name": "Actions de rappel",
-          "description": "Choisissez comment créer un rappel : au clavier ou à la voix."
+          "description": "Choisissez de saisir le rappel au clavier ou de le dicter. Puis choisissez l’heure."
         },
         "quick-actions": {
           "name": "Actions rapides",
-          "description": "Un nouveau rappel saisi ou un accès direct à la Bibliothèque avec vos notes et rappels."
+          "description": "Saisissez un nouveau rappel ou ouvrez la liste de vos rappels enregistrés."
         },
         "expanded-actions": {
           "name": "Actions étendues",
-          "description": "Rappel saisi, rappel vocal et Bibliothèque dans un seul widget."
+          "description": "Saisissez un rappel, dictez-le ou ouvrez vos rappels enregistrés."
         }
       }
     },
     "screenshots": {
       "eyebrow": "COMMENT ÇA MARCHE",
       "cards": [
-        { "title": "Faites-le glisser sur n’importe quelle app", "description": "Faites glisser SlideInk pendant que vous naviguez, lisez ou discutez et notez ce qu’il vous faut : l’app en dessous reste visible.", "alt": "SlideInk au-dessus d’une recette de pancakes dans le navigateur avec une liste de courses manuscrite : eggs, milk, blueberries" },
-        { "title": "Écrivez, dessinez ou tapez", "description": "Écrivez au doigt ou au stylet, ou tapez au clavier et mettez le texte en forme : couleur, taille, police, gras et italique.", "alt": "Barre de texte SlideInk au-dessus du clavier avec jaune, taille 20 et gras actifs, notes tapées « Pick up the cake at 4 pm » et « candles and balloons », et un « Mom's birthday » rose écrit à la main avec un cœur" },
-        { "title": "Retrouvez-la plus tard", "description": "Enregistrez vos notes dans la Bibliothèque, marquez vos favorites et recherchez-les à tout moment.", "alt": "Bibliothèque SlideInk avec quatre notes enregistrées : un croquis de meuble avec ses dimensions, une liste de courses en favori, une liste pour un anniversaire et un code de portail" }
+        { "title": "Faites-le glisser sur n’importe quelle app", "description": "Faites glisser SlideInk pendant que vous naviguez, lisez ou discutez et notez ce qu’il vous faut : l’app en dessous reste visible.", "alt": "SlideInk par-dessus une recette de pâtes dans le navigateur avec une liste de courses manuscrite : tomates, basilic frais, parmesan, et un cercle autour des tomates" },
+        { "title": "Écrivez, dessinez ou tapez", "description": "Écrivez au doigt ou au stylet, ou tapez au clavier et mettez le texte en forme : couleur, taille, police, gras et italique.", "alt": "La note SlideInk « Week-end à Lisbonne » sur papier ligné jaune avec un titre en gras, une liste à emporter et un programme numéroté" },
+        { "title": "Retrouvez-la plus tard", "description": "Enregistrez vos notes dans la Bibliothèque, marquez vos favorites et recherchez-les à tout moment.", "alt": "La Bibliothèque SlideInk avec des notes enregistrées : Idées de logo, Sortie vélo, Cadeaux et Réunion avec Pierre" }
       ]
     },
     "privacy": {

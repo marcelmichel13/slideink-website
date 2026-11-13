@@ -1,5 +1,6 @@
 {% assign t = site.data.locales[page.lang] %}
 {% assign current_language = site.languages | where: "code", page.lang | first %}
+{% capture play_url %}{{ site.play_store_url }}&amp;utm_source=slideink_web&amp;utm_medium=referral&amp;utm_campaign=web_2026_11_{{ page.lang }}{% endcapture %}
 <!doctype html>
 <html lang="{{ page.lang }}">
 <head>
@@ -79,7 +80,7 @@
         <p class="lead">{{ t.home.hero.body }}</p>
 
         <div class="hero-actions">
-          <a class="google-play-badge" href="{{ site.play_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.common.google_play_aria | escape }}">
+          <a class="google-play-badge" href="{{ play_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.common.google_play_aria | escape }}">
             <img src="/badges/google-play-en.png" alt="{{ t.common.google_play_alt | escape }}" width="646" height="250">
           </a>
           <a class="button secondary" href="{{ current_language.home }}#screenshots">{{ t.home.hero.see_slideink }}</a>
@@ -114,7 +115,7 @@
         {% for feature in t.home.features.cards %}
         <article class="feature-card">
           <div class="feature-icon" aria-hidden="true">
-            {% if feature.icon == "bell" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4M12 2V1"/></svg>{% else %}{{ feature.icon }}{% endif %}
+            {% case feature.icon %}{% when "bell" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4M12 2V1"/></svg>{% when "photo" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></svg>{% when "pages" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h9a2 2 0 0 1 2 2v12"/><rect x="4" y="7" width="12" height="14" rx="2"/><path d="M7 11h6M7 14h6M7 17h4"/></svg>{% when "autosave" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/><path d="m9 12 2 2 4-4"/></svg>{% when "folder" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="2.2"/><path d="m13.6 14.6 2 2"/></svg>{% when "lock" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 15v2"/></svg>{% when "share" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>{% when "backup" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18a5 5 0 1 1 1.2-9.86A6 6 0 0 1 19.5 10 4 4 0 0 1 18 18z"/><path d="M12 17v-6"/><path d="m9.5 13.5 2.5-2.5 2.5 2.5"/></svg>{% else %}{{ feature.icon }}{% endcase %}
           </div>
           <h3>{{ feature.title }}</h3>
           <p>{{ feature.description }}</p>
@@ -137,7 +138,7 @@
           </figcaption>
           <div class="screenshot-media">
             <div class="screenshot-phone">
-              <img src="/assets/screens/step-{{ forloop.index }}.webp" alt="{{ card.alt | escape }}" width="600" height="1300" loading="lazy">
+              <img src="/assets/screens/{{ page.lang }}/step-{{ forloop.index }}.webp" alt="{{ card.alt | escape }}" width="600" height="1300" loading="lazy">
             </div>
           </div>
         </figure>
@@ -151,8 +152,20 @@
         <h2 id="reminders-title">{{ t.home.reminders.title }}</h2>
         <p>{{ t.home.reminders.description }}</p>
       </div>
-      <div class="reminders-visual">
-        <img src="/slideink-reminders-overview.png" alt="{{ t.home.reminders.image_alt | escape }}" width="1122" height="1402" loading="lazy">
+      <div class="screenshots reminder-shots">
+        {% for card in t.home.reminders.cards %}
+        <figure class="screenshot-card">
+          <figcaption class="screenshot-copy">
+            <h3>{{ card.title }}</h3>
+            <p>{{ card.description }}</p>
+          </figcaption>
+          <div class="screenshot-media">
+            <div class="screenshot-phone">
+              <img src="/assets/screens/{{ page.lang }}/reminder-{{ forloop.index }}.webp" alt="{{ card.alt | escape }}" width="600" height="1300" loading="lazy">
+            </div>
+          </div>
+        </figure>
+        {% endfor %}
       </div>
     </section>
 
@@ -171,7 +184,7 @@
           </div>
           <div class="widget-card-head">
             <h3>{{ widget_copy.name }}</h3>
-            <span class="widget-size"><span class="sr-only">{{ t.home.widgets.size_label }}: </span>{{ widget.size }}</span>
+            <span class="widget-tags">{% if widget.free %}<span class="widget-plan widget-plan-free">{{ t.home.widgets.free_label }}</span>{% else %}<span class="widget-plan">PRO</span>{% endif %}<span class="widget-size"><span class="sr-only">{{ t.home.widgets.size_label }}: </span>{{ widget.size }}</span></span>
           </div>
           <p>{{ widget_copy.description }}</p>
         </article>
@@ -204,7 +217,7 @@
           <h2>{{ t.home.contact.title }}</h2>
           <p>{{ t.home.contact.prefix }} <a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a>{{ t.home.contact.suffix }}</p>
         </div>
-        <a class="google-play-badge google-play-badge-bottom" href="{{ site.play_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.common.google_play_aria | escape }}">
+        <a class="google-play-badge google-play-badge-bottom" href="{{ play_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.common.google_play_aria | escape }}">
           <img src="/badges/google-play-en.png" alt="{{ t.common.google_play_alt | escape }}" width="646" height="250">
         </a>
       </div>

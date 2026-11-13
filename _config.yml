@@ -80,7 +80,23 @@ exclude:
 
 # Home-screen widgets shown on the homepage. Names and descriptions live in
 # _data/locales/<language>.json under home.widgets.items.<id>; images in assets/widgets/.
+# free: true marks widgets that need no SlideInk PRO.
 widgets:
+  - id: quick-note
+    size: "1 × 1"
+    width: 67
+    height: 67
+    free: true
+  - id: note-actions
+    size: "3 × 1"
+    width: 195
+    height: 76
+    free: true
+  - id: notes-reminders
+    size: "4 × 1"
+    width: 320
+    height: 76
+    free: true
   - id: quick-reminder
     size: "1 × 1"
     width: 67

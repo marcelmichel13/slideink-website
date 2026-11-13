@@ -46,56 +46,78 @@
       "title": "Registe sem mudar de aplicação.",
       "description": "Números, moradas, listas de compras, ideias, medidas, notas de chamadas e coisas de que precisa de se lembrar — registe tudo imediatamente sem deixar de ver o ecrã atual.",
       "cards": [
-        { "icon": "↗", "title": "Tela deslizante instantânea", "description": "Uma pega flutuante discreta mantém o SlideInk pronto sempre que precisar." },
-        { "icon": "✎", "title": "Dedo ou caneta", "description": "Escreva naturalmente com ferramentas de caneta, borracha, anular e refazer." },
-        { "icon": "◐", "title": "Transparência ajustável", "description": "Mantenha a aplicação subjacente visível enquanto escreve sobre ela." },
-        { "icon": "▣", "title": "Guarde as suas notas", "description": "Guarde notas úteis como capturas e consulte-as mais tarde." },
-        { "icon": "bell", "title": "Lembretes a partir de notas digitadas", "description": "Com o SlideInk PRO, digite uma nota, toque no sino, escolha quando quer ser lembrado e, quando aparecer, adie o lembrete ou marque-o como concluído." },
-        { "icon": "↕", "title": "Pega personalizável", "description": "Escolha o lado, o tamanho e a cor, e a forma de abrir: tocar, arrastar ou ambos." }
+        { "icon": "↗", "title": "Painel deslizante sempre à mão", "description": "Arraste ou toque na pega no rebordo do ecrã e anote logo o que precisa." },
+        { "icon": "✎", "title": "Caneta, marcador e borracha", "description": "Escreva, desenhe e destaque. Enganou-se? Corrige num instante." },
+        { "icon": "◐", "title": "Transparência ajustável", "description": "Enquanto escreve, vê também a aplicação por baixo do painel. Ajuste a transparência como preferir." },
+        { "icon": "photo", "title": "Texto, desenho e fotos", "description": "Junte texto, desenhos e fotos na mesma nota. Pode mover, ampliar, rodar ou recortar a foto." },
+        { "icon": "pages", "title": "Papel à sua medida", "description": "Escolha papel liso, pautado, quadriculado ou pontilhado. O texto mais longo continua na página seguinte." },
+        { "icon": "autosave", "title": "Guarda-se sozinha", "description": "A nota que está a escrever é guardada automaticamente. Pode continuá-la mesmo depois de reiniciar." },
+        { "icon": "folder", "title": "Notas arrumadas", "description": "Organize as notas em pastas e marque as favoritas. Para encontrar algo, basta escrever uma palavra do texto escrito no teclado." },
+        { "icon": "lock", "title": "Bloquear notas", "description": "Pode bloquear as suas notas pessoais. Desbloqueiam-se tal como o telemóvel." },
+        { "icon": "share", "title": "Partilha simples", "description": "Envie uma nota inteira em PDF ou uma só página como imagem." },
+        { "icon": "backup", "title": "Cópia de segurança de notas e lembretes", "description": "Faça uma cópia das notas e dos lembretes no telemóvel ou no Google Drive. Manualmente ou automaticamente todos os dias." },
+        { "icon": "bell", "title": "Lembretes com o SlideInk PRO", "description": "Escreva uma nota no teclado e defina a hora. O SlideInk avisa na hora certa." },
+        { "icon": "↕", "title": "Pega à sua medida", "description": "Escolha a cor, o tamanho e o lado do ecrã. Escolha também se pretende abrir o painel com um toque ou ao arrastar a pega." }
       ]
     },
     "reminders": {
       "title": "Lembretes",
-      "description": "Crie lembretes a escrever ou por voz, adie-os num toque e repita os que precisa diária, semanal, mensal ou anualmente.",
-      "image_alt": "Pré-visualização dos lembretes do SlideInk com um cartão de lembrete e opções para adiar e repetir."
+      "description": "Crie lembretes a partir de uma nota escrita ou de um widget no ecrã inicial, onde também os pode ditar. Repita-os todos os dias, semanas, meses ou anos, e o modo Reunião silencia-os durante 1 a 4 horas. Criar lembretes é gratuito durante 14 dias a partir do primeiro lembrete guardado; depois, uma compra única do SlideInk PRO desbloqueia-o. Não é uma subscrição.",
+      "cards": [
+        { "title": "Diretamente da sua nota", "description": "Escreva o que não pode esquecer e toque no sino. Escolha À noite, Amanhã, 15 minutos ou a sua própria data e hora.", "alt": "A nota escrita «Comprar tomate a caminho de casa» por cima de uma receita com horas rápidas de lembrete e data e hora personalizadas" },
+        { "title": "Um cartão por cima da app que está a usar", "description": "No momento certo, o lembrete aparece por cima do que estiver a fazer. Deslize para a esquerda para o adiar, para a direita para o ocultar no sino ou para baixo para os ocultar todos de uma vez.", "alt": "O cartão de lembrete «Comprar tomate a caminho de casa» por cima da receita com Adiar e Concluído" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDGETS",
-      "title": "Lembretes a partir do ecrã inicial.",
-      "description": "Adicione um widget do SlideInk e crie um lembrete num toque: escreva-o ou dite-o. Os widgets de notas são gratuitos. Criar novos lembretes é gratuito durante 14 dias a partir do momento em que guarda o primeiro lembrete; depois precisa do SlideInk PRO para os criar. Os lembretes já guardados continuam a funcionar.",
+      "title": "Notas e lembretes a partir do ecrã inicial.",
+      "description": "Adicione um widget do SlideInk e comece uma nota ou um lembrete num toque. Os widgets funcionam mesmo quando o SlideInk está desativado. Os widgets de notas são gratuitos. Criar novos lembretes é gratuito durante 14 dias a partir do momento em que guarda o primeiro lembrete; depois precisa do SlideInk PRO para os criar. Os lembretes já guardados continuam a funcionar.",
       "size_label": "Tamanho",
+      "free_label": "Grátis",
       "how_title": "Como adicionar um widget",
       "how_text": "Toque sem soltar num espaço vazio do ecrã inicial, toque em Widgets e procure SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Nota rápida",
+          "description": "Abre com um toque uma nota para escrever à mão e desenhar."
+        },
+        "note-actions": {
+          "name": "Ações de notas",
+          "description": "Desenhe, escreva no teclado ou veja as notas guardadas."
+        },
+        "notes-reminders": {
+          "name": "Notas e lembretes",
+          "description": "Escreva ou desenhe notas. Escreva um lembrete no teclado ou dite-o. As notas guardadas abrem-se no ícone do livro."
+        },
         "quick-reminder": {
           "name": "Lembrete rápido",
-          "description": "Abre um novo lembrete num toque. Escreva o que quer lembrar e escolha a hora."
+          "description": "Escreva no teclado o que quer lembrar e defina a hora."
         },
         "voice-reminder": {
           "name": "Lembrete por voz",
-          "description": "Toque e diga o que quer lembrar. As suas palavras tornam-se o texto do lembrete; só tem de escolher a hora."
+          "description": "Diga o que quer lembrar. As suas palavras passam a texto e depois define a hora."
         },
         "reminder-actions": {
           "name": "Ações de lembrete",
-          "description": "Escolha como criar um lembrete: a escrever ou por voz."
+          "description": "Escolha se escreve o lembrete no teclado ou se o dita. Depois defina a hora."
         },
         "quick-actions": {
           "name": "Ações rápidas",
-          "description": "Um novo lembrete escrito ou acesso direto à Biblioteca com notas e lembretes."
+          "description": "Escreva um novo lembrete ou abra a lista dos lembretes guardados."
         },
         "expanded-actions": {
           "name": "Ações expandidas",
-          "description": "Lembrete escrito, lembrete por voz e Biblioteca num só widget."
+          "description": "Escreva um lembrete, dite-o ou abra os lembretes guardados."
         }
       }
     },
     "screenshots": {
       "eyebrow": "COMO FUNCIONA",
       "cards": [
-        { "title": "Deslize-o sobre qualquer app", "description": "Abra o SlideInk enquanto navega, lê ou conversa e aponte o que precisa — a app por baixo continua visível.", "alt": "SlideInk sobre uma receita de panquecas no navegador com uma lista de compras escrita à mão: eggs, milk, blueberries" },
-        { "title": "Escreva, desenhe ou use o teclado", "description": "Use o dedo ou uma caneta, ou escreva no teclado e formate o texto: cor, tamanho, letra, negrito e itálico.", "alt": "Barra de texto do SlideInk sobre o teclado com amarelo, tamanho 20 e negrito ativos, notas escritas «Pick up the cake at 4 pm» e «candles and balloons» e um «Mom's birthday» cor-de-rosa escrito à mão com um coração" },
-        { "title": "Encontre-a mais tarde", "description": "Guarde notas na Biblioteca, marque favoritas e pesquise-as sempre que precisar.", "alt": "Biblioteca do SlideInk com quatro notas guardadas: um esboço de armário com medidas, uma lista de compras marcada como favorita, uma lista para um aniversário e um código do portão" }
+        { "title": "Deslize-o sobre qualquer app", "description": "Abra o SlideInk enquanto navega, lê ou conversa e aponte o que precisa — a app por baixo continua visível.", "alt": "SlideInk por cima de uma receita de massa no navegador com uma lista de compras escrita à mão: tomate, manjericão fresco, parmesão, e um círculo à volta do tomate" },
+        { "title": "Escreva, desenhe ou use o teclado", "description": "Use o dedo ou uma caneta, ou escreva no teclado e formate o texto: cor, tamanho, letra, negrito e itálico.", "alt": "A nota do SlideInk «Fim de semana em Lisboa» em papel pautado amarelo com título a negrito, lista do que levar e plano numerado" },
+        { "title": "Encontre-a mais tarde", "description": "Guarde notas na Biblioteca, marque favoritas e pesquise-as sempre que precisar.", "alt": "A Biblioteca do SlideInk com notas guardadas: Ideias de logótipo, Passeio de bicicleta, Prendas e Reunião com o Pedro" }
       ]
     },
     "privacy": {

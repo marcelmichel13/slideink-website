@@ -46,56 +46,78 @@
       "title": "Festhalten, ohne die App zu wechseln.",
       "description": "Zahlen, Adressen, Einkaufslisten, Ideen, Maße, Gesprächsnotizen und Dinge, an die Sie denken müssen — halten Sie alles sofort fest, während der aktuelle Bildschirm sichtbar bleibt.",
       "cards": [
-        { "icon": "↗", "title": "Schnell ausziehbare Zeichenfläche", "description": "Ein dezenter schwebender Griff hält SlideInk jederzeit bereit." },
-        { "icon": "✎", "title": "Finger oder Eingabestift", "description": "Schreiben Sie natürlich mit Stiftwerkzeugen, Radierer sowie Rückgängig und Wiederholen." },
-        { "icon": "◐", "title": "Einstellbare Transparenz", "description": "Die darunterliegende App bleibt sichtbar, während Sie darüber schreiben." },
-        { "icon": "▣", "title": "Notizen speichern", "description": "Speichern Sie hilfreiche Notizen als Momentaufnahmen und greifen Sie später darauf zurück." },
-        { "icon": "bell", "title": "Erinnerungen aus getippten Notizen", "description": "Tippen Sie mit SlideInk PRO eine Notiz, wählen Sie über die Glocke einen Zeitpunkt und stellen Sie die Erinnerung nach Erscheinen zurück oder markieren Sie sie als erledigt." },
-        { "icon": "↕", "title": "Anpassbarer Griff", "description": "Wählen Sie Seite, Größe und Farbe und wie er sich öffnet: per Tippen, Ziehen oder beidem." }
+        { "icon": "↗", "title": "Ausziehbares Panel, immer griffbereit", "description": "Ziehen Sie am Griff am Bildschirmrand oder tippen Sie darauf und notieren Sie sofort, was Sie brauchen." },
+        { "icon": "✎", "title": "Stift, Textmarker und Radierer", "description": "Schreiben, zeichnen und markieren Sie. Ein Fehler ist schnell korrigiert." },
+        { "icon": "◐", "title": "Einstellbare Transparenz", "description": "Beim Schreiben sehen Sie auch die App unter dem Panel. Die Transparenz stellen Sie nach Wunsch ein." },
+        { "icon": "photo", "title": "Text, Zeichnung und Fotos", "description": "Fügen Sie Text, Zeichnungen und Fotos in eine Notiz ein. Ein Foto können Sie verschieben, vergrößern, drehen oder zuschneiden." },
+        { "icon": "pages", "title": "Papier nach Wunsch", "description": "Wählen Sie leeres, liniertes, kariertes oder gepunktetes Papier. Längerer Text geht auf der nächsten Seite weiter." },
+        { "icon": "autosave", "title": "Speichert von selbst", "description": "Eine angefangene Notiz wird automatisch gespeichert. Sie können auch nach einem Neustart daran weiterarbeiten." },
+        { "icon": "folder", "title": "Ordnung in Ihren Notizen", "description": "Sortieren Sie Notizen in Ordner und markieren Sie Favoriten. Zum Suchen genügt ein Wort aus dem getippten Text." },
+        { "icon": "lock", "title": "Notizen sperren", "description": "Persönliche Notizen können Sie sperren. Entsperren geht genauso wie bei Ihrem Telefon." },
+        { "icon": "share", "title": "Einfach teilen", "description": "Senden Sie eine ganze Notiz als PDF oder eine einzelne Seite als Bild." },
+        { "icon": "backup", "title": "Notizen und Erinnerungen sichern", "description": "Sichern Sie Notizen und Erinnerungen auf dem Telefon oder in Google Drive. Manuell oder automatisch jeden Tag." },
+        { "icon": "bell", "title": "Erinnerungen mit SlideInk PRO", "description": "Tippen Sie eine Notiz und wählen Sie eine Zeit. SlideInk erinnert Sie daran." },
+        { "icon": "↕", "title": "Der Griff, wie Sie ihn mögen", "description": "Wählen Sie Farbe, Größe und Bildschirmseite. Und ob sich das Panel per Tippen oder Ziehen öffnet." }
       ]
     },
     "reminders": {
       "title": "Erinnerungen",
-      "description": "Erstellen Sie Erinnerungen per Tastatur oder Sprache, verschieben Sie sie mit einem Fingertipp und lassen Sie wiederkehrende täglich, wöchentlich, monatlich oder jährlich wiederholen.",
-      "image_alt": "SlideInk-Erinnerungen: Erinnerungskarte mit Optionen zum Verschieben und Wiederholen."
+      "description": "Erstellen Sie Erinnerungen aus einer getippten Notiz oder über ein Widget auf dem Startbildschirm – dort auch per Spracheingabe. Wiederholen Sie sie täglich, wöchentlich, monatlich oder jährlich; der Modus Besprechung schaltet sie für 1 bis 4 Stunden stumm. Das Erstellen von Erinnerungen ist ab Ihrer ersten gespeicherten Erinnerung 14 Tage lang kostenlos, danach schaltet es ein einmaliger Kauf von SlideInk PRO frei. Es ist kein Abo.",
+      "cards": [
+        { "title": "Direkt aus Ihrer Notiz", "description": "Tippen Sie, was Sie nicht vergessen dürfen, und tippen Sie auf die Glocke. Wählen Sie Abends, Morgen, 15 Minuten oder ein eigenes Datum mit Uhrzeit.", "alt": "Die getippte Notiz „Auf dem Heimweg Tomaten kaufen“ über einer Rezeptseite mit schnellen Erinnerungszeiten und eigenem Datum mit Uhrzeit" },
+        { "title": "Eine Karte über der App, die Sie gerade nutzen", "description": "Zur richtigen Zeit erscheint die Erinnerung über dem, was Sie gerade tun. Wischen Sie nach links, um sie zurückzustellen, nach rechts, um sie in der Glocke auszublenden, oder nach unten, um alle auf einmal auszublenden.", "alt": "Die Erinnerungskarte „Auf dem Heimweg Tomaten kaufen“ über der Rezeptseite mit Später und Erledigt" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDGETS",
-      "title": "Erinnerungen direkt vom Startbildschirm.",
-      "description": "Fügen Sie ein SlideInk-Widget hinzu und starten Sie eine Erinnerung mit einem Fingertipp — tippen oder sprechen. Notiz-Widgets sind kostenlos. Das Erstellen neuer Erinnerungen ist ab dem Speichern Ihrer ersten Erinnerung 14 Tage lang kostenlos; danach benötigen Sie dafür SlideInk PRO. Bereits gespeicherte Erinnerungen funktionieren weiterhin.",
+      "title": "Notizen und Erinnerungen vom Startbildschirm.",
+      "description": "Fügen Sie ein SlideInk-Widget hinzu und beginnen Sie eine Notiz oder Erinnerung mit einem Fingertipp. Widgets funktionieren auch, wenn SlideInk ausgeschaltet ist. Notiz-Widgets sind kostenlos. Das Erstellen neuer Erinnerungen ist ab dem Speichern Ihrer ersten Erinnerung 14 Tage lang kostenlos; danach benötigen Sie dafür SlideInk PRO. Bereits gespeicherte Erinnerungen funktionieren weiterhin.",
       "size_label": "Größe",
+      "free_label": "Kostenlos",
       "how_title": "So fügen Sie ein Widget hinzu",
       "how_text": "Halten Sie eine freie Stelle auf dem Startbildschirm gedrückt, tippen Sie auf Widgets und suchen Sie SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Schnelle Notiz",
+          "description": "Öffnet mit einem Fingertipp eine Notiz zum Schreiben und Zeichnen von Hand."
+        },
+        "note-actions": {
+          "name": "Notizaktionen",
+          "description": "Zeichnen, mit der Tastatur schreiben oder gespeicherte Notizen ansehen."
+        },
+        "notes-reminders": {
+          "name": "Notizen und Erinnerungen",
+          "description": "Schreiben oder zeichnen Sie Notizen. Tippen oder diktieren Sie eine Erinnerung. Gespeicherte Notizen öffnen Sie über das Buch-Symbol."
+        },
         "quick-reminder": {
           "name": "Schnelle Erinnerung",
-          "description": "Öffnet mit einem Fingertipp eine neue Erinnerung. Notieren Sie, woran Sie denken möchten, und wählen Sie eine Zeit."
+          "description": "Tippen Sie, woran Sie erinnert werden möchten, und wählen Sie die Uhrzeit."
         },
         "voice-reminder": {
           "name": "Spracherinnerung",
-          "description": "Tippen und sagen, woran Sie erinnert werden möchten. Ihre Worte werden zum Erinnerungstext — Sie wählen nur noch die Zeit."
+          "description": "Sagen Sie, woran Sie erinnert werden möchten. Ihre Worte werden zu Text, und Sie wählen die Uhrzeit."
         },
         "reminder-actions": {
           "name": "Erinnerungsaktionen",
-          "description": "Wählen Sie, wie Sie eine Erinnerung erstellen: per Tastatur oder per Sprache."
+          "description": "Wählen Sie, ob Sie die Erinnerung tippen oder diktieren. Dann wählen Sie die Uhrzeit."
         },
         "quick-actions": {
           "name": "Schnellaktionen",
-          "description": "Eine neue getippte Erinnerung oder direkt zur Bibliothek mit Notizen und Erinnerungen."
+          "description": "Tippen Sie eine neue Erinnerung oder öffnen Sie die Liste Ihrer gespeicherten Erinnerungen."
         },
         "expanded-actions": {
           "name": "Erweiterte Aktionen",
-          "description": "Getippte Erinnerung, Spracherinnerung und Bibliothek — alles in einem Widget."
+          "description": "Tippen Sie eine Erinnerung, diktieren Sie sie oder öffnen Sie Ihre gespeicherten Erinnerungen."
         }
       }
     },
     "screenshots": {
       "eyebrow": "SO FUNKTIONIERT ES",
       "cards": [
-        { "title": "Über jeder App hervorziehen", "description": "Ziehen Sie SlideInk beim Surfen, Lesen oder Chatten hervor und notieren Sie, was Sie brauchen — die App darunter bleibt sichtbar.", "alt": "SlideInk über einem Pfannkuchenrezept im Browser mit handgeschriebener Einkaufsliste: eggs, milk, blueberries" },
-        { "title": "Schreiben, zeichnen oder tippen", "description": "Mit dem Finger oder Eingabestift schreiben oder per Tastatur tippen und den Text gestalten — Farbe, Größe, Schrift, fett und kursiv.", "alt": "SlideInk-Textleiste über der Tastatur mit aktivem Gelb, Größe 20 und Fett, getippte Notizen „Pick up the cake at 4 pm“ und „candles and balloons“ sowie ein rosa handgeschriebenes „Mom's birthday“ mit Herz" },
-        { "title": "Später wiederfinden", "description": "Speichern Sie Notizen in der Bibliothek, markieren Sie Favoriten und durchsuchen Sie sie jederzeit.", "alt": "SlideInk-Bibliothek mit vier gespeicherten Notizen: eine Schrankskizze mit Maßen, eine als Favorit markierte Einkaufsliste, eine Geburtstagsliste und ein Torcode" }
+        { "title": "Über jeder App hervorziehen", "description": "Ziehen Sie SlideInk beim Surfen, Lesen oder Chatten hervor und notieren Sie, was Sie brauchen — die App darunter bleibt sichtbar.", "alt": "SlideInk über einem Pasta-Rezept im Browser mit einer handgeschriebenen Einkaufsliste: Tomaten, frisches Basilikum, Parmesan, und einem Kreis um die Tomaten" },
+        { "title": "Schreiben, zeichnen oder tippen", "description": "Mit dem Finger oder Eingabestift schreiben oder per Tastatur tippen und den Text gestalten — Farbe, Größe, Schrift, fett und kursiv.", "alt": "Die SlideInk-Notiz „Wochenende in Lissabon“ auf gelbem liniertem Papier mit fettem Titel, Packliste und nummeriertem Plan" },
+        { "title": "Später wiederfinden", "description": "Speichern Sie Notizen in der Bibliothek, markieren Sie Favoriten und durchsuchen Sie sie jederzeit.", "alt": "Die SlideInk-Bibliothek mit gespeicherten Notizen: Logo-Ideen, Radtour, Geschenke und Besprechung mit Peter" }
       ]
     },
     "privacy": {

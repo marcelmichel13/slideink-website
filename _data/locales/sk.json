@@ -2,12 +2,12 @@
   "language_name": "Slovenčina",
   "og_locale": "sk_SK",
   "seo": {
-    "home_title": "SlideInk — Rýchle poznámky a pripomienky nad každou obrazovkou",
-    "home_description": "SlideInk vám umožňuje písať, kresliť, zadávať rýchle poznámky a vytvárať pripomienky nad ľubovoľnou obrazovkou Androidu bez opustenia používanej aplikácie.",
+    "home_title": "SlideInk — Rýchle poznámky a pripomienky nad akoukoľvek appkou",
+    "home_description": "SlideInk ti umožní písať, kresliť, zadávať rýchle poznámky a vytvárať pripomienky priamo nad appkou, ktorú práve používaš, bez prepínania medzi aplikáciami.",
     "privacy_title": "Zásady ochrany osobných údajov — SlideInk",
-    "privacy_description": "Zistite, ako SlideInk ukladá poznámky lokálne, chráni vaše súkromie a používa služby Androidu a Google Play.",
+    "privacy_description": "Zisti, ako SlideInk ukladá poznámky v zariadení, chráni tvoje súkromie a používa služby Androidu a Google Play.",
     "support_title": "Podpora SlideInk — Pomoc a kontakt",
-    "support_description": "Získajte pomoc so SlideInk a kontaktujte podporu e-mailom.",
+    "support_description": "Získaj pomoc so SlideInk a napíš podpore e-mailom.",
     "og_image_alt": "SlideInk v telefóne s Androidom so žltým ručným ťahom a sloganom „Your notes and reminders – one slide away“"
   },
   "nav": {
@@ -31,9 +31,9 @@
     "hero": {
       "eyebrow": "APLIKÁCIA PRE ANDROID",
       "title": "Rýchle poznámky a pripomienky",
-      "accent": "nad každou obrazovkou.",
-      "lead": "Píšte, kreslite, zadávajte text a zachyťte to podstatné bez opustenia aktuálnej obrazovky.",
-      "body": "Vysuňte SlideInk z boku telefónu, píšte alebo kreslite nad ľubovoľnou aplikáciou a zadávajte poznámky klávesnicou. So SlideInk PRO z napísaných poznámok vytvoríte pripomienky.",
+      "accent": "nad akoukoľvek appkou.",
+      "lead": "Píš a kresli prstom či stylusom alebo použi klávesnicu. Bez prepínania aplikácií.",
+      "body": "Vysuň SlideInk z boku telefónu, píš alebo kresli nad ľubovoľnou aplikáciou a zadávaj poznámky klávesnicou. So SlideInk PRO z napísaných poznámok vytvoríš pripomienky.",
       "see_slideink": "Ako to funguje",
       "availability": "Zadarmo na Google Play · Pripomienky so SlideInk PRO",
       "video_label": "Ukážka SlideInk: kresliaca plocha sa vysunie ponad domovskú obrazovku Androidu a rukou sa na ňu napíše žltý ťah a slogan.",
@@ -43,89 +43,111 @@
     },
     "features": {
       "eyebrow": "NAVRHNUTÉ PRE RÝCHLOSŤ",
-      "title": "Zachyťte to bez prepínania aplikácií.",
-      "description": "Čísla, adresy, nákupné zoznamy, nápady, rozmery, poznámky z hovoru aj veci, na ktoré nesmiete zabudnúť — zachyťte ich okamžite a ponechajte aktuálnu obrazovku viditeľnú.",
+      "title": "Zachyť to bez prepínania aplikácií.",
+      "description": "Čísla, adresy, nákupné zoznamy, nápady, rozmery, poznámky z hovoru aj veci, na ktoré nesmieš zabudnúť — zachyť ich okamžite a aktuálna obrazovka ostane viditeľná.",
       "cards": [
-        { "icon": "↗", "title": "Rýchlo vysúvateľné plátno", "description": "Nenápadný plávajúci úchyt udržiava SlideInk pripravený vždy, keď ho potrebujete." },
-        { "icon": "✎", "title": "Prst alebo stylus", "description": "Píšte prirodzene pomocou nástrojov pera, gumy a krokov späť či vpred." },
-        { "icon": "◐", "title": "Nastaviteľná priehľadnosť", "description": "Počas písania zostáva aplikácia pod prekrytím viditeľná." },
-        { "icon": "▣", "title": "Ukladanie poznámok", "description": "Uložte si užitočné poznámky ako snímky a vráťte sa k nim neskôr." },
-        { "icon": "bell", "title": "Pripomienky z textových poznámok", "description": "So SlideInk PRO napíšte poznámku klávesnicou, klepnite na zvonček, zvoľte čas pripomenutia a po doručení ju odložte alebo označte ako hotovú." },
-        { "icon": "↕", "title": "Prispôsobiteľná úchytka", "description": "Zvoľte jej stranu, veľkosť a farbu aj spôsob otvárania: ťuknutím, potiahnutím alebo oboma." }
+        { "icon": "↗", "title": "Vysúvacia plocha vždy poruke", "description": "Potiahni alebo ťukni na úchytku na okraji obrazovky a hneď si zapíš, čo potrebuješ." },
+        { "icon": "✎", "title": "Pero, zvýrazňovač a guma", "description": "Píš, kresli a zvýrazňuj. Ak sa pomýliš, ľahko to opravíš." },
+        { "icon": "◐", "title": "Nastaviteľná priehľadnosť", "description": "Pri písaní môžeš vidieť aj aplikáciu pod vysúvacou plochou. Priehľadnosť si nastavíš podľa seba." },
+        { "icon": "photo", "title": "Text, kresba aj fotky", "description": "Do jednej poznámky pridaj text, kresbu aj fotky. Fotku môžeš posunúť, zväčšiť, otočiť alebo orezať." },
+        { "icon": "pages", "title": "Papier podľa seba", "description": "Vyber si čistý, linajkový, štvorčekový alebo bodkovaný papier. Dlhší text pokračuje na ďalšej strane." },
+        { "icon": "autosave", "title": "Ukladá sa sama", "description": "Rozpísaná poznámka sa ukladá automaticky. Pokračovať v nej môžeš aj po reštarte." },
+        { "icon": "folder", "title": "Poriadok v poznámkach", "description": "Roztrieď si poznámky do priečinkov a označ obľúbené. Keď niečo hľadáš, stačí zadať slovo z textu napísaného klávesnicou." },
+        { "icon": "lock", "title": "Zamknutie poznámok", "description": "Osobné poznámky si môžeš zamknúť. Odomkneš ich rovnako ako telefón." },
+        { "icon": "share", "title": "Jednoduché zdieľanie", "description": "Pošli celú poznámku ako PDF alebo jednu stranu ako obrázok." },
+        { "icon": "backup", "title": "Záloha poznámok a pripomienok", "description": "Zálohuj si poznámky aj pripomienky do telefónu alebo na Disk Google. Ručne alebo automaticky každý deň." },
+        { "icon": "bell", "title": "Pripomienky so SlideInk PRO", "description": "Napíš poznámku na klávesnici a nastav čas. SlideInk ti ju pripomenie." },
+        { "icon": "↕", "title": "Úchytka podľa seba", "description": "Vyber si jej farbu, veľkosť a stranu obrazovky. Aj to, či panel otvoríš ťuknutím alebo potiahnutím." }
       ]
     },
     "reminders": {
       "title": "Pripomienky",
-      "description": "Vytvárajte pripomienky písaním alebo hlasom, odložte ich jedným ťuknutím a tie, ktoré potrebujete pravidelne, nechajte opakovať každý deň, týždeň, mesiac alebo rok.",
-      "image_alt": "Ukážka pripomienok SlideInk s kartou pripomienky, možnosťami odloženia a opakovania."
+      "description": "Pripomienku vytvoríš z napísanej poznámky alebo z widgetu na ploche, kde ju môžeš aj nadiktovať. Opakovať sa dá každý deň, týždeň, mesiac alebo rok a režim Schôdzka pripomienky na 1 až 4 hodiny stíši. Vytváranie pripomienok je zadarmo 14 dní od prvej uloženej pripomienky, potom ho odomkne jednorazový nákup SlideInk PRO. Nie je to predplatné.",
+      "cards": [
+        { "title": "Priamo z poznámky", "description": "Napíš, na čo nesmieš zabudnúť, a ťukni na zvonček. Vyber Večer, Zajtra, 15 minút alebo vlastný dátum a čas.", "alt": "Napísaná poznámka „Kúpiť paradajky cestou domov“ nad receptom s rýchlymi časmi pripomienky a voľbou vlastného dátumu a času" },
+        { "title": "Karta nad appkou, ktorú práve používaš", "description": "V správnej chvíli vyskočí pripomienka nad tým, čo práve robíš. Potiahnutím doľava ju odložíš, doprava ju skryješ do zvončeka a potiahnutím nadol tam skryješ všetky naraz.", "alt": "Karta pripomienky „Kúpiť paradajky cestou domov“ nad stránkou s receptom s tlačidlami Odložiť a Hotovo" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDGETY",
-      "title": "Pripomienky priamo z domovskej obrazovky.",
-      "description": "Pridajte si widget SlideInk a vytvorte pripomienku jedným ťuknutím — napíšte ju alebo nadiktujte. Widgety poznámok sú zdarma. Vytváranie nových pripomienok je zdarma počas 14 dní od uloženia prvej pripomienky; potom vyžaduje SlideInk PRO. Už uložené pripomienky fungujú ďalej.",
+      "title": "Poznámky a pripomienky z domovskej obrazovky.",
+      "description": "Pridaj si widget SlideInk a začni poznámku alebo pripomienku jedným ťuknutím. Widgety fungujú, aj keď je SlideInk vypnutý. Widgety poznámok sú zadarmo. Vytváranie nových pripomienok je zadarmo 14 dní od uloženia prvej pripomienky; potom vyžaduje SlideInk PRO. Už uložené pripomienky fungujú ďalej.",
       "size_label": "Veľkosť",
+      "free_label": "Zadarmo",
       "how_title": "Ako pridať widget",
-      "how_text": "Podržte prst na prázdnom mieste domovskej obrazovky, ťuknite na Miniaplikácie (widgety) a nájdite SlideInk.",
+      "how_text": "Podrž prst na prázdnom mieste domovskej obrazovky, ťukni na Miniaplikácie (widgety) a nájdi SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Rýchla poznámka",
+          "description": "Jedným ťuknutím otvor poznámku na ručné písanie a kreslenie."
+        },
+        "note-actions": {
+          "name": "Akcie poznámok",
+          "description": "Kresli, píš na klávesnici alebo si pozri uložené poznámky."
+        },
+        "notes-reminders": {
+          "name": "Poznámky a pripomienky",
+          "description": "Poznámky píš alebo kresli. Pripomienku zadaj na klávesnici alebo nadiktuj. Uložené poznámky otvoríš cez ikonu knižky."
+        },
         "quick-reminder": {
           "name": "Rýchla pripomienka",
-          "description": "Jedným ťuknutím otvorí novú pripomienku. Napíšte, čo si chcete pripomenúť, a zvoľte čas."
+          "description": "Na klávesnici napíš, čo si chceš pripomenúť, a nastav čas."
         },
         "voice-reminder": {
           "name": "Hlasová pripomienka",
-          "description": "Ťuknite a povedzte, čo si chcete pripomenúť. Vaše slová sa stanú textom pripomienky — stačí zvoliť čas."
+          "description": "Povedz, čo si chceš pripomenúť. Tvoje slová sa prepíšu na text a ty nastavíš čas."
         },
         "reminder-actions": {
-          "name": "Rýchle pripomienky",
-          "description": "Vyberte si, ako vytvoríte pripomienku: písaním alebo hlasom."
+          "name": "Pripomienka a hlas",
+          "description": "Vyber si, či pripomienku napíšeš na klávesnici alebo nadiktuješ. Potom nastav čas."
         },
         "quick-actions": {
           "name": "Rýchle akcie",
-          "description": "Nová písaná pripomienka alebo rovno Knižnica s poznámkami a pripomienkami."
+          "description": "Napíš novú pripomienku na klávesnici alebo si otvor zoznam uložených pripomienok."
         },
         "expanded-actions": {
           "name": "Rozšírené akcie",
-          "description": "Písaná pripomienka, hlasová pripomienka aj Knižnica v jednom widgete."
+          "description": "Napíš pripomienku na klávesnici, nadiktuj ju alebo si otvor uložené pripomienky."
         }
       }
     },
     "screenshots": {
       "eyebrow": "AKO TO FUNGUJE",
       "cards": [
-        { "title": "Vysuňte ho nad akúkoľvek aplikáciu", "description": "Vysuňte SlideInk pri prehliadaní, čítaní či chatovaní a zapíšte si, čo potrebujete — aplikácia pod ním zostane viditeľná.", "alt": "SlideInk nad receptom na palacinky v prehliadači s rukou písaným nákupným zoznamom: eggs, milk, blueberries" },
-        { "title": "Píšte, kreslite alebo ťukajte", "description": "Píšte prstom alebo dotykovým perom, alebo ťukajte na klávesnici a upravte text — farbu, veľkosť, písmo, tučné aj kurzívu.", "alt": "Panel úprav textu SlideInk nad klávesnicou s aktívnou žltou farbou, veľkosťou 20 a tučným písmom, napísané poznámky „Pick up the cake at 4 pm“ a „candles and balloons“ a ružový ručný nápis „Mom's birthday“ so srdiečkom" },
-        { "title": "Nájdite ju neskôr", "description": "Ukladajte poznámky do Knižnice, označte si obľúbené a kedykoľvek ich vyhľadajte.", "alt": "Knižnica SlideInk so štyrmi uloženými poznámkami: náčrt skrinky s rozmermi, nákupný zoznam označený ako obľúbený, zoznam na narodeniny a kód brány" }
+        { "title": "Vysuň ho nad akúkoľvek aplikáciu", "description": "Vysuň SlideInk pri prehliadaní, čítaní či chatovaní a zapíš si, čo potrebuješ — aplikácia pod ním ostane viditeľná.", "alt": "SlideInk nad receptom na cestoviny v prehliadači s ručne napísaným nákupným zoznamom: paradajky, čerstvú bazalku, parmezán a krúžkom okolo paradajok" },
+        { "title": "Píš, kresli alebo použi klávesnicu", "description": "Píš prstom alebo stylusom, alebo použi klávesnicu a uprav text — farbu, veľkosť, písmo, tučné aj kurzívu.", "alt": "Poznámka SlideInk „Víkend v Lisabone“ na žltom riadkovanom papieri s tučným nadpisom, zoznamom vecí na zbalenie a očíslovaným plánom" },
+        { "title": "Nájdi ju neskôr", "description": "Ukladaj poznámky do Knižnice, označ si obľúbené a kedykoľvek ich vyhľadaj.", "alt": "Knižnica SlideInk s uloženými poznámkami: Nápady na logo, Cyklovýlet, Darčeky a Porada s Petrom" }
       ]
     },
     "privacy": {
       "eyebrow": "SÚKROMIE NA PRVOM MIESTE",
-      "title": "Vaše poznámky zostávajú vo vašom zariadení.",
-      "description": "SlideInk nevyžaduje účet a nenahráva vaše poznámky na naše servery. Zálohy idú iba tam, kam si vyberiete.",
+      "title": "Tvoje poznámky ostávajú v tvojom zariadení.",
+      "description": "SlideInk nevyžaduje účet a nenahráva tvoje poznámky na naše servery. Zálohy idú iba tam, kam si vyberieš.",
       "link": "Prečítať zásady ochrany osobných údajov"
     },
     "contact": {
       "icon_alt": "Ikona SlideInk",
-      "title": "Potrebujete pomoc so SlideInk?",
-      "prefix": "Napíšte nám na",
+      "title": "Potrebuješ pomoc so SlideInk?",
+      "prefix": "Napíš nám na",
       "suffix": "."
     }
   },
   "support": {
     "home_link": "Domovská stránka SlideInk",
     "eyebrow": "Podpora SlideInk",
-    "title": "Potrebujete pomoc so SlideInk?",
-    "intro": "Máte otázku, našli ste chybu alebo potrebujete pomôcť so SlideInk? Napíšte nám — odpovede na časté otázky nájdete nižšie.",
+    "title": "Potrebuješ pomoc so SlideInk?",
+    "intro": "Máš otázku, objavila sa chyba alebo potrebuješ pomôcť so SlideInk? Napíš nám — odpovede na časté otázky nájdeš nižšie.",
     "email_label": "E-mail podpory",
     "email_action": "Napísať podpore",
     "faq_title": "Časté otázky",
     "faq": [
-      { "q": "Úchytka SlideInk sa nezobrazuje.", "a": "SlideInk potrebuje povolenie na zobrazenie nad inými aplikáciami. Otvorte SlideInk a povoľte ho, keď vás o to požiada, alebo ho zapnite v Nastaveniach telefónu v časti Aplikácie › SlideInk." },
-      { "q": "Úchytka po čase alebo po reštarte zmizne.", "a": "Niektoré telefóny, napríklad Xiaomi, OPPO alebo Huawei, zastavujú aplikácie na pozadí. V nastaveniach telefónu povoľte SlideInk automatické spúšťanie alebo beh na pozadí a vypnite preň optimalizáciu batérie." },
-      { "q": "Pripomienky neprichádzajú načas.", "a": "Povoľte SlideInk notifikácie a keď vás požiada, zapnite presné pripomienky (Budíky a pripomenutia). Pripomienky môže oneskoriť aj šetrič batérie." },
-      { "q": "Hlasové pripomienky nefungujú.", "a": "Hlasové zadávanie používa službu rozpoznávania reči vo vašom telefóne, napríklad od spoločnosti Google. Skontrolujte, či je nainštalovaná a zapnutá." },
-      { "q": "Ako získam SlideInk PRO v novom telefóne?", "a": "Prihláste sa rovnakým účtom Google, ktorým ste SlideInk PRO kúpili. PRO sa vám sprístupní automaticky a nemusíte ho kupovať znova." },
-      { "q": "Prenesú sa moje poznámky do nového telefónu?", "a": "Áno, pomocou zálohy. V SlideInku otvorte Zálohovanie a uložte poznámky a pripomienky do súboru alebo na Disk Google. V novom telefóne nainštalujte SlideInk a zálohu obnovte skôr, než pridáte niečo nové, pretože obnova funguje iba v prázdnom SlideInku." }
+      { "q": "Úchytka SlideInk sa nezobrazuje.", "a": "SlideInk potrebuje povolenie na zobrazenie nad inými aplikáciami. Otvor SlideInk a povoľ ho, keď ťa o to požiada, alebo ho zapni v Nastaveniach telefónu v časti Aplikácie › SlideInk." },
+      { "q": "Úchytka po čase alebo po reštarte zmizne.", "a": "Niektoré telefóny, napríklad Xiaomi, OPPO alebo Huawei, zastavujú aplikácie na pozadí. V nastaveniach telefónu povoľ SlideInku automatické spúšťanie alebo beh na pozadí a vypni preň optimalizáciu batérie." },
+      { "q": "Pripomienky neprichádzajú načas.", "a": "Povoľ SlideInku upozornenia a keď ťa požiada, zapni presné pripomienky (Budíky a pripomenutia). Pripomienky môže oneskoriť aj šetrič batérie." },
+      { "q": "Hlasové pripomienky nefungujú.", "a": "Hlasové zadávanie používa službu rozpoznávania reči v tvojom telefóne, napríklad od spoločnosti Google. Skontroluj, či je nainštalovaná a zapnutá." },
+      { "q": "Ako získam SlideInk PRO v novom telefóne?", "a": "Prihlás sa rovnakým účtom Google, cez ktorý bol SlideInk PRO kúpený. PRO sa ti sprístupní automaticky a nemusíš ho kupovať znova." },
+      { "q": "Prenesú sa moje poznámky do nového telefónu?", "a": "Áno, pomocou zálohy. V SlideInku otvor Zálohu a ulož poznámky a pripomienky do súboru alebo na Disk Google. V novom telefóne nainštaluj SlideInk a zálohu obnov skôr, než pridáš niečo nové, pretože obnova funguje iba v prázdnom SlideInku." }
     ]
   },
   "privacy": {

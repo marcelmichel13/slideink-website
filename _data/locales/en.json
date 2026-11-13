@@ -46,56 +46,78 @@
       "title": "Capture it without switching apps.",
       "description": "Numbers, addresses, shopping lists, ideas, measurements, call notes and things you need to remember — capture them immediately while keeping the current screen visible.",
       "cards": [
-        { "icon": "↗", "title": "Quick slide-out canvas", "description": "A subtle floating handle keeps SlideInk ready whenever you need it." },
-        { "icon": "✎", "title": "Finger or stylus", "description": "Write naturally with pen tools, eraser, undo and redo." },
-        { "icon": "◐", "title": "Adjustable transparency", "description": "Keep the app underneath visible while you write over it." },
-        { "icon": "▣", "title": "Save your notes", "description": "Keep useful notes as snapshots and come back to them later." },
-        { "icon": "bell", "title": "Reminders from typed notes", "description": "With SlideInk PRO, type a note, tap the bell, choose when to be reminded, then Snooze or mark it Done when it appears." },
-        { "icon": "↕", "title": "Customizable handle", "description": "Pick its side, size and color, and choose how it opens: tap, drag or both." }
+        { "icon": "↗", "title": "Slide-out panel, always at hand", "description": "Drag or tap the handle at the edge of the screen and jot down what you need right away." },
+        { "icon": "✎", "title": "Pen, highlighter and eraser", "description": "Write, draw and highlight. Made a mistake? It is easy to fix." },
+        { "icon": "◐", "title": "Adjustable transparency", "description": "See the app under the panel while you write. Set the transparency the way you like." },
+        { "icon": "photo", "title": "Text, drawing and photos", "description": "Add text, drawings and photos to one note. Move, resize, rotate or crop a photo." },
+        { "icon": "pages", "title": "Paper your way", "description": "Choose clean, lined, grid or dotted paper. Longer text continues on the next page." },
+        { "icon": "autosave", "title": "Saves itself", "description": "Your unfinished note is saved automatically. You can carry on with it even after a restart." },
+        { "icon": "folder", "title": "Keep notes organized", "description": "Sort notes into folders and mark favorites. To find something, just type a word from your typed text." },
+        { "icon": "lock", "title": "Lock your notes", "description": "Keep personal notes locked. You unlock them the same way you unlock your phone." },
+        { "icon": "share", "title": "Easy sharing", "description": "Send a whole note as a PDF or a single page as an image." },
+        { "icon": "backup", "title": "Back up notes and reminders", "description": "Back up your notes and reminders to your phone or Google Drive. By hand or automatically every day." },
+        { "icon": "bell", "title": "Reminders with SlideInk PRO", "description": "Type a note and set a time. SlideInk will remind you." },
+        { "icon": "↕", "title": "A handle that suits you", "description": "Choose its color, size and side of the screen. And whether the panel opens with a tap or a drag." }
       ]
     },
     "reminders": {
       "title": "Reminders",
-      "description": "Create reminders by typing or speaking, snooze them in one tap, and repeat the ones you need every day, week, month or year.",
-      "image_alt": "SlideInk reminders preview with a reminder card, Snooze options and Repeat options."
+      "description": "Create reminders from typed notes or from a home screen widget, where you can also dictate them. Repeat them every day, week, month or year, and Meeting mode keeps them quiet for 1 to 4 hours. Creating reminders is free for 14 days from your first saved reminder; after that, a one-time SlideInk PRO purchase unlocks it. It is not a subscription.",
+      "cards": [
+        { "title": "Straight from your note", "description": "Type what you must not forget and tap the bell. Pick Evening, Tomorrow, 15 minutes or your own date and time.", "alt": "The typed note “Buy tomatoes on the way home” over a recipe page with quick reminder times and a custom date and time" },
+        { "title": "A card over the app you are using", "description": "At the right time, the reminder pops up over whatever you are doing. Swipe left to snooze it, right to hide it in the bell, or down to hide all reminders at once.", "alt": "The reminder card “Buy tomatoes on the way home” over the recipe page with Snooze and Done" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDGETS",
-      "title": "Reminders from your home screen.",
-      "description": "Add a SlideInk widget and start a reminder with one tap — type it or say it. Note widgets are free. Creating new reminders is free for 14 days from the day you save your first reminder; after that, it requires SlideInk PRO. Existing reminders keep working.",
+      "title": "Notes and reminders from your home screen.",
+      "description": "Add a SlideInk widget and start a note or a reminder with one tap. Widgets work even when SlideInk is turned off. Note widgets are free. Creating new reminders is free for 14 days from the day you save your first reminder; after that, it requires SlideInk PRO. Existing reminders keep working.",
       "size_label": "Size",
+      "free_label": "Free",
       "how_title": "How to add a widget",
       "how_text": "Touch and hold an empty spot on your home screen, tap Widgets and find SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Quick note",
+          "description": "Open a note for handwriting and drawing with one tap."
+        },
+        "note-actions": {
+          "name": "Note actions",
+          "description": "Draw, type with the keyboard or look through your saved notes."
+        },
+        "notes-reminders": {
+          "name": "Notes and reminders",
+          "description": "Write or draw notes. Type a reminder or dictate it. Open your saved notes with the book icon."
+        },
         "quick-reminder": {
           "name": "Quick reminder",
-          "description": "Opens a new reminder in one tap. Type what to remember and pick a time."
+          "description": "Type what you want to remember and set the time."
         },
         "voice-reminder": {
           "name": "Voice reminder",
-          "description": "Tap and say what to remember. Your words become the reminder text — just pick a time."
+          "description": "Say what you want to remember. Your words turn into text, and you set the time."
         },
         "reminder-actions": {
           "name": "Reminder actions",
-          "description": "Choose how to create a reminder: by typing or by voice."
+          "description": "Choose whether to type the reminder or dictate it. Then set the time."
         },
         "quick-actions": {
           "name": "Quick actions",
-          "description": "A new typed reminder, or straight to your Library with notes and reminders."
+          "description": "Type a new reminder or open the list of your saved reminders."
         },
         "expanded-actions": {
           "name": "Expanded actions",
-          "description": "Typed reminder, voice reminder and the Library — all in one widget."
+          "description": "Type a reminder, dictate it or open your saved reminders."
         }
       }
     },
     "screenshots": {
       "eyebrow": "HOW IT WORKS",
       "cards": [
-        { "title": "Slide it out over any app", "description": "Pull out SlideInk while you browse, read or chat and jot down what you need — the app underneath stays visible.", "alt": "SlideInk over a pancake recipe in the browser with a handwritten shopping list: eggs, milk, blueberries" },
-        { "title": "Write, draw or type", "description": "Use your finger or a stylus, or type with the keyboard and style the text — color, size, font, bold and italic.", "alt": "SlideInk text toolbar above the keyboard with yellow, size 20 and bold active, typed notes “Pick up the cake at 4 pm” and “candles and balloons”, and a pink handwritten “Mom's birthday” with a heart" },
-        { "title": "Find it later", "description": "Save notes to the Library, mark favorites and search them whenever you need.", "alt": "SlideInk Library with four saved notes: a cabinet sketch with dimensions, a shopping list marked as a favorite, a birthday checklist and a gate code" }
+        { "title": "Slide it out over any app", "description": "Pull out SlideInk while you browse, read or chat and jot down what you need — the app underneath stays visible.", "alt": "SlideInk over a pasta recipe in the browser with a handwritten shopping list: tomatoes, fresh basil, parmesan, and a circle around the tomatoes" },
+        { "title": "Write, draw or type", "description": "Use your finger or a stylus, or type with the keyboard and style the text — color, size, font, bold and italic.", "alt": "The SlideInk note “Weekend in Lisbon” on yellow lined paper with a bold title, a packing list and a numbered plan" },
+        { "title": "Find it later", "description": "Save notes to the Library, mark favorites and search them whenever you need.", "alt": "The SlideInk Library with saved notes: Logo ideas, Bike trip, Gifts and Meeting with Peter" }
       ]
     },
     "privacy": {

@@ -46,56 +46,78 @@
       "title": "Anótalo sin cambiar de aplicación.",
       "description": "Números, direcciones, listas de la compra, ideas, medidas, notas de llamadas y cosas que debes recordar: anótalo todo al instante sin dejar de ver la pantalla actual.",
       "cards": [
-        { "icon": "↗", "title": "Lienzo desplegable al instante", "description": "Un discreto controlador flotante mantiene SlideInk listo cuando lo necesitas." },
-        { "icon": "✎", "title": "Dedo o lápiz óptico", "description": "Escribe de forma natural con las herramientas de lápiz, borrador, deshacer y rehacer." },
-        { "icon": "◐", "title": "Transparencia ajustable", "description": "Mantén visible la aplicación que hay debajo mientras escribes sobre ella." },
-        { "icon": "▣", "title": "Guarda tus notas", "description": "Conserva las notas útiles como capturas y vuelve a ellas más adelante." },
-        { "icon": "bell", "title": "Recordatorios desde notas escritas", "description": "Con SlideInk PRO, escribe una nota, toca la campana, elige cuándo recibir el aviso y, cuando aparezca, posponlo o márcalo como hecho." },
-        { "icon": "↕", "title": "Controlador personalizable", "description": "Elige su lado, tamaño y color, y cómo se abre: tocando, arrastrando o de ambas formas." }
+        { "icon": "↗", "title": "Panel deslizable siempre a mano", "description": "Desliza o toca el controlador en el borde de la pantalla y anota al instante lo que necesites." },
+        { "icon": "✎", "title": "Lápiz, resaltador y borrador", "description": "Escribe, dibuja y resalta. Si te equivocas, lo corriges fácilmente." },
+        { "icon": "◐", "title": "Transparencia ajustable", "description": "Mientras escribes, también ves la app que hay debajo del panel. Ajusta la transparencia a tu gusto." },
+        { "icon": "photo", "title": "Texto, dibujo y fotos", "description": "Añade texto, dibujos y fotos a una misma nota. Puedes mover, ampliar, girar o recortar la foto." },
+        { "icon": "pages", "title": "Papel a tu gusto", "description": "Elige papel liso, rayado, cuadriculado o punteado. El texto largo continúa en la página siguiente." },
+        { "icon": "autosave", "title": "Se guarda sola", "description": "La nota que estás escribiendo se guarda automáticamente. Puedes seguir con ella incluso después de reiniciar." },
+        { "icon": "folder", "title": "Notas en orden", "description": "Organiza tus notas en carpetas y marca tus favoritas. Para buscar algo, basta con escribir una palabra del texto tecleado." },
+        { "icon": "lock", "title": "Bloquea tus notas", "description": "Tus notas personales pueden quedar bloqueadas. Se desbloquean igual que tu teléfono." },
+        { "icon": "share", "title": "Comparte fácilmente", "description": "Envía una nota entera en PDF o una sola página como imagen." },
+        { "icon": "backup", "title": "Copia de seguridad de notas y recordatorios", "description": "Guarda una copia de tus notas y recordatorios en el teléfono o en Google Drive. A mano o automáticamente cada día." },
+        { "icon": "bell", "title": "Recordatorios con SlideInk PRO", "description": "Escribe una nota con el teclado y elige la hora. SlideInk te la recordará." },
+        { "icon": "↕", "title": "Controlador a tu gusto", "description": "Elige su color, tamaño y lado de la pantalla. Y si el panel se abre con un toque o deslizándolo." }
       ]
     },
     "reminders": {
       "title": "Recordatorios",
-      "description": "Crea recordatorios escribiendo o con la voz, pospónlos con un toque y repite los que necesites cada día, semana, mes o año.",
-      "image_alt": "Vista previa de los recordatorios de SlideInk con una tarjeta de recordatorio y opciones para posponer y repetir."
+      "description": "Crea recordatorios desde una nota escrita o desde un widget de la pantalla de inicio, donde también puedes dictarlos. Repítelos cada día, semana, mes o año, y el modo Reunión los silencia de 1 a 4 horas. Crear recordatorios es gratis durante 14 días desde que guardas el primero; después, lo desbloquea una compra única de SlideInk PRO. No es una suscripción.",
+      "cards": [
+        { "title": "Directamente desde tu nota", "description": "Escribe lo que no puedes olvidar y toca la campana. Elige Esta noche, Mañana, 15 minutos o tu propia fecha y hora.", "alt": "La nota escrita «Comprar tomates de camino a casa» sobre una página de receta con horas rápidas de recordatorio y fecha y hora personalizadas" },
+        { "title": "Una tarjeta sobre la app que estás usando", "description": "En el momento justo, el recordatorio aparece sobre lo que estés haciendo. Desliza a la izquierda para posponerlo, a la derecha para ocultarlo en la campana o hacia abajo para ocultarlos todos a la vez.", "alt": "La tarjeta de recordatorio «Comprar tomates de camino a casa» sobre la página de la receta con Posponer y Hecho" }
+      ]
     },
     "widgets": {
       "eyebrow": "SLIDEINK PRO",
       "section_eyebrow": "WIDGETS",
-      "title": "Recordatorios desde la pantalla de inicio.",
-      "description": "Añade un widget de SlideInk y crea un recordatorio con un toque: escríbelo o díctalo. Los widgets de notas son gratis. Crear nuevos recordatorios es gratis durante 14 días desde que guardas tu primer recordatorio; después necesitas SlideInk PRO para crearlos. Los recordatorios ya guardados siguen funcionando.",
+      "title": "Notas y recordatorios desde la pantalla de inicio.",
+      "description": "Añade un widget de SlideInk y empieza una nota o un recordatorio con un toque. Los widgets funcionan incluso cuando SlideInk está desactivado. Los widgets de notas son gratis. Crear nuevos recordatorios es gratis durante 14 días desde que guardas tu primer recordatorio; después necesitas SlideInk PRO para crearlos. Los recordatorios ya guardados siguen funcionando.",
       "size_label": "Tamaño",
+      "free_label": "Gratis",
       "how_title": "Cómo añadir un widget",
       "how_text": "Mantén pulsado un espacio vacío de la pantalla de inicio, toca Widgets y busca SlideInk.",
       "items": {
+        "quick-note": {
+          "name": "Nota rápida",
+          "description": "Abre con un toque una nota para escribir a mano y dibujar."
+        },
+        "note-actions": {
+          "name": "Acciones de notas",
+          "description": "Dibuja, escribe con el teclado o mira tus notas guardadas."
+        },
+        "notes-reminders": {
+          "name": "Notas y recordatorios",
+          "description": "Escribe o dibuja notas. Escribe un recordatorio con el teclado o díctalo. Tus notas guardadas se abren con el icono del libro."
+        },
         "quick-reminder": {
           "name": "Recordatorio rápido",
-          "description": "Abre un nuevo recordatorio con un toque. Escribe lo que quieres recordar y elige la hora."
+          "description": "Escribe con el teclado lo que quieres recordar y elige la hora."
         },
         "voice-reminder": {
           "name": "Recordatorio por voz",
-          "description": "Toca y di lo que quieres recordar. Tus palabras se convierten en el texto del recordatorio; solo tienes que elegir la hora."
+          "description": "Di lo que quieres recordar. Tus palabras se convierten en texto y tú eliges la hora."
         },
         "reminder-actions": {
           "name": "Acciones de recordatorio",
-          "description": "Elige cómo crear un recordatorio: escribiendo o con la voz."
+          "description": "Elige si escribes el recordatorio con el teclado o lo dictas. Después, elige la hora."
         },
         "quick-actions": {
           "name": "Acciones rápidas",
-          "description": "Un nuevo recordatorio escrito o acceso directo a la Biblioteca con notas y recordatorios."
+          "description": "Escribe un recordatorio nuevo o abre la lista de tus recordatorios guardados."
         },
         "expanded-actions": {
           "name": "Acciones ampliadas",
-          "description": "Recordatorio escrito, recordatorio por voz y Biblioteca en un solo widget."
+          "description": "Escribe un recordatorio, díctalo o abre tus recordatorios guardados."
         }
       }
     },
     "screenshots": {
       "eyebrow": "CÓMO FUNCIONA",
       "cards": [
-        { "title": "Deslízalo sobre cualquier app", "description": "Saca SlideInk mientras navegas, lees o chateas y apunta lo que necesites: la app de debajo sigue a la vista.", "alt": "SlideInk sobre una receta de tortitas en el navegador con una lista de la compra escrita a mano: eggs, milk, blueberries" },
-        { "title": "Escribe, dibuja o teclea", "description": "Usa el dedo o un lápiz óptico, o escribe con el teclado y da formato al texto: color, tamaño, fuente, negrita y cursiva.", "alt": "Barra de texto de SlideInk sobre el teclado con amarillo, tamaño 20 y negrita activos, notas tecleadas «Pick up the cake at 4 pm» y «candles and balloons», y un «Mom's birthday» rosa escrito a mano con un corazón" },
-        { "title": "Encuéntrala después", "description": "Guarda las notas en la Biblioteca, marca tus favoritas y búscalas cuando las necesites.", "alt": "Biblioteca de SlideInk con cuatro notas guardadas: un boceto de armario con medidas, una lista de la compra marcada como favorita, una lista para un cumpleaños y un código de portal" }
+        { "title": "Deslízalo sobre cualquier app", "description": "Saca SlideInk mientras navegas, lees o chateas y apunta lo que necesites: la app de debajo sigue a la vista.", "alt": "SlideInk sobre una receta de pasta en el navegador con una lista de la compra escrita a mano: tomates, albahaca fresca, parmesano, y un círculo alrededor de los tomates" },
+        { "title": "Escribe, dibuja o teclea", "description": "Usa el dedo o un lápiz óptico, o escribe con el teclado y da formato al texto: color, tamaño, fuente, negrita y cursiva.", "alt": "La nota de SlideInk «Fin de semana en Lisboa» en papel rayado amarillo con un título en negrita, una lista de equipaje y un plan numerado" },
+        { "title": "Encuéntrala después", "description": "Guarda las notas en la Biblioteca, marca tus favoritas y búscalas cuando las necesites.", "alt": "La Biblioteca de SlideInk con notas guardadas: Ideas de logo, Ruta en bici, Regalos y Reunión con Pedro" }
       ]
     },
     "privacy": {
