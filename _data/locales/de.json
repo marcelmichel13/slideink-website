@@ -77,6 +77,7 @@
       "free_label": "Kostenlos",
       "how_title": "So fügen Sie ein Widget hinzu",
       "how_text": "Halten Sie eine freie Stelle auf dem Startbildschirm gedrückt, tippen Sie auf Widgets und suchen Sie SlideInk.",
+      "show_pro": "Erinnerungs-Widgets anzeigen (PRO)",
       "items": {
         "quick-note": {
           "name": "Schnelle Notiz",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "Der SlideInk-Griff wird nicht angezeigt.", "a": "SlideInk benötigt die Berechtigung, über anderen Apps eingeblendet zu werden. Öffnen Sie SlideInk und erlauben Sie es, wenn Sie gefragt werden, oder aktivieren Sie es in den Einstellungen Ihres Telefons unter Apps › SlideInk." },
       { "q": "Der Griff verschwindet nach einiger Zeit oder nach einem Neustart.", "a": "Manche Telefone, zum Beispiel von Xiaomi, OPPO oder Huawei, beenden Apps im Hintergrund. Erlauben Sie SlideInk in den Einstellungen den Autostart bzw. die Ausführung im Hintergrund und deaktivieren Sie die Akku-Optimierung für die App." },
+      { "q": "Wie schalte ich den Griff vorübergehend aus?", "a": "Öffnen Sie die SlideInk-App und tippen Sie auf SlideInk stoppen. Der Griff verschwindet vom Bildschirmrand, bis Sie auf SlideInk starten tippen. Ihre Notizen bleiben gespeichert, und Widgets funktionieren auch, wenn SlideInk ausgeschaltet ist." },
       { "q": "Meine Erinnerungen kommen nicht pünktlich.", "a": "Erlauben Sie Benachrichtigungen für SlideInk und aktivieren Sie bei Nachfrage genaue Erinnerungen (Wecker & Erinnerungen). Auch Energiesparmodi können Erinnerungen verzögern." },
       { "q": "Spracherinnerungen funktionieren nicht.", "a": "Die Spracheingabe nutzt den Spracherkennungsdienst Ihres Telefons, zum Beispiel von Google. Prüfen Sie, ob er installiert und aktiviert ist." },
+      { "q": "Ist SlideInk PRO ein Abo?", "a": "Nein. Sie kaufen SlideInk PRO einmal, danach wird nichts mehr berechnet. Notizen sind kostenlos. PRO brauchen Sie nur zum Erstellen von Erinnerungen, und das können Sie ab Ihrer ersten gespeicherten Erinnerung 14 Tage lang kostenlos testen. Bereits gespeicherte Erinnerungen funktionieren weiterhin." },
       { "q": "Wie bekomme ich SlideInk PRO auf einem neuen Telefon?", "a": "Melden Sie sich mit demselben Google-Konto an, mit dem Sie SlideInk PRO gekauft haben. Der Kauf wird automatisch wiederhergestellt – Sie zahlen nicht erneut." },
       { "q": "Werden meine Notizen auf ein neues Telefon übertragen?", "a": "Ja, mit einer Sicherung. Öffnen Sie in SlideInk die Sicherung und speichern Sie Notizen und Erinnerungen in einer Datei oder in Google Drive. Installieren Sie SlideInk auf dem neuen Telefon und stellen Sie die Sicherung wieder her, bevor Sie etwas Neues hinzufügen, denn die Wiederherstellung funktioniert nur in einem leeren SlideInk." }
     ]

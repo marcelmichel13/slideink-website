@@ -66,6 +66,21 @@
       if (menu.open && !menu.contains(event.target)) menu.open = false;
     });
   });
+  // Widgets: on phones the PRO widgets stay folded until the visitor asks for them (CSS, max-width 600px).
+  const widgets = document.querySelector('[data-widgets]');
+  const widgetsMore = widgets && widgets.querySelector('[data-widgets-more]');
+  if (widgetsMore) {
+    widgets.classList.add('widgets-collapsed');
+    widgetsMore.addEventListener('click', () => {
+      widgets.classList.remove('widgets-collapsed');
+      const first = widgets.querySelector('.widget-card-pro');
+      if (first) {
+        first.tabIndex = -1;
+        first.focus({ preventScroll: true });
+      }
+    });
+  }
+
   document.addEventListener('keydown', event => {
     if (event.key !== 'Escape') return;
     menus.forEach(menu => {

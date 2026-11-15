@@ -77,6 +77,7 @@
       "free_label": "Zdarma",
       "how_title": "Jak přidat widget",
       "how_text": "Podržte prst na prázdném místě domovské obrazovky, klepněte na Widgety a najděte SlideInk.",
+      "show_pro": "Zobrazit widgety připomínek (PRO)",
       "items": {
         "quick-note": {
           "name": "Rychlá poznámka",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "Úchyt SlideInk se nezobrazuje.", "a": "SlideInk potřebuje oprávnění k zobrazení přes jiné aplikace. Otevřete SlideInk a povolte ho, když vás požádá, nebo ho zapněte v Nastavení telefonu v části Aplikace › SlideInk." },
       { "q": "Úchyt po čase nebo po restartu zmizí.", "a": "Některé telefony, například Xiaomi, OPPO nebo Huawei, zastavují aplikace na pozadí. V nastavení telefonu povolte SlideInk automatické spouštění nebo běh na pozadí a vypněte pro něj optimalizaci baterie." },
+      { "q": "Jak úchyt na čas vypnu?", "a": "Otevřete aplikaci SlideInk a klepněte na Zastavit SlideInk. Úchyt z okraje obrazovky zmizí, dokud neklepnete na Spustit SlideInk. Poznámky zůstanou uložené a widgety fungují, i když je SlideInk vypnutý." },
       { "q": "Připomínky nepřicházejí včas.", "a": "Povolte SlideInk oznámení a když vás požádá, zapněte přesné připomínky (Budíky a připomenutí). Připomínky může zpozdit i spořič baterie." },
       { "q": "Hlasové připomínky nefungují.", "a": "Hlasové zadávání používá službu rozpoznávání řeči ve vašem telefonu, například od společnosti Google. Zkontrolujte, zda je nainstalovaná a zapnutá." },
+      { "q": "Je SlideInk PRO předplatné?", "a": "Ne. SlideInk PRO koupíte jednou a nic se neplatí opakovaně. Poznámky jsou zdarma. PRO potřebujete jen k vytváření připomínek a 14 dní od první uložené připomínky si ho můžete vyzkoušet zdarma. Již uložené připomínky fungují dál." },
       { "q": "Jak získám SlideInk PRO v novém telefonu?", "a": "Přihlaste se stejným účtem Google, kterým jste SlideInk PRO koupili. PRO se vám zpřístupní automaticky a nemusíte ho kupovat znovu." },
       { "q": "Přenesou se moje poznámky do nového telefonu?", "a": "Ano, pomocí zálohy. Ve SlideInku otevřete Zálohování a uložte poznámky a připomínky do souboru nebo na Disk Google. V novém telefonu nainstalujte SlideInk a zálohu obnovte dřív, než přidáte něco nového, protože obnova funguje jen v prázdném SlideInku." }
     ]

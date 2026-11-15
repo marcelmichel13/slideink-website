@@ -27,6 +27,22 @@
   <link rel="stylesheet" href="/styles.css">
   <script src="/assets/site.js" defer></script>
   <script src="/assets/hero-demo.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SlideInk",
+    "description": {{ t.seo.home_description | jsonify }},
+    "url": {{ site.url | append: current_language.home | jsonify }},
+    "image": {{ site.url | append: "/slideink-icon.png" | jsonify }},
+    "inLanguage": {{ current_language.hreflang | jsonify }},
+    "operatingSystem": "Android",
+    "applicationCategory": "ProductivityApplication",
+    "installUrl": {{ site.play_store_url | jsonify }},
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "publisher": { "@type": "Organization", "name": "M-S-K Slovakia s.r.o." }
+  }
+  </script>
 </head>
 <body data-page-type="home" data-current-language="{{ page.lang }}">
   <header class="site-header">
@@ -169,7 +185,7 @@
       </div>
     </section>
 
-    <section class="section widgets-section" id="widgets" aria-labelledby="widgets-title">
+    <section class="section widgets-section" id="widgets" aria-labelledby="widgets-title" data-widgets>
       <div class="section-heading">
         <p class="eyebrow">{{ t.home.widgets.section_eyebrow }}</p>
         <h2 id="widgets-title">{{ t.home.widgets.title }}</h2>
@@ -178,7 +194,7 @@
 
       <div class="widget-grid">
         {% for widget in site.widgets %}{% assign widget_copy = t.home.widgets.items[widget.id] %}
-        <article class="widget-card">
+        <article class="widget-card{% if widget.free %}{% else %} widget-card-pro{% endif %}">
           <div class="widget-preview">
             <img src="/assets/widgets/{{ widget.id }}.webp" alt="" width="{{ widget.width }}" height="{{ widget.height }}" loading="lazy">
           </div>
@@ -197,6 +213,7 @@
           <p>{{ t.home.widgets.how_text }}</p>
         </article>
       </div>
+      <button class="button secondary widget-more" type="button" data-widgets-more>{{ t.home.widgets.show_pro }}</button>
     </section>
 
     <section class="section privacy-section" id="privacy">

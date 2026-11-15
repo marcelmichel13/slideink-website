@@ -77,6 +77,7 @@
       "free_label": "Grátis",
       "how_title": "Como adicionar um widget",
       "how_text": "Toque sem soltar num espaço vazio do ecrã inicial, toque em Widgets e procure SlideInk.",
+      "show_pro": "Mostrar os widgets de lembretes (PRO)",
       "items": {
         "quick-note": {
           "name": "Nota rápida",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "A pega do SlideInk não aparece.", "a": "O SlideInk precisa de autorização para ser apresentado sobre outras aplicações. Abra o SlideInk e permita quando for pedido, ou ative-a nas Definições do telemóvel, em Aplicações › SlideInk." },
       { "q": "A pega desaparece passado algum tempo ou depois de reiniciar.", "a": "Alguns telemóveis, por exemplo Xiaomi, OPPO ou Huawei, param as aplicações em segundo plano. Nas definições do telemóvel, permita que o SlideInk inicie automaticamente ou funcione em segundo plano e desative a otimização da bateria para a aplicação." },
+      { "q": "Como desativo a pega durante algum tempo?", "a": "Abra a app SlideInk e toque em Parar SlideInk. A pega desaparece do rebordo do ecrã até tocar em Iniciar SlideInk. As suas notas ficam guardadas e os widgets funcionam mesmo quando o SlideInk está desativado." },
       { "q": "Os meus lembretes não chegam a horas.", "a": "Permita as notificações do SlideInk e, quando for pedido, ative os lembretes exatos (Alarmes e lembretes). A poupança de bateria também pode atrasar os lembretes." },
       { "q": "Os lembretes por voz não funcionam.", "a": "A introdução por voz utiliza o serviço de reconhecimento de voz do telemóvel, por exemplo o da Google. Verifique se está instalado e ativado." },
+      { "q": "O SlideInk PRO é uma subscrição?", "a": "Não. Compra o SlideInk PRO uma única vez e nada volta a ser cobrado. As notas são gratuitas. Só precisa do PRO para criar lembretes, e pode experimentá-lo gratuitamente durante 14 dias a partir do primeiro lembrete guardado. Os lembretes já guardados continuam a funcionar." },
       { "q": "Como obtenho o SlideInk PRO num telemóvel novo?", "a": "Inicie sessão com a mesma conta Google com que comprou o SlideInk PRO. A compra é restaurada automaticamente — não paga novamente." },
       { "q": "As minhas notas são transferidas para um telemóvel novo?", "a": "Sim, com uma cópia de segurança. No SlideInk, abra Cópia de segurança e guarde as notas e os lembretes num ficheiro ou no Google Drive. No telemóvel novo, instale o SlideInk e restaure a cópia antes de adicionar algo novo, porque o restauro só funciona num SlideInk vazio." }
     ]

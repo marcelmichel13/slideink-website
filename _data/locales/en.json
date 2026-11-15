@@ -77,6 +77,7 @@
       "free_label": "Free",
       "how_title": "How to add a widget",
       "how_text": "Touch and hold an empty spot on your home screen, tap Widgets and find SlideInk.",
+      "show_pro": "Show reminder widgets (PRO)",
       "items": {
         "quick-note": {
           "name": "Quick note",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "The SlideInk handle doesn't appear.", "a": "SlideInk needs permission to display over other apps. Open SlideInk and allow it when asked, or turn it on in your phone's Settings under Apps › SlideInk." },
       { "q": "The handle disappears after a while or after a restart.", "a": "Some phones, for example Xiaomi, OPPO or Huawei, stop apps in the background. In your phone's settings, allow SlideInk to autostart or run in the background and turn off battery optimization for it." },
+      { "q": "How do I turn the handle off for a while?", "a": "Open the SlideInk app and tap Stop SlideInk. The handle disappears from the edge of the screen until you tap Start SlideInk. Your notes stay saved, and widgets work even when SlideInk is turned off." },
       { "q": "My reminders don't arrive on time.", "a": "Allow notifications for SlideInk and, when asked, enable precise reminders (Alarms & reminders). Battery saver settings can also delay reminders." },
       { "q": "Voice reminders don't work.", "a": "Voice input uses your phone's speech recognition service, for example from Google. Make sure it is installed and enabled." },
+      { "q": "Is SlideInk PRO a subscription?", "a": "No. You buy SlideInk PRO once and nothing is charged again. Notes are free. You need PRO only to create reminders, and you can try that for free for 14 days from your first saved reminder. Existing reminders keep working." },
       { "q": "How do I get SlideInk PRO on a new phone?", "a": "Sign in with the same Google account you used to buy SlideInk PRO. The purchase is restored automatically — you don't pay again." },
       { "q": "Are my notes transferred to a new phone?", "a": "Yes, with a backup. In SlideInk, open Backup and save your notes and reminders to a file or to Google Drive. On the new phone, install SlideInk and restore the backup before adding anything new, because restore works only in an empty SlideInk." }
     ]

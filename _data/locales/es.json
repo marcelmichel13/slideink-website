@@ -77,6 +77,7 @@
       "free_label": "Gratis",
       "how_title": "Cómo añadir un widget",
       "how_text": "Mantén pulsado un espacio vacío de la pantalla de inicio, toca Widgets y busca SlideInk.",
+      "show_pro": "Mostrar los widgets de recordatorios (PRO)",
       "items": {
         "quick-note": {
           "name": "Nota rápida",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "No aparece el controlador de SlideInk.", "a": "SlideInk necesita permiso para mostrarse sobre otras aplicaciones. Abre SlideInk y permítelo cuando te lo pida, o actívalo en los Ajustes del teléfono, en Aplicaciones › SlideInk." },
       { "q": "El controlador desaparece al cabo de un rato o tras reiniciar.", "a": "Algunos teléfonos, por ejemplo Xiaomi, OPPO o Huawei, detienen las aplicaciones en segundo plano. En los ajustes del teléfono, permite que SlideInk se inicie automáticamente o funcione en segundo plano y desactiva la optimización de batería para la app." },
+      { "q": "¿Cómo desactivo el controlador durante un tiempo?", "a": "Abre la app SlideInk y toca Detener SlideInk. El controlador desaparece del borde de la pantalla hasta que toques Iniciar SlideInk. Tus notas siguen guardadas y los widgets funcionan incluso cuando SlideInk está desactivado." },
       { "q": "Mis recordatorios no llegan a tiempo.", "a": "Permite las notificaciones de SlideInk y, cuando te lo pida, activa los recordatorios exactos (Alarmas y recordatorios). El ahorro de batería también puede retrasarlos." },
       { "q": "Los recordatorios por voz no funcionan.", "a": "La entrada de voz usa el servicio de reconocimiento de voz del teléfono, por ejemplo el de Google. Comprueba que esté instalado y activado." },
+      { "q": "¿SlideInk PRO es una suscripción?", "a": "No. Compras SlideInk PRO una sola vez y no se te vuelve a cobrar. Las notas son gratis. Solo necesitas PRO para crear recordatorios, y puedes probarlo gratis durante 14 días desde que guardas el primero. Los recordatorios ya guardados siguen funcionando." },
       { "q": "¿Cómo consigo SlideInk PRO en un teléfono nuevo?", "a": "Inicia sesión con la misma cuenta de Google con la que compraste SlideInk PRO. La compra se restaura automáticamente; no vuelves a pagar." },
       { "q": "¿Se transfieren mis notas a un teléfono nuevo?", "a": "Sí, con una copia de seguridad. En SlideInk, abre Copia de seguridad y guarda tus notas y recordatorios en un archivo o en Google Drive. En el teléfono nuevo, instala SlideInk y restaura la copia antes de añadir nada, porque la restauración solo funciona en un SlideInk vacío." }
     ]

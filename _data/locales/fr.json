@@ -77,6 +77,7 @@
       "free_label": "Gratuit",
       "how_title": "Ajouter un widget",
       "how_text": "Appuyez de manière prolongée sur un espace libre de l’écran d’accueil, touchez Widgets et recherchez SlideInk.",
+      "show_pro": "Afficher les widgets de rappels (PRO)",
       "items": {
         "quick-note": {
           "name": "Note rapide",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "La poignée SlideInk n’apparaît pas.", "a": "SlideInk a besoin de l’autorisation de s’afficher par-dessus les autres applications. Ouvrez SlideInk et accordez-la lorsqu’elle est demandée, ou activez-la dans les Paramètres du téléphone, sous Applications › SlideInk." },
       { "q": "La poignée disparaît au bout d’un moment ou après un redémarrage.", "a": "Certains téléphones, par exemple Xiaomi, OPPO ou Huawei, arrêtent les applications en arrière-plan. Dans les paramètres du téléphone, autorisez SlideInk à démarrer automatiquement ou à fonctionner en arrière-plan et désactivez l’optimisation de la batterie pour l’application." },
+      { "q": "Comment désactiver la poignée pendant un moment ?", "a": "Ouvrez l’application SlideInk et touchez Arrêter SlideInk. La poignée disparaît du bord de l’écran jusqu’à ce que vous touchiez Démarrer SlideInk. Vos notes restent enregistrées et les widgets fonctionnent même lorsque SlideInk est désactivé." },
       { "q": "Mes rappels n’arrivent pas à l’heure.", "a": "Autorisez les notifications de SlideInk et, lorsque c’est demandé, activez les rappels précis (Alarmes et rappels). Le mode économie de batterie peut aussi retarder les rappels." },
       { "q": "Les rappels vocaux ne fonctionnent pas.", "a": "La saisie vocale utilise le service de reconnaissance vocale de votre téléphone, par exemple celui de Google. Vérifiez qu’il est installé et activé." },
+      { "q": "SlideInk PRO est-il un abonnement ?", "a": "Non. Vous achetez SlideInk PRO une seule fois et rien n’est facturé ensuite. Les notes sont gratuites. PRO sert uniquement à créer des rappels, et vous pouvez l’essayer gratuitement pendant 14 jours à partir du premier rappel enregistré. Les rappels déjà enregistrés continuent de fonctionner." },
       { "q": "Comment obtenir SlideInk PRO sur un nouveau téléphone ?", "a": "Connectez-vous avec le même compte Google que celui utilisé pour acheter SlideInk PRO. L’achat est restauré automatiquement : vous ne payez pas une seconde fois." },
       { "q": "Mes notes sont-elles transférées vers un nouveau téléphone ?", "a": "Oui, avec une sauvegarde. Dans SlideInk, ouvrez Sauvegarde et enregistrez vos notes et rappels dans un fichier ou sur Google Drive. Sur le nouveau téléphone, installez SlideInk et restaurez la sauvegarde avant d’ajouter quoi que ce soit, car la restauration ne fonctionne que dans un SlideInk vide." }
     ]

@@ -77,6 +77,7 @@
       "free_label": "Za darmo",
       "how_title": "Jak dodać widżet",
       "how_text": "Przytrzymaj puste miejsce na ekranie głównym, dotknij Widżety i znajdź SlideInk.",
+      "show_pro": "Pokaż widżety przypomnień (PRO)",
       "items": {
         "quick-note": {
           "name": "Szybka notatka",
@@ -144,8 +145,10 @@
     "faq": [
       { "q": "Uchwyt SlideInk się nie pojawia.", "a": "SlideInk potrzebuje uprawnienia do wyświetlania nad innymi aplikacjami. Otwórz SlideInk i zezwól, gdy aplikacja o to poprosi, albo włącz je w Ustawieniach telefonu w sekcji Aplikacje › SlideInk." },
       { "q": "Uchwyt znika po pewnym czasie lub po ponownym uruchomieniu.", "a": "Niektóre telefony, na przykład Xiaomi, OPPO czy Huawei, zatrzymują aplikacje w tle. W ustawieniach telefonu zezwól SlideInk na autostart lub działanie w tle i wyłącz dla niego optymalizację baterii." },
+      { "q": "Jak wyłączyć uchwyt na jakiś czas?", "a": "Otwórz aplikację SlideInk i dotknij Zatrzymaj SlideInk. Uchwyt zniknie z krawędzi ekranu, dopóki nie dotkniesz Uruchom SlideInk. Notatki pozostają zapisane, a widżety działają także wtedy, gdy SlideInk jest wyłączony." },
       { "q": "Przypomnienia nie przychodzą na czas.", "a": "Zezwól SlideInk na powiadomienia i, gdy aplikacja poprosi, włącz dokładne przypomnienia (Alarmy i przypomnienia). Przypomnienia może opóźniać także oszczędzanie baterii." },
       { "q": "Przypomnienia głosowe nie działają.", "a": "Wprowadzanie głosowe korzysta z usługi rozpoznawania mowy w telefonie, na przykład od Google. Sprawdź, czy jest zainstalowana i włączona." },
+      { "q": "Czy SlideInk PRO to subskrypcja?", "a": "Nie. SlideInk PRO kupujesz raz i nic nie jest pobierane ponownie. Notatki są bezpłatne. PRO jest potrzebne tylko do tworzenia przypomnień i przez 14 dni od zapisania pierwszego przypomnienia możesz je wypróbować bezpłatnie. Zapisane wcześniej przypomnienia nadal działają." },
       { "q": "Jak uzyskać SlideInk PRO na nowym telefonie?", "a": "Zaloguj się na to samo konto Google, którym kupiłeś SlideInk PRO. Zakup zostanie przywrócony automatycznie — nie płacisz ponownie." },
       { "q": "Czy moje notatki zostaną przeniesione na nowy telefon?", "a": "Tak, za pomocą kopii zapasowej. W SlideInk otwórz Kopię zapasową i zapisz notatki oraz przypomnienia w pliku lub na Dysku Google. Na nowym telefonie zainstaluj SlideInk i przywróć kopię, zanim dodasz cokolwiek nowego, ponieważ przywracanie działa tylko w pustym SlideInk." }
     ]
