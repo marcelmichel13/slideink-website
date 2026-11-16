@@ -974,3 +974,185 @@ footer a {
   .google-play-badge { transition: none; }
   .google-play-badge:hover { transform: none; }
 }
+
+/* Guides (návody): article pages and the list of guides. */
+.guide-wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 56px 24px 90px;
+}
+
+.guide-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 288px;
+  gap: 48px;
+  align-items: start;
+}
+
+.guide-head h1,
+.guides-title {
+  font-size: clamp(2.3rem, 5.4vw, 3.9rem);
+  margin-bottom: 18px;
+}
+
+.guide-lead {
+  color: var(--muted);
+  font-size: 1.12rem;
+  max-width: 640px;
+  margin: 0 0 26px;
+}
+
+.guide-free {
+  color: #8391a5;
+  font-size: .92rem;
+  margin: 10px 0 0;
+}
+
+.guide-video { margin: 0; }
+.guide-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 26px;
+  border: 1px solid var(--card-border);
+  background: var(--card);
+}
+.guide-video figcaption {
+  color: #8391a5;
+  font-size: .88rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.guide-body { margin-top: 56px; }
+
+.guide-section { margin: 0 0 52px; }
+.guide-section h2,
+.guide-end h2 {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin-bottom: 20px;
+}
+.guide-section p,
+.guide-section li { color: var(--muted); }
+
+.guide-steps {
+  list-style: none;
+  counter-reset: guide-step;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+.guide-steps li {
+  counter-increment: guide-step;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  background: var(--card);
+}
+.guide-steps img {
+  flex: none;
+  width: 150px;
+  height: auto;
+  border-radius: 16px;
+}
+.guide-steps h3::before {
+  content: counter(guide-step) ". ";
+  color: var(--yellow);
+}
+.guide-steps p { margin: 0; }
+
+.guide-tips ul { padding-left: 22px; }
+.guide-tips li { margin-bottom: 10px; }
+.guide-tips strong { color: var(--text); }
+
+.guide-faq { margin-top: 0; }
+
+.guide-end {
+  padding: 34px;
+  border: 1px solid var(--card-border);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 90% 20%, rgba(38,132,255,.18), transparent 20rem),
+    var(--card);
+  margin-top: 52px;
+}
+.guide-end p {
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+
+.guides-list {
+  list-style: none;
+  margin: 36px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+}
+.guides-card {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  height: 100%;
+  padding: 18px;
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  background: var(--card);
+  text-decoration: none;
+}
+.guides-card:hover { border-color: rgba(38,132,255,.5); }
+.guides-card:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+.guides-card img {
+  flex: none;
+  width: 84px;
+  height: auto;
+  border-radius: 12px;
+}
+.guides-card-text strong {
+  display: block;
+  font-size: 1.08rem;
+  margin-bottom: 6px;
+}
+.guides-card-text span { color: var(--muted); }
+
+@media (max-width: 760px) {
+  .guide-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .guide-video {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .guide-wrap { padding: 40px 18px 70px; }
+  .guide-steps li {
+    padding: 16px;
+    gap: 16px;
+  }
+  .guide-steps img { width: 96px; }
+  .guide-end { padding: 24px; }
+}
+
+/* The Guides link makes the desktop menu longer; between the two layouts keep it on one line (ru, uk, fr). */
+@media (min-width: 901px) and (max-width: 1040px) {
+  .header-actions { gap: 14px; }
+  .header-actions > nav { gap: 14px; }
+  .header-actions > nav a {
+    font-size: .86rem;
+    white-space: nowrap;
+  }
+  .header-actions > .language-picker {
+    flex-basis: 136px;
+    width: 136px;
+  }
+}

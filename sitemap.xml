@@ -21,4 +21,21 @@ permalink: /sitemap.xml
     {% endfor %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/support/" />
   </url>
 {% endfor %}
+{% assign guide_pages = site.pages | where: "page_type", "guide" %}
+{% for guide in guide_pages %}{% assign guide_versions = site.pages | where: "guide_id", guide.guide_id %}{% assign guide_default = guide_versions | where: "lang", "en" | first %}
+  <url>
+    <loc>{{ site.url }}{{ guide.url }}</loc>
+    {% for version in guide_versions %}<xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ site.url }}{{ version.url }}" />
+    {% endfor %}{% if guide_default %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ guide_default.url }}" />
+    {% endif %}
+  </url>
+{% endfor %}{% assign guide_indexes = site.pages | where: "page_type", "guides" %}
+{% assign index_default = guide_indexes | where: "lang", "en" | first %}{% for index in guide_indexes %}
+  <url>
+    <loc>{{ site.url }}{{ index.url }}</loc>
+    {% for other in guide_indexes %}<xhtml:link rel="alternate" hreflang="{{ other.lang }}" href="{{ site.url }}{{ other.url }}" />
+    {% endfor %}{% if index_default %}<xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ index_default.url }}" />
+    {% endif %}
+  </url>
+{% endfor %}
 </urlset>

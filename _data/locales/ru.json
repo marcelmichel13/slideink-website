@@ -18,9 +18,19 @@
     "privacy": "Конфиденциальность",
     "privacy_policy": "Политика конфиденциальности",
     "support": "Поддержка",
+    "guides": "Инструкции",
     "home": "Главная",
     "language": "Язык",
     "menu": "Меню"
+  },
+  "guides": {
+    "eyebrow": "ИНСТРУКЦИЯ",
+    "all_guides": "Все инструкции",
+    "free_note": "Бесплатно в Google Play. Без аккаунта и без рекламы.",
+    "index_title": "Инструкции по SlideInk",
+    "index_heading": "Инструкции",
+    "index_intro": "Простые инструкции, как пользоваться SlideInk в повседневных делах.",
+    "index_description": "Короткие инструкции для Android: как записать номер во время звонка, писать на экране и делать заметки поверх любого приложения."
   },
   "common": {
     "google_play_aria": "Скачать SlideInk в Google Play",

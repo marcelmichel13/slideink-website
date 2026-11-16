@@ -1,5 +1,6 @@
 {% assign t = site.data.locales[page.lang] %}
 {% assign current_language = site.languages | where: "code", page.lang | first %}
+{% assign guides_index = site.pages | where: "page_type", "guides" | where: "lang", page.lang | first %}
 {% capture play_url %}{{ site.play_store_url }}&amp;utm_source=slideink_web&amp;utm_medium=referral&amp;utm_campaign=web_2026_11_{{ page.lang }}{% endcapture %}
 <!doctype html>
 <html lang="{{ page.lang }}">
@@ -62,6 +63,7 @@
             <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
             <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
             <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
+            {% if guides_index %}<a href="{{ guides_index.url }}">{{ t.nav.guides }}</a>{% endif %}
             <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
           </nav>
           <label class="language-picker mobile-menu-language">
@@ -76,6 +78,7 @@
         <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
         <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
         <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
+        {% if guides_index %}<a href="{{ guides_index.url }}">{{ t.nav.guides }}</a>{% endif %}
         <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
       </nav>
       <label class="language-picker">
@@ -245,6 +248,7 @@
     <p>{{ t.common.footer_rights }}</p>
     <div>
       <a href="{{ current_language.privacy }}">{{ t.nav.privacy_policy }}</a>
+      {% if guides_index %}<a href="{{ guides_index.url }}">{{ t.nav.guides }}</a>{% endif %}
       <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
     </div>
   </footer>

@@ -18,9 +18,19 @@
     "privacy": "Soukromí",
     "privacy_policy": "Zásady ochrany osobních údajů",
     "support": "Podpora",
+    "guides": "Návody",
     "home": "Domů",
     "language": "Jazyk",
     "menu": "Menu"
+  },
+  "guides": {
+    "eyebrow": "NÁVOD",
+    "all_guides": "Všechny návody",
+    "free_note": "Zdarma na Google Play. Bez účtu a bez reklam.",
+    "index_title": "Návody pro SlideInk",
+    "index_heading": "Návody",
+    "index_intro": "Jednoduché návody, jak používat SlideInk při běžných věcech.",
+    "index_description": "Krátké návody pro Android: jak si zapsat číslo během hovoru, psát na obrazovku a dělat poznámky nad libovolnou aplikací."
   },
   "common": {
     "google_play_aria": "Získat SlideInk na Google Play",

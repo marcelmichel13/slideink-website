@@ -18,9 +18,19 @@
     "privacy": "Prywatność",
     "privacy_policy": "Polityka prywatności",
     "support": "Pomoc",
+    "guides": "Poradniki",
     "home": "Strona główna",
     "language": "Język",
     "menu": "Menu"
+  },
+  "guides": {
+    "eyebrow": "PORADNIK",
+    "all_guides": "Wszystkie poradniki",
+    "free_note": "Za darmo w Google Play. Bez konta i bez reklam.",
+    "index_title": "Poradniki SlideInk",
+    "index_heading": "Poradniki",
+    "index_intro": "Proste poradniki, jak używać SlideInk na co dzień.",
+    "index_description": "Krótkie poradniki na Androida: jak zapisać numer podczas rozmowy, pisać po ekranie i robić notatki nad dowolną aplikacją."
   },
   "common": {
     "google_play_aria": "Pobierz SlideInk z Google Play",
