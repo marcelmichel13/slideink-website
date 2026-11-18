@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Enregistrement automatique", "description": "La note en cours s’enregistre automatiquement. Vous pouvez la reprendre même après un redémarrage." },
         { "icon": "folder", "title": "Des notes bien rangées", "description": "Classez vos notes dans des dossiers et marquez vos favorites. Pour retrouver quelque chose, il suffit de saisir un mot du texte tapé au clavier." },
         { "icon": "lock", "title": "Notes verrouillées", "description": "Vous pouvez verrouiller vos notes personnelles. Elles se déverrouillent comme votre téléphone." },
-        { "icon": "share", "title": "Partage facile", "description": "Envoyez une note entière en PDF ou une seule page en image." },
+        { "icon": "share", "title": "Partage facile", "description": "Envoyez une note entière en PDF ou une seule page en image. Partagez le texte tapé au clavier en texte brut ou sous forme de fichier Markdown (.md)." },
         { "icon": "backup", "title": "Sauvegarde des notes et des rappels", "description": "Sauvegardez vos notes et vos rappels sur le téléphone ou dans Google Drive. Manuellement ou automatiquement chaque jour." },
         { "icon": "bell", "title": "Rappels avec SlideInk PRO", "description": "Saisissez une note au clavier et choisissez l’heure. SlideInk vous la rappellera." },
         { "icon": "↕", "title": "Poignée à votre goût", "description": "Choisissez sa couleur, sa taille et le côté de l’écran. Choisissez aussi comment ouvrir le panneau : en touchant la poignée ou en la faisant glisser." }

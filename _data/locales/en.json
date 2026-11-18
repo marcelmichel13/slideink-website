@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Saves itself", "description": "Your unfinished note is saved automatically. You can carry on with it even after a restart." },
         { "icon": "folder", "title": "Keep notes organized", "description": "Sort notes into folders and mark favorites. To find something, just type a word from your typed text." },
         { "icon": "lock", "title": "Lock your notes", "description": "Keep personal notes locked. You unlock them the same way you unlock your phone." },
-        { "icon": "share", "title": "Easy sharing", "description": "Send a whole note as a PDF or a single page as an image." },
+        { "icon": "share", "title": "Easy sharing", "description": "Send a whole note as a PDF or a single page as an image. Share your typed text as plain text or as a Markdown (.md) file." },
         { "icon": "backup", "title": "Back up notes and reminders", "description": "Back up your notes and reminders to your phone or Google Drive. By hand or automatically every day." },
         { "icon": "bell", "title": "Reminders with SlideInk PRO", "description": "Type a note and set a time. SlideInk will remind you." },
         { "icon": "↕", "title": "A handle that suits you", "description": "Choose its color, size and side of the screen. And whether the panel opens with a tap or a drag." }

@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Ukládá se sama", "description": "Rozepsaná poznámka se ukládá automaticky. Pokračovat v ní můžete i po restartu." },
         { "icon": "folder", "title": "Pořádek v poznámkách", "description": "Roztřiďte si poznámky do složek a označte oblíbené. Když něco hledáte, stačí zadat slovo z textu napsaného na klávesnici." },
         { "icon": "lock", "title": "Zamčení poznámek", "description": "Osobní poznámky si můžete zamknout. Odemknete je stejně jako telefon." },
-        { "icon": "share", "title": "Snadné sdílení", "description": "Pošlete celou poznámku jako PDF nebo jednu stránku jako obrázek." },
+        { "icon": "share", "title": "Snadné sdílení", "description": "Pošlete celou poznámku jako PDF nebo jednu stránku jako obrázek. Text napsaný na klávesnici můžete sdílet jako prostý text nebo jako soubor Markdown (.md)." },
         { "icon": "backup", "title": "Záloha poznámek a připomínek", "description": "Zálohujte si poznámky i připomínky do telefonu nebo na Disk Google. Ručně nebo automaticky každý den." },
         { "icon": "bell", "title": "Připomínky se SlideInk PRO", "description": "Napište poznámku na klávesnici a nastavte čas. SlideInk vám ji připomene." },
         { "icon": "↕", "title": "Úchyt podle vás", "description": "Vyberte si jeho barvu, velikost a stranu obrazovky. A také to, zda panel otevřete klepnutím, nebo tažením." }

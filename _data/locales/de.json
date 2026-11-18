@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Speichert von selbst", "description": "Eine angefangene Notiz wird automatisch gespeichert. Sie können auch nach einem Neustart daran weiterarbeiten." },
         { "icon": "folder", "title": "Ordnung in Ihren Notizen", "description": "Sortieren Sie Notizen in Ordner und markieren Sie Favoriten. Zum Suchen genügt ein Wort aus dem getippten Text." },
         { "icon": "lock", "title": "Notizen sperren", "description": "Persönliche Notizen können Sie sperren. Entsperren geht genauso wie bei Ihrem Telefon." },
-        { "icon": "share", "title": "Einfach teilen", "description": "Senden Sie eine ganze Notiz als PDF oder eine einzelne Seite als Bild." },
+        { "icon": "share", "title": "Einfach teilen", "description": "Senden Sie eine ganze Notiz als PDF oder eine einzelne Seite als Bild. Getippten Text können Sie als Klartext oder als Markdown-Datei (.md) teilen." },
         { "icon": "backup", "title": "Notizen und Erinnerungen sichern", "description": "Sichern Sie Notizen und Erinnerungen auf dem Telefon oder in Google Drive. Manuell oder automatisch jeden Tag." },
         { "icon": "bell", "title": "Erinnerungen mit SlideInk PRO", "description": "Tippen Sie eine Notiz und wählen Sie eine Zeit. SlideInk erinnert Sie daran." },
         { "icon": "↕", "title": "Der Griff, wie Sie ihn mögen", "description": "Wählen Sie Farbe, Größe und Bildschirmseite. Und ob sich das Panel per Tippen oder Ziehen öffnet." }

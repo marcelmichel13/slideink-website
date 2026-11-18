@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Zapisuje się sama", "description": "Niedokończona notatka zapisuje się automatycznie. Możesz do niej wrócić nawet po ponownym uruchomieniu." },
         { "icon": "folder", "title": "Porządek w notatkach", "description": "Uporządkuj notatki w folderach i oznacz ulubione. Gdy czegoś szukasz, wystarczy wpisać słowo z tekstu pisanego na klawiaturze." },
         { "icon": "lock", "title": "Blokowanie notatek", "description": "Osobiste notatki możesz zablokować. Odblokujesz je tak samo jak telefon." },
-        { "icon": "share", "title": "Łatwe udostępnianie", "description": "Wyślij całą notatkę jako PDF albo jedną stronę jako obraz." },
+        { "icon": "share", "title": "Łatwe udostępnianie", "description": "Wyślij całą notatkę jako PDF albo jedną stronę jako obraz. Tekst pisany na klawiaturze możesz udostępnić jako zwykły tekst albo jako plik Markdown (.md)." },
         { "icon": "backup", "title": "Kopia notatek i przypomnień", "description": "Zapisz kopię notatek i przypomnień w telefonie lub na Dysku Google. Ręcznie albo automatycznie codziennie." },
         { "icon": "bell", "title": "Przypomnienia w SlideInk PRO", "description": "Wpisz notatkę na klawiaturze i ustaw godzinę. SlideInk ci o niej przypomni." },
         { "icon": "↕", "title": "Uchwyt po twojemu", "description": "Wybierz jego kolor, rozmiar i stronę ekranu. A także to, czy panel otworzysz dotknięciem, czy przeciągnięciem." }

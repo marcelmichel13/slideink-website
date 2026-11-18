@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Se guarda sola", "description": "La nota que estás escribiendo se guarda automáticamente. Puedes seguir con ella incluso después de reiniciar." },
         { "icon": "folder", "title": "Notas en orden", "description": "Organiza tus notas en carpetas y marca tus favoritas. Para buscar algo, basta con escribir una palabra del texto tecleado." },
         { "icon": "lock", "title": "Bloquea tus notas", "description": "Tus notas personales pueden quedar bloqueadas. Se desbloquean igual que tu teléfono." },
-        { "icon": "share", "title": "Comparte fácilmente", "description": "Envía una nota entera en PDF o una sola página como imagen." },
+        { "icon": "share", "title": "Comparte fácilmente", "description": "Envía una nota entera en PDF o una sola página como imagen. Comparte el texto tecleado como texto sin formato o como archivo Markdown (.md)." },
         { "icon": "backup", "title": "Copia de seguridad de notas y recordatorios", "description": "Guarda una copia de tus notas y recordatorios en el teléfono o en Google Drive. A mano o automáticamente cada día." },
         { "icon": "bell", "title": "Recordatorios con SlideInk PRO", "description": "Escribe una nota con el teclado y elige la hora. SlideInk te la recordará." },
         { "icon": "↕", "title": "Controlador a tu gusto", "description": "Elige su color, tamaño y lado de la pantalla. Y si el panel se abre con un toque o deslizándolo." }

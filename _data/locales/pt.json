@@ -64,7 +64,7 @@
         { "icon": "autosave", "title": "Guarda-se sozinha", "description": "A nota que está a escrever é guardada automaticamente. Pode continuá-la mesmo depois de reiniciar." },
         { "icon": "folder", "title": "Notas arrumadas", "description": "Organize as notas em pastas e marque as favoritas. Para encontrar algo, basta escrever uma palavra do texto escrito no teclado." },
         { "icon": "lock", "title": "Bloquear notas", "description": "Pode bloquear as suas notas pessoais. Desbloqueiam-se tal como o telemóvel." },
-        { "icon": "share", "title": "Partilha simples", "description": "Envie uma nota inteira em PDF ou uma só página como imagem." },
+        { "icon": "share", "title": "Partilha simples", "description": "Envie uma nota inteira em PDF ou uma só página como imagem. Partilhe o texto escrito no teclado como texto simples ou como ficheiro Markdown (.md)." },
         { "icon": "backup", "title": "Cópia de segurança de notas e lembretes", "description": "Faça uma cópia das notas e dos lembretes no telemóvel ou no Google Drive. Manualmente ou automaticamente todos os dias." },
         { "icon": "bell", "title": "Lembretes com o SlideInk PRO", "description": "Escreva uma nota no teclado e defina a hora. O SlideInk avisa na hora certa." },
         { "icon": "↕", "title": "Pega à sua medida", "description": "Escolha a cor, o tamanho e o lado do ecrã. Escolha também se pretende abrir o painel com um toque ou ao arrastar a pega." }
