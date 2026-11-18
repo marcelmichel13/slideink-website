@@ -2,11 +2,11 @@
   "language_name": "Čeština",
   "og_locale": "cs_CZ",
   "seo": {
-    "home_title": "SlideInk — Rychlé poznámky a připomínky nad libovolnou obrazovkou",
+    "home_title": "SlideInk – Rychlé poznámky a připomínky nad libovolnou obrazovkou",
     "home_description": "SlideInk umožňuje psát, kreslit, zadávat rychlé poznámky a vytvářet připomínky nad libovolnou obrazovkou Androidu bez opuštění používané aplikace.",
-    "privacy_title": "Zásady ochrany osobních údajů — SlideInk",
+    "privacy_title": "Zásady ochrany osobních údajů – SlideInk",
     "privacy_description": "Zjistěte, jak SlideInk ukládá poznámky místně, chrání vaše soukromí a používá služby Androidu a Google Play.",
-    "support_title": "Podpora SlideInk — Pomoc a kontakt",
+    "support_title": "Podpora SlideInk – Pomoc a kontakt",
     "support_description": "Získejte pomoc se SlideInk a kontaktujte podporu e-mailem.",
     "og_image_alt": "SlideInk v telefonu s Androidem se žlutým ručně psaným tahem a sloganem „Your notes and reminders – one slide away“"
   },
@@ -54,10 +54,10 @@
     "features": {
       "eyebrow": "NAVRŽENO PRO RYCHLOST",
       "title": "Zachyťte to bez přepínání aplikací.",
-      "description": "Čísla, adresy, nákupní seznamy, nápady, rozměry, poznámky z hovorů i věci, na které nesmíte zapomenout — zachyťte je okamžitě a ponechte aktuální obrazovku viditelnou.",
+      "description": "Čísla, adresy, nákupní seznamy, nápady, rozměry, poznámky z hovorů i věci, na které nesmíte zapomenout – zachyťte je okamžitě a ponechte aktuální obrazovku viditelnou.",
       "cards": [
         { "icon": "↗", "title": "Výsuvná plocha vždy po ruce", "description": "Vytáhněte úchyt na okraji obrazovky nebo na něj klepněte a hned si zapište, co potřebujete." },
-        { "icon": "✎", "title": "Pero, zvýrazňovač a guma", "description": "Pište, kreslete a zvýrazňujte. Když se spletete, snadno to opravíte." },
+        { "icon": "✎", "title": "Pero, zvýrazňovač a guma", "description": "Pište, kreslete a zvýrazňujte prstem nebo dotykovým perem, například perem S Pen. Když se spletete, snadno to opravíte." },
         { "icon": "◐", "title": "Nastavitelná průhlednost", "description": "Při psaní můžete vidět i aplikaci pod výsuvnou plochou. Průhlednost si nastavíte podle sebe." },
         { "icon": "photo", "title": "Text, kresba i fotky", "description": "Do jedné poznámky přidejte text, kresbu i fotky. Fotku můžete posunout, zvětšit, otočit nebo oříznout." },
         { "icon": "pages", "title": "Papír podle vás", "description": "Vyberte si čistý, linkovaný, čtverečkovaný nebo tečkovaný papír. Delší text pokračuje na další stránce." },
@@ -126,8 +126,8 @@
     "screenshots": {
       "eyebrow": "JAK TO FUNGUJE",
       "cards": [
-        { "title": "Vysuňte ho nad jakoukoli aplikaci", "description": "Vysuňte SlideInk při prohlížení, čtení nebo chatování a zapište si, co potřebujete — aplikace pod ním zůstane vidět.", "alt": "SlideInk nad receptem na těstoviny v prohlížeči s ručně psaným nákupním seznamem: rajčata, čerstvou bazalku, parmazán a kroužkem kolem rajčat" },
-        { "title": "Pište, kreslete nebo ťukejte", "description": "Pište prstem nebo dotykovým perem, nebo ťukejte na klávesnici a upravte text — barvu, velikost, písmo, tučné i kurzívu.", "alt": "Poznámka SlideInk „Víkend v Lisabonu“ na žlutém linkovaném papíře s tučným nadpisem, seznamem věcí k sbalení a očíslovaným plánem" },
+        { "title": "Vysuňte ho nad jakoukoli aplikaci", "description": "Vysuňte SlideInk při prohlížení, čtení nebo chatování a zapište si, co potřebujete – aplikace pod ním zůstane vidět.", "alt": "SlideInk nad receptem na těstoviny v prohlížeči s ručně psaným nákupním seznamem: rajčata, čerstvou bazalku, parmazán a kroužkem kolem rajčat" },
+        { "title": "Pište, kreslete nebo ťukejte", "description": "Pište prstem nebo dotykovým perem, nebo ťukejte na klávesnici a upravte text – barvu, velikost, písmo, tučné i kurzívu.", "alt": "Poznámka SlideInk „Víkend v Lisabonu“ na žlutém linkovaném papíře s tučným nadpisem, seznamem věcí k sbalení a očíslovaným plánem" },
         { "title": "Najděte ji později", "description": "Ukládejte poznámky do Knihovny, označte si oblíbené a kdykoli je vyhledejte.", "alt": "Knihovna SlideInk s uloženými poznámkami: Nápady na logo, Cyklovýlet, Dárky a Porada s Petrem" }
       ]
     },
@@ -148,18 +148,19 @@
     "home_link": "Domovská stránka SlideInk",
     "eyebrow": "Podpora SlideInk",
     "title": "Potřebujete pomoc se SlideInk?",
-    "intro": "Máte dotaz, našli jste chybu nebo potřebujete pomoct se SlideInk? Napište nám — odpovědi na časté dotazy najdete níže.",
+    "intro": "Máte dotaz, našli jste chybu nebo potřebujete pomoct se SlideInk? Napište nám – odpovědi na časté dotazy najdete níže.",
     "email_label": "E-mail podpory",
     "email_action": "Napsat podpoře",
     "faq_title": "Časté dotazy",
+    "faq_more": "Další dotazy najdete v Podpoře",
     "faq": [
       { "q": "Úchyt SlideInk se nezobrazuje.", "a": "SlideInk potřebuje oprávnění k zobrazení přes jiné aplikace. Otevřete SlideInk a povolte ho, když vás požádá, nebo ho zapněte v Nastavení telefonu v části Aplikace › SlideInk." },
       { "q": "Úchyt po čase nebo po restartu zmizí.", "a": "Některé telefony, například Xiaomi, OPPO nebo Huawei, zastavují aplikace na pozadí. V nastavení telefonu povolte SlideInk automatické spouštění nebo běh na pozadí a vypněte pro něj optimalizaci baterie." },
       { "q": "Jak úchyt na čas vypnu?", "a": "Otevřete aplikaci SlideInk a klepněte na Zastavit SlideInk. Úchyt z okraje obrazovky zmizí, dokud neklepnete na Spustit SlideInk. Poznámky zůstanou uložené a widgety fungují, i když je SlideInk vypnutý." },
       { "q": "Připomínky nepřicházejí včas.", "a": "Povolte SlideInk oznámení a když vás požádá, zapněte přesné připomínky (Budíky a připomenutí). Připomínky může zpozdit i spořič baterie." },
       { "q": "Hlasové připomínky nefungují.", "a": "Hlasové zadávání používá službu rozpoznávání řeči ve vašem telefonu, například od společnosti Google. Zkontrolujte, zda je nainstalovaná a zapnutá." },
-      { "q": "Je SlideInk PRO předplatné?", "a": "Ne. SlideInk PRO koupíte jednou a nic se neplatí opakovaně. Poznámky jsou zdarma. PRO potřebujete jen k vytváření připomínek a 14 dní od první uložené připomínky si ho můžete vyzkoušet zdarma. Již uložené připomínky fungují dál." },
-      { "q": "Jak získám SlideInk PRO v novém telefonu?", "a": "Přihlaste se stejným účtem Google, kterým jste SlideInk PRO koupili. PRO se vám zpřístupní automaticky a nemusíte ho kupovat znovu." },
+      { "home": true, "q": "Je SlideInk PRO předplatné?", "a": "Ne. SlideInk PRO koupíte jednou a nic se neplatí opakovaně. Poznámky jsou zdarma. PRO potřebujete jen k vytváření připomínek a 14 dní od první uložené připomínky si ho můžete vyzkoušet zdarma. Již uložené připomínky fungují dál." },
+      { "home": true, "q": "Jak získám SlideInk PRO v novém telefonu?", "a": "Přihlaste se stejným účtem Google, kterým jste SlideInk PRO koupili. PRO se vám zpřístupní automaticky a nemusíte ho kupovat znovu." },
       { "q": "Přenesou se moje poznámky do nového telefonu?", "a": "Ano, pomocí zálohy. Ve SlideInku otevřete Zálohování a uložte poznámky a připomínky do souboru nebo na Disk Google. V novém telefonu nainstalujte SlideInk a zálohu obnovte dřív, než přidáte něco nového, protože obnova funguje jen v prázdném SlideInku." }
     ]
   },
@@ -179,7 +180,7 @@
       {
         "title": "Poznámky, kresby a připomínky",
         "paragraphs": [
-          "Ručně psané poznámky, kresby, napsaný text a připomínky — včetně jejich textu, času a nastavení opakování — se ukládají místně ve vašem zařízení. SlideInk je neodesílá na server provozovaný vývojářem. Mimo SlideInk se kopírují jen tehdy, když je zálohujete nebo sdílíte.",
+          "Ručně psané poznámky, kresby, napsaný text a připomínky – včetně jejich textu, času a nastavení opakování – se ukládají místně ve vašem zařízení. SlideInk je neodesílá na server provozovaný vývojářem. Mimo SlideInk se kopírují jen tehdy, když je zálohujete nebo sdílíte.",
           "SlideInk nevyžaduje registraci uživatele ani účet SlideInk."
         ]
       },
@@ -208,7 +209,7 @@
         "title": "Platby prostřednictvím Google Play",
         "paragraphs": [
           "SlideInk používá službu Google Play Billing pro nákupy, jako je SlideInk PRO. Zpracování nákupu zajišťuje Google Play. SlideInk získává stav nákupu potřebný k určení dostupnosti přístupu PRO.",
-          "SlideInk PRO je jednorázový nákup bez automatického obnovování — nejde o předplatné. SlideInk ověřuje vaše nákupy přes Google Play, aby vám mohl PRO znovu zpřístupnit, například po přeinstalování aplikace nebo v novém zařízení.",
+          "SlideInk PRO je jednorázový nákup bez automatického obnovování – nejde o předplatné. SlideInk ověřuje vaše nákupy přes Google Play, aby vám mohl PRO znovu zpřístupnit, například po přeinstalování aplikace nebo v novém zařízení.",
           "SlideInk nepřijímá ani neukládá úplné údaje o vaší platební kartě. Na informace zpracovávané službou Google Play se vztahují vlastní podmínky a zásady ochrany osobních údajů společnosti Google."
         ]
       },
@@ -272,7 +273,7 @@
       {
         "title": "Kontakt",
         "contact_prefix": "V případě dotazů týkajících se soukromí nebo podpory nás kontaktujte na adrese:",
-        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+        "company": "M-S-K Slovakia s.r.o. – SlideInk / Majo Studio"
       }
     ]
   }

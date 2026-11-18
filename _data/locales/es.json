@@ -2,11 +2,11 @@
   "language_name": "Español",
   "og_locale": "es_ES",
   "seo": {
-    "home_title": "SlideInk — Notas rápidas y recordatorios sobre cualquier pantalla",
+    "home_title": "SlideInk – Notas rápidas y recordatorios sobre cualquier pantalla",
     "home_description": "SlideInk te permite escribir, dibujar, teclear notas rápidas y crear recordatorios sobre cualquier pantalla de Android sin salir de la aplicación que estás usando.",
-    "privacy_title": "Política de privacidad — SlideInk",
+    "privacy_title": "Política de privacidad – SlideInk",
     "privacy_description": "Descubre cómo SlideInk guarda las notas localmente, protege tu privacidad y utiliza los servicios de Android y Google Play.",
-    "support_title": "Soporte de SlideInk — Ayuda y contacto",
+    "support_title": "Soporte de SlideInk – Ayuda y contacto",
     "support_description": "Obtén ayuda con SlideInk y ponte en contacto con soporte por correo electrónico.",
     "og_image_alt": "SlideInk en un teléfono Android con un trazo amarillo escrito a mano y el eslogan «Your notes and reminders – one slide away»"
   },
@@ -57,7 +57,7 @@
       "description": "Números, direcciones, listas de la compra, ideas, medidas, notas de llamadas y cosas que debes recordar: anótalo todo al instante sin dejar de ver la pantalla actual.",
       "cards": [
         { "icon": "↗", "title": "Panel deslizable siempre a mano", "description": "Desliza o toca el controlador en el borde de la pantalla y anota al instante lo que necesites." },
-        { "icon": "✎", "title": "Lápiz, resaltador y borrador", "description": "Escribe, dibuja y resalta. Si te equivocas, lo corriges fácilmente." },
+        { "icon": "✎", "title": "Lápiz, resaltador y borrador", "description": "Escribe, dibuja y resalta con el dedo o con un lápiz óptico, como el S Pen. Si te equivocas, lo corriges fácilmente." },
         { "icon": "◐", "title": "Transparencia ajustable", "description": "Mientras escribes, también ves la app que hay debajo del panel. Ajusta la transparencia a tu gusto." },
         { "icon": "photo", "title": "Texto, dibujo y fotos", "description": "Añade texto, dibujos y fotos a una misma nota. Puedes mover, ampliar, girar o recortar la foto." },
         { "icon": "pages", "title": "Papel a tu gusto", "description": "Elige papel liso, rayado, cuadriculado o punteado. El texto largo continúa en la página siguiente." },
@@ -152,14 +152,15 @@
     "email_label": "Correo electrónico de soporte",
     "email_action": "Escribir a soporte",
     "faq_title": "Preguntas frecuentes",
+    "faq_more": "Más respuestas en Soporte",
     "faq": [
       { "q": "No aparece el controlador de SlideInk.", "a": "SlideInk necesita permiso para mostrarse sobre otras aplicaciones. Abre SlideInk y permítelo cuando te lo pida, o actívalo en los Ajustes del teléfono, en Aplicaciones › SlideInk." },
       { "q": "El controlador desaparece al cabo de un rato o tras reiniciar.", "a": "Algunos teléfonos, por ejemplo Xiaomi, OPPO o Huawei, detienen las aplicaciones en segundo plano. En los ajustes del teléfono, permite que SlideInk se inicie automáticamente o funcione en segundo plano y desactiva la optimización de batería para la app." },
       { "q": "¿Cómo desactivo el controlador durante un tiempo?", "a": "Abre la app SlideInk y toca Detener SlideInk. El controlador desaparece del borde de la pantalla hasta que toques Iniciar SlideInk. Tus notas siguen guardadas y los widgets funcionan incluso cuando SlideInk está desactivado." },
       { "q": "Mis recordatorios no llegan a tiempo.", "a": "Permite las notificaciones de SlideInk y, cuando te lo pida, activa los recordatorios exactos (Alarmas y recordatorios). El ahorro de batería también puede retrasarlos." },
       { "q": "Los recordatorios por voz no funcionan.", "a": "La entrada de voz usa el servicio de reconocimiento de voz del teléfono, por ejemplo el de Google. Comprueba que esté instalado y activado." },
-      { "q": "¿SlideInk PRO es una suscripción?", "a": "No. Compras SlideInk PRO una sola vez y no se te vuelve a cobrar. Las notas son gratis. Solo necesitas PRO para crear recordatorios, y puedes probarlo gratis durante 14 días desde que guardas el primero. Los recordatorios ya guardados siguen funcionando." },
-      { "q": "¿Cómo consigo SlideInk PRO en un teléfono nuevo?", "a": "Inicia sesión con la misma cuenta de Google con la que compraste SlideInk PRO. La compra se restaura automáticamente; no vuelves a pagar." },
+      { "home": true, "q": "¿SlideInk PRO es una suscripción?", "a": "No. Compras SlideInk PRO una sola vez y no se te vuelve a cobrar. Las notas son gratis. Solo necesitas PRO para crear recordatorios, y puedes probarlo gratis durante 14 días desde que guardas el primero. Los recordatorios ya guardados siguen funcionando." },
+      { "home": true, "q": "¿Cómo consigo SlideInk PRO en un teléfono nuevo?", "a": "Inicia sesión con la misma cuenta de Google con la que compraste SlideInk PRO. La compra se restaura automáticamente; no vuelves a pagar." },
       { "q": "¿Se transfieren mis notas a un teléfono nuevo?", "a": "Sí, con una copia de seguridad. En SlideInk, abre Copia de seguridad y guarda tus notas y recordatorios en un archivo o en Google Drive. En el teléfono nuevo, instala SlideInk y restaura la copia antes de añadir nada, porque la restauración solo funciona en un SlideInk vacío." }
     ]
   },
@@ -179,7 +180,7 @@
       {
         "title": "Notas, dibujos y recordatorios",
         "paragraphs": [
-          "Las notas manuscritas, los dibujos, el texto escrito y los recordatorios —incluidos su texto, hora y opciones de repetición— se guardan localmente en tu dispositivo. SlideInk no los sube a ningún servidor gestionado por el desarrollador. Solo se copian fuera de SlideInk cuando haces una copia de seguridad o las compartes.",
+          "Las notas manuscritas, los dibujos, el texto escrito y los recordatorios (incluidos su texto, hora y opciones de repetición) se guardan localmente en tu dispositivo. SlideInk no los sube a ningún servidor gestionado por el desarrollador. Solo se copian fuera de SlideInk cuando haces una copia de seguridad o las compartes.",
           "SlideInk no requiere registro de usuario ni una cuenta de SlideInk."
         ]
       },
@@ -272,7 +273,7 @@
       {
         "title": "Contacto",
         "contact_prefix": "Para consultas sobre privacidad o soporte, contacta con:",
-        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+        "company": "M-S-K Slovakia s.r.o. – SlideInk / Majo Studio"
       }
     ]
   }

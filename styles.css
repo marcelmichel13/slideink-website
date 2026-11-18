@@ -1070,6 +1070,9 @@ footer a {
 .guide-tips strong { color: var(--text); }
 
 .guide-faq { margin-top: 0; }
+.home-faq-section { padding-top: 0; }
+.home-faq { max-width: 860px; margin: 0 auto; }
+.home-faq .text-link { margin-top: 6px; }
 
 .guide-end {
   padding: 34px;

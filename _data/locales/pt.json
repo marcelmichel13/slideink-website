@@ -2,11 +2,11 @@
   "language_name": "Português",
   "og_locale": "pt_PT",
   "seo": {
-    "home_title": "SlideInk — Notas rápidas e lembretes sobre qualquer ecrã",
+    "home_title": "SlideInk – Notas rápidas e lembretes sobre qualquer ecrã",
     "home_description": "O SlideInk permite escrever, desenhar, digitar notas rápidas e criar lembretes sobre qualquer ecrã Android sem sair da aplicação que está a utilizar.",
-    "privacy_title": "Política de Privacidade — SlideInk",
+    "privacy_title": "Política de Privacidade – SlideInk",
     "privacy_description": "Saiba como o SlideInk guarda notas localmente, protege a sua privacidade e utiliza os serviços Android e Google Play.",
-    "support_title": "Suporte do SlideInk — Ajuda e contacto",
+    "support_title": "Suporte do SlideInk – Ajuda e contacto",
     "support_description": "Obtenha ajuda com o SlideInk e contacte o suporte por e-mail.",
     "og_image_alt": "SlideInk num telemóvel Android com um traço amarelo escrito à mão e o slogan «Your notes and reminders – one slide away»"
   },
@@ -54,10 +54,10 @@
     "features": {
       "eyebrow": "CRIADO PARA SER RÁPIDO",
       "title": "Registe sem mudar de aplicação.",
-      "description": "Números, moradas, listas de compras, ideias, medidas, notas de chamadas e coisas de que precisa de se lembrar — registe tudo imediatamente sem deixar de ver o ecrã atual.",
+      "description": "Números, moradas, listas de compras, ideias, medidas, notas de chamadas e coisas de que precisa de se lembrar – registe tudo imediatamente sem deixar de ver o ecrã atual.",
       "cards": [
         { "icon": "↗", "title": "Painel deslizante sempre à mão", "description": "Arraste ou toque na pega no rebordo do ecrã e anote logo o que precisa." },
-        { "icon": "✎", "title": "Caneta, marcador e borracha", "description": "Escreva, desenhe e destaque. Enganou-se? Corrige num instante." },
+        { "icon": "✎", "title": "Caneta, marcador e borracha", "description": "Escreva, desenhe e destaque com o dedo ou com uma caneta, como a S Pen. Enganou-se? Corrige num instante." },
         { "icon": "◐", "title": "Transparência ajustável", "description": "Enquanto escreve, vê também a aplicação por baixo do painel. Ajuste a transparência como preferir." },
         { "icon": "photo", "title": "Texto, desenho e fotos", "description": "Junte texto, desenhos e fotos na mesma nota. Pode mover, ampliar, rodar ou recortar a foto." },
         { "icon": "pages", "title": "Papel à sua medida", "description": "Escolha papel liso, pautado, quadriculado ou pontilhado. O texto mais longo continua na página seguinte." },
@@ -126,7 +126,7 @@
     "screenshots": {
       "eyebrow": "COMO FUNCIONA",
       "cards": [
-        { "title": "Deslize-o sobre qualquer app", "description": "Abra o SlideInk enquanto navega, lê ou conversa e aponte o que precisa — a app por baixo continua visível.", "alt": "SlideInk por cima de uma receita de massa no navegador com uma lista de compras escrita à mão: tomate, manjericão fresco, parmesão, e um círculo à volta do tomate" },
+        { "title": "Deslize-o sobre qualquer app", "description": "Abra o SlideInk enquanto navega, lê ou conversa e aponte o que precisa – a app por baixo continua visível.", "alt": "SlideInk por cima de uma receita de massa no navegador com uma lista de compras escrita à mão: tomate, manjericão fresco, parmesão, e um círculo à volta do tomate" },
         { "title": "Escreva, desenhe ou use o teclado", "description": "Use o dedo ou uma caneta, ou escreva no teclado e formate o texto: cor, tamanho, letra, negrito e itálico.", "alt": "A nota do SlideInk «Fim de semana em Lisboa» em papel pautado amarelo com título a negrito, lista do que levar e plano numerado" },
         { "title": "Encontre-a mais tarde", "description": "Guarde notas na Biblioteca, marque favoritas e pesquise-as sempre que precisar.", "alt": "A Biblioteca do SlideInk com notas guardadas: Ideias de logótipo, Passeio de bicicleta, Prendas e Reunião com o Pedro" }
       ]
@@ -148,18 +148,19 @@
     "home_link": "Página inicial do SlideInk",
     "eyebrow": "Suporte do SlideInk",
     "title": "Precisa de ajuda com o SlideInk?",
-    "intro": "Tem uma dúvida, encontrou um erro ou precisa de ajuda com o SlideInk? Escreva-nos — encontra abaixo as respostas às perguntas frequentes.",
+    "intro": "Tem uma dúvida, encontrou um erro ou precisa de ajuda com o SlideInk? Escreva-nos – encontra abaixo as respostas às perguntas frequentes.",
     "email_label": "E-mail de suporte",
     "email_action": "Contactar o apoio",
     "faq_title": "Perguntas frequentes",
+    "faq_more": "Mais respostas no Suporte",
     "faq": [
       { "q": "A pega do SlideInk não aparece.", "a": "O SlideInk precisa de autorização para ser apresentado sobre outras aplicações. Abra o SlideInk e permita quando for pedido, ou ative-a nas Definições do telemóvel, em Aplicações › SlideInk." },
       { "q": "A pega desaparece passado algum tempo ou depois de reiniciar.", "a": "Alguns telemóveis, por exemplo Xiaomi, OPPO ou Huawei, param as aplicações em segundo plano. Nas definições do telemóvel, permita que o SlideInk inicie automaticamente ou funcione em segundo plano e desative a otimização da bateria para a aplicação." },
       { "q": "Como desativo a pega durante algum tempo?", "a": "Abra a app SlideInk e toque em Parar SlideInk. A pega desaparece do rebordo do ecrã até tocar em Iniciar SlideInk. As suas notas ficam guardadas e os widgets funcionam mesmo quando o SlideInk está desativado." },
       { "q": "Os meus lembretes não chegam a horas.", "a": "Permita as notificações do SlideInk e, quando for pedido, ative os lembretes exatos (Alarmes e lembretes). A poupança de bateria também pode atrasar os lembretes." },
       { "q": "Os lembretes por voz não funcionam.", "a": "A introdução por voz utiliza o serviço de reconhecimento de voz do telemóvel, por exemplo o da Google. Verifique se está instalado e ativado." },
-      { "q": "O SlideInk PRO é uma subscrição?", "a": "Não. Compra o SlideInk PRO uma única vez e nada volta a ser cobrado. As notas são gratuitas. Só precisa do PRO para criar lembretes, e pode experimentá-lo gratuitamente durante 14 dias a partir do primeiro lembrete guardado. Os lembretes já guardados continuam a funcionar." },
-      { "q": "Como obtenho o SlideInk PRO num telemóvel novo?", "a": "Inicie sessão com a mesma conta Google com que comprou o SlideInk PRO. A compra é restaurada automaticamente — não paga novamente." },
+      { "home": true, "q": "O SlideInk PRO é uma subscrição?", "a": "Não. Compra o SlideInk PRO uma única vez e nada volta a ser cobrado. As notas são gratuitas. Só precisa do PRO para criar lembretes, e pode experimentá-lo gratuitamente durante 14 dias a partir do primeiro lembrete guardado. Os lembretes já guardados continuam a funcionar." },
+      { "home": true, "q": "Como obtenho o SlideInk PRO num telemóvel novo?", "a": "Inicie sessão com a mesma conta Google com que comprou o SlideInk PRO. A compra é restaurada automaticamente – não paga novamente." },
       { "q": "As minhas notas são transferidas para um telemóvel novo?", "a": "Sim, com uma cópia de segurança. No SlideInk, abra Cópia de segurança e guarde as notas e os lembretes num ficheiro ou no Google Drive. No telemóvel novo, instale o SlideInk e restaure a cópia antes de adicionar algo novo, porque o restauro só funciona num SlideInk vazio." }
     ]
   },
@@ -179,7 +180,7 @@
       {
         "title": "Notas, desenhos e lembretes",
         "paragraphs": [
-          "As notas manuscritas, desenhos, texto escrito e lembretes — incluindo o respetivo texto, hora e definições de repetição — são guardados localmente no seu dispositivo. O SlideInk não os envia para nenhum servidor gerido pelo programador. Só são copiadas para fora do SlideInk quando faz uma cópia de segurança ou as partilha.",
+          "As notas manuscritas, desenhos, texto escrito e lembretes – incluindo o respetivo texto, hora e definições de repetição – são guardados localmente no seu dispositivo. O SlideInk não os envia para nenhum servidor gerido pelo programador. Só são copiadas para fora do SlideInk quando faz uma cópia de segurança ou as partilha.",
           "O SlideInk não requer registo de utilizador nem uma conta SlideInk."
         ]
       },
@@ -208,7 +209,7 @@
         "title": "Faturação do Google Play",
         "paragraphs": [
           "O SlideInk utiliza o serviço Google Play Billing para compras como o SlideInk PRO. O processamento da compra é efetuado pelo Google Play. O SlideInk recebe o estado da compra necessário para determinar se o acesso PRO está disponível.",
-          "O SlideInk PRO é uma compra única, sem renovação automática — não é uma subscrição. O SlideInk verifica as suas compras no Google Play para restaurar o PRO, por exemplo, depois de reinstalar a aplicação ou num dispositivo novo.",
+          "O SlideInk PRO é uma compra única, sem renovação automática – não é uma subscrição. O SlideInk verifica as suas compras no Google Play para restaurar o PRO, por exemplo, depois de reinstalar a aplicação ou num dispositivo novo.",
           "O SlideInk não recebe nem armazena os dados completos do seu cartão de pagamento. As informações tratadas pelo Google Play estão sujeitas aos termos e políticas de privacidade da Google."
         ]
       },
@@ -272,7 +273,7 @@
       {
         "title": "Contacto",
         "contact_prefix": "Para questões de privacidade ou suporte, contacte-nos através de:",
-        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+        "company": "M-S-K Slovakia s.r.o. – SlideInk / Majo Studio"
       }
     ]
   }

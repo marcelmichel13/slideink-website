@@ -2,11 +2,11 @@
   "language_name": "Deutsch",
   "og_locale": "de_DE",
   "seo": {
-    "home_title": "SlideInk — Schnelle Notizen und Erinnerungen über jedem Bildschirm",
+    "home_title": "SlideInk – Schnelle Notizen und Erinnerungen über jedem Bildschirm",
     "home_description": "Mit SlideInk können Sie über jedem Android-Bildschirm schreiben, zeichnen, kurze Notizen tippen und Erinnerungen erstellen, ohne die verwendete App zu verlassen.",
-    "privacy_title": "Datenschutzerklärung — SlideInk",
+    "privacy_title": "Datenschutzerklärung – SlideInk",
     "privacy_description": "Erfahren Sie, wie SlideInk Notizen lokal speichert, Ihre Privatsphäre schützt und Android- sowie Google-Play-Dienste nutzt.",
-    "support_title": "SlideInk-Support — Hilfe und Kontakt",
+    "support_title": "SlideInk-Support – Hilfe und Kontakt",
     "support_description": "Erhalten Sie Hilfe zu SlideInk und kontaktieren Sie den Support per E-Mail.",
     "og_image_alt": "SlideInk auf einem Android-Telefon mit einem gelben handgeschriebenen Strich und dem Slogan „Your notes and reminders – one slide away“"
   },
@@ -54,10 +54,10 @@
     "features": {
       "eyebrow": "AUF SCHNELLIGKEIT AUSGELEGT",
       "title": "Festhalten, ohne die App zu wechseln.",
-      "description": "Zahlen, Adressen, Einkaufslisten, Ideen, Maße, Gesprächsnotizen und Dinge, an die Sie denken müssen — halten Sie alles sofort fest, während der aktuelle Bildschirm sichtbar bleibt.",
+      "description": "Zahlen, Adressen, Einkaufslisten, Ideen, Maße, Gesprächsnotizen und Dinge, an die Sie denken müssen – halten Sie alles sofort fest, während der aktuelle Bildschirm sichtbar bleibt.",
       "cards": [
         { "icon": "↗", "title": "Ausziehbares Panel, immer griffbereit", "description": "Ziehen Sie am Griff am Bildschirmrand oder tippen Sie darauf und notieren Sie sofort, was Sie brauchen." },
-        { "icon": "✎", "title": "Stift, Textmarker und Radierer", "description": "Schreiben, zeichnen und markieren Sie. Ein Fehler ist schnell korrigiert." },
+        { "icon": "✎", "title": "Stift, Textmarker und Radierer", "description": "Schreiben, zeichnen und markieren Sie mit dem Finger oder einem Eingabestift, zum Beispiel dem S Pen. Ein Fehler ist schnell korrigiert." },
         { "icon": "◐", "title": "Einstellbare Transparenz", "description": "Beim Schreiben sehen Sie auch die App unter dem Panel. Die Transparenz stellen Sie nach Wunsch ein." },
         { "icon": "photo", "title": "Text, Zeichnung und Fotos", "description": "Fügen Sie Text, Zeichnungen und Fotos in eine Notiz ein. Ein Foto können Sie verschieben, vergrößern, drehen oder zuschneiden." },
         { "icon": "pages", "title": "Papier nach Wunsch", "description": "Wählen Sie leeres, liniertes, kariertes oder gepunktetes Papier. Längerer Text geht auf der nächsten Seite weiter." },
@@ -126,8 +126,8 @@
     "screenshots": {
       "eyebrow": "SO FUNKTIONIERT ES",
       "cards": [
-        { "title": "Über jeder App hervorziehen", "description": "Ziehen Sie SlideInk beim Surfen, Lesen oder Chatten hervor und notieren Sie, was Sie brauchen — die App darunter bleibt sichtbar.", "alt": "SlideInk über einem Pasta-Rezept im Browser mit einer handgeschriebenen Einkaufsliste: Tomaten, frisches Basilikum, Parmesan, und einem Kreis um die Tomaten" },
-        { "title": "Schreiben, zeichnen oder tippen", "description": "Mit dem Finger oder Eingabestift schreiben oder per Tastatur tippen und den Text gestalten — Farbe, Größe, Schrift, fett und kursiv.", "alt": "Die SlideInk-Notiz „Wochenende in Lissabon“ auf gelbem liniertem Papier mit fettem Titel, Packliste und nummeriertem Plan" },
+        { "title": "Über jeder App hervorziehen", "description": "Ziehen Sie SlideInk beim Surfen, Lesen oder Chatten hervor und notieren Sie, was Sie brauchen – die App darunter bleibt sichtbar.", "alt": "SlideInk über einem Pasta-Rezept im Browser mit einer handgeschriebenen Einkaufsliste: Tomaten, frisches Basilikum, Parmesan, und einem Kreis um die Tomaten" },
+        { "title": "Schreiben, zeichnen oder tippen", "description": "Mit dem Finger oder Eingabestift schreiben oder per Tastatur tippen und den Text gestalten – Farbe, Größe, Schrift, fett und kursiv.", "alt": "Die SlideInk-Notiz „Wochenende in Lissabon“ auf gelbem liniertem Papier mit fettem Titel, Packliste und nummeriertem Plan" },
         { "title": "Später wiederfinden", "description": "Speichern Sie Notizen in der Bibliothek, markieren Sie Favoriten und durchsuchen Sie sie jederzeit.", "alt": "Die SlideInk-Bibliothek mit gespeicherten Notizen: Logo-Ideen, Radtour, Geschenke und Besprechung mit Peter" }
       ]
     },
@@ -152,14 +152,15 @@
     "email_label": "Support-E-Mail",
     "email_action": "Support kontaktieren",
     "faq_title": "Häufige Fragen",
+    "faq_more": "Weitere Antworten finden Sie im Support",
     "faq": [
       { "q": "Der SlideInk-Griff wird nicht angezeigt.", "a": "SlideInk benötigt die Berechtigung, über anderen Apps eingeblendet zu werden. Öffnen Sie SlideInk und erlauben Sie es, wenn Sie gefragt werden, oder aktivieren Sie es in den Einstellungen Ihres Telefons unter Apps › SlideInk." },
       { "q": "Der Griff verschwindet nach einiger Zeit oder nach einem Neustart.", "a": "Manche Telefone, zum Beispiel von Xiaomi, OPPO oder Huawei, beenden Apps im Hintergrund. Erlauben Sie SlideInk in den Einstellungen den Autostart bzw. die Ausführung im Hintergrund und deaktivieren Sie die Akku-Optimierung für die App." },
       { "q": "Wie schalte ich den Griff vorübergehend aus?", "a": "Öffnen Sie die SlideInk-App und tippen Sie auf SlideInk stoppen. Der Griff verschwindet vom Bildschirmrand, bis Sie auf SlideInk starten tippen. Ihre Notizen bleiben gespeichert, und Widgets funktionieren auch, wenn SlideInk ausgeschaltet ist." },
       { "q": "Meine Erinnerungen kommen nicht pünktlich.", "a": "Erlauben Sie Benachrichtigungen für SlideInk und aktivieren Sie bei Nachfrage genaue Erinnerungen (Wecker & Erinnerungen). Auch Energiesparmodi können Erinnerungen verzögern." },
       { "q": "Spracherinnerungen funktionieren nicht.", "a": "Die Spracheingabe nutzt den Spracherkennungsdienst Ihres Telefons, zum Beispiel von Google. Prüfen Sie, ob er installiert und aktiviert ist." },
-      { "q": "Ist SlideInk PRO ein Abo?", "a": "Nein. Sie kaufen SlideInk PRO einmal, danach wird nichts mehr berechnet. Notizen sind kostenlos. PRO brauchen Sie nur zum Erstellen von Erinnerungen, und das können Sie ab Ihrer ersten gespeicherten Erinnerung 14 Tage lang kostenlos testen. Bereits gespeicherte Erinnerungen funktionieren weiterhin." },
-      { "q": "Wie bekomme ich SlideInk PRO auf einem neuen Telefon?", "a": "Melden Sie sich mit demselben Google-Konto an, mit dem Sie SlideInk PRO gekauft haben. Der Kauf wird automatisch wiederhergestellt – Sie zahlen nicht erneut." },
+      { "home": true, "q": "Ist SlideInk PRO ein Abo?", "a": "Nein. Sie kaufen SlideInk PRO einmal, danach wird nichts mehr berechnet. Notizen sind kostenlos. PRO brauchen Sie nur zum Erstellen von Erinnerungen, und das können Sie ab Ihrer ersten gespeicherten Erinnerung 14 Tage lang kostenlos testen. Bereits gespeicherte Erinnerungen funktionieren weiterhin." },
+      { "home": true, "q": "Wie bekomme ich SlideInk PRO auf einem neuen Telefon?", "a": "Melden Sie sich mit demselben Google-Konto an, mit dem Sie SlideInk PRO gekauft haben. Der Kauf wird automatisch wiederhergestellt – Sie zahlen nicht erneut." },
       { "q": "Werden meine Notizen auf ein neues Telefon übertragen?", "a": "Ja, mit einer Sicherung. Öffnen Sie in SlideInk die Sicherung und speichern Sie Notizen und Erinnerungen in einer Datei oder in Google Drive. Installieren Sie SlideInk auf dem neuen Telefon und stellen Sie die Sicherung wieder her, bevor Sie etwas Neues hinzufügen, denn die Wiederherstellung funktioniert nur in einem leeren SlideInk." }
     ]
   },
@@ -272,7 +273,7 @@
       {
         "title": "Kontakt",
         "contact_prefix": "Bei Fragen zum Datenschutz oder Support kontaktieren Sie uns unter:",
-        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+        "company": "M-S-K Slovakia s.r.o. – SlideInk / Majo Studio"
       }
     ]
   }

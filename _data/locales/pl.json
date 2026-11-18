@@ -2,11 +2,11 @@
   "language_name": "Polski",
   "og_locale": "pl_PL",
   "seo": {
-    "home_title": "SlideInk — Szybkie notatki i przypomnienia na każdym ekranie",
+    "home_title": "SlideInk – Szybkie notatki i przypomnienia na każdym ekranie",
     "home_description": "SlideInk pozwala pisać, rysować, tworzyć szybkie notatki i ustawiać przypomnienia na każdym ekranie Androida bez opuszczania używanej aplikacji.",
-    "privacy_title": "Polityka prywatności — SlideInk",
+    "privacy_title": "Polityka prywatności – SlideInk",
     "privacy_description": "Dowiedz się, jak SlideInk przechowuje notatki lokalnie, chroni Twoją prywatność i korzysta z usług Androida oraz Google Play.",
-    "support_title": "Pomoc SlideInk — Wsparcie i kontakt",
+    "support_title": "Pomoc SlideInk – Wsparcie i kontakt",
     "support_description": "Uzyskaj pomoc dotyczącą SlideInk i skontaktuj się z pomocą techniczną przez e-mail.",
     "og_image_alt": "SlideInk na telefonie z Androidem z żółtą odręczną linią i hasłem „Your notes and reminders – one slide away”"
   },
@@ -54,10 +54,10 @@
     "features": {
       "eyebrow": "STWORZONA Z MYŚLĄ O SZYBKOŚCI",
       "title": "Zapisuj bez przełączania się między aplikacjami.",
-      "description": "Numery, adresy, listy zakupów, pomysły, wymiary, notatki z rozmów i wszystko, o czym trzeba pamiętać — zapisuj od razu, nie zasłaniając bieżącego ekranu.",
+      "description": "Numery, adresy, listy zakupów, pomysły, wymiary, notatki z rozmów i wszystko, o czym trzeba pamiętać – zapisuj od razu, nie zasłaniając bieżącego ekranu.",
       "cards": [
         { "icon": "↗", "title": "Wysuwany panel zawsze pod ręką", "description": "Przeciągnij uchwyt przy krawędzi ekranu albo go dotknij i od razu zapisz, czego potrzebujesz." },
-        { "icon": "✎", "title": "Pióro, zakreślacz i gumka", "description": "Pisz, rysuj i zakreślaj. Pomyłkę łatwo poprawisz." },
+        { "icon": "✎", "title": "Pióro, zakreślacz i gumka", "description": "Pisz, rysuj i zakreślaj palcem albo rysikiem, na przykład S Pen. Pomyłkę łatwo poprawisz." },
         { "icon": "◐", "title": "Regulowana przezroczystość", "description": "Podczas pisania widzisz też aplikację pod panelem. Przezroczystość ustawisz tak, jak lubisz." },
         { "icon": "photo", "title": "Tekst, rysunek i zdjęcia", "description": "Dodaj tekst, rysunek i zdjęcia do jednej notatki. Zdjęcie możesz przesunąć, powiększyć, obrócić albo przyciąć." },
         { "icon": "pages", "title": "Papier po twojemu", "description": "Wybierz papier gładki, w linie, w kratkę lub w kropki. Dłuższy tekst przechodzi na następną stronę." },
@@ -126,8 +126,8 @@
     "screenshots": {
       "eyebrow": "JAK TO DZIAŁA",
       "cards": [
-        { "title": "Wysuń nad dowolną aplikacją", "description": "Wysuń SlideInk podczas przeglądania, czytania lub czatowania i zanotuj, co trzeba — aplikacja pod spodem pozostaje widoczna.", "alt": "SlideInk nad przepisem na makaron w przeglądarce z odręczną listą zakupów: pomidory, świeża bazylia, parmezan i kółkiem wokół pomidorów" },
-        { "title": "Pisz, rysuj lub stukaj", "description": "Pisz palcem lub rysikiem albo wpisuj z klawiatury i formatuj tekst — kolor, rozmiar, czcionka, pogrubienie i kursywa.", "alt": "Notatka SlideInk „Weekend w Lizbonie” na żółtym papierze w linie z pogrubionym tytułem, listą rzeczy do spakowania i numerowanym planem" },
+        { "title": "Wysuń nad dowolną aplikacją", "description": "Wysuń SlideInk podczas przeglądania, czytania lub czatowania i zanotuj, co trzeba – aplikacja pod spodem pozostaje widoczna.", "alt": "SlideInk nad przepisem na makaron w przeglądarce z odręczną listą zakupów: pomidory, świeża bazylia, parmezan i kółkiem wokół pomidorów" },
+        { "title": "Pisz, rysuj lub stukaj", "description": "Pisz palcem lub rysikiem albo wpisuj z klawiatury i formatuj tekst – kolor, rozmiar, czcionka, pogrubienie i kursywa.", "alt": "Notatka SlideInk „Weekend w Lizbonie” na żółtym papierze w linie z pogrubionym tytułem, listą rzeczy do spakowania i numerowanym planem" },
         { "title": "Znajdź ją później", "description": "Zapisuj notatki w Bibliotece, oznaczaj ulubione i wyszukuj je w dowolnej chwili.", "alt": "Biblioteka SlideInk z zapisanymi notatkami: Pomysły na logo, Wycieczka rowerowa, Prezenty i Spotkanie z Piotrem" }
       ]
     },
@@ -148,18 +148,19 @@
     "home_link": "Strona główna SlideInk",
     "eyebrow": "Pomoc SlideInk",
     "title": "Potrzebujesz pomocy z aplikacją SlideInk?",
-    "intro": "Masz pytanie, problem lub potrzebujesz pomocy z SlideInk? Napisz do nas — odpowiedzi na częste pytania znajdziesz poniżej.",
+    "intro": "Masz pytanie, problem lub potrzebujesz pomocy z SlideInk? Napisz do nas – odpowiedzi na częste pytania znajdziesz poniżej.",
     "email_label": "Adres e-mail pomocy technicznej",
     "email_action": "Napisz do nas",
     "faq_title": "Częste pytania",
+    "faq_more": "Więcej odpowiedzi znajdziesz w Pomocy",
     "faq": [
       { "q": "Uchwyt SlideInk się nie pojawia.", "a": "SlideInk potrzebuje uprawnienia do wyświetlania nad innymi aplikacjami. Otwórz SlideInk i zezwól, gdy aplikacja o to poprosi, albo włącz je w Ustawieniach telefonu w sekcji Aplikacje › SlideInk." },
       { "q": "Uchwyt znika po pewnym czasie lub po ponownym uruchomieniu.", "a": "Niektóre telefony, na przykład Xiaomi, OPPO czy Huawei, zatrzymują aplikacje w tle. W ustawieniach telefonu zezwól SlideInk na autostart lub działanie w tle i wyłącz dla niego optymalizację baterii." },
       { "q": "Jak wyłączyć uchwyt na jakiś czas?", "a": "Otwórz aplikację SlideInk i dotknij Zatrzymaj SlideInk. Uchwyt zniknie z krawędzi ekranu, dopóki nie dotkniesz Uruchom SlideInk. Notatki pozostają zapisane, a widżety działają także wtedy, gdy SlideInk jest wyłączony." },
       { "q": "Przypomnienia nie przychodzą na czas.", "a": "Zezwól SlideInk na powiadomienia i, gdy aplikacja poprosi, włącz dokładne przypomnienia (Alarmy i przypomnienia). Przypomnienia może opóźniać także oszczędzanie baterii." },
       { "q": "Przypomnienia głosowe nie działają.", "a": "Wprowadzanie głosowe korzysta z usługi rozpoznawania mowy w telefonie, na przykład od Google. Sprawdź, czy jest zainstalowana i włączona." },
-      { "q": "Czy SlideInk PRO to subskrypcja?", "a": "Nie. SlideInk PRO kupujesz raz i nic nie jest pobierane ponownie. Notatki są bezpłatne. PRO jest potrzebne tylko do tworzenia przypomnień i przez 14 dni od zapisania pierwszego przypomnienia możesz je wypróbować bezpłatnie. Zapisane wcześniej przypomnienia nadal działają." },
-      { "q": "Jak uzyskać SlideInk PRO na nowym telefonie?", "a": "Zaloguj się na to samo konto Google, którym kupiłeś SlideInk PRO. Zakup zostanie przywrócony automatycznie — nie płacisz ponownie." },
+      { "home": true, "q": "Czy SlideInk PRO to subskrypcja?", "a": "Nie. SlideInk PRO kupujesz raz i nic nie jest pobierane ponownie. Notatki są bezpłatne. PRO jest potrzebne tylko do tworzenia przypomnień i przez 14 dni od zapisania pierwszego przypomnienia możesz je wypróbować bezpłatnie. Zapisane wcześniej przypomnienia nadal działają." },
+      { "home": true, "q": "Jak uzyskać SlideInk PRO na nowym telefonie?", "a": "Zaloguj się na to samo konto Google, którym kupiłeś SlideInk PRO. Zakup zostanie przywrócony automatycznie – nie płacisz ponownie." },
       { "q": "Czy moje notatki zostaną przeniesione na nowy telefon?", "a": "Tak, za pomocą kopii zapasowej. W SlideInk otwórz Kopię zapasową i zapisz notatki oraz przypomnienia w pliku lub na Dysku Google. Na nowym telefonie zainstaluj SlideInk i przywróć kopię, zanim dodasz cokolwiek nowego, ponieważ przywracanie działa tylko w pustym SlideInk." }
     ]
   },
@@ -179,7 +180,7 @@
       {
         "title": "Notatki, rysunki i przypomnienia",
         "paragraphs": [
-          "Odręczne notatki, rysunki, wpisany tekst i przypomnienia — wraz z ich treścią, godziną i ustawieniami powtarzania — są przechowywane lokalnie na Twoim urządzeniu. SlideInk nie przesyła ich na serwer prowadzony przez dewelopera. Są kopiowane poza SlideInk tylko wtedy, gdy tworzysz kopię zapasową lub je udostępniasz.",
+          "Odręczne notatki, rysunki, wpisany tekst i przypomnienia – wraz z ich treścią, godziną i ustawieniami powtarzania – są przechowywane lokalnie na Twoim urządzeniu. SlideInk nie przesyła ich na serwer prowadzony przez dewelopera. Są kopiowane poza SlideInk tylko wtedy, gdy tworzysz kopię zapasową lub je udostępniasz.",
           "SlideInk nie wymaga rejestracji użytkownika ani konta SlideInk."
         ]
       },
@@ -208,7 +209,7 @@
         "title": "Płatności w Google Play",
         "paragraphs": [
           "SlideInk korzysta z usługi Google Play Billing przy zakupach takich jak SlideInk PRO. Zakup jest przetwarzany przez Google Play. SlideInk otrzymuje informację o stanie zakupu potrzebną do ustalenia, czy dostęp PRO jest aktywny.",
-          "SlideInk PRO to jednorazowy zakup bez automatycznego odnawiania — nie jest to subskrypcja. SlideInk sprawdza Twoje zakupy w Google Play, aby przywrócić PRO, na przykład po ponownej instalacji aplikacji lub na nowym urządzeniu.",
+          "SlideInk PRO to jednorazowy zakup bez automatycznego odnawiania – nie jest to subskrypcja. SlideInk sprawdza Twoje zakupy w Google Play, aby przywrócić PRO, na przykład po ponownej instalacji aplikacji lub na nowym urządzeniu.",
           "SlideInk nie otrzymuje ani nie przechowuje pełnych danych Twojej karty płatniczej. Informacje przetwarzane przez Google Play podlegają zasadom prywatności i warunkom firmy Google."
         ]
       },
@@ -272,7 +273,7 @@
       {
         "title": "Kontakt",
         "contact_prefix": "W sprawach dotyczących prywatności lub pomocy skontaktuj się z nami pod adresem:",
-        "company": "M-S-K Slovakia s.r.o. — SlideInk / Majo Studio"
+        "company": "M-S-K Slovakia s.r.o. – SlideInk / Majo Studio"
       }
     ]
   }
