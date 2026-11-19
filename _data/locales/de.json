@@ -168,7 +168,7 @@
     "home_link": "SlideInk-Startseite",
     "eyebrow": "SlideInk",
     "title": "Datenschutzerklärung",
-    "updated": "Zuletzt aktualisiert: 2. November 2026",
+    "updated": "Zuletzt aktualisiert: 19. November 2026",
     "intro": "SlideInk ist so konzipiert, dass Ihre Notizen, Zeichnungen und Erinnerungen auf Ihrem Gerät bleiben. Die App erfordert kein Konto und verwendet keine Analyse-, Werbe- oder Trackingdienste.",
     "sections": [
       {
@@ -224,9 +224,21 @@
         "note": "SlideInk nimmt weder am Android-Cloud-Backup noch an der Android-Datenübertragung zwischen Geräten teil. Sie können Ihre Notizen und Erinnerungen selbst in einer Datei sichern, manuell oder automatisch einmal täglich, an einem Ort Ihrer Wahl, zum Beispiel in einem Ordner auf dem Handy oder in Google Drive. Die Datei wird nie an den Entwickler gesendet. Sie ist nicht verschlüsselt und enthält auch gesperrte Notizen, bewahren Sie sie daher nur an einem vertrauenswürdigen Ort auf. Sie können sie in einem leeren SlideInk wiederherstellen, zum Beispiel auf einem neuen Handy."
       },
       {
+        "title": "Sicherung in Google Drive",
+        "paragraphs": [
+          "SlideInk wird eine optionale automatische Sicherung direkt in Ihr eigenes Google Drive anbieten. Sobald sie in der App verfügbar ist, läuft sie erst, nachdem Sie sie in SlideInk einschalten und den Zugriff mit Ihrem Google-Konto erlauben. Die Sicherungen gehen dann direkt von Ihrem Gerät in einen Ordner „SlideInk“ in Ihrem Google Drive. Der Entwickler betreibt dafür keinen Server und erhält nie Ihre Sicherungen, Ihre Google-Daten oder Zugriff auf Ihr Konto.",
+          "SlideInk fragt nur nach dateibezogenem Zugriff auf Google Drive („drive.file“). Er umfasst nur die Dateien, die SlideInk erstellt, und Dateien, die Sie ausdrücklich mit SlideInk öffnen oder für SlideInk freigeben; SlideInk bittet Sie nicht, andere Dateien zu öffnen oder freizugeben, und hat keinen Zugriff auf den Rest Ihres Google Drive. SlideInk nutzt diesen Zugriff nur, um den Ordner SlideInk anzulegen, seine Sicherungen hochzuladen und zu prüfen, ob sie vollständig angekommen sind, sie aufzulisten, eine Sicherung herunterzuladen, wenn Sie sie in einem leeren SlideInk wiederherstellen, und seine eigenen älteren Sicherungen zu entfernen. Dazu liest es Angaben zu den Sicherungen wie Dateinamen, IDs, Größen, Datumsangaben und Prüfsummen. Außerdem liest es die E-Mail-Adresse des verbundenen Google-Kontos, um zu erkennen, in welches Konto Ihre Sicherungen gehen.",
+          "Eine Sicherung ist eine .slideink-Datei mit Ihren gespeicherten Notizen und deren Bildern, Ordnern, Angaben der Bibliothek wie Titeln und Favoriten sowie Ihren Erinnerungen. Sie enthält auch gesperrte Notizen: SlideInk verschlüsselt die Sicherung nicht, daher ist auch eine gesperrte Notiz darin nicht verschlüsselt. Jede automatische Sicherung trägt technische Kennzeichen, die nur SlideInk verwendet: ihre Art, eine zufällige Installations-ID, das Gerätemodell und Prüfsummen. Damit hält SlideInk die Sicherungen verschiedener Geräte auseinander und entfernt nie Dateien, die nicht von ihm stammen.",
+          "Auf Ihrem Gerät speichert SlideInk die E-Mail-Adresse des verbundenen Kontos, die IDs des Ordners SlideInk und dieser Installation, die IDs hochgeladener Sicherungen mit ihren Prüfsummen und Prüfzeitpunkten sowie gegebenenfalls den letzten Sicherungsfehler. Im privaten Speicher der App kann außerdem die neueste Sicherung liegen, solange sie auf das Hochladen wartet. Der Zugriff wird über die Google Play-Dienste auf Ihrem Gerät erteilt; das kurzlebige Zugriffstoken von Google hält SlideInk nur im Arbeitsspeicher und speichert es nie. SlideInk schreibt nie Tokens, E-Mail-Adressen von Konten oder Datei-IDs aus Google Drive in Protokolle. Alle Anfragen an Google Drive nutzen verschlüsselte Verbindungen (HTTPS).",
+          "Google empfängt und speichert die Sicherungen und die Angaben dazu in Ihrem Google Drive. SlideInk gibt Google-Nutzerdaten an niemanden sonst weiter, verkauft sie nicht und nutzt sie nicht für Werbung, Analyse oder das Training von KI-Modellen. Der Entwickler hat keinen Zugriff darauf.",
+          "Nachdem eine neue Sicherung geprüft ist, versucht SlideInk, die ältesten geprüften automatischen Sicherungen derselben Installation zu entfernen, sobald es mehr davon gibt, als es behält. Wenn Sie die Sicherung in Google Drive ausschalten, werden keine neuen Sicherungen mehr hochgeladen und SlideInk löscht die gespeicherten Verbindungsdaten; beim Deinstallieren von SlideInk werden seine Daten auf dem Gerät entfernt. Beides entfernt nicht die Sicherungen, die bereits in Ihrem Google Drive liegen. Sie können sie jederzeit in Google Drive löschen und den Zugriff von SlideInk in den Einstellungen Ihres Google-Kontos widerrufen (myaccount.google.com/connections).",
+          "Die Nutzung von Informationen, die SlideInk von Google-APIs erhält, und deren Übertragung an andere Apps erfolgen gemäß der Google API Services User Data Policy (Richtlinie zu Nutzerdaten für Google API-Dienste), einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use)."
+        ]
+      },
+      {
         "title": "Datenspeicherung und Löschung",
         "paragraphs": [
-          "Notizen und Erinnerungen, einschließlich erledigter Erinnerungen, bleiben auf dem Gerät, bis Sie sie löschen oder die App deinstallieren. Temporäre Dateien, die zum Teilen erstellt werden, können im Cache der App verbleiben, bis sie von der App oder Android entfernt werden oder Sie den App-Cache leeren. Sicherungsdateien bleiben dort, wo Sie sie gespeichert haben, bis Sie sie löschen.",
+          "Notizen und Erinnerungen, einschließlich erledigter Erinnerungen, bleiben auf dem Gerät, bis Sie sie löschen oder die App deinstallieren. Temporäre Dateien, die zum Teilen erstellt werden, können im Cache der App verbleiben, bis sie von der App oder Android entfernt werden oder Sie den App-Cache leeren. Sicherungsdateien bleiben dort, wo sie gespeichert sind, bis Sie sie löschen oder, bei automatischen Sicherungen, bis SlideInk sie als ältere Versionen entfernt, auch in Google Drive wie oben beschrieben.",
           "Von Google Play verarbeitete Kaufdaten werden gemäß den Richtlinien von Google und den Einstellungen Ihres Google-Kontos aufbewahrt."
         ]
       },

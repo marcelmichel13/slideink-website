@@ -168,7 +168,7 @@
     "home_link": "SlideInk Home",
     "eyebrow": "SlideInk",
     "title": "Privacy Policy",
-    "updated": "Last updated: November 2, 2026",
+    "updated": "Last updated: November 19, 2026",
     "intro": "SlideInk is designed to keep your notes, drawings and reminders on your device. The app does not require an account and does not use analytics, advertising, or tracking services.",
     "sections": [
       {
@@ -224,9 +224,21 @@
         "note": "SlideInk does not participate in Android cloud backup or Android device-to-device data transfer. You can back up your notes and reminders yourself to one file, manually or automatically once a day, in a place you choose, such as a folder on your phone or Google Drive. The file is never sent to the developer. It is not encrypted and also contains locked notes, so keep it only in a place you trust. You can restore it into an empty SlideInk, for example on a new phone."
       },
       {
+        "title": "Backup to Google Drive",
+        "paragraphs": [
+          "SlideInk is adding an optional automatic backup directly to your own Google Drive. Once it is available in the app, it runs only after you turn it on in SlideInk and allow access with your Google account. Backups then go straight from your device to a “SlideInk” folder in your Google Drive. The developer does not run a server for this and never receives your backups, your Google data or access to your account.",
+          "SlideInk asks only for per-file access to Google Drive (“drive.file”). It covers only the files SlideInk creates and files you explicitly open or share with SlideInk; SlideInk does not ask you to open or share any other files and has no access to the rest of your Google Drive. SlideInk uses this access only to create the SlideInk folder, upload its backups and check that they arrived complete, list them, download one when you restore it into an empty SlideInk, and remove its own older backups. For this, it reads backup details such as file names, IDs, sizes, dates and checksums. It also reads the email address of the connected Google account to identify which account your backups go to.",
+          "A backup is one .slideink file with your saved notes and their images, folders, Library details such as titles and favorites, and your reminders. It also contains locked notes: SlideInk does not encrypt the backup, so a locked note is not encrypted in it either. Each automatic backup carries technical labels that only SlideInk uses: its type, a random installation ID, the device model and checksums. With them, SlideInk keeps the backups of different devices apart and never removes files that are not its own.",
+          "On your device, SlideInk keeps the email address of the connected account, the IDs of the SlideInk folder and of this installation, the IDs of uploaded backups with their checksums and verification times, and the latest backup error, if any. Its private app storage may also hold the latest backup while it waits to be uploaded. Access is granted through Google Play services on your device; SlideInk holds Google's short-lived access token only in memory and never saves it. SlideInk never writes tokens, account email addresses or Drive file IDs to logs. All Drive requests use encrypted connections (HTTPS).",
+          "Google receives and stores the backups and their details in your Google Drive. SlideInk does not share Google user data with anyone else, does not sell it and does not use it for advertising, analytics or training AI models. The developer has no access to it.",
+          "After a new backup is verified, SlideInk tries to remove the oldest verified automatic backups of the same installation once there are more of them than it keeps. Turning off the backup to Google Drive stops new uploads and clears the saved connection details from SlideInk; uninstalling SlideInk removes its local app data. Neither removes the backups already in your Google Drive. You can delete them in Google Drive at any time and withdraw SlideInk's access in your Google Account settings (myaccount.google.com/connections).",
+          "SlideInk's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements."
+        ]
+      },
+      {
         "title": "Data retention and deletion",
         "paragraphs": [
-          "Notes and reminders, including completed reminders, remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache. Backup files stay where you saved them until you delete them.",
+          "Notes and reminders, including completed reminders, remain on the device until you delete them or uninstall the app. Temporary files created for sharing may remain in the application's cache until they are removed by the app, Android, or by clearing the app cache. Backup files stay where they are stored until you delete them or, for automatic backups, until SlideInk removes them as older versions, including on Google Drive as described above.",
           "Purchase records processed by Google Play are retained according to Google's policies and your Google account settings."
         ]
       },

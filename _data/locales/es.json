@@ -168,7 +168,7 @@
     "home_link": "Inicio de SlideInk",
     "eyebrow": "SlideInk",
     "title": "Política de privacidad",
-    "updated": "Última actualización: 2 de noviembre de 2026",
+    "updated": "Última actualización: 19 de noviembre de 2026",
     "intro": "SlideInk está diseñado para que tus notas, dibujos y recordatorios permanezcan en tu dispositivo. La aplicación no requiere una cuenta ni utiliza servicios de análisis, publicidad o seguimiento.",
     "sections": [
       {
@@ -224,9 +224,21 @@
         "note": "SlideInk no participa en la copia de seguridad en la nube de Android ni en la transferencia de datos entre dispositivos Android. Puedes hacer una copia de seguridad de tus notas y recordatorios en un archivo, manualmente o automáticamente una vez al día, en el lugar que elijas, por ejemplo una carpeta del teléfono o Google Drive. El archivo nunca se envía al desarrollador. No está cifrado e incluye también las notas bloqueadas, así que guárdalo solo en un lugar de confianza. Puedes restaurarlo en un SlideInk vacío, por ejemplo en un teléfono nuevo."
       },
       {
+        "title": "Copia de seguridad en Google Drive",
+        "paragraphs": [
+          "SlideInk va a incorporar una copia de seguridad automática opcional directamente en tu propio Google Drive. Cuando esté disponible en la aplicación, solo funcionará después de que la actives en SlideInk y permitas el acceso con tu cuenta de Google. Las copias irán entonces directamente de tu dispositivo a una carpeta «SlideInk» de tu Google Drive. El desarrollador no utiliza ningún servidor para ello y nunca recibe tus copias, tus datos de Google ni acceso a tu cuenta.",
+          "SlideInk solo pide acceso por archivo a Google Drive («drive.file»). Este acceso abarca solo los archivos que crea SlideInk y los archivos que abras o compartas expresamente con SlideInk; SlideInk no te pide abrir ni compartir ningún otro archivo y no tiene acceso al resto de tu Google Drive. SlideInk usa este acceso solo para crear la carpeta SlideInk, subir sus copias y comprobar que han llegado completas, mostrarlas en una lista, descargar una cuando la restauras en un SlideInk vacío y eliminar sus propias copias antiguas. Para ello lee datos de las copias, como nombres de archivo, ID, tamaños, fechas y sumas de comprobación. También lee la dirección de correo electrónico de la cuenta de Google conectada para saber a qué cuenta van tus copias.",
+          "Una copia de seguridad es un archivo .slideink con tus notas guardadas y sus imágenes, carpetas, datos de la Biblioteca como títulos y favoritas, y tus recordatorios. También incluye las notas bloqueadas: SlideInk no cifra la copia, así que tampoco una nota bloqueada está cifrada en ella. Cada copia automática lleva etiquetas técnicas que solo usa SlideInk: su tipo, un ID de instalación aleatorio, el modelo del dispositivo y sumas de comprobación. Con ellas, SlideInk distingue las copias de distintos dispositivos y nunca elimina archivos que no sean suyos.",
+          "En tu dispositivo, SlideInk guarda la dirección de correo de la cuenta conectada, los ID de la carpeta SlideInk y de esta instalación, los ID de las copias subidas con sus sumas de comprobación y la hora de su verificación, y el último error de copia, si lo hay. El almacenamiento privado de la aplicación también puede contener la copia más reciente mientras espera a subirse. El acceso se concede a través de los servicios de Google Play de tu dispositivo; SlideInk mantiene el token de acceso de corta duración de Google solo en la memoria y nunca lo guarda. SlideInk nunca escribe tokens, direcciones de correo de cuentas ni ID de archivos de Drive en los registros. Todas las solicitudes a Drive usan conexiones cifradas (HTTPS).",
+          "Google recibe y guarda las copias y sus datos en tu Google Drive. SlideInk no comparte los datos de usuario de Google con nadie más, no los vende y no los usa para publicidad, análisis ni para entrenar modelos de IA. El desarrollador no tiene acceso a ellos.",
+          "Después de verificar una copia nueva, SlideInk intenta eliminar las copias automáticas verificadas más antiguas de la misma instalación cuando hay más de las que conserva. Al desactivar la copia en Google Drive se dejan de subir copias nuevas y SlideInk borra los datos guardados de la conexión; al desinstalar SlideInk se eliminan sus datos del dispositivo. Ninguna de las dos cosas elimina las copias que ya están en tu Google Drive. Puedes eliminarlas en Google Drive cuando quieras y retirar el acceso de SlideInk en los ajustes de tu cuenta de Google (myaccount.google.com/connections).",
+          "El uso que hace SlideInk de la información recibida de las API de Google y su transferencia a cualquier otra aplicación cumplirán la Política de datos de usuario de los servicios de las API de Google (Google API Services User Data Policy), incluidos los requisitos de uso limitado (Limited Use)."
+        ]
+      },
+      {
         "title": "Conservación y eliminación de datos",
         "paragraphs": [
-          "Las notas y los recordatorios, incluidos los completados, permanecen en el dispositivo hasta que los eliminas o desinstalas la aplicación. Los archivos temporales creados para compartir pueden permanecer en la caché de la aplicación hasta que la aplicación o Android los eliminen, o hasta que borres la caché de la aplicación. Los archivos de copia de seguridad permanecen donde los guardaste hasta que los elimines.",
+          "Las notas y los recordatorios, incluidos los completados, permanecen en el dispositivo hasta que los eliminas o desinstalas la aplicación. Los archivos temporales creados para compartir pueden permanecer en la caché de la aplicación hasta que la aplicación o Android los eliminen, o hasta que borres la caché de la aplicación. Los archivos de copia de seguridad permanecen donde están guardados hasta que los elimines o, en el caso de las copias automáticas, hasta que SlideInk los elimine como versiones antiguas, también en Google Drive, como se describe más arriba.",
           "Los registros de compras procesadas por Google Play se conservan de acuerdo con las políticas de Google y la configuración de tu cuenta de Google."
         ]
       },

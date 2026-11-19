@@ -168,7 +168,7 @@
     "home_link": "Domovská stránka SlideInk",
     "eyebrow": "SlideInk",
     "title": "Zásady ochrany osobních údajů",
-    "updated": "Poslední aktualizace: 2. listopadu 2026",
+    "updated": "Poslední aktualizace: 19. listopadu 2026",
     "intro": "SlideInk je navržen tak, aby vaše poznámky, kresby a připomínky zůstávaly ve vašem zařízení. Aplikace nevyžaduje účet a nepoužívá analytické, reklamní ani sledovací služby.",
     "sections": [
       {
@@ -224,9 +224,21 @@
         "note": "SlideInk se neúčastní zálohování do cloudu systému Android ani přenosu dat mezi zařízeními Android. Poznámky a připomínky si můžete sami zálohovat do jednoho souboru, ručně nebo automaticky jednou denně, na místo, které si vyberete, například do složky v telefonu nebo na Disk Google. Soubor se nikdy neodesílá vývojáři. Není šifrovaný a obsahuje i zamčené poznámky, proto ho uchovávejte jen na důvěryhodném místě. Obnovit ho můžete do prázdného SlideInku, například v novém telefonu."
       },
       {
+        "title": "Záloha na Disk Google",
+        "paragraphs": [
+          "SlideInk bude nabízet volitelnou automatickou zálohu přímo na váš vlastní Disk Google. Až bude v aplikaci dostupná, spustí se teprve poté, co ji ve SlideInku zapnete a povolíte přístup svým účtem Google. Zálohy pak jdou přímo z vašeho zařízení do složky „SlideInk“ na vašem Disku Google. Vývojář k tomu neprovozuje žádný server a nikdy nedostane vaše zálohy, vaše data Google ani přístup k vašemu účtu.",
+          "SlideInk žádá pouze přístup k jednotlivým souborům na Disku Google („drive.file“). Týká se jen souborů, které vytvoří SlideInk, a souborů, které se SlideInkem výslovně otevřete nebo sdílíte; SlideInk vás o otevření ani sdílení jiných souborů nežádá a ke zbytku vašeho Disku Google nemá přístup. Tento přístup SlideInk používá pouze k tomu, aby vytvořil složku SlideInk, nahrál své zálohy a ověřil, že dorazily celé, zobrazil jejich seznam, stáhl zálohu, když ji obnovujete do prázdného SlideInku, a odstranil své starší zálohy. Přitom čte údaje o zálohách, například názvy souborů, ID, velikosti, data a kontrolní součty. Přečte také e-mailovou adresu připojeného účtu Google, aby věděl, do kterého účtu jdou vaše zálohy.",
+          "Záloha je jeden soubor .slideink s vašimi uloženými poznámkami a jejich obrázky, složkami, údaji Knihovny, například názvy a oblíbenými, a s vašimi připomínkami. Obsahuje i zamčené poznámky: SlideInk zálohu nešifruje, takže ani zamčená poznámka v ní není šifrovaná. Každá automatická záloha nese technická označení, která používá jen SlideInk: její druh, náhodné ID instalace, model zařízení a kontrolní součty. Díky nim SlideInk rozlišuje zálohy z různých zařízení a nikdy neodstraní soubory, které nejsou jeho.",
+          "Ve vašem zařízení si SlideInk uchovává e-mailovou adresu připojeného účtu, ID složky SlideInk a této instalace, ID nahraných záloh s jejich kontrolními součty a časem ověření a poslední chybu zálohy, pokud nastala. V soukromém úložišti aplikace může být i nejnovější záloha, která čeká na nahrání. Přístup se uděluje prostřednictvím služeb Google Play ve vašem zařízení; krátkodobý přístupový token od Googlu drží SlideInk jen v paměti a nikdy ho neukládá. Tokeny, e-mailové adresy účtů ani ID souborů na Disku SlideInk nikdy nezapisuje do záznamů. Všechny požadavky na Disk jdou šifrovaným spojením (HTTPS).",
+          "Zálohy a údaje o nich přijímá a ukládá Google na vašem Disku Google. SlideInk data uživatelů Google nikomu dalšímu neposkytuje, neprodává je a nepoužívá je k reklamě, analytice ani k trénování umělé inteligence. Vývojář k nim nemá přístup.",
+          "Po ověření nové zálohy se SlideInk pokusí odstranit nejstarší ověřené automatické zálohy téže instalace, když jich je víc, než si ponechává. Vypnutím zálohy na Disk Google se zastaví nahrávání nových záloh a SlideInk smaže uložené údaje o připojení; odinstalováním SlideInku se odstraní jeho data v zařízení. Ani jedno neodstraní zálohy, které už jsou na vašem Disku Google. Můžete je kdykoli smazat na Disku Google a přístup SlideInku zrušit v nastavení účtu Google (myaccount.google.com/connections).",
+          "Používání a přenos informací získaných z rozhraní Google API do jakékoli jiné aplikace se ve SlideInku řídí Zásadami pro uživatelská data služeb Google API (Google API Services User Data Policy) včetně požadavků na omezené používání (Limited Use)."
+        ]
+      },
+      {
         "title": "Uchovávání a mazání dat",
         "paragraphs": [
-          "Poznámky a připomínky včetně dokončených připomínek zůstávají v zařízení, dokud je nesmažete nebo neodinstalujete aplikaci. Dočasné soubory vytvořené při sdílení mohou zůstat v mezipaměti aplikace, dokud je neodstraní aplikace, Android nebo vymazání mezipaměti aplikace. Záložní soubory zůstávají tam, kam jste je uložili, dokud je nesmažete.",
+          "Poznámky a připomínky včetně dokončených připomínek zůstávají v zařízení, dokud je nesmažete nebo neodinstalujete aplikaci. Dočasné soubory vytvořené při sdílení mohou zůstat v mezipaměti aplikace, dokud je neodstraní aplikace, Android nebo vymazání mezipaměti aplikace. Záložní soubory zůstávají tam, kde jsou uložené, dokud je nesmažete, nebo u automatických záloh, dokud je SlideInk neodstraní jako starší verze, i na Disku Google, jak je popsáno výše.",
           "Záznamy o nákupech zpracovaných službou Google Play se uchovávají podle zásad společnosti Google a nastavení vašeho účtu Google."
         ]
       },

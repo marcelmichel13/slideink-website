@@ -168,7 +168,7 @@
     "home_link": "Strona główna SlideInk",
     "eyebrow": "SlideInk",
     "title": "Polityka prywatności",
-    "updated": "Ostatnia aktualizacja: 2 listopada 2026 r.",
+    "updated": "Ostatnia aktualizacja: 19 listopada 2026 r.",
     "intro": "SlideInk zaprojektowano tak, aby notatki, rysunki i przypomnienia pozostawały na Twoim urządzeniu. Aplikacja nie wymaga konta i nie korzysta z usług analitycznych, reklamowych ani śledzących.",
     "sections": [
       {
@@ -224,9 +224,21 @@
         "note": "SlideInk nie korzysta z kopii zapasowej Androida w chmurze ani z przenoszenia danych między urządzeniami z Androidem. Możesz samodzielnie utworzyć kopię zapasową notatek i przypomnień w jednym pliku, ręcznie lub automatycznie raz dziennie, w wybranym przez Ciebie miejscu, na przykład w folderze w telefonie lub na Dysku Google. Plik nigdy nie jest wysyłany do dewelopera. Nie jest zaszyfrowany i zawiera także zablokowane notatki, dlatego przechowuj go tylko w zaufanym miejscu. Możesz go przywrócić do pustego SlideInk, na przykład na nowym telefonie."
       },
       {
+        "title": "Kopia zapasowa na Dysku Google",
+        "paragraphs": [
+          "SlideInk umożliwi opcjonalne automatyczne tworzenie kopii zapasowych bezpośrednio na Twoim własnym Dysku Google. Gdy ta funkcja będzie dostępna w aplikacji, zacznie działać dopiero po włączeniu jej w SlideInk i zezwoleniu na dostęp Twoim kontem Google. Kopie trafiają wtedy bezpośrednio z Twojego urządzenia do folderu „SlideInk” na Twoim Dysku Google. Deweloper nie prowadzi do tego żadnego serwera i nigdy nie otrzymuje Twoich kopii, Twoich danych Google ani dostępu do Twojego konta.",
+          "SlideInk prosi tylko o dostęp do poszczególnych plików na Dysku Google („drive.file”). Obejmuje on tylko pliki utworzone przez SlideInk oraz pliki, które wyraźnie otworzysz w SlideInk lub mu udostępnisz; SlideInk nie prosi o otwieranie ani udostępnianie innych plików i nie ma dostępu do reszty Twojego Dysku Google. SlideInk używa tego dostępu tylko do utworzenia folderu SlideInk, przesyłania swoich kopii i sprawdzania, czy dotarły w całości, wyświetlania ich listy, pobrania kopii, gdy przywracasz ją do pustego SlideInk, oraz usuwania swoich starszych kopii. W tym celu odczytuje dane kopii, takie jak nazwy plików, identyfikatory, rozmiary, daty i sumy kontrolne. Odczytuje też adres e-mail połączonego konta Google, aby wiedzieć, na które konto trafiają Twoje kopie.",
+          "Kopia zapasowa to jeden plik .slideink z Twoimi zapisanymi notatkami i ich obrazami, folderami, danymi Biblioteki, takimi jak tytuły i ulubione, oraz Twoimi przypomnieniami. Zawiera też zablokowane notatki: SlideInk nie szyfruje kopii, więc zablokowana notatka również nie jest w niej zaszyfrowana. Każda automatyczna kopia ma oznaczenia techniczne, których używa tylko SlideInk: jej rodzaj, losowy identyfikator instalacji, model urządzenia i sumy kontrolne. Dzięki nim SlideInk odróżnia kopie z różnych urządzeń i nigdy nie usuwa plików, które nie są jego.",
+          "Na Twoim urządzeniu SlideInk przechowuje adres e-mail połączonego konta, identyfikatory folderu SlideInk i tej instalacji, identyfikatory przesłanych kopii z ich sumami kontrolnymi i czasem weryfikacji oraz ostatni błąd kopii, jeśli wystąpił. W prywatnej pamięci aplikacji może się też znajdować najnowsza kopia oczekująca na przesłanie. Dostęp jest przyznawany przez Usługi Google Play na Twoim urządzeniu; krótkotrwały token dostępu od Google SlideInk trzyma tylko w pamięci i nigdy go nie zapisuje. SlideInk nigdy nie zapisuje w logach tokenów, adresów e-mail kont ani identyfikatorów plików z Dysku. Wszystkie żądania do Dysku korzystają z szyfrowanego połączenia (HTTPS).",
+          "Google odbiera i przechowuje kopie oraz ich dane na Twoim Dysku Google. SlideInk nie udostępnia danych użytkownika Google nikomu innemu, nie sprzedaje ich i nie używa ich do reklam, analityki ani trenowania modeli AI. Deweloper nie ma do nich dostępu.",
+          "Po zweryfikowaniu nowej kopii SlideInk próbuje usunąć najstarsze zweryfikowane automatyczne kopie tej samej instalacji, gdy jest ich więcej, niż zachowuje. Wyłączenie kopii na Dysku Google zatrzymuje przesyłanie nowych kopii, a SlideInk usuwa zapisane dane połączenia; odinstalowanie SlideInk usuwa jego dane z urządzenia. Żadne z tych działań nie usuwa kopii, które są już na Twoim Dysku Google. Możesz je w każdej chwili usunąć na Dysku Google i cofnąć dostęp SlideInk w ustawieniach konta Google (myaccount.google.com/connections).",
+          "Wykorzystywanie i przekazywanie przez SlideInk do innych aplikacji informacji otrzymanych z interfejsów API Google będzie zgodne z Zasadami dotyczącymi danych użytkownika w usługach interfejsów API Google (Google API Services User Data Policy), w tym z wymaganiami dotyczącymi ograniczonego użytkowania (Limited Use)."
+        ]
+      },
+      {
         "title": "Przechowywanie i usuwanie danych",
         "paragraphs": [
-          "Notatki i przypomnienia, w tym wykonane przypomnienia, pozostają na urządzeniu, dopóki ich nie usuniesz lub nie odinstalujesz aplikacji. Pliki tymczasowe utworzone do udostępniania mogą pozostać w pamięci podręcznej aplikacji, dopóki nie usunie ich aplikacja lub Android albo dopóki nie wyczyścisz pamięci podręcznej aplikacji. Pliki kopii zapasowych pozostają tam, gdzie je zapisano, dopóki ich nie usuniesz.",
+          "Notatki i przypomnienia, w tym wykonane przypomnienia, pozostają na urządzeniu, dopóki ich nie usuniesz lub nie odinstalujesz aplikacji. Pliki tymczasowe utworzone do udostępniania mogą pozostać w pamięci podręcznej aplikacji, dopóki nie usunie ich aplikacja lub Android albo dopóki nie wyczyścisz pamięci podręcznej aplikacji. Pliki kopii zapasowych pozostają tam, gdzie są zapisane, dopóki ich nie usuniesz, a w przypadku kopii automatycznych do czasu, gdy SlideInk usunie je jako starsze wersje, także na Dysku Google, jak opisano wyżej.",
           "Informacje o zakupach przetwarzanych przez Google Play są przechowywane zgodnie z zasadami Google i ustawieniami Twojego konta Google."
         ]
       },

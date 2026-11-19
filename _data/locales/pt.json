@@ -168,7 +168,7 @@
     "home_link": "Página inicial do SlideInk",
     "eyebrow": "SlideInk",
     "title": "Política de Privacidade",
-    "updated": "Última atualização: 2 de novembro de 2026",
+    "updated": "Última atualização: 19 de novembro de 2026",
     "intro": "O SlideInk foi concebido para manter as suas notas, desenhos e lembretes no seu dispositivo. A aplicação não requer uma conta e não utiliza serviços de análise, publicidade ou rastreio.",
     "sections": [
       {
@@ -224,9 +224,21 @@
         "note": "O SlideInk não participa na cópia de segurança na nuvem do Android nem na transferência de dados entre dispositivos Android. Pode fazer uma cópia de segurança das suas notas e lembretes num único ficheiro, manualmente ou automaticamente uma vez por dia, no local que escolher, por exemplo uma pasta do telemóvel ou o Google Drive. O ficheiro nunca é enviado ao programador. Não está encriptado e inclui também as notas bloqueadas, por isso guarde-o apenas num local de confiança. Pode restaurá-lo num SlideInk vazio, por exemplo num telemóvel novo."
       },
       {
+        "title": "Cópia de segurança no Google Drive",
+        "paragraphs": [
+          "O SlideInk vai permitir fazer cópias de segurança automáticas e opcionais diretamente no seu próprio Google Drive. Quando esta função estiver disponível na aplicação, só funcionará depois de a ativar no SlideInk e permitir o acesso com a sua conta Google. As cópias vão então diretamente do seu dispositivo para uma pasta «SlideInk» no seu Google Drive. O programador não utiliza nenhum servidor para isso e nunca recebe as suas cópias, os seus dados Google nem acesso à sua conta.",
+          "O SlideInk pede apenas acesso ficheiro a ficheiro ao Google Drive («drive.file»). Este acesso abrange apenas os ficheiros criados pelo SlideInk e os ficheiros que abrir ou partilhar expressamente com o SlideInk; o SlideInk não lhe pede para abrir ou partilhar outros ficheiros e não tem acesso ao resto do seu Google Drive. O SlideInk utiliza este acesso apenas para criar a pasta SlideInk, enviar as suas cópias e verificar se chegaram completas, mostrá-las numa lista, transferir uma cópia quando a restaura num SlideInk vazio e remover as suas próprias cópias antigas. Para isso, lê dados das cópias, como nomes de ficheiro, ID, tamanhos, datas e somas de verificação. Lê também o endereço de e-mail da conta Google ligada, para saber para que conta vão as suas cópias.",
+          "Uma cópia de segurança é um ficheiro .slideink com as suas notas guardadas e as respetivas imagens, pastas, dados da Biblioteca, como títulos e favoritas, e os seus lembretes. Inclui também as notas bloqueadas: o SlideInk não encripta a cópia, por isso uma nota bloqueada também não está encriptada nela. Cada cópia automática leva etiquetas técnicas que só o SlideInk utiliza: o seu tipo, um ID de instalação aleatório, o modelo do dispositivo e somas de verificação. Com elas, o SlideInk distingue as cópias de diferentes dispositivos e nunca remove ficheiros que não sejam seus.",
+          "No seu dispositivo, o SlideInk guarda o endereço de e-mail da conta ligada, os ID da pasta SlideInk e desta instalação, os ID das cópias enviadas com as respetivas somas de verificação e a hora da verificação, e o último erro de cópia, se existir. O armazenamento privado da aplicação pode também conter a cópia mais recente enquanto aguarda envio. O acesso é concedido através dos serviços do Google Play no seu dispositivo; o SlideInk mantém o token de acesso de curta duração da Google apenas na memória e nunca o guarda. O SlideInk nunca escreve tokens, endereços de e-mail de contas nem ID de ficheiros do Drive em registos. Todos os pedidos ao Drive usam ligações encriptadas (HTTPS).",
+          "A Google recebe e guarda as cópias e os respetivos dados no seu Google Drive. O SlideInk não partilha dados de utilizador Google com mais ninguém, não os vende e não os utiliza para publicidade, análise ou treino de modelos de IA. O programador não tem acesso a eles.",
+          "Depois de verificar uma cópia nova, o SlideInk tenta remover as cópias automáticas verificadas mais antigas da mesma instalação quando há mais do que as que conserva. Desativar a cópia no Google Drive interrompe o envio de cópias novas e o SlideInk apaga os dados guardados da ligação; desinstalar o SlideInk remove os seus dados do dispositivo. Nenhuma destas ações remove as cópias que já estão no seu Google Drive. Pode eliminá-las no Google Drive a qualquer momento e retirar o acesso do SlideInk nas definições da sua conta Google (myaccount.google.com/connections).",
+          "A utilização e a transferência para qualquer outra aplicação, pelo SlideInk, de informações recebidas das API Google cumprirão a Política de Dados do Utilizador dos Serviços de API Google (Google API Services User Data Policy), incluindo os requisitos de utilização limitada (Limited Use)."
+        ]
+      },
+      {
         "title": "Conservação e eliminação de dados",
         "paragraphs": [
-          "As notas e os lembretes, incluindo os lembretes concluídos, permanecem no dispositivo até os eliminar ou desinstalar a aplicação. Os ficheiros temporários criados para partilha podem permanecer na cache da aplicação até serem removidos pela aplicação, pelo Android ou ao limpar a cache da aplicação. Os ficheiros de cópia de segurança ficam onde os guardou até os eliminar.",
+          "As notas e os lembretes, incluindo os lembretes concluídos, permanecem no dispositivo até os eliminar ou desinstalar a aplicação. Os ficheiros temporários criados para partilha podem permanecer na cache da aplicação até serem removidos pela aplicação, pelo Android ou ao limpar a cache da aplicação. Os ficheiros de cópia de segurança ficam onde estão guardados até os eliminar ou, no caso das cópias automáticas, até o SlideInk os remover como versões antigas, também no Google Drive, como descrito acima.",
           "Os registos de compras processadas pelo Google Play são conservados de acordo com as políticas da Google e as definições da sua conta Google."
         ]
       },
