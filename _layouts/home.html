@@ -62,7 +62,6 @@
             <a href="{{ current_language.home }}">{{ t.nav.home }}</a>
             <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
             <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
-            <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
             {% if guides_index %}<a href="{{ guides_index.url }}">{{ t.nav.guides }}</a>{% endif %}
             <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
           </nav>
@@ -77,7 +76,6 @@
       <nav aria-label="{{ t.nav.primary_aria | escape }}">
         <a href="{{ current_language.home }}#features">{{ t.nav.features }}</a>
         <a href="{{ current_language.home }}#screenshots">{{ t.nav.screenshots }}</a>
-        <a href="{{ current_language.privacy }}">{{ t.nav.privacy }}</a>
         {% if guides_index %}<a href="{{ guides_index.url }}">{{ t.nav.guides }}</a>{% endif %}
         <a href="{{ current_language.support }}">{{ t.nav.support }}</a>
       </nav>
